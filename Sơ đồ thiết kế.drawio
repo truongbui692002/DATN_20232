@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-05-04T08:57:11.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" version="24.3.1" etag="fbzQITgPOz-k3bBdwx9N" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-04T09:03:43.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="m-sNpv5p2NADLxihKtWJ" version="24.3.1" type="github">
   <diagram name="Trang-1" id="jlrSxRIfaFYinMx3E_z8">
-    <mxGraphModel>
+    <mxGraphModel dx="1276" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="50" width="530" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Khối nguồn&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Khối BLE&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="365" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Khối SDcard&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-7" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Khối Chuyển đổi I/E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Khối MCU&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="365" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Khối DAC và ADC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Khối điều khiển điện áp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Khối debug&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-13" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-14" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="465" y="170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-15" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="650" y="170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-16" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-17" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="465" y="280" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-18" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-19" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-20" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="580" y="380" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-23" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Thiết bị đo điện hóa cầm tay&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="268" y="70" width="315" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
