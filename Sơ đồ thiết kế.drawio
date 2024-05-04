@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-04T15:33:15.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="ToGIsE9AA1umGqIcHp9e" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-04T15:38:34.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="uracIFEqtKz-bowCwESL" version="24.3.1" type="github">
   <diagram name="Trang-1" id="jlrSxRIfaFYinMx3E_z8">
     <mxGraphModel dx="1276" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -59,7 +59,24 @@
           <mxGeometry x="268" y="70" width="315" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZDztYGWsGTLhu8t09ttq-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="500" width="520" height="420" as="geometry" />
+          <mxGeometry x="180" y="510" width="520" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZDztYGWsGTLhu8t09ttq-25" target="ZDztYGWsGTLhu8t09ttq-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-25" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="170" y="950" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZDztYGWsGTLhu8t09ttq-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-26" value="Power" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="940" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZDztYGWsGTLhu8t09ttq-31" value="MCU&lt;br&gt;STM32F103C8T6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="610" width="130" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
