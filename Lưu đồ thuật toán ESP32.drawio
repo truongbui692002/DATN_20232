@@ -1,9 +1,158 @@
-<mxfile host="app.diagrams.net" modified="2024-06-08T09:34:39.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" version="24.4.9" etag="s5oEM36zcN-3WoiiOXgN" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-08T12:29:13.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="TD3dcLkjHs_tx-XXZsaL" version="24.5.2" type="github">
   <diagram name="Trang-1" id="5MpEeCYLcMmnyMq-eZr1">
-    <mxGraphModel>
+    <mxGraphModel dx="978" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8tfWesdkJqedTnPdc9yw-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="340" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-2" value="Khởi tạo BLE Stack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="420" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-3" value="Khởi tạo system, UART task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="420" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-4" value="Cấu hình thông số BLE: UUID, Char UUID, GATT Server name..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-5" value="GATT Server connected" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="590" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8tfWesdkJqedTnPdc9yw-2" target="8tfWesdkJqedTnPdc9yw-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="600" as="sourcePoint" />
+            <mxPoint x="400" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8tfWesdkJqedTnPdc9yw-4" target="8tfWesdkJqedTnPdc9yw-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="600" as="sourcePoint" />
+            <mxPoint x="400" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-8" value="Nhận dữ liệu từ GATT Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="710" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8tfWesdkJqedTnPdc9yw-5" target="8tfWesdkJqedTnPdc9yw-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="600" as="sourcePoint" />
+            <mxPoint x="400" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8tfWesdkJqedTnPdc9yw-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="623" as="sourcePoint" />
+            <mxPoint x="515" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="630" />
+              <mxPoint x="600" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-11" value="S" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-12" value="Đ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-13" value="Chuyển dữ liệu tới UART task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="790" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8tfWesdkJqedTnPdc9yw-8" target="8tfWesdkJqedTnPdc9yw-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="650" as="sourcePoint" />
+            <mxPoint x="380" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-15" value="Chờ dữ liệu BLE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="510" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8tfWesdkJqedTnPdc9yw-3" target="8tfWesdkJqedTnPdc9yw-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="650" as="sourcePoint" />
+            <mxPoint x="380" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="810" as="sourcePoint" />
+            <mxPoint x="325" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="810" />
+              <mxPoint x="440" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="8tfWesdkJqedTnPdc9yw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="400" as="sourcePoint" />
+            <mxPoint x="430" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8tfWesdkJqedTnPdc9yw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="400" as="sourcePoint" />
+            <mxPoint x="430" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="515" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8tfWesdkJqedTnPdc9yw-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="400" as="sourcePoint" />
+            <mxPoint x="430" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="325" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-21" value="Chuyển dữ liệu BLE xuống MCU STM32" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="271.25" y="585" width="108.75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8tfWesdkJqedTnPdc9yw-15" target="8tfWesdkJqedTnPdc9yw-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="680" as="sourcePoint" />
+            <mxPoint x="430" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-23" value="Dữ liệu từ STM32 = Config_done?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240.63" y="660" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8tfWesdkJqedTnPdc9yw-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="680" as="sourcePoint" />
+            <mxPoint x="326" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-26" value="S" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-27" value="Gửi dữ liệu đo được lên GATT Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266.26" y="780" width="118.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8tfWesdkJqedTnPdc9yw-23" target="8tfWesdkJqedTnPdc9yw-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="820" as="sourcePoint" />
+            <mxPoint x="430" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-29" value="Đ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="303" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-30" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="850" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8tfWesdkJqedTnPdc9yw-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8tfWesdkJqedTnPdc9yw-27" target="8tfWesdkJqedTnPdc9yw-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="820" as="sourcePoint" />
+            <mxPoint x="430" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
