@@ -1,0 +1,12 @@
+Added Component: Designator=D300(SMA)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "UCLAMP0571P.TNT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/uclamp0571p.tnt/semtech?region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.com/datasheet/2/761/uClampxx71P-1360280.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SEMTECH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "UCLAMP0571P.TNT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "947-UCLAMP0571P.TNT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Semtech/UCLAMP0571PTNT?qs=rBWM4%252BvDhIdABRCK070WwQ%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD300_1 Pin=D300-1
+Added Pin To Net: NetName=9VDC Pin=D300-2
+Added Member To Class: ClassName=POWER SUPPLY Member=Component D300 SS26

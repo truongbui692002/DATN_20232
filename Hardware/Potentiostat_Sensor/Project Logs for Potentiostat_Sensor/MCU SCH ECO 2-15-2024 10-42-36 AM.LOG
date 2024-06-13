@@ -1,0 +1,11 @@
+Removed Parameter Breakdown Voltage:6V from Part D103
+Removed Parameter Breakdown Voltage:6V from Part D104
+Removed Parameter Breakdown Voltage:6V from Part D105
+Removed Parameter Breakdown Voltage:6V from Part D106
+Removed Parameter Earable Part Number:ERB000112 from Part R111
+Change Component Parameter Comment in R101 Old= New=1kR
+Change Component Parameter Description in R101 Old=RES SMD 10K OHM 1% 1/8W 0805 New=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Parameter Comment in R102 Old= New=1kR
+Change Component Parameter Description in R102 Old=Resistor New=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Parameter Comment in R103 Old= New=1kR
+Change Component Parameter Description in R103 Old=Resistor New=RES SMD 1K OHM 1% 1/8W 0603

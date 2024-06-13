@@ -1,0 +1,10 @@
+Removed Member From Class: ClassName=PWR Member=NetD302_K
+Add Pin To Net: Unknown Pin: Pin D300-1
+Add Pin To Net: Unknown Pin: Pin D300-2
+Added Pin To Net: NetName=USB_VIN Pin=D302-1
+Added Pin To Net: NetName=NetD302_K Pin=D302-2
+Added Pin To Net: NetName=VBAT Pin=D303-1
+Added Pin To Net: NetName=NetD302_K Pin=D303-2
+Change Net Name : Old Net Name=NetD302_K New Net Name=NetD302_2
+Add Class Member: Failed to add class member : Component D300 SS26
+Added Member To Class: ClassName=PWR Member=Wire NetD302_2

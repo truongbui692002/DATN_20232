@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=SW_A Pin=U100-19
+Removed Pin From Net: NetName=SW_B Pin=U100-20
+Removed Pin From Net: NetName=SW_C Pin=U100-39
+Added Component: Designator=R107(R_0603)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 22 OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=R108(R_0603)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 22 OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=R109(R_0603)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 22 OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SW_A Pin=R107-1
+Added Pin To Net: NetName=SW_B Pin=R108-1
+Added Pin To Net: NetName=SW_C Pin=R109-1
+Added Pin To Net: NetName=NetR107_2 Pin=R107-2
+Added Pin To Net: NetName=NetR107_2 Pin=U100-40
+Added Net: Name=NetR107_2
+Added Pin To Net: NetName=NetR108_2 Pin=R108-2
+Added Pin To Net: NetName=NetR108_2 Pin=U100-41
+Added Net: Name=NetR108_2
+Added Pin To Net: NetName=NetR109_2 Pin=R109-2
+Added Pin To Net: NetName=NetR109_2 Pin=U100-42
+Added Net: Name=NetR109_2
+Added Member To Class: ClassName=MCU Member=Component R107 22R
+Added Member To Class: ClassName=MCU Member=Component R108 22R
+Added Member To Class: ClassName=MCU Member=Component R109 22R

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=C413-1
+Removed Pin From Net: NetName=GND Pin=C420-1
+Removed Pin From Net: NetName=GND Pin=U407-1
+Added Pin To Net: NetName=AGND Pin=C413-1
+Added Pin To Net: NetName=AGND Pin=C420-1
+Added Pin To Net: NetName=AGND Pin=U407-1
+Added Member To Class: ClassName=POWER SUPPLY Member=Component L300 FIXED IND 4.7UH 1.1A 288MOHM SMD

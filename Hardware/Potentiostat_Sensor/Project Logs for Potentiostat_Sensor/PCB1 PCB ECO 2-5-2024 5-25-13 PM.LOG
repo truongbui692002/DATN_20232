@@ -1,0 +1,1265 @@
+Added Component: Designator=C200(C0805)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=C201(CAP0603-M)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MURATA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CL10A106KP8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C202(C0805)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=C203(C0805)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=C204(C0805)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=C205(C0805)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=C206(C0805)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=C207(C0805)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=C208(C0805)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=C300(CAP0603-M)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Added Component: Designator=C303(CAP0603-M)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Added Component: Designator=C306(CAP0603-M)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=C307(CAP0603-M)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found CAPC1005X65N
+Added Component: Designator=C309(CAP0402-M)
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000054"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.039inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-6830-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "81-GRM155R61A106ME1D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C310(C0201)
+Add component (AddParameter): Name = "Capacitance"; Value = "10nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen Free"; Value = "Halogen Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "TMK063BJ103KP-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM033R61A103KA01D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "15000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "587-5945-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C311(CAP0402-M)
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000054"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.039inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-6830-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "81-GRM155R61A106ME1D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C312(C0201)
+Add component (AddParameter): Name = "Capacitance"; Value = "10nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen Free"; Value = "Halogen Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "TMK063BJ103KP-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM033R61A103KA01D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "15000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "587-5945-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C313(C0201)
+Add component (AddParameter): Name = "Capacitance"; Value = "10nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen Free"; Value = "Halogen Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "TMK063BJ103KP-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM033R61A103KA01D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "15000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "587-5945-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C314(CAP0603-M)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=C315(CAP0603-M)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MURATA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CL10A106KP8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C316(CAP0603-M)
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MURATA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CL10A106KP8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Added Component: Designator=C404(CAP0402-M)
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000054"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.039inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-6830-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "81-GRM155R61A106ME1D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Added Component: Designator=C410(CAP0402-M)
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ceramic Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000054"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.039inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-6830-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "81-GRM155R61A106ME1D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found CAPC1005X65N
+Add Component: Footprint Not Found MOLX-532610271_V
+Add Component: Footprint Not Found LED RIGHT
+Add Component: Footprint Not Found LED RIGHT
+Add Component: Footprint Not Found SOD-123F
+Add Component: Footprint Not Found SOD-123F
+Add Component: Footprint Not Found SOD-123F
+Add Component: Footprint Not Found SOD-123F
+Add Component: Footprint Not Found SOD-123F
+Add Component: Footprint Not Found SOT23-3
+Added Component: Designator=D301(LED_RGB_0606)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0606"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1616"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0606"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "LEDs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Blue,Green,Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://everlightamericas.com/index.php?controller=attachment&id_attachment=1010&src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://everlightamericas.com/index.php?controller=attachment&id_attachment=1010&src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "https://everlightamericas.com/index.php?controller=attachment&amp;id_attachment=2827&src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://everlightamericas.com/index.php?controller=attachment&amp;id_attachment=2827&src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2827&src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2827&src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Element Configuration"; Value = "Common Anode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "2.8V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Color"; Value = "Colorless"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Size"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style"; Value = "Flat"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Transparency"; Value = "Clear"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Everlight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Everlight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "EAST1616RGBA3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "EAST1616RGBB4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.47000, 10=0.28800, 100=0.16580, 1000=0.12974 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 2"; Value = "1=0.46000, 10=0.30000, 100=0.20050, 500=0.13864, 1000=0.11554 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "20395"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 2"; Value = "258830"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1080-1550-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "1080-1552-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Current"; Value = "5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "120°"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOD-123 CBB
+Add Component: Footprint Not Found SOD-123 CBB
+Add Component: Footprint Not Found MODULE_ESP-WROOM-32
+Added Component: Designator=FB300(INDC1005X65N)
+Add component (AddParameter): Name = "Case"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ferrite Beads and Chips"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (DCR)"; Value = "95mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "220Ohm @100Mhz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "MPZ1005S221HT000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "BLM15PX221SN1D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.12000, 10=0.09900, 25=0.08920, 50=0.06540, 100=0.05640, 250=0.04456, 500=0.03762, 1000=0.03168, 5000=0.02822 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "5544"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "445-MPZ1005S221HT000CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=FB301(INDC1005X65N)
+Add component (AddParameter): Name = "Case"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ferrite Beads and Chips"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (DCR)"; Value = "95mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "220Ohm @100Mhz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "MPZ1005S221HT000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "BLM15PX221SN1D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.12000, 10=0.09900, 25=0.08920, 50=0.06540, 100=0.05640, 250=0.04456, 500=0.03762, 1000=0.03168, 5000=0.02822 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "5544"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "445-MPZ1005S221HT000CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=FB302(INDC1005X65N)
+Add component (AddParameter): Name = "Case"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Ferrite Beads and Chips"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (DCR)"; Value = "95mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "220Ohm @100Mhz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "MPZ1005S221HT000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "BLM15PX221SN1D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.12000, 10=0.09900, 25=0.08920, 50=0.06540, 100=0.05640, 250=0.04456, 500=0.03762, 1000=0.03168, 5000=0.02822 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "5544"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "445-MPZ1005S221HT000CT-ND"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found TP4056
+Add Component: Footprint Not Found SOT23-6
+Add Component: Footprint Not Found FS8205A
+Add Component: Footprint Not Found GCT_USB4056-03-A_REVA
+Added Component: Designator=L300(1285ASH1R0MP2)
+Add component (AddParameter): Name = "Category"; Value = "Fixed Inductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.farnell.com/datasheets/2339713.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.farnell.com/datasheets/2339713.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Saturation (Isat)"; Value = "1.6 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "6.8 µH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "DFE201610E-4R7M=P2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.37000, 10=0.32800, 25=0.28680, 50=0.24560, 100=0.22520, 250=0.20476, 500=0.19246, 1000=0.14742 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "81905"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "490-18108-1-ND"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found CON2 JACK HEAD
+Add Component: Footprint Not Found SOT23-3
+Add Component: Footprint Not Found SOT-23 CBB
+Added Component: Designator=R200(RESC2012X65)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R201(RESC2012X65)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R202(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 10K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R203(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 10K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R204(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 10K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R205(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 10K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R206(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 10K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R207(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 22 OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=R208(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 22 OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=R209(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 1K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R210(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 22 OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=R211(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 22 OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found RESC0603X26
+Added Component: Designator=R301(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 1K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found RESC0603X26
+Added Component: Designator=R303(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 1K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R304(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 1K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found RESC0603X26
+Add Component: Footprint Not Found RESC0603X26
+Add Component: Footprint Not Found RESC0603X26
+Added Component: Designator=R308(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 1K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R309(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 1K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found R_0603
+Added Component: Designator=R311(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "32.4kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R312(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 1K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R313(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 1K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R314(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000079"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "ERJ-1GEF1002C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R315(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 1K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R316(RESC2012X65)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 1K OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R400(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R401(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R402(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R403(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R404(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R405(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "470kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R406(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "470kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R407(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "470kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R408(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "470kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R409(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "470kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R410(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "470kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R411(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "470kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R412(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "470kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R413(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R414(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R415(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R416(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R417(R0201)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000112"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.01inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.024inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "1kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P10.0KABCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "311-10.0KMCT-ND"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SW1-SMD
+Add Component: Footprint Not Found SW1-SMD
+Add Component: Footprint Not Found MSK12C02
+Add Component: Footprint Not Found SW
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found TP_1mm
+Add Component: Footprint Not Found SOIC-16
+Add Component: Footprint Not Found MICROSD2
+Added Component: Designator=U301(IC_DRV8601DRBT)
+Add component (AddParameter): Name = "Earable Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "TPS7A4901DRBT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "TPS7A4901DRBT"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOT223-4
+Added Component: Designator=U400(SON50P300X300X80-11N)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/AD5541ABCPZ-REEL7/Analog+Devices/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "AD5541ABCPZ-REEL7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "LFCSP -10 Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/AD5541ABCPZ-REEL7/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/AD5541ABCPZ-REEL7/Analog+Devices/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOP65P640X110-16N
+Add Component: Footprint Not Found SOT223-4
+Add Component: Footprint Not Found CP_10_9_ADI
+Add Component: Footprint Not Found XT32-3
+Added Net: Name=1.8VDC
+Added Pin To Net: NetName=5VDC Pin=C310-2
+Added Pin To Net: NetName=5VDC Pin=C311-2
+Added Pin To Net: NetName=5VDC Pin=C312-2
+Added Pin To Net: NetName=5VDC Pin=C404-2
+Added Pin To Net: NetName=5VDC Pin=R311-2
+Added Pin To Net: NetName=5VDC Pin=R400-2
+Added Pin To Net: NetName=5VDC Pin=U301-1
+Added Pin To Net: NetName=5VDC Pin=U400-1
+Added Pin To Net: NetName=5VDC Pin=U400-4
+Added Net: Name=5VDC
+Added Pin To Net: NetName=9VDC Pin=FB302-1
+Added Net: Name=9VDC
+Added Pin To Net: NetName=AGND Pin=C309-1
+Added Pin To Net: NetName=AGND Pin=C311-1
+Added Pin To Net: NetName=AGND Pin=C312-1
+Added Pin To Net: NetName=AGND Pin=C313-1
+Added Pin To Net: NetName=AGND Pin=C404-1
+Added Pin To Net: NetName=AGND Pin=C410-1
+Added Pin To Net: NetName=AGND Pin=FB301-2
+Added Pin To Net: NetName=AGND Pin=R314-1
+Added Pin To Net: NetName=AGND Pin=R401-2
+Added Pin To Net: NetName=AGND Pin=R417-2
+Added Pin To Net: NetName=AGND Pin=U301-4
+Added Pin To Net: NetName=AGND Pin=U301-9
+Added Pin To Net: NetName=AGND Pin=U301-10
+Added Pin To Net: NetName=AGND Pin=U301-11
+Added Pin To Net: NetName=AGND Pin=U301-12
+Added Pin To Net: NetName=AGND Pin=U301-13
+Added Pin To Net: NetName=AGND Pin=U400-3
+Added Pin To Net: NetName=AGND Pin=U400-11
+Added Net: Name=AGND
+Added Pin To Net: NetName=BOOT Pin=C203-2
+Added Pin To Net: NetName=BOOT Pin=R205-1
+Added Pin To Net: NetName=BOOT Pin=R209-1
+Added Net: Name=BOOT
+Added Net: Name=CE
+Added Pin To Net: NetName=D_N Pin=R207-1
+Added Net: Name=D_N
+Added Pin To Net: NetName=D_P Pin=R208-1
+Added Net: Name=D_P
+Added Pin To Net: NetName=DI5 Pin=R204-1
+Added Net: Name=DI5
+Added Pin To Net: NetName=GND Pin=C200-1
+Added Pin To Net: NetName=GND Pin=C201-1
+Added Pin To Net: NetName=GND Pin=C202-1
+Added Pin To Net: NetName=GND Pin=C203-1
+Added Pin To Net: NetName=GND Pin=C204-1
+Added Pin To Net: NetName=GND Pin=C205-1
+Added Pin To Net: NetName=GND Pin=C206-1
+Added Pin To Net: NetName=GND Pin=C207-2
+Added Pin To Net: NetName=GND Pin=C208-2
+Added Pin To Net: NetName=GND Pin=C300-1
+Added Pin To Net: NetName=GND Pin=C303-2
+Added Pin To Net: NetName=GND Pin=C307-1
+Added Pin To Net: NetName=GND Pin=C314-1
+Added Pin To Net: NetName=GND Pin=C315-1
+Added Pin To Net: NetName=GND Pin=C316-1
+Added Pin To Net: NetName=GND Pin=FB301-1
+Added Pin To Net: NetName=GND Pin=R206-2
+Added Pin To Net: NetName=GND Pin=R210-1
+Added Pin To Net: NetName=GND Pin=R211-1
+Added Pin To Net: NetName=GND Pin=R304-1
+Added Pin To Net: NetName=GND Pin=R309-2
+Added Pin To Net: NetName=GND Pin=R312-2
+Added Pin To Net: NetName=GND Pin=R315-2
+Added Pin To Net: NetName=GND Pin=R316-1
+Added Pin To Net: NetName=GND Pin=U400-9
+Added Net: Name=GND
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=U400-7
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetC207_1 Pin=C207-1
+Added Net: Name=NetC207_1
+Added Pin To Net: NetName=NetC208_1 Pin=C208-1
+Added Net: Name=NetC208_1
+Added Pin To Net: NetName=NetC301_2 Pin=FB300-2
+Added Pin To Net: NetName=NetC301_2 Pin=L300-1
+Added Net: Name=NetC301_2
+Added Net: Name=NetC304_1
+Added Net: Name=NetC304_2
+Added Net: Name=NetC305_2
+Added Pin To Net: NetName=NetC306_1 Pin=C306-1
+Added Net: Name=NetC306_1
+Added Pin To Net: NetName=NetC306_2 Pin=C306-2
+Added Net: Name=NetC306_2
+Added Pin To Net: NetName=NetC309_2 Pin=C309-2
+Added Pin To Net: NetName=NetC309_2 Pin=FB302-2
+Added Pin To Net: NetName=NetC309_2 Pin=U301-5
+Added Pin To Net: NetName=NetC309_2 Pin=U301-8
+Added Net: Name=NetC309_2
+Added Pin To Net: NetName=NetC310_1 Pin=C310-1
+Added Pin To Net: NetName=NetC310_1 Pin=R311-1
+Added Pin To Net: NetName=NetC310_1 Pin=R314-2
+Added Pin To Net: NetName=NetC310_1 Pin=U301-2
+Added Net: Name=NetC310_1
+Added Pin To Net: NetName=NetC313_2 Pin=C313-2
+Added Pin To Net: NetName=NetC313_2 Pin=U301-6
+Added Net: Name=NetC313_2
+Added Pin To Net: NetName=NetC314_2 Pin=C314-2
+Added Pin To Net: NetName=NetC314_2 Pin=R313-2
+Added Pin To Net: NetName=NetC314_2 Pin=R315-1
+Added Net: Name=NetC314_2
+Added Net: Name=NetC409_2
+Added Pin To Net: NetName=NetC414_1 Pin=R413-1
+Added Net: Name=NetC414_1
+Added Pin To Net: NetName=NetC414_2 Pin=R405-2
+Added Pin To Net: NetName=NetC414_2 Pin=R406-2
+Added Pin To Net: NetName=NetC414_2 Pin=R407-2
+Added Pin To Net: NetName=NetC414_2 Pin=R408-2
+Added Pin To Net: NetName=NetC414_2 Pin=R409-2
+Added Pin To Net: NetName=NetC414_2 Pin=R410-2
+Added Pin To Net: NetName=NetC414_2 Pin=R411-2
+Added Pin To Net: NetName=NetC414_2 Pin=R412-2
+Added Pin To Net: NetName=NetC414_2 Pin=R414-1
+Added Net: Name=NetC414_2
+Added Pin To Net: NetName=NetC416_2 Pin=R415-2
+Added Net: Name=NetC416_2
+Added Pin To Net: NetName=NetD200_1 Pin=R200-1
+Added Net: Name=NetD200_1
+Added Pin To Net: NetName=NetD201_1 Pin=R201-1
+Added Net: Name=NetD201_1
+Added Pin To Net: NetName=NetD207_1 Pin=R208-2
+Added Net: Name=NetD207_1
+Added Pin To Net: NetName=NetD207_2 Pin=R207-2
+Added Net: Name=NetD207_2
+Added Pin To Net: NetName=NetD300_2 Pin=L300-2
+Added Net: Name=NetD300_2
+Added Pin To Net: NetName=NetD301_1 Pin=D301-1
+Added Pin To Net: NetName=NetD301_1 Pin=R316-2
+Added Net: Name=NetD301_1
+Added Pin To Net: NetName=NetD301_2 Pin=D301-2
+Added Pin To Net: NetName=NetD301_2 Pin=R303-2
+Added Net: Name=NetD301_2
+Added Pin To Net: NetName=NetD301_4 Pin=D301-4
+Added Pin To Net: NetName=NetD301_4 Pin=R301-2
+Added Net: Name=NetD301_4
+Added Net: Name=NetD302_K
+Added Pin To Net: NetName=NetESP200_14 Pin=R206-1
+Added Net: Name=NetESP200_14
+Added Pin To Net: NetName=NetIC300_2 Pin=R304-2
+Added Net: Name=NetIC300_2
+Added Pin To Net: NetName=NetIC300_6 Pin=R303-1
+Added Net: Name=NetIC300_6
+Added Pin To Net: NetName=NetIC300_7 Pin=R301-1
+Added Net: Name=NetIC300_7
+Added Net: Name=NetIC301_1
+Added Pin To Net: NetName=NetIC301_2 Pin=R312-1
+Added Net: Name=NetIC301_2
+Added Net: Name=NetIC301_3
+Added Net: Name=NetIC302_1
+Added Pin To Net: NetName=NetJ200_A5 Pin=R210-2
+Added Net: Name=NetJ200_A5
+Added Pin To Net: NetName=NetJ200_B5 Pin=R211-2
+Added Net: Name=NetJ200_B5
+Added Pin To Net: NetName=NetQ200_1 Pin=R209-2
+Added Net: Name=NetQ200_1
+Added Pin To Net: NetName=NetQ300_1 Pin=R308-1
+Added Pin To Net: NetName=NetQ300_1 Pin=R309-1
+Added Net: Name=NetQ300_1
+Added Net: Name=NetR300_1
+Added Net: Name=NetR302_1
+Added Pin To Net: NetName=NetR402_2 Pin=R402-2
+Added Net: Name=NetR402_2
+Added Pin To Net: NetName=NetR403_1 Pin=R403-1
+Added Pin To Net: NetName=NetR403_1 Pin=R404-1
+Added Net: Name=NetR403_1
+Added Pin To Net: NetName=NetR403_2 Pin=R403-2
+Added Net: Name=NetR403_2
+Added Pin To Net: NetName=NetR404_2 Pin=R404-2
+Added Net: Name=NetR404_2
+Added Pin To Net: NetName=NetR405_1 Pin=R405-1
+Added Net: Name=NetR405_1
+Added Pin To Net: NetName=NetR406_1 Pin=R406-1
+Added Net: Name=NetR406_1
+Added Pin To Net: NetName=NetR407_1 Pin=R407-1
+Added Net: Name=NetR407_1
+Added Pin To Net: NetName=NetR408_1 Pin=R408-1
+Added Net: Name=NetR408_1
+Added Pin To Net: NetName=NetR409_1 Pin=R409-1
+Added Net: Name=NetR409_1
+Added Pin To Net: NetName=NetR410_1 Pin=R410-1
+Added Net: Name=NetR410_1
+Added Pin To Net: NetName=NetR411_1 Pin=R411-1
+Added Net: Name=NetR411_1
+Added Pin To Net: NetName=NetR412_1 Pin=R412-1
+Added Net: Name=NetR412_1
+Added Pin To Net: NetName=NetR414_2 Pin=R414-2
+Added Pin To Net: NetName=NetR414_2 Pin=R417-1
+Added Net: Name=NetR414_2
+Added Pin To Net: NetName=NetR415_1 Pin=R415-1
+Added Net: Name=NetR415_1
+Added Pin To Net: NetName=NetR416_1 Pin=R416-1
+Added Net: Name=NetR416_1
+Added Pin To Net: NetName=NET Pin=R203-1
+Added Net: Name=NET
+Added Pin To Net: NetName=NetU400_2 Pin=U400-2
+Added Net: Name=NetU400_2
+Added Net: Name=RE
+Added Pin To Net: NetName=RST_W Pin=C202-2
+Added Pin To Net: NetName=RST_W Pin=R202-1
+Added Net: Name=RST_W
+Added Net: Name=RTS
+Added Net: Name=RXD_WIFI
+Added Pin To Net: NetName=SCK Pin=U400-6
+Added Net: Name=SCK
+Added Pin To Net: NetName=SPI_CS1 Pin=U400-5
+Added Net: Name=SPI_CS1
+Added Net: Name=SPI_CS2
+Added Pin To Net: NetName=SPI_LDAC Pin=U400-8
+Added Net: Name=SPI_LDAC
+Added Net: Name=SS_SD
+Added Net: Name=SW_A
+Added Net: Name=SW_B
+Added Net: Name=SW_C
+Added Net: Name=TXD_WIFI
+Added Pin To Net: NetName=USB_VIN Pin=C205-2
+Added Pin To Net: NetName=USB_VIN Pin=C303-1
+Added Pin To Net: NetName=USB_VIN Pin=D301-3
+Added Pin To Net: NetName=USB_VIN Pin=R308-2
+Added Net: Name=USB_VIN
+Added Pin To Net: NetName=VBAT Pin=C300-2
+Added Pin To Net: NetName=VBAT Pin=C307-2
+Added Pin To Net: NetName=VBAT Pin=R313-1
+Added Net: Name=VBAT
+Added Pin To Net: NetName=VDD_3V3 Pin=C200-2
+Added Pin To Net: NetName=VDD_3V3 Pin=C201-2
+Added Pin To Net: NetName=VDD_3V3 Pin=C204-2
+Added Pin To Net: NetName=VDD_3V3 Pin=C206-2
+Added Pin To Net: NetName=VDD_3V3 Pin=C316-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R200-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R201-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R202-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R203-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R204-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R205-2
+Added Pin To Net: NetName=VDD_3V3 Pin=U400-10
+Added Net: Name=VDD_3V3
+Added Pin To Net: NetName=VIN_DC Pin=C315-2
+Added Pin To Net: NetName=VIN_DC Pin=FB300-1
+Added Net: Name=VIN_DC
+Added Pin To Net: NetName=VREF_2V5 Pin=C410-2
+Added Pin To Net: NetName=VREF_2V5 Pin=R400-1
+Added Pin To Net: NetName=VREF_2V5 Pin=R401-1
+Added Pin To Net: NetName=VREF_2V5 Pin=R402-1
+Added Pin To Net: NetName=VREF_2V5 Pin=R416-2
+Added Net: Name=VREF_2V5
+Added Pin To Net: NetName=WE Pin=R413-2
+Added Net: Name=WE
+Added Net: Name=WIFI_LED1
+Added Net: Name=WIFI_LED2
+Added Class: Name=ANALOG
+Added Class: Name=ESP32
+Added Class: Name=POWER SUPPLY
+Added Class: Name=PWR
+Added Differential Pair: Name=D
+Added Class: Name=90Ohm

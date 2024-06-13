@@ -1,0 +1,62 @@
+Add Component: Footprint Not Found MOLX-532610271_V
+Added Component: Designator=J200(USB_USB4110-GF-A)
+Add component (AddParameter): Name = "Category"; Value = "USB Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Earable Part Number"; Value = "ERB000006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Global Connector Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "USB4110-GF-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "71AJ9394"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found MSK12C02
+Add Component: Footprint Not Found SW
+Add Pin To Net: Unknown Pin: Pin CN300-1
+Add Pin To Net: Unknown Pin: Pin CN300-2
+Add Pin To Net: Unknown Pin: Pin D300-1
+Add Pin To Net: Unknown Pin: Pin D300-2
+Add Pin To Net: Unknown Pin: Pin D302-A
+Add Pin To Net: Unknown Pin: Pin D302-K
+Add Pin To Net: Unknown Pin: Pin D303-A
+Add Pin To Net: Unknown Pin: Pin D303-K
+Added Pin To Net: NetName=GND Pin=J200-A1B12
+Added Pin To Net: NetName=USB_VIN Pin=J200-A4B9
+Added Pin To Net: NetName=NetJ200_A5 Pin=J200-A5
+Added Pin To Net: NetName=NetD207_1 Pin=J200-A6
+Added Pin To Net: NetName=NetD207_2 Pin=J200-A7
+Added Pin To Net: NetName=USB_VIN Pin=J200-A9B4
+Added Pin To Net: NetName=GND Pin=J200-A12B1
+Added Pin To Net: NetName=NetJ200_B5 Pin=J200-B5
+Added Pin To Net: NetName=NetD207_1 Pin=J200-B6
+Added Pin To Net: NetName=NetD207_2 Pin=J200-B7
+Added Pin To Net: NetName=GND Pin=J200-S1
+Added Pin To Net: NetName=GND Pin=J200-S2
+Added Pin To Net: NetName=GND Pin=J200-S3
+Added Pin To Net: NetName=GND Pin=J200-S4
+Add Pin To Net: Unknown Pin: Pin S300-A1
+Add Pin To Net: Unknown Pin: Pin S300-B1
+Add Pin To Net: Unknown Pin: Pin SW300-1
+Add Pin To Net: Unknown Pin: Pin SW300-2
+Add Pin To Net: Unknown Pin: Pin U300-1
+Add Pin To Net: Unknown Pin: Pin U300-2
+Add Pin To Net: Unknown Pin: Pin U300-3
+Add Pin To Net: Unknown Pin: Pin U300-4
+Add Pin To Net: Unknown Pin: Pin U300-5
+Add Pin To Net: Unknown Pin: Pin U300-6
+Add Pin To Net: Unknown Pin: Pin U300-7
+Add Pin To Net: Unknown Pin: Pin U300-8
+Add Pin To Net: Unknown Pin: Pin U409-1
+Add Pin To Net: Unknown Pin: Pin U409-2
+Add Pin To Net: Unknown Pin: Pin U409-3
+Add Pin To Net: Unknown Pin: Pin U409-4
+Add Pin To Net: Unknown Pin: Pin U409-5
+Add Pin To Net: Unknown Pin: Pin U410-1
+Add Pin To Net: Unknown Pin: Pin U410-2
+Add Pin To Net: Unknown Pin: Pin U410-3
+Add Pin To Net: Unknown Pin: Pin U410-4
+Add Pin To Net: Unknown Pin: Pin U410-5
+Add Class Member: Failed to add class member : Component CN300 0532610271
+Add Class Member: Failed to add class member : Component D300 SS26
+Added Member To Class: ClassName=ESP32 Member=Component J200 CONN RCP USB2.0 TYP C 24P SMD RA
+Add Class Member: Failed to add class member : Component S300 MSK12C02
+Add Class Member: Failed to add class member : Component SW300 SW
+Add Class Member: Failed to add class member : Component U300 MP1542
+Add Class Member: Failed to add class member : Component U409 AD8605
+Add Class Member: Failed to add class member : Component U410 AD8605

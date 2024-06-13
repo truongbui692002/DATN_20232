@@ -1,0 +1,933 @@
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Removed Pin From Net: NetName=GND Pin=ESP200-
+Change Component Comment : Designator=R301 Old Comment=1k2 New Comment=1kR
+Change Component Comment : Designator=R303 Old Comment=1k2 New Comment=1kR
+Change Component Comment : Designator=R304 Old Comment=1k2 New Comment=1kR
+Change Component Comment : Designator=R308 Old Comment=1k2 New Comment=1kR
+Change Component Comment : Designator=R101 Old Comment=1k New Comment=1kR
+Change Component Comment : Designator=R102 Old Comment=1k New Comment=1kR
+Change Component Comment : Designator=R103 Old Comment=1k New Comment=1kR
+Change Component Comment : Designator=R200 Old Comment=1k New Comment=1kR
+Change Component Comment : Designator=R201 Old Comment=1k New Comment=1kR
+Change Component Comment : Designator=R209 Old Comment=1k New Comment=1kR
+Change Component Comment : Designator=R312 Old Comment=1k New Comment=1kR
+Change Component Comment : Designator=D302 Old Comment=1N5819 New Comment=SS36FA
+Change Component Comment : Designator=D303 Old Comment=1N5819 New Comment=SS36FA
+Change Component Comment : Designator=R100 Old Comment=10k New Comment=10kR
+Change Component Comment : Designator=R202 Old Comment=10k New Comment=10kR
+Change Component Comment : Designator=R203 Old Comment=10k New Comment=10kR
+Change Component Comment : Designator=R204 Old Comment=10k New Comment=10kR
+Change Component Comment : Designator=R205 Old Comment=10k New Comment=10kR
+Change Component Comment : Designator=R206 Old Comment=10k New Comment=10kR
+Change Component Comment : Designator=R309 Old Comment=10k New Comment=10kR
+Change Component Comment : Designator=C201 Old Comment=10uF New Comment=100nF
+Change Component Comment : Designator=C207 Old Comment=22pF New Comment=18pF
+Change Component Comment : Designator=C208 Old Comment=22pF New Comment=18pF
+Change Component Comment : Designator=R105 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R106 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R107 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R108 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R109 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R114 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R115 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R116 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R117 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R118 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R119 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R120 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R121 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R122 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R207 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R208 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R212 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R213 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R214 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R215 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R216 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R217 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R218 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R219 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R220 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R221 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R222 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R223 Old Comment=22R New Comment=10R
+Change Component Comment : Designator=R313 Old Comment=30k New Comment=10k
+Change Component Comment : Designator=R315 Old Comment=100k New Comment=100kR
+Change Component Comment : Designator=C200 Old Comment=100nF New Comment=10uF
+Change Component Comment : Designator=C102 Old Comment=0603 New Comment=18pF
+Change Component Comment : Designator=C109 Old Comment=0603 New Comment=18pF
+Change Component Comment : Designator=C301 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=10uF
+Change Component Comment : Designator=C302 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=10uF
+Change Component Comment : Designator=C308 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=10uF
+Change Component Comment : Designator=C309 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=10uF
+Change Component Comment : Designator=C311 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=10uF
+Change Component Comment : Designator=C317 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=10uF
+Change Component Comment : Designator=C318 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=10uF
+Change Component Comment : Designator=C404 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=10uF
+Change Component Comment : Designator=C407 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=10uF
+Change Component Comment : Designator=C410 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=10uF
+Change Component Comment : Designator=C419 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=10uF
+Change Component Comment : Designator=C400 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C401 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C402 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C403 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C405 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C406 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C408 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C409 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C411 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C412 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C413 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C414 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C415 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C416 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C417 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C418 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C420 Old Comment=CAP CER 10UF 10V X5R 0402 New Comment=100nF
+Change Component Comment : Designator=C310 Old Comment=CAP CER 10000PF 25V X5R 0201 New Comment=10uF
+Change Component Comment : Designator=C312 Old Comment=CAP CER 10000PF 25V X5R 0201 New Comment=10uF
+Change Component Comment : Designator=C313 Old Comment=CAP CER 10000PF 25V X5R 0201 New Comment=10uF
+Change Component Comment : Designator=U301 Old Comment=IC REG LINEAR POS ADJ 150MA 8SON New Comment=TPS7A4901DRBT
+Change Component Comment : Designator=R314 Old Comment=RES 10K OHM 1% 1/20W 0201 New Comment=10kR
+Change Component Comment : Designator=R415 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=1kR
+Change Component Comment : Designator=R111 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=10kR
+Change Component Comment : Designator=R400 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=10kR
+Change Component Comment : Designator=R401 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=10kR
+Change Component Comment : Designator=R403 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=10kR
+Change Component Comment : Designator=R404 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=10kR
+Change Component Comment : Designator=R414 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=10kR
+Change Component Comment : Designator=R417 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=10kR
+Change Component Comment : Designator=R402 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=10R
+Change Component Comment : Designator=R413 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=10R
+Change Component Comment : Designator=R416 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=10R
+Change Component Comment : Designator=R311 Old Comment=RES 11.3K OHM 1% 1/20W 0201 New Comment=32.4kR
+Change Component Comment : Designator=R306 Old Comment=RES 100K OHM 1/20W 5% 0201 SMD New Comment=10kR
+Change Component Comment : Designator=R307 Old Comment=RES 100K OHM 1/20W 5% 0201 SMD New Comment=10kR
+Change Component Comment : Designator=R300 Old Comment=RES 100K OHM 1/20W 5% 0201 SMD New Comment=61.9kR
+Change Component Comment : Designator=R302 Old Comment=RES 100K OHM 1/20W 5% 0201 SMD New Comment=100kR
+Change Component Comment : Designator=R305 Old Comment=RES 100K OHM 1/20W 5% 0201 SMD New Comment=133kR
+Change Component Description : Designator=C305 Old Description= New Description=CAP CER  22nF 50V C0G/NP0 0603
+Change Component Description : Designator=R314 Old Description=10 kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=C308 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C309 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C311 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C404 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C407 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C410 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C419 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C301 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 10UF 16V X5R 0805
+Change Component Description : Designator=C302 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 10UF 16V X5R 0805
+Change Component Description : Designator=C317 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 10UF 16V X5R 0805
+Change Component Description : Designator=C318 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 10UF 16V X5R 0805
+Change Component Description : Designator=C400 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C401 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C402 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C403 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C405 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C406 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C408 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C409 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C411 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C412 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C413 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C414 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C415 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C416 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C417 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C418 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C420 Old Description=10 ตF ฑ20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=R415 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R111 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R400 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R401 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R403 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R404 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R414 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R417 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R402 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R413 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R416 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R311 Old Description=11.3kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 32.4k OHM 1% 1/8W 0603
+Change Component Description : Designator=R306 Old Description=100 kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R307 Old Description=100 kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R300 Old Description=100 kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 61.9k OHM 1% 1/8W 0603
+Change Component Description : Designator=R302 Old Description=100 kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 100K OHM 1% 1/8W 0603
+Change Component Description : Designator=R305 Old Description=100 kOhms ฑ1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New Description=RES SMD 133K OHM 1% 1/8W 0603
+Change Component Description : Designator=C310 Old Description=10000 pF ฑ10% 25V Ceramic Capacitor X5R 0201 (0603 Metric) New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C312 Old Description=10000 pF ฑ10% 25V Ceramic Capacitor X5R 0201 (0603 Metric) New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C313 Old Description=10000 pF ฑ10% 25V Ceramic Capacitor X5R 0201 (0603 Metric) New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C103 Old Description=Capacitor New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C200 Old Description=Capacitor New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C307 Old Description=Capacitor New Description=CAP CER 10UF 16V X5R 0603
+Change Component Description : Designator=C207 Old Description=Capacitor New Description=CAP CER 18PF 50V C0G/NP0 0603
+Change Component Description : Designator=C208 Old Description=Capacitor New Description=CAP CER 18PF 50V C0G/NP0 0603
+Change Component Description : Designator=C100 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C104 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C105 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C106 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C107 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C108 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C202 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C203 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C204 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C205 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C206 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C300 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C303 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C306 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C314 Old Description=Capacitor New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=C201 Old Description=CAP CER 10UF 16V X5R 0603 New Description=CAP CER 100nF 16V X5R 0603
+Change Component Description : Designator=R209 Old Description=Resistor 1/4W New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R202 Old Description=Resistor 1/4W New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R205 Old Description=Resistor 1/4W New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R206 Old Description=Resistor 1/4W New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R105 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R106 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R107 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R108 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R109 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R114 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R115 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R116 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R117 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R118 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R119 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R120 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R121 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R122 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R207 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R208 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R212 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R213 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R214 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R215 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R216 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R217 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R218 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R219 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R220 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R221 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R222 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R223 Old Description=Resistor 1/4W New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R102 Old Description=Resistor New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R103 Old Description=Resistor New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R200 Old Description=Resistor New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R201 Old Description=Resistor New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R100 Old Description=Resistor New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R310 Old Description=Resistor SMD New Description=RES SMD 10R OHM 1% 1/8W 0603
+Change Component Description : Designator=R101 Old Description=RES SMD 10K OHM 1% 1/8W 0805 New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R301 Old Description=RES SMD 10K OHM 1% 1/8W 0805 New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R303 Old Description=RES SMD 10K OHM 1% 1/8W 0805 New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R304 Old Description=RES SMD 10K OHM 1% 1/8W 0805 New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R308 Old Description=RES SMD 10K OHM 1% 1/8W 0805 New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R312 Old Description=RES SMD 10K OHM 1% 1/8W 0805 New Description=RES SMD 1K OHM 1% 1/8W 0603
+Change Component Description : Designator=R203 Old Description=RES SMD 10K OHM 1% 1/8W 0805 New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R204 Old Description=RES SMD 10K OHM 1% 1/8W 0805 New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R309 Old Description=RES SMD 10K OHM 1% 1/8W 0805 New Description=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Description : Designator=R315 Old Description=RES SMD 10K OHM 1% 1/8W 0805 New Description=RES SMD 100K OHM 1% 1/8W 0603
+Change component parameters: Designator = "C100" ("C100"); Footprint = "CAP0603-M"; UniqueID = "\ZJZQBWYM" ("\ZJZQBWYM")
+Change component parameters: Designator = "C102" ("C102"); Footprint = "CAP0603-M"; UniqueID = "\KZNDFXLU" ("\KZNDFXLU")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C103" ("C103"); Footprint = "CAP0603-M"; UniqueID = "\WZUXWWGL" ("\WZUXWWGL")
+Change component parameters: Designator = "C104" ("C104"); Footprint = "CAP0603-M"; UniqueID = "\UVQGOVVA" ("\UVQGOVVA")
+Change component parameters: Designator = "C105" ("C105"); Footprint = "CAP0603-M"; UniqueID = "\VXFBJXEY" ("\VXFBJXEY")
+Change component parameters: Designator = "C106" ("C106"); Footprint = "CAP0603-M"; UniqueID = "\MZAHVQRL" ("\MZAHVQRL")
+Change component parameters: Designator = "C107" ("C107"); Footprint = "CAP0603-M"; UniqueID = "\TDCKLDNK" ("\TDCKLDNK")
+Change component parameters: Designator = "C108" ("C108"); Footprint = "CAP0603-M"; UniqueID = "\TJUWEOBM" ("\TJUWEOBM")
+Change component parameters: Designator = "C109" ("C109"); Footprint = "CAP0603-M"; UniqueID = "\JBCKURTS" ("\JBCKURTS")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C200" ("C200"); Footprint = "C0805"; UniqueID = "\PUXARWUB" ("\PUXARWUB")
+Change component parameters: Designator = "C201" ("C201"); Footprint = "CAP0603-M"; UniqueID = "\HGPNYSZV" ("\HGPNYSZV")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "MURATA"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C202" ("C202"); Footprint = "CAP0603-M"; UniqueID = "\DGLWVQCG" ("\DGLWVQCG")
+Change component parameters: Designator = "C203" ("C203"); Footprint = "CAP0603-M"; UniqueID = "\JTTAGTBX" ("\JTTAGTBX")
+Change component parameters: Designator = "C204" ("C204"); Footprint = "CAP0603-M"; UniqueID = "\QAHUMPFF" ("\QAHUMPFF")
+Change component parameters: Designator = "C205" ("C205"); Footprint = "CAP0603-M"; UniqueID = "\WWONYWDV" ("\WWONYWDV")
+Change component parameters: Designator = "C206" ("C206"); Footprint = "CAP0603-M"; UniqueID = "\WKUTOHJM" ("\WKUTOHJM")
+Change component parameters: Designator = "C207" ("C207"); Footprint = "CAP0603-M"; UniqueID = "\BYLQOITJ" ("\BYLQOITJ")
+Change component parameters: Designator = "C208" ("C208"); Footprint = "CAP0603-M"; UniqueID = "\KWXGVKJA" ("\KWXGVKJA")
+Change component parameters: Designator = "C300" ("C300"); Footprint = "CAP0603-M"; UniqueID = "\QJCEAUXL" ("\QJCEAUXL")
+Change component parameters: Designator = "C301" ("C301"); Footprint = "C0805"; UniqueID = "\XZECPIMF" ("\XZECPIMF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C302" ("C302"); Footprint = "C0805"; UniqueID = "\PVPEAQPD" ("\PVPEAQPD")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C303" ("C303"); Footprint = "CAP0603-M"; UniqueID = "\WOPOCZKB" ("\WOPOCZKB")
+Change component parameters: Designator = "C304" ("C304"); Footprint = "CAP0603-M"; UniqueID = "\TYUUDTJD" ("\TYUUDTJD")
+Change component parameters: Designator = "C305" ("C305"); Footprint = "CAP0603-M"; UniqueID = "\CVWVCDNB" ("\CVWVCDNB")
+Change component parameters: Designator = "C306" ("C306"); Footprint = "CAP0603-M"; UniqueID = "\BRFSRPKP" ("\BRFSRPKP")
+Change component parameters: Designator = "C307" ("C307"); Footprint = "CAP0603-M"; UniqueID = "\RCQGGPAC" ("\RCQGGPAC")
+Change component parameters: Designator = "C308" ("C308"); Footprint = "CAP0603-M"; UniqueID = "\PJAXGDJY" ("\PJAXGDJY")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C309" ("C309"); Footprint = "CAP0603-M"; UniqueID = "\TSMSASIO" ("\TSMSASIO")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C310" ("C310"); Footprint = "CAP0603-M"; UniqueID = "\MMBNVSXL" ("\MMBNVSXL")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "TMK063BJ103KP-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM033R61A103KA01D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C311" ("C311"); Footprint = "CAP0603-M"; UniqueID = "\FUHYTOVN" ("\FUHYTOVN")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C312" ("C312"); Footprint = "CAP0603-M"; UniqueID = "\BTGQYVTK" ("\BTGQYVTK")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "TMK063BJ103KP-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM033R61A103KA01D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C313" ("C313"); Footprint = "CAP0603-M"; UniqueID = "\IEJKMXUU" ("\IEJKMXUU")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "TMK063BJ103KP-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM033R61A103KA01D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C314" ("C314"); Footprint = "CAP0603-M"; UniqueID = "\NNJIHHXQ" ("\NNJIHHXQ")
+Change component parameters: Designator = "C315" ("C315"); Footprint = "C0805"; UniqueID = "\EYTUKUBY" ("\EYTUKUBY")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "MURATA"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C316" ("C316"); Footprint = "C0805"; UniqueID = "\RLLSSNVG" ("\RLLSSNVG")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "MURATA"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C317" ("C317"); Footprint = "C0805"; UniqueID = "\LASTQWWG" ("\LASTQWWG")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C318" ("C318"); Footprint = "C0805"; UniqueID = "\VMYAUFJL" ("\VMYAUFJL")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C400" ("C400"); Footprint = "CAP0603-M"; UniqueID = "\DHPOBLIZ" ("\DHPOBLIZ")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C401" ("C401"); Footprint = "CAP0603-M"; UniqueID = "\LKIEZJZN" ("\LKIEZJZN")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C402" ("C402"); Footprint = "CAP0603-M"; UniqueID = "\XLDRJZGW" ("\XLDRJZGW")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C403" ("C403"); Footprint = "CAP0603-M"; UniqueID = "\XABCOTPC" ("\XABCOTPC")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C404" ("C404"); Footprint = "CAP0603-M"; UniqueID = "\OGRBBNMT" ("\OGRBBNMT")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C405" ("C405"); Footprint = "CAP0603-M"; UniqueID = "\CJLPYAFU" ("\CJLPYAFU")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C406" ("C406"); Footprint = "CAP0603-M"; UniqueID = "\POJXFSCH" ("\POJXFSCH")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C407" ("C407"); Footprint = "CAP0603-M"; UniqueID = "\YTXGMBUI" ("\YTXGMBUI")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C408" ("C408"); Footprint = "CAP0603-M"; UniqueID = "\BZMTHYOC" ("\BZMTHYOC")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C409" ("C409"); Footprint = "CAP0603-M"; UniqueID = "\TSMMQLHP" ("\TSMMQLHP")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C410" ("C410"); Footprint = "CAP0603-M"; UniqueID = "\PIROJDHP" ("\PIROJDHP")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C411" ("C411"); Footprint = "CAP0603-M"; UniqueID = "\QSHMQGJA" ("\QSHMQGJA")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C412" ("C412"); Footprint = "CAP0603-M"; UniqueID = "\HSMXOMHE" ("\HSMXOMHE")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C413" ("C413"); Footprint = "CAP0603-M"; UniqueID = "\YTDGKPYC" ("\YTDGKPYC")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C414" ("C414"); Footprint = "CAP0603-M"; UniqueID = "\AKHSTUXW" ("\AKHSTUXW")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C415" ("C415"); Footprint = "CAP0603-M"; UniqueID = "\WXROEZGV" ("\WXROEZGV")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C416" ("C416"); Footprint = "CAP0603-M"; UniqueID = "\ZJNNNHBL" ("\ZJNNNHBL")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C417" ("C417"); Footprint = "CAP0603-M"; UniqueID = "\CBYKINWK" ("\CBYKINWK")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C418" ("C418"); Footprint = "CAP0603-M"; UniqueID = "\JMZPGNZF" ("\JMZPGNZF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C419" ("C419"); Footprint = "CAP0603-M"; UniqueID = "\KKLQJFSF" ("\KKLQJFSF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C420" ("C420"); Footprint = "CAP0603-M"; UniqueID = "\NMEIBRQD" ("\NMEIBRQD")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL05A106MP8NUB8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "GRM155R61A106ME11D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D100" ("D100"); Footprint = "LED-0603-Red"; UniqueID = "\ISKMQOBD" ("\ISKMQOBD")
+Change component parameters: Designator = "D101" ("D101"); Footprint = "LED-0603-Green"; UniqueID = "\IFABVPIR" ("\IFABVPIR")
+Change component parameters: Designator = "D103" ("D103"); Footprint = "2-UDFN"; UniqueID = "\ZPSZVDBJ" ("\ZPSZVDBJ")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.5pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D104" ("D104"); Footprint = "2-UDFN"; UniqueID = "\MQJJJZCX" ("\MQJJJZCX")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.5pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D105" ("D105"); Footprint = "2-UDFN"; UniqueID = "\YMBHOLJL" ("\YMBHOLJL")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.5pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D106" ("D106"); Footprint = "2-UDFN"; UniqueID = "\MDBBMDAN" ("\MDBBMDAN")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.5pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D200" ("D200"); Footprint = "LED-0603-Red"; UniqueID = "\ZWSIHHGL" ("\ZWSIHHGL")
+Change component parameters: Designator = "D201" ("D201"); Footprint = "LED-0603-Green"; UniqueID = "\DNRLMNFW" ("\DNRLMNFW")
+Change component parameters: Designator = "D202" ("D202"); Footprint = "2-UDFN"; UniqueID = "\IVSIJZAR" ("\IVSIJZAR")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.5pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D203" ("D203"); Footprint = "2-UDFN"; UniqueID = "\MLYWWXEM" ("\MLYWWXEM")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.5pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D204" ("D204"); Footprint = "2-UDFN"; UniqueID = "\UJVBLROF" ("\UJVBLROF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.5pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D205" ("D205"); Footprint = "2-UDFN"; UniqueID = "\ZEJOHIMW" ("\ZEJOHIMW")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.5pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D206" ("D206"); Footprint = "2-UDFN"; UniqueID = "\ABSZGSFP" ("\ABSZGSFP")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "0.5pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "ESDAXLC6-1BU2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D207" ("D207"); Footprint = "SOT23-3"; UniqueID = "\EDMWNUKP" ("\EDMWNUKP")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "onsemi"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D300" ("D300"); Footprint = "SOD123F"; UniqueID = "\LAFMGICY" ("\LAFMGICY")
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "SEMTECH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D301" ("D301"); Footprint = "LED RIGHT"; UniqueID = "\MRFSAZHU" ("\MRFSAZHU")
+Change component parameters: Designator = "D302" ("D302"); Footprint = "SOD123F"; UniqueID = "\ZNPBZILJ" ("\ZNPBZILJ")
+Change component parameters: Designator = "D303" ("D303"); Footprint = "SOD123F"; UniqueID = "\BOUEFPQH" ("\BOUEFPQH")
+Change component parameters: Designator = "D304" ("D304"); Footprint = "LED RIGHT"; UniqueID = "\RKLGEPHY" ("\RKLGEPHY")
+Change component parameters: Designator = "ESP200" ("ESP200"); Footprint = "ESP32_UE"; UniqueID = "\BDJHPJJS" ("\BDJHPJJS")
+Change component parameters: Designator = "FB300" ("FB300"); Footprint = "INDC1608X80N"; UniqueID = "\PTKDLWVC" ("\PTKDLWVC")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "MPZ1005S221HT000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "BLM15PX221SN1D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "FB301" ("FB301"); Footprint = "INDC1608X80N"; UniqueID = "\NINBQUSM" ("\NINBQUSM")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "MPZ1005S221HT000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "BLM15PX221SN1D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "FB302" ("FB302"); Footprint = "INDC1608X80N"; UniqueID = "\KNIJCMVM" ("\KNIJCMVM")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "MPZ1005S221HT000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "BLM15PX221SN1D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J200" ("J200"); Footprint = "USB_USB4110-GF-A"; UniqueID = "\JFBMQNUG" ("\JFBMQNUG")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Global Connector Technology"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "USB4110-GF-A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L300" ("L300"); Footprint = "IND25X25CZ"; UniqueID = "\ZYTLAMCI" ("\ZYTLAMCI")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "DFE201610E-4R7M=P2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "MODE200" ("MODE200"); Footprint = "XH2.54"; UniqueID = "\INLCYORZ" ("\INLCYORZ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "P100" ("P100"); Footprint = "XH2.54 2X3"; UniqueID = "\QTAFOCBC" ("\QTAFOCBC")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Wจนrth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q100" ("Q100"); Footprint = "SOT23-3"; UniqueID = "\EZLQRMFM" ("\EZLQRMFM")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Fairchild Semiconductor"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q200" ("Q200"); Footprint = "SOT23-3"; UniqueID = "\SMAPZTYW" ("\SMAPZTYW")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q300" ("Q300"); Footprint = "SOT23-3"; UniqueID = "\LRYRESFT" ("\LRYRESFT")
+Change component parameters: Designator = "R100" ("R100"); Footprint = "R_0603"; UniqueID = "\EKSCPMIG" ("\EKSCPMIG")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R101" ("R101"); Footprint = "R_0603"; UniqueID = "\SUFMDSIK" ("\SUFMDSIK")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R102" ("R102"); Footprint = "R_0603"; UniqueID = "\DNAVUIZS" ("\DNAVUIZS")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R103" ("R103"); Footprint = "R_0603"; UniqueID = "\LXDKTSSB" ("\LXDKTSSB")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R105" ("R105"); Footprint = "R_0603"; UniqueID = "\CLTXXCFA" ("\CLTXXCFA")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R106" ("R106"); Footprint = "R_0603"; UniqueID = "\GENWXOGT" ("\GENWXOGT")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R107" ("R107"); Footprint = "R_0603"; UniqueID = "\QGECHCVA" ("\QGECHCVA")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R108" ("R108"); Footprint = "R_0603"; UniqueID = "\KPFMSINY" ("\KPFMSINY")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R109" ("R109"); Footprint = "R_0603"; UniqueID = "\YLPFQGTS" ("\YLPFQGTS")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R111" ("R111"); Footprint = "R_0603"; UniqueID = "\KQJYLXZA" ("\KQJYLXZA")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R114" ("R114"); Footprint = "R_0603"; UniqueID = "\IMPAQPTT" ("\IMPAQPTT")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R115" ("R115"); Footprint = "R_0603"; UniqueID = "\SHHAUXHX" ("\SHHAUXHX")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R116" ("R116"); Footprint = "R_0603"; UniqueID = "\PAEFERTX" ("\PAEFERTX")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R117" ("R117"); Footprint = "R_0603"; UniqueID = "\JTIEFAIE" ("\JTIEFAIE")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R118" ("R118"); Footprint = "R_0603"; UniqueID = "\YBMVEHNA" ("\YBMVEHNA")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R119" ("R119"); Footprint = "R_0603"; UniqueID = "\MERWHTRQ" ("\MERWHTRQ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R120" ("R120"); Footprint = "R_0603"; UniqueID = "\MBGQPAPW" ("\MBGQPAPW")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R121" ("R121"); Footprint = "R_0603"; UniqueID = "\CBBDLOWG" ("\CBBDLOWG")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R122" ("R122"); Footprint = "R_0603"; UniqueID = "\JZFEQBXW" ("\JZFEQBXW")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R200" ("R200"); Footprint = "R_0603"; UniqueID = "\RIUSBUZL" ("\RIUSBUZL")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R201" ("R201"); Footprint = "R_0603"; UniqueID = "\JCIMNRTP" ("\JCIMNRTP")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R202" ("R202"); Footprint = "R_0603"; UniqueID = "\XFVDFDLQ" ("\XFVDFDLQ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R203" ("R203"); Footprint = "R_0603"; UniqueID = "\JPWHTAAZ" ("\JPWHTAAZ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R204" ("R204"); Footprint = "R_0603"; UniqueID = "\URWQNHXZ" ("\URWQNHXZ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R205" ("R205"); Footprint = "R_0603"; UniqueID = "\AHKFOFVQ" ("\AHKFOFVQ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R206" ("R206"); Footprint = "R_0603"; UniqueID = "\YBUVCOUJ" ("\YBUVCOUJ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R207" ("R207"); Footprint = "R_0603"; UniqueID = "\AHBGSQFH" ("\AHBGSQFH")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R208" ("R208"); Footprint = "R_0603"; UniqueID = "\YFXPDJES" ("\YFXPDJES")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R209" ("R209"); Footprint = "R_0603"; UniqueID = "\AIQIQYZS" ("\AIQIQYZS")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R210" ("R210"); Footprint = "R_0603"; UniqueID = "\PQTPGMGS" ("\PQTPGMGS")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R211" ("R211"); Footprint = "R_0603"; UniqueID = "\VJTOUXRY" ("\VJTOUXRY")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R212" ("R212"); Footprint = "R_0603"; UniqueID = "\QBZFJNUM" ("\QBZFJNUM")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R213" ("R213"); Footprint = "R_0603"; UniqueID = "\XCFCURAY" ("\XCFCURAY")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R214" ("R214"); Footprint = "R_0603"; UniqueID = "\ANGFZVHT" ("\ANGFZVHT")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R215" ("R215"); Footprint = "R_0603"; UniqueID = "\OZHYRDBD" ("\OZHYRDBD")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R216" ("R216"); Footprint = "R_0603"; UniqueID = "\EPYFBWPU" ("\EPYFBWPU")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R217" ("R217"); Footprint = "R_0603"; UniqueID = "\KIDKTOIJ" ("\KIDKTOIJ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R218" ("R218"); Footprint = "R_0603"; UniqueID = "\PRTBWYZI" ("\PRTBWYZI")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R219" ("R219"); Footprint = "R_0603"; UniqueID = "\JDBAYGKS" ("\JDBAYGKS")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R220" ("R220"); Footprint = "R_0603"; UniqueID = "\QSZHPDZO" ("\QSZHPDZO")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R221" ("R221"); Footprint = "R_0603"; UniqueID = "\ZGMSAYRF" ("\ZGMSAYRF")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R222" ("R222"); Footprint = "R_0603"; UniqueID = "\JVOPEZQN" ("\JVOPEZQN")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R223" ("R223"); Footprint = "R_0603"; UniqueID = "\EXIMALJI" ("\EXIMALJI")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R300" ("R300"); Footprint = "R_0603"; UniqueID = "\NAMTLZBR" ("\NAMTLZBR")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-07100KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "ERJ-1GNF1003C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R301" ("R301"); Footprint = "R_0603"; UniqueID = "\AZQNOZLM" ("\AZQNOZLM")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R302" ("R302"); Footprint = "R_0603"; UniqueID = "\ASOLACAA" ("\ASOLACAA")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-07100KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "ERJ-1GNF1003C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R303" ("R303"); Footprint = "R_0603"; UniqueID = "\DLKZRAQK" ("\DLKZRAQK")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R304" ("R304"); Footprint = "R_0603"; UniqueID = "\KYOMKOXB" ("\KYOMKOXB")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R305" ("R305"); Footprint = "R_0603"; UniqueID = "\XOQSAIRX" ("\XOQSAIRX")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-07100KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "ERJ-1GNF1003C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R306" ("R306"); Footprint = "R_0603"; UniqueID = "\CRMERASM" ("\CRMERASM")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-07100KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "ERJ-1GNF1003C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R307" ("R307"); Footprint = "R_0603"; UniqueID = "\BXQKHCZC" ("\BXQKHCZC")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-07100KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "ERJ-1GNF1003C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R308" ("R308"); Footprint = "R_0603"; UniqueID = "\GOHZSLIC" ("\GOHZSLIC")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R309" ("R309"); Footprint = "R_0603"; UniqueID = "\RUYQEBCH" ("\RUYQEBCH")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R310" ("R310"); Footprint = "R_0603"; UniqueID = "\FGXDDMEC" ("\FGXDDMEC")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R311" ("R311"); Footprint = "R_0603"; UniqueID = "\QZCKMIAH" ("\QZCKMIAH")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R312" ("R312"); Footprint = "R_0603"; UniqueID = "\JROHFRAV" ("\JROHFRAV")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R313" ("R313"); Footprint = "R_0603"; UniqueID = "\UUBPVQSK" ("\UUBPVQSK")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R314" ("R314"); Footprint = "R_0603"; UniqueID = "\UKYRIGTR" ("\UKYRIGTR")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0710KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 2"; Value = "ERJ-1GEF1002C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R315" ("R315"); Footprint = "R_0603"; UniqueID = "\WWHZZJVH" ("\WWHZZJVH")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R400" ("R400"); Footprint = "R_0603"; UniqueID = "\HISNZMKZ" ("\HISNZMKZ")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R401" ("R401"); Footprint = "R_0603"; UniqueID = "\EKGTERJK" ("\EKGTERJK")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R402" ("R402"); Footprint = "R_0603"; UniqueID = "\RSFOOTEO" ("\RSFOOTEO")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R403" ("R403"); Footprint = "R_0603"; UniqueID = "\AVHIJAOX" ("\AVHIJAOX")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R404" ("R404"); Footprint = "R_0603"; UniqueID = "\OCLJECKV" ("\OCLJECKV")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R405" ("R405"); Footprint = "R_0603"; UniqueID = "\JAZTXODJ" ("\JAZTXODJ")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R406" ("R406"); Footprint = "R_0603"; UniqueID = "\KETIZSFZ" ("\KETIZSFZ")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R407" ("R407"); Footprint = "R_0603"; UniqueID = "\TSGXFWBC" ("\TSGXFWBC")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R408" ("R408"); Footprint = "R_0603"; UniqueID = "\FUVHKOCA" ("\FUVHKOCA")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R409" ("R409"); Footprint = "R_0603"; UniqueID = "\PBAODPGP" ("\PBAODPGP")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R410" ("R410"); Footprint = "R_0603"; UniqueID = "\HEYVGXRC" ("\HEYVGXRC")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R411" ("R411"); Footprint = "R_0603"; UniqueID = "\ELVAHOQN" ("\ELVAHOQN")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R412" ("R412"); Footprint = "R_0603"; UniqueID = "\ADECOHJH" ("\ADECOHJH")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R413" ("R413"); Footprint = "R_0603"; UniqueID = "\KAFAZUAS" ("\KAFAZUAS")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R414" ("R414"); Footprint = "R_0603"; UniqueID = "\OOPGEQOD" ("\OOPGEQOD")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R415" ("R415"); Footprint = "R_0603"; UniqueID = "\PFZQJRSZ" ("\PFZQJRSZ")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R416" ("R416"); Footprint = "R_0603"; UniqueID = "\CYUEAJEP" ("\CYUEAJEP")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R417" ("R417"); Footprint = "R_0603"; UniqueID = "\XQDDBPPS" ("\XQDDBPPS")
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 2"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC0201FR-0711K3L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Revision"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "S200" ("S200"); Footprint = "BUTTON_2P_SMD"; UniqueID = "\NMGMROIG" ("\NMGMROIG")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "S201" ("S201"); Footprint = "BUTTON_2P_SMD"; UniqueID = "\LSDPQQXK" ("\LSDPQQXK")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "SW301" ("SW301"); Footprint = "XH2.54"; UniqueID = "\KQFWCRUC" ("\KQFWCRUC")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "SW302" ("SW302"); Footprint = "XH2.54"; UniqueID = "\MZANEQEK" ("\MZANEQEK")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP100" ("TP100"); Footprint = "TPH"; UniqueID = "\XRBIILIO" ("\XRBIILIO")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP202" ("TP202"); Footprint = "TPH"; UniqueID = "\UCRWJGHW" ("\UCRWJGHW")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP203" ("TP203"); Footprint = "TPH"; UniqueID = "\UMGDAHXR" ("\UMGDAHXR")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP301" ("TP301"); Footprint = "TPH"; UniqueID = "\DFUUEEFN" ("\DFUUEEFN")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP302" ("TP302"); Footprint = "TPH"; UniqueID = "\RGJWBGWA" ("\RGJWBGWA")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP303" ("TP303"); Footprint = "TPH"; UniqueID = "\KKXPXELH" ("\KKXPXELH")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP304" ("TP304"); Footprint = "TPH"; UniqueID = "\ZTLWESNV" ("\ZTLWESNV")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP306" ("TP306"); Footprint = "TPH"; UniqueID = "\DLVEWVAY" ("\DLVEWVAY")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP307" ("TP307"); Footprint = "TPH"; UniqueID = "\JFRSONLX" ("\JFRSONLX")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP308" ("TP308"); Footprint = "TPH"; UniqueID = "\XPOIPDVK" ("\XPOIPDVK")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP309" ("TP309"); Footprint = "TPH"; UniqueID = "\URWOIZOO" ("\URWOIZOO")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP400" ("TP400"); Footprint = "TPH"; UniqueID = "\VNDTHCST" ("\VNDTHCST")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP401" ("TP401"); Footprint = "TPH"; UniqueID = "\SHTUBBPY" ("\SHTUBBPY")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP402" ("TP402"); Footprint = "TPH"; UniqueID = "\IZNBLDWL" ("\IZNBLDWL")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP403" ("TP403"); Footprint = "TPH"; UniqueID = "\DVSYXRSW" ("\DVSYXRSW")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP404" ("TP404"); Footprint = "TPH"; UniqueID = "\OEZCPMCG" ("\OEZCPMCG")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP405" ("TP405"); Footprint = "TPH"; UniqueID = "\VREVROGP" ("\VREVROGP")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP406" ("TP406"); Footprint = "TPH"; UniqueID = "\YVBJAIJD" ("\YVBJAIJD")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP407" ("TP407"); Footprint = "TPH"; UniqueID = "\JFULMPQD" ("\JFULMPQD")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP408" ("TP408"); Footprint = "TPH"; UniqueID = "\ANRIVFWQ" ("\ANRIVFWQ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP409" ("TP409"); Footprint = "TPH"; UniqueID = "\AZLWIGTJ" ("\AZLWIGTJ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP410" ("TP410"); Footprint = "TPH"; UniqueID = "\EJTQMVVJ" ("\EJTQMVVJ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP411" ("TP411"); Footprint = "TPH"; UniqueID = "\BDCIQROM" ("\BDCIQROM")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U100" ("U100"); Footprint = "LQFP48"; UniqueID = "\MRYCTMNG" ("\MRYCTMNG")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "STM32F103C8T6"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U200" ("U200"); Footprint = "SOIC-16"; UniqueID = "\ECPJCZPT" ("\ECPJCZPT")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "WCH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CH340G"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U201" ("U201"); Footprint = "MICROSD2"; UniqueID = "\XFKFACOQ" ("\XFKFACOQ")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "SD_CARD"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U300" ("U300"); Footprint = "TSOP65P490X95-8N"; UniqueID = "\TJWBQSJD" ("\TJWBQSJD")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "MP1542"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U301" ("U301"); Footprint = "IC_DRV8601DRBT"; UniqueID = "\EGBTSZUW" ("\EGBTSZUW")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "IC REG LINEAR POS ADJ 150MA 8SON"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U302" ("U302"); Footprint = "SOT223-4"; UniqueID = "\VNJRSFXU" ("\VNJRSFXU")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "DIODE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "LM1117-3.3"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U400" ("U400"); Footprint = "SON50P300X300X80-11N"; UniqueID = "\ESQLKSYK" ("\ESQLKSYK")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "AD5541ABCPZ-REEL7"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U401" ("U401"); Footprint = "SOT95P280X145-5N"; UniqueID = "\RCUYWZQZ" ("\RCUYWZQZ")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "AD8605"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U402" ("U402"); Footprint = "SOT95P280X145-5N"; UniqueID = "\XBNBGXIR" ("\XBNBGXIR")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "AD8605"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U403" ("U403"); Footprint = "SOT95P280X145-5N"; UniqueID = "\TGLPWWNT" ("\TGLPWWNT")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "AD8605"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U404" ("U404"); Footprint = "SOT95P280X145-5N"; UniqueID = "\SNMJKBJT" ("\SNMJKBJT")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "AD8605"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U405" ("U405"); Footprint = "SOT95P280X145-6N"; UniqueID = "\CTUAAXVD" ("\CTUAAXVD")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "LT6654AIS6-2.5#TRMPBF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U406" ("U406"); Footprint = "TSOP65P640X110-16N"; UniqueID = "\KPYKGYDO" ("\KPYKGYDO")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "MAX4617CUE+T"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U407" ("U407"); Footprint = "SOT223-4"; UniqueID = "\EXXGIPWN" ("\EXXGIPWN")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "DIODE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "LM1117-3.3"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U408" ("U408"); Footprint = "SON50P300X300X80-11N"; UniqueID = "\DSGWQTRS" ("\DSGWQTRS")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "AD4008BCPZ-RL7"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U409" ("U409"); Footprint = "SOT95P280X145-5N"; UniqueID = "\GLVZDDUM" ("\GLVZDDUM")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "AD8605"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U410" ("U410"); Footprint = "SOT95P280X145-5N"; UniqueID = "\XDYGEPSF" ("\XDYGEPSF")
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "AD8605"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X100" ("X100"); Footprint = "XTAL_SMD_3P5"; UniqueID = "\FKKXKJVK" ("\FKKXKJVK")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "WTL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "WTL5G60391VH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "X200" ("X200"); Footprint = "XTAL_SMD_3P5"; UniqueID = "\HTDJVMQK" ("\HTDJVMQK")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "WTL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "WTL5G60391VH"; VariantName = "[No Variations]"
+Added Component: Designator=TP300(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP305(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP310(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP311(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetQ300_1 Pin=TP300-1
+Added Pin To Net: NetName=USB_VIN Pin=TP305-1
+Added Pin To Net: NetName=NetC306_1 Pin=TP310-1
+Added Pin To Net: NetName=VBAT Pin=TP311-1
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP300 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP305 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP310 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP311 SIREN_EN

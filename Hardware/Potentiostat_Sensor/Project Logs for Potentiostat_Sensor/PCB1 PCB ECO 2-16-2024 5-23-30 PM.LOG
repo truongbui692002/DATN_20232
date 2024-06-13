@@ -1,0 +1,16 @@
+Added Component: Designator=TP300(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP305(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP311(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP412(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetQ300_1 Pin=TP300-1
+Added Pin To Net: NetName=USB_VIN Pin=TP305-1
+Added Pin To Net: NetName=VBAT Pin=TP311-1
+Added Pin To Net: NetName=AGND Pin=TP412-1
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP300 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP305 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP311 SIREN_EN
+Added Member To Class: ClassName=ANALOG Member=Component TP412 SIREN_EN

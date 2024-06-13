@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=GND Pin=ESP200-39_10
+Removed Pin From Net: NetName=GND Pin=ESP200-39_11
+Removed Pin From Net: NetName=GND Pin=ESP200-39_12
+Removed Pin From Net: NetName=GND Pin=ESP200-39_13
+Removed Pin From Net: NetName=GND Pin=ESP200-39_14
+Removed Pin From Net: NetName=GND Pin=ESP200-39_15
+Removed Pin From Net: NetName=GND Pin=ESP200-39_16
+Removed Pin From Net: NetName=GND Pin=ESP200-39_17
+Removed Pin From Net: NetName=GND Pin=ESP200-39_18
+Removed Pin From Net: NetName=GND Pin=ESP200-39_19
+Removed Pin From Net: NetName=GND Pin=ESP200-39_20
+Removed Pin From Net: NetName=GND Pin=ESP200-39_21
+Added Component: Designator=TP300(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP305(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP310(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP311(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP411(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetQ300_1 Pin=TP300-1
+Added Pin To Net: NetName=USB_VIN Pin=TP305-1
+Added Pin To Net: NetName=NetC306_1 Pin=TP310-1
+Added Pin To Net: NetName=VBAT Pin=TP311-1
+Added Pin To Net: NetName=VREF_2V5 Pin=TP411-1
+Added Member To Class: ClassName=ESP32 Member=Component D200 RED
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP300 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP305 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP310 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP311 SIREN_EN
+Added Member To Class: ClassName=ANALOG Member=Component TP411 VREF

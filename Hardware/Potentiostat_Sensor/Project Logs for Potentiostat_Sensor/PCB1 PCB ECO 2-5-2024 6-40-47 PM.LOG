@@ -1,0 +1,92 @@
+Add Component: Footprint Not Found MOLX-532610271_V
+Add Component: Footprint Not Found GCT_USB4056-03-A_REVA
+Add Component: Footprint Not Found MSK12C02
+Add Component: Footprint Not Found SW
+Added Component: Designator=U401(SOT95P280X145-5N)
+Added Component: Designator=U402(SOT95P280X145-5N)
+Added Component: Designator=U403(SOT95P280X145-5N)
+Added Component: Designator=U404(SOT95P280X145-5N)
+Added Component: Designator=U405(SOT95P280X145-6N)
+Add Pin To Net: Unknown Pin: Pin CN300-1
+Add Pin To Net: Unknown Pin: Pin CN300-2
+Add Pin To Net: Unknown Pin: Pin D300-1
+Add Pin To Net: Unknown Pin: Pin D300-2
+Add Pin To Net: Unknown Pin: Pin D302-A
+Add Pin To Net: Unknown Pin: Pin D302-K
+Add Pin To Net: Unknown Pin: Pin D303-A
+Add Pin To Net: Unknown Pin: Pin D303-K
+Add Pin To Net: Unknown Pin: Pin J200-A1
+Add Pin To Net: Unknown Pin: Pin J200-A4
+Add Pin To Net: Unknown Pin: Pin J200-A5
+Add Pin To Net: Unknown Pin: Pin J200-A6
+Add Pin To Net: Unknown Pin: Pin J200-A7
+Add Pin To Net: Unknown Pin: Pin J200-A9
+Add Pin To Net: Unknown Pin: Pin J200-A12
+Add Pin To Net: Unknown Pin: Pin J200-B1
+Add Pin To Net: Unknown Pin: Pin J200-B4
+Add Pin To Net: Unknown Pin: Pin J200-B5
+Add Pin To Net: Unknown Pin: Pin J200-B9
+Add Pin To Net: Unknown Pin: Pin J200-B12
+Add Pin To Net: Unknown Pin: Pin J200-S1
+Add Pin To Net: Unknown Pin: Pin J200-S2
+Add Pin To Net: Unknown Pin: Pin J200-S3
+Add Pin To Net: Unknown Pin: Pin J200-S4
+Add Pin To Net: Unknown Pin: Pin S300-A1
+Add Pin To Net: Unknown Pin: Pin S300-B1
+Add Pin To Net: Unknown Pin: Pin SW300-1
+Add Pin To Net: Unknown Pin: Pin SW300-2
+Add Pin To Net: Unknown Pin: Pin U300-1
+Add Pin To Net: Unknown Pin: Pin U300-2
+Add Pin To Net: Unknown Pin: Pin U300-3
+Add Pin To Net: Unknown Pin: Pin U300-4
+Add Pin To Net: Unknown Pin: Pin U300-5
+Add Pin To Net: Unknown Pin: Pin U300-6
+Add Pin To Net: Unknown Pin: Pin U300-7
+Add Pin To Net: Unknown Pin: Pin U300-8
+Added Pin To Net: NetName=CE Pin=U401-1
+Added Pin To Net: NetName=AGND Pin=U401-2
+Added Pin To Net: NetName=NetR403_1 Pin=U401-3
+Added Pin To Net: NetName=NetR402_2 Pin=U401-4
+Added Pin To Net: NetName=5VDC Pin=U401-5
+Added Pin To Net: NetName=NetR403_2 Pin=U402-1
+Added Pin To Net: NetName=AGND Pin=U402-2
+Added Pin To Net: NetName=NetR403_2 Pin=U402-3
+Added Pin To Net: NetName=NetU400_2 Pin=U402-4
+Added Pin To Net: NetName=5VDC Pin=U402-5
+Added Pin To Net: NetName=NetR404_2 Pin=U403-1
+Added Pin To Net: NetName=AGND Pin=U403-2
+Added Pin To Net: NetName=NetR404_2 Pin=U403-3
+Added Pin To Net: NetName=RE Pin=U403-4
+Added Pin To Net: NetName=5VDC Pin=U403-5
+Added Pin To Net: NetName=VREF_2V5 Pin=U404-1
+Added Pin To Net: NetName=AGND Pin=U404-2
+Added Pin To Net: NetName=VREF_2V5 Pin=U404-3
+Added Pin To Net: NetName=NetC409_2 Pin=U404-4
+Added Pin To Net: NetName=5VDC Pin=U404-5
+Added Pin To Net: NetName=AGND Pin=U405-1
+Added Pin To Net: NetName=AGND Pin=U405-2
+Added Pin To Net: NetName=5VDC Pin=U405-4
+Added Pin To Net: NetName=NetC409_2 Pin=U405-6
+Add Pin To Net: Unknown Pin: Pin U409-1
+Add Pin To Net: Unknown Pin: Pin U409-2
+Add Pin To Net: Unknown Pin: Pin U409-3
+Add Pin To Net: Unknown Pin: Pin U409-4
+Add Pin To Net: Unknown Pin: Pin U409-5
+Add Pin To Net: Unknown Pin: Pin U410-1
+Add Pin To Net: Unknown Pin: Pin U410-2
+Add Pin To Net: Unknown Pin: Pin U410-3
+Add Pin To Net: Unknown Pin: Pin U410-4
+Add Pin To Net: Unknown Pin: Pin U410-5
+Add Class Member: Failed to add class member : Component CN300 0532610271
+Add Class Member: Failed to add class member : Component D300 SS26
+Add Class Member: Failed to add class member : Component J200 USB4056-03-A
+Add Class Member: Failed to add class member : Component S300 MSK12C02
+Add Class Member: Failed to add class member : Component SW300 SW
+Add Class Member: Failed to add class member : Component U300 MP1542
+Added Member To Class: ClassName=ANALOG Member=Component U401 AD8605
+Added Member To Class: ClassName=ANALOG Member=Component U402 AD8605
+Added Member To Class: ClassName=ANALOG Member=Component U403 AD8605
+Added Member To Class: ClassName=ANALOG Member=Component U404 AD8605
+Added Member To Class: ClassName=ANALOG Member=Component U405 LT6654AIS6-2.5#TRMPBF
+Add Class Member: Failed to add class member : Component U409 AD8605
+Add Class Member: Failed to add class member : Component U410 AD8605

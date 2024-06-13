@@ -1,0 +1,49 @@
+Change Component Parameter Description in C200 Old=Capacitor New=CAP CER 10UF 16V X5R 0603
+Change Component Parameter Description in C201 Old=CAP CER 10UF 16V X5R 0603 New=CAP CER 100nF 16V X5R 0603
+Change Component Parameter Description in C202 Old=Capacitor New=CAP CER 100nF 16V X5R 0603
+Change Component Parameter Description in C203 Old=Capacitor New=CAP CER 100nF 16V X5R 0603
+Change Component Parameter Description in C204 Old=Capacitor New=CAP CER 100nF 16V X5R 0603
+Change Component Parameter Description in C205 Old=Capacitor New=CAP CER 100nF 16V X5R 0603
+Change Component Parameter Description in C206 Old=Capacitor New=CAP CER 100nF 16V X5R 0603
+Change Component Parameter Comment in C207 Old= New=18pF
+Change Component Parameter Description in C207 Old=Capacitor New=CAP CER 18PF 50V C0G/NP0 0603
+Change Component Parameter Comment in C208 Old= New=18pF
+Change Component Parameter Description in C208 Old=Capacitor New=CAP CER 18PF 50V C0G/NP0 0603
+Change Component Parameter Comment in R202 Old= New=10kR
+Change Component Parameter Description in R202 Old=Resistor 1/4W New=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Parameter Comment in R203 Old= New=10kR
+Change Component Parameter Description in R203 Old=RES SMD 10K OHM 1% 1/8W 0805 New=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Parameter Comment in R204 Old= New=10kR
+Change Component Parameter Description in R204 Old=RES SMD 10K OHM 1% 1/8W 0805 New=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Parameter Comment in R205 Old= New=10kR
+Change Component Parameter Description in R205 Old=Resistor 1/4W New=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Parameter Comment in R206 Old= New=10kR
+Change Component Parameter Description in R206 Old=Resistor 1/4W New=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Parameter Comment in R207 Old= New=10R
+Change Component Parameter Description in R207 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R208 Old= New=10R
+Change Component Parameter Description in R208 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R212 Old= New=10R
+Change Component Parameter Description in R212 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R213 Old= New=10R
+Change Component Parameter Description in R213 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R214 Old= New=10R
+Change Component Parameter Description in R214 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R215 Old= New=10R
+Change Component Parameter Description in R215 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R216 Old= New=10R
+Change Component Parameter Description in R216 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R217 Old= New=10R
+Change Component Parameter Description in R217 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R218 Old= New=10R
+Change Component Parameter Description in R218 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R219 Old= New=10R
+Change Component Parameter Description in R219 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R220 Old= New=10R
+Change Component Parameter Description in R220 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R221 Old= New=10R
+Change Component Parameter Description in R221 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R222 Old= New=10R
+Change Component Parameter Description in R222 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R223 Old= New=10R
+Change Component Parameter Description in R223 Old=Resistor 1/4W New=RES SMD 10R OHM 1% 1/8W 0603  

@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=VBAT Pin=CN300-1
+Removed Pin From Net: NetName=NetC306_1 Pin=CN300-2
+Removed Member From Class: ClassName=POWER SUPPLY Member=CN300
+Added Component: Designator=SW302(XH2.54)
+Add component (AddParameter): Name = "Category"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Connector 2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBAT Pin=SW302-1
+Added Pin To Net: NetName=NetC306_1 Pin=SW302-2
+Added Member To Class: ClassName=POWER SUPPLY Member=Component SW302 SWITCH ON/OFF

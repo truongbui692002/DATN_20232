@@ -1,0 +1,251 @@
+Add Component: Footprint Not Found MOLX-532610271_V
+Added Component: Designator=D302(SMA)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-123-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Element Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESD Protection"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "30R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manu 1"; Value = "Vishay General Semiconductor - Diodes Division"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "410mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Reverse Leakage Current"; Value = "100nA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN 1"; Value = "BZT52C15-HE3-08"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Place"; Value = "PL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "410mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "Automotive, AEC-Q101"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Current"; Value = "5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value 1"; Value = "15V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value 2"; Value = "410mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000363oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zener Current"; Value = "23mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zener Voltage"; Value = "15V"; VariantName = "[No Variations]"
+Added Component: Designator=D303(SMA)
+Add component (AddParameter): Name = "Case/Package"; Value = "SOD-123-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Element Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESD Protection"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "30R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manu 1"; Value = "Vishay General Semiconductor - Diodes Division"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "410mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Reverse Leakage Current"; Value = "100nA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN 1"; Value = "BZT52C15-HE3-08"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Place"; Value = "PL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "410mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "Automotive, AEC-Q101"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Current"; Value = "5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value 1"; Value = "15V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value 2"; Value = "410mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000363oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zener Current"; Value = "23mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zener Voltage"; Value = "15V"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found MODULE_ESP-WROOM-32
+Add Component: Footprint Not Found GCT_USB4056-03-A_REVA
+Add Component: Footprint Not Found CON2 JACK HEAD
+Add Component: Footprint Not Found SOT23-3
+Add Component: Footprint Not Found SOT-23 CBB
+Add Component: Footprint Not Found SW1-SMD
+Add Component: Footprint Not Found SW1-SMD
+Add Component: Footprint Not Found MSK12C02
+Add Component: Footprint Not Found SW
+Add Component: Footprint Not Found SOIC-16
+Add Component: Footprint Not Found MICROSD2
+Add Component: Footprint Not Found SOP65P640X110-16N
+Add Component: Footprint Not Found CP_10_9_ADI
+Add Component: Footprint Not Found XT32-3
+Add Pin To Net: Unknown Pin: Pin CN300-1
+Add Pin To Net: Unknown Pin: Pin CN300-2
+Add Pin To Net: Unknown Pin: Pin D300-1
+Add Pin To Net: Unknown Pin: Pin D300-2
+Add Pin To Net: Unknown Pin: Pin D302-A
+Add Pin To Net: Unknown Pin: Pin D302-K
+Add Pin To Net: Unknown Pin: Pin D303-A
+Add Pin To Net: Unknown Pin: Pin D303-K
+Add Pin To Net: Unknown Pin: Pin ESP200-1
+Add Pin To Net: Unknown Pin: Pin ESP200-2
+Add Pin To Net: Unknown Pin: Pin ESP200-3
+Add Pin To Net: Unknown Pin: Pin ESP200-4
+Add Pin To Net: Unknown Pin: Pin ESP200-5
+Add Pin To Net: Unknown Pin: Pin ESP200-6
+Add Pin To Net: Unknown Pin: Pin ESP200-8
+Add Pin To Net: Unknown Pin: Pin ESP200-10
+Add Pin To Net: Unknown Pin: Pin ESP200-11
+Add Pin To Net: Unknown Pin: Pin ESP200-12
+Add Pin To Net: Unknown Pin: Pin ESP200-14
+Add Pin To Net: Unknown Pin: Pin ESP200-15
+Add Pin To Net: Unknown Pin: Pin ESP200-16
+Add Pin To Net: Unknown Pin: Pin ESP200-23
+Add Pin To Net: Unknown Pin: Pin ESP200-25
+Add Pin To Net: Unknown Pin: Pin ESP200-28
+Add Pin To Net: Unknown Pin: Pin ESP200-30
+Add Pin To Net: Unknown Pin: Pin ESP200-31
+Add Pin To Net: Unknown Pin: Pin ESP200-33
+Add Pin To Net: Unknown Pin: Pin ESP200-34
+Add Pin To Net: Unknown Pin: Pin ESP200-35
+Add Pin To Net: Unknown Pin: Pin ESP200-36
+Add Pin To Net: Unknown Pin: Pin ESP200-37
+Add Pin To Net: Unknown Pin: Pin ESP200-38
+Add Pin To Net: Unknown Pin: Pin ESP200-PAD
+Add Pin To Net: Unknown Pin: Pin J200-A1
+Add Pin To Net: Unknown Pin: Pin J200-A4
+Add Pin To Net: Unknown Pin: Pin J200-A5
+Add Pin To Net: Unknown Pin: Pin J200-A6
+Add Pin To Net: Unknown Pin: Pin J200-A7
+Add Pin To Net: Unknown Pin: Pin J200-A9
+Add Pin To Net: Unknown Pin: Pin J200-A12
+Add Pin To Net: Unknown Pin: Pin J200-B1
+Add Pin To Net: Unknown Pin: Pin J200-B4
+Add Pin To Net: Unknown Pin: Pin J200-B5
+Add Pin To Net: Unknown Pin: Pin J200-B9
+Add Pin To Net: Unknown Pin: Pin J200-B12
+Add Pin To Net: Unknown Pin: Pin J200-S1
+Add Pin To Net: Unknown Pin: Pin J200-S2
+Add Pin To Net: Unknown Pin: Pin J200-S3
+Add Pin To Net: Unknown Pin: Pin J200-S4
+Add Pin To Net: Unknown Pin: Pin MODE200-1
+Add Pin To Net: Unknown Pin: Pin MODE200-2
+Add Pin To Net: Unknown Pin: Pin Q200-1
+Add Pin To Net: Unknown Pin: Pin Q200-2
+Add Pin To Net: Unknown Pin: Pin Q200-3
+Add Pin To Net: Unknown Pin: Pin Q300-1
+Add Pin To Net: Unknown Pin: Pin Q300-2
+Add Pin To Net: Unknown Pin: Pin Q300-3
+Add Pin To Net: Unknown Pin: Pin S200-1
+Add Pin To Net: Unknown Pin: Pin S200-2
+Add Pin To Net: Unknown Pin: Pin S201-1
+Add Pin To Net: Unknown Pin: Pin S201-2
+Add Pin To Net: Unknown Pin: Pin S300-A1
+Add Pin To Net: Unknown Pin: Pin S300-B1
+Add Pin To Net: Unknown Pin: Pin SW300-1
+Add Pin To Net: Unknown Pin: Pin SW300-2
+Add Pin To Net: Unknown Pin: Pin U200-1
+Add Pin To Net: Unknown Pin: Pin U200-2
+Add Pin To Net: Unknown Pin: Pin U200-3
+Add Pin To Net: Unknown Pin: Pin U200-4
+Add Pin To Net: Unknown Pin: Pin U200-5
+Add Pin To Net: Unknown Pin: Pin U200-6
+Add Pin To Net: Unknown Pin: Pin U200-7
+Add Pin To Net: Unknown Pin: Pin U200-8
+Add Pin To Net: Unknown Pin: Pin U200-13
+Add Pin To Net: Unknown Pin: Pin U200-14
+Add Pin To Net: Unknown Pin: Pin U200-16
+Add Pin To Net: Unknown Pin: Pin U201-2
+Add Pin To Net: Unknown Pin: Pin U201-3
+Add Pin To Net: Unknown Pin: Pin U201-4
+Add Pin To Net: Unknown Pin: Pin U201-5
+Add Pin To Net: Unknown Pin: Pin U201-6
+Add Pin To Net: Unknown Pin: Pin U201-7
+Add Pin To Net: Unknown Pin: Pin U201-10
+Add Pin To Net: Unknown Pin: Pin U201-11
+Add Pin To Net: Unknown Pin: Pin U201-12
+Add Pin To Net: Unknown Pin: Pin U201-13
+Add Pin To Net: Unknown Pin: Pin U300-1
+Add Pin To Net: Unknown Pin: Pin U300-2
+Add Pin To Net: Unknown Pin: Pin U300-3
+Add Pin To Net: Unknown Pin: Pin U300-4
+Add Pin To Net: Unknown Pin: Pin U300-5
+Add Pin To Net: Unknown Pin: Pin U300-6
+Add Pin To Net: Unknown Pin: Pin U300-7
+Add Pin To Net: Unknown Pin: Pin U300-8
+Add Pin To Net: Unknown Pin: Pin U401-1
+Add Pin To Net: Unknown Pin: Pin U401-2
+Add Pin To Net: Unknown Pin: Pin U401-3
+Add Pin To Net: Unknown Pin: Pin U401-4
+Add Pin To Net: Unknown Pin: Pin U401-5
+Add Pin To Net: Unknown Pin: Pin U402-1
+Add Pin To Net: Unknown Pin: Pin U402-2
+Add Pin To Net: Unknown Pin: Pin U402-3
+Add Pin To Net: Unknown Pin: Pin U402-4
+Add Pin To Net: Unknown Pin: Pin U402-5
+Add Pin To Net: Unknown Pin: Pin U403-1
+Add Pin To Net: Unknown Pin: Pin U403-2
+Add Pin To Net: Unknown Pin: Pin U403-3
+Add Pin To Net: Unknown Pin: Pin U403-4
+Add Pin To Net: Unknown Pin: Pin U403-5
+Add Pin To Net: Unknown Pin: Pin U404-1
+Add Pin To Net: Unknown Pin: Pin U404-2
+Add Pin To Net: Unknown Pin: Pin U404-3
+Add Pin To Net: Unknown Pin: Pin U404-4
+Add Pin To Net: Unknown Pin: Pin U404-5
+Add Pin To Net: Unknown Pin: Pin U405-1
+Add Pin To Net: Unknown Pin: Pin U405-2
+Add Pin To Net: Unknown Pin: Pin U405-4
+Add Pin To Net: Unknown Pin: Pin U405-6
+Add Pin To Net: Unknown Pin: Pin U406-1
+Add Pin To Net: Unknown Pin: Pin U406-2
+Add Pin To Net: Unknown Pin: Pin U406-3
+Add Pin To Net: Unknown Pin: Pin U406-4
+Add Pin To Net: Unknown Pin: Pin U406-5
+Add Pin To Net: Unknown Pin: Pin U406-6
+Add Pin To Net: Unknown Pin: Pin U406-8
+Add Pin To Net: Unknown Pin: Pin U406-9
+Add Pin To Net: Unknown Pin: Pin U406-10
+Add Pin To Net: Unknown Pin: Pin U406-11
+Add Pin To Net: Unknown Pin: Pin U406-12
+Add Pin To Net: Unknown Pin: Pin U406-13
+Add Pin To Net: Unknown Pin: Pin U406-14
+Add Pin To Net: Unknown Pin: Pin U406-15
+Add Pin To Net: Unknown Pin: Pin U406-16
+Add Pin To Net: Unknown Pin: Pin U408-1
+Add Pin To Net: Unknown Pin: Pin U408-2
+Add Pin To Net: Unknown Pin: Pin U408-3
+Add Pin To Net: Unknown Pin: Pin U408-4
+Add Pin To Net: Unknown Pin: Pin U408-5
+Add Pin To Net: Unknown Pin: Pin U408-6
+Add Pin To Net: Unknown Pin: Pin U408-7
+Add Pin To Net: Unknown Pin: Pin U408-8
+Add Pin To Net: Unknown Pin: Pin U408-10
+Add Pin To Net: Unknown Pin: Pin U408-11
+Add Pin To Net: Unknown Pin: Pin U409-1
+Add Pin To Net: Unknown Pin: Pin U409-2
+Add Pin To Net: Unknown Pin: Pin U409-3
+Add Pin To Net: Unknown Pin: Pin U409-4
+Add Pin To Net: Unknown Pin: Pin U409-5
+Add Pin To Net: Unknown Pin: Pin U410-1
+Add Pin To Net: Unknown Pin: Pin U410-2
+Add Pin To Net: Unknown Pin: Pin U410-3
+Add Pin To Net: Unknown Pin: Pin U410-4
+Add Pin To Net: Unknown Pin: Pin U410-5
+Add Pin To Net: Unknown Pin: Pin XT200-1
+Add Pin To Net: Unknown Pin: Pin XT200-2
+Add Pin To Net: Unknown Pin: Pin XT200-3
+Add Class Member: Failed to add class member : Component CN300 0532610271
+Add Class Member: Failed to add class member : Component D300 SS26
+Added Member To Class: ClassName=POWER SUPPLY Member=Component D302 1N5819
+Added Member To Class: ClassName=POWER SUPPLY Member=Component D303 1N5819
+Add Class Member: Failed to add class member : Component ESP200 Wroom 32D
+Add Class Member: Failed to add class member : Component J200 USB4056-03-A
+Add Class Member: Failed to add class member : Component MODE200 JP2
+Add Class Member: Failed to add class member : Component Q200 MMBT4401
+Add Class Member: Failed to add class member : Component Q300 AO3401A
+Add Class Member: Failed to add class member : Component S200 SW
+Add Class Member: Failed to add class member : Component S201 SW
+Add Class Member: Failed to add class member : Component S300 MSK12C02
+Add Class Member: Failed to add class member : Component SW300 SW
+Add Class Member: Failed to add class member : Component U200 CH340G
+Add Class Member: Failed to add class member : Component U201 SD_CARD
+Add Class Member: Failed to add class member : Component U300 MP1542
+Add Class Member: Failed to add class member : Component U401 AD8605
+Add Class Member: Failed to add class member : Component U402 AD8605
+Add Class Member: Failed to add class member : Component U403 AD8605
+Add Class Member: Failed to add class member : Component U404 AD8605
+Add Class Member: Failed to add class member : Component U405 LT6654AIS6-2.5#TRMPBF
+Add Class Member: Failed to add class member : Component U406 MAX4617CUE+
+Add Class Member: Failed to add class member : Component U408 AD4008BCPZ-RL7
+Add Class Member: Failed to add class member : Component U409 AD8605
+Add Class Member: Failed to add class member : Component U410 AD8605
+Add Class Member: Failed to add class member : Component XT200 Q3812000ZWFAC

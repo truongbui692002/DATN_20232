@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=CTRL_LED_R Pin=TP101-1
+Removed Pin From Net: NetName=CTRL_LED_G Pin=TP102-1
+Removed Pin From Net: NetName=WIFI_LED2 Pin=TP200-1
+Removed Pin From Net: NetName=WIFI_LED1 Pin=TP201-1
+Removed Member From Class: ClassName=MCU Member=TP101
+Removed Member From Class: ClassName=MCU Member=TP102
+Removed Member From Class: ClassName=ESP32 Member=TP200
+Removed Member From Class: ClassName=ESP32 Member=TP201

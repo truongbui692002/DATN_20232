@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=VDD_3V3 Pin=TP104-1
+Removed Pin From Net: NetName=GND Pin=TP105-1
+Removed Pin From Net: NetName=SWDIO Pin=TP106-1
+Removed Pin From Net: NetName=SWDCL Pin=TP107-1
+Removed Pin From Net: NetName=UART1_TXD Pin=TP108-1
+Removed Pin From Net: NetName=UART1_RXD Pin=TP109-1
+Removed Member From Class: ClassName=MCU Member=TP104
+Removed Member From Class: ClassName=MCU Member=TP105
+Removed Member From Class: ClassName=MCU Member=TP106
+Removed Member From Class: ClassName=MCU Member=TP107
+Removed Member From Class: ClassName=MCU Member=TP108
+Removed Member From Class: ClassName=MCU Member=TP109
+Added Component: Designator=TP403(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP404(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP405(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP406(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP407(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP408(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP409(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP410(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR403_2 Pin=TP404-1
+Added Pin To Net: NetName=CE Pin=TP405-1
+Added Pin To Net: NetName=NetR404_2 Pin=TP406-1
+Added Pin To Net: NetName=RE Pin=TP407-1
+Added Pin To Net: NetName=WE Pin=TP408-1
+Added Pin To Net: NetName=NetC414_2 Pin=TP409-1
+Added Pin To Net: NetName=NetR415_1 Pin=TP410-1
+Added Pin To Net: NetName=NetTP403_1 Pin=TP403-1
+Added Pin To Net: NetName=NetTP403_1 Pin=U400-2
+Added Pin To Net: NetName=NetTP403_1 Pin=U402-4
+Added Net: Name=NetTP403_1
+Added Member To Class: ClassName=ANALOG Member=Component TP403 VDAC
+Added Member To Class: ClassName=ANALOG Member=Component TP404 V1
+Added Member To Class: ClassName=ANALOG Member=Component TP405 VCE
+Added Member To Class: ClassName=ANALOG Member=Component TP406 VREFB
+Added Member To Class: ClassName=ANALOG Member=Component TP407 VRE
+Added Member To Class: ClassName=ANALOG Member=Component TP408 VWE
+Added Member To Class: ClassName=ANALOG Member=Component TP409 VIR
+Added Member To Class: ClassName=ANALOG Member=Component TP410 VADC

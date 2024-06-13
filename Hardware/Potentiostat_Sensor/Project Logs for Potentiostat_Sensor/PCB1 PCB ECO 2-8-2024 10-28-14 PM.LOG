@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=VDD_3V3 Pin=R105-2
+Removed Pin From Net: NetName=GND Pin=R106-2
+Removed Pin From Net: NetName=SWDIO Pin=R107-2
+Removed Pin From Net: NetName=SWDCL Pin=R108-2
+Removed Pin From Net: NetName=UART1_TXD Pin=R109-2
+Removed Pin From Net: NetName=UART1_RXD Pin=R110-2
+Removed Member From Class: ClassName=MCU Member=R105
+Removed Member From Class: ClassName=MCU Member=R106
+Removed Member From Class: ClassName=MCU Member=R107
+Removed Member From Class: ClassName=MCU Member=R108
+Removed Member From Class: ClassName=MCU Member=R109
+Removed Member From Class: ClassName=MCU Member=R110
+Change Component Footprint: Designator=L300 Old Footprint=IND25X25CZ New Footprint=1285ASH1R0MP2
+Added Pin To Net: NetName=SWDIO Pin=D103-1
+Added Pin To Net: NetName=UART1_TXD Pin=D104-1
+Added Pin To Net: NetName=UART1_RXD Pin=D105-1
+Added Pin To Net: NetName=SWDCL Pin=D106-1
+Added Pin To Net: NetName=VDD_3V3 Pin=P100-1
+Added Pin To Net: NetName=GND Pin=P100-2
+Added Pin To Net: NetName=SWDIO Pin=P100-3
+Added Pin To Net: NetName=SWDCL Pin=P100-4
+Added Pin To Net: NetName=UART1_TXD Pin=P100-5
+Added Pin To Net: NetName=UART1_RXD Pin=P100-6

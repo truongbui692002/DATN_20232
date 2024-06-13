@@ -1,0 +1,145 @@
+Removed Pin From Net: NetName=TXD_WIFI Pin=U100-21
+Removed Pin From Net: NetName=RXD_WIFI Pin=U100-22
+Added Component: Designator=D100(LED RIGHT)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Component: Designator=D101(LED RIGHT)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Component: Designator=D102(LED RIGHT)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Component: Designator=D200(LED-0603-Red)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Component: Designator=D201(LED-0603-Green)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Component: Designator=R102(RES0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R103(RES0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R104(RES0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R105(RES0603)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 22 OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=R106(RES0603)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 22 OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=R200(RES0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R201(RES0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=SW300(BUTTON_2P_SMD)
+Added Component: Designator=TP100(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP101(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP102(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP103(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP200(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP201(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP300(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP305(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP310(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP311(TPH)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD100_1 Pin=D100-1
+Added Pin To Net: NetName=CTRL_LED_R Pin=D100-2
+Added Pin To Net: NetName=NetD101_1 Pin=D101-1
+Added Pin To Net: NetName=CTRL_LED_G Pin=D101-2
+Added Pin To Net: NetName=NetD102_1 Pin=D102-1
+Added Pin To Net: NetName=CTRL_LED_B Pin=D102-2
+Added Pin To Net: NetName=NetD200_1 Pin=D200-1
+Added Pin To Net: NetName=WIFI_LED2 Pin=D200-2
+Added Pin To Net: NetName=NetD201_1 Pin=D201-1
+Added Pin To Net: NetName=WIFI_LED1 Pin=D201-2
+Added Pin To Net: NetName=NetD100_1 Pin=R102-1
+Added Pin To Net: NetName=VDD_3V3 Pin=R102-2
+Added Pin To Net: NetName=NetD101_1 Pin=R103-1
+Added Pin To Net: NetName=VDD_3V3 Pin=R103-2
+Added Pin To Net: NetName=NetD102_1 Pin=R104-1
+Added Pin To Net: NetName=VDD_3V3 Pin=R104-2
+Added Pin To Net: NetName=TXD_WIFI Pin=R105-1
+Added Pin To Net: NetName=RXD_WIFI Pin=R106-1
+Added Pin To Net: NetName=NetD200_1 Pin=R200-1
+Added Pin To Net: NetName=VDD_3V3 Pin=R200-2
+Added Pin To Net: NetName=NetD201_1 Pin=R201-1
+Added Pin To Net: NetName=VDD_3V3 Pin=R201-2
+Added Pin To Net: NetName=GND Pin=SW300-1
+Added Pin To Net: NetName=NetC306_1 Pin=SW300-2
+Added Pin To Net: NetName=NRST Pin=TP100-1
+Added Pin To Net: NetName=CTRL_LED_R Pin=TP101-1
+Added Pin To Net: NetName=CTRL_LED_G Pin=TP102-1
+Added Pin To Net: NetName=CTRL_LED_B Pin=TP103-1
+Added Pin To Net: NetName=WIFI_LED2 Pin=TP200-1
+Added Pin To Net: NetName=WIFI_LED1 Pin=TP201-1
+Added Pin To Net: NetName=NetQ300_1 Pin=TP300-1
+Added Pin To Net: NetName=USB_VIN Pin=TP305-1
+Added Pin To Net: NetName=NetC306_1 Pin=TP310-1
+Added Pin To Net: NetName=VBAT Pin=TP311-1
+Added Pin To Net: NetName=NetR105_2 Pin=R105-2
+Added Pin To Net: NetName=NetR105_2 Pin=U100-21
+Added Net: Name=NetR105_2
+Added Pin To Net: NetName=NetR106_2 Pin=R106-2
+Added Pin To Net: NetName=NetR106_2 Pin=U100-22
+Added Net: Name=NetR106_2
+Added Member To Class: ClassName=MCU Member=Component D100 RED
+Added Member To Class: ClassName=MCU Member=Component D101 GREEN
+Added Member To Class: ClassName=MCU Member=Component D102 YELLOW
+Added Member To Class: ClassName=ESP32 Member=Component D200 RED
+Added Member To Class: ClassName=ESP32 Member=Component D201 GREEN
+Added Member To Class: ClassName=MCU Member=Component R102 1k
+Added Member To Class: ClassName=MCU Member=Component R103 1k
+Added Member To Class: ClassName=MCU Member=Component R104 1k
+Added Member To Class: ClassName=MCU Member=Component R105 22R
+Added Member To Class: ClassName=MCU Member=Component R106 22R
+Added Member To Class: ClassName=ESP32 Member=Component R200 1k
+Added Member To Class: ClassName=ESP32 Member=Component R201 1k
+Added Member To Class: ClassName=POWER SUPPLY Member=Component SW300 SW
+Added Member To Class: ClassName=MCU Member=Component TP100 SIREN_EN
+Added Member To Class: ClassName=MCU Member=Component TP101 SIREN_EN
+Added Member To Class: ClassName=MCU Member=Component TP102 SIREN_EN
+Added Member To Class: ClassName=MCU Member=Component TP103 SIREN_EN
+Added Member To Class: ClassName=ESP32 Member=Component TP200 SIREN_EN
+Added Member To Class: ClassName=ESP32 Member=Component TP201 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP300 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP305 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP310 SIREN_EN
+Added Member To Class: ClassName=POWER SUPPLY Member=Component TP311 SIREN_EN

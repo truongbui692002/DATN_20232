@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=VDD_3V3 Pin=C101-1
+Removed Pin From Net: NetName=GND Pin=C101-2
+Removed Pin From Net: NetName=GND Pin=C110-1
+Removed Pin From Net: NetName=USB_VIN Pin=C110-2
+Removed Pin From Net: NetName=GND Pin=D107-2
+Removed Pin From Net: NetName=GND Pin=D108-2
+Removed Pin From Net: NetName=RXD_WIFI Pin=ESP200-34
+Removed Pin From Net: NetName=TXD_WIFI Pin=ESP200-35
+Removed Pin From Net: NetName=GND Pin=J100-A1B12
+Removed Pin From Net: NetName=USB_VIN Pin=J100-A4B9
+Removed Pin From Net: NetName=USB_VIN Pin=J100-A9B4
+Removed Pin From Net: NetName=GND Pin=J100-A12B1
+Removed Pin From Net: NetName=GND Pin=J100-S1
+Removed Pin From Net: NetName=GND Pin=J100-S2
+Removed Pin From Net: NetName=GND Pin=J100-S3
+Removed Pin From Net: NetName=GND Pin=J100-S4
+Removed Pin From Net: NetName=GND Pin=R112-1
+Removed Pin From Net: NetName=GND Pin=R113-1
+Removed Pin From Net: NetName=USB_VIN Pin=TP110-1
+Removed Pin From Net: NetName=GND Pin=U101-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=U101-4
+Removed Pin From Net: NetName=VDD_3V3 Pin=U101-16
+Removed Member From Class: ClassName=MCU Member=C101
+Removed Member From Class: ClassName=MCU Member=C110
+Removed Member From Class: ClassName=MCU Member=D107
+Removed Member From Class: ClassName=MCU Member=D108
+Removed Member From Class: ClassName=MCU Member=J100
+Removed Member From Class: ClassName=MCU Member=R112
+Removed Member From Class: ClassName=MCU Member=R113
+Removed Member From Class: ClassName=MCU Member=TP110
+Removed Member From Class: ClassName=MCU Member=TP111
+Removed Member From Class: ClassName=MCU Member=TP112
+Removed Member From Class: ClassName=MCU Member=U101
+Added Component: Designator=R222(RES0603)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 22 OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Component: Designator=R223(RES0603)
+Add component (AddParameter): Name = "Category"; Value = "RESISTORS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = "RES SMD 22 OHM 1% 1/8W 0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=TXD_WIFI Pin=R222-1
+Added Pin To Net: NetName=RXD_WIFI Pin=R223-1
+Added Pin To Net: NetName=TXD_WIFI Pin=U100-21
+Added Pin To Net: NetName=RXD_WIFI Pin=U100-22
+Added Pin To Net: NetName=NetESP200_34 Pin=ESP200-34
+Added Pin To Net: NetName=NetESP200_34 Pin=R223-2
+Added Net: Name=NetESP200_34
+Added Pin To Net: NetName=NetESP200_35 Pin=ESP200-35
+Added Pin To Net: NetName=NetESP200_35 Pin=R222-2
+Added Net: Name=NetESP200_35
+Added Member To Class: ClassName=ESP32 Member=Component R222 22R
+Added Member To Class: ClassName=ESP32 Member=Component R223 22R

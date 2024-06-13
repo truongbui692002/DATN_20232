@@ -1,0 +1,40 @@
+Change Component Parameter Description in C300 Old=Capacitor New=CAP CER 100nF 16V X5R 0603
+Change Component Parameter Comment in C301 Old= New=10uF
+Change Component Parameter Description in C301 Old=10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New=CAP CER 10UF 16V X5R 0805
+Change Component Parameter Comment in C302 Old= New=10uF
+Change Component Parameter Description in C302 Old=10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New=CAP CER 10UF 16V X5R 0805
+Change Component Parameter Description in C303 Old=Capacitor New=CAP CER 100nF 16V X5R 0603
+Change Component Parameter Description in C305 Old= New=CAP CER  22nF 50V C0G/NP0 0603
+Change Component Parameter Description in C306 Old=Capacitor New=CAP CER 100nF 16V X5R 0603
+Change Component Parameter Description in C307 Old=Capacitor New=CAP CER 10UF 16V X5R 0603
+Change Component Parameter Description in C308 Old=10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New=CAP CER 10UF 16V X5R 0603
+Change Component Parameter Comment in C309 Old= New=10uF
+Change Component Parameter Description in C309 Old=10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New=CAP CER 10UF 16V X5R 0603
+Change Component Parameter Comment in C310 Old= New=10uF
+Change Component Parameter Description in C310 Old=10000 pF ±10% 25V Ceramic Capacitor X5R 0201 (0603 Metric) New=CAP CER 10UF 16V X5R 0603
+Change Component Parameter Comment in C311 Old= New=10uF
+Change Component Parameter Description in C311 Old=10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New=CAP CER 10UF 16V X5R 0603
+Change Component Parameter Comment in C312 Old= New=10uF
+Change Component Parameter Description in C312 Old=10000 pF ±10% 25V Ceramic Capacitor X5R 0201 (0603 Metric) New=CAP CER 10UF 16V X5R 0603
+Change Component Parameter Comment in C313 Old= New=10uF
+Change Component Parameter Description in C313 Old=10000 pF ±10% 25V Ceramic Capacitor X5R 0201 (0603 Metric) New=CAP CER 10UF 16V X5R 0603
+Change Component Parameter Description in C314 Old=Capacitor New=CAP CER 100nF 16V X5R 0603
+Change Component Parameter Comment in C317 Old= New=10uF
+Change Component Parameter Description in C317 Old=10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New=CAP CER 10UF 16V X5R 0805
+Change Component Parameter Comment in C318 Old= New=10uF
+Change Component Parameter Description in C318 Old=10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric) New=CAP CER 10UF 16V X5R 0805
+Change Component Parameter Comment in D302 Old= New=SS36FA
+Change Component Parameter Comment in D303 Old= New=SS36FA
+Change Component Parameter Description in R300 Old=100 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New=RES SMD 61.9k OHM 1% 1/8W 0603  
+Change Component Parameter Description in R302 Old=100 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New=RES SMD 100K OHM 1% 1/8W 0603
+Change Component Parameter Description in R305 Old=100 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New=RES SMD 133K OHM 1% 1/8W 0603
+Change Component Parameter Description in R306 Old=100 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Parameter Description in R307 Old=100 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Parameter Comment in R309 Old= New=10kR
+Change Component Parameter Description in R309 Old=RES SMD 10K OHM 1% 1/8W 0805 New=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Parameter Description in R310 Old=Resistor SMD New=RES SMD 10R OHM 1% 1/8W 0603  
+Change Component Parameter Description in R311 Old=11.3kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New=RES SMD 32.4k OHM 1% 1/8W 0603  
+Change Component Parameter Comment in R313 Old= New=10k
+Change Component Parameter Description in R314 Old=10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Moisture Resistant Thick Film New=RES SMD 10K OHM 1% 1/8W 0603
+Change Component Parameter Comment in R315 Old= New=100kR
+Change Component Parameter Description in R315 Old=RES SMD 10K OHM 1% 1/8W 0805 New=RES SMD 100K OHM 1% 1/8W 0603

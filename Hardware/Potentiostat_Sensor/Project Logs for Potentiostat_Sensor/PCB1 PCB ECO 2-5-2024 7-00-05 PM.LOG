@@ -1,0 +1,19 @@
+Add Component: Footprint Not Found MOLX-532610271_V
+Add Component: Footprint Not Found MSK12C02
+Added Component: Designator=SW300(BUTTON_2P_SMD)
+Add Pin To Net: Unknown Pin: Pin CN300-1
+Add Pin To Net: Unknown Pin: Pin CN300-2
+Add Pin To Net: Unknown Pin: Pin D300-1
+Add Pin To Net: Unknown Pin: Pin D300-2
+Add Pin To Net: Unknown Pin: Pin D302-A
+Add Pin To Net: Unknown Pin: Pin D302-K
+Add Pin To Net: Unknown Pin: Pin D303-A
+Add Pin To Net: Unknown Pin: Pin D303-K
+Add Pin To Net: Unknown Pin: Pin S300-A1
+Add Pin To Net: Unknown Pin: Pin S300-B1
+Added Pin To Net: NetName=GND Pin=SW300-1
+Added Pin To Net: NetName=NetC306_1 Pin=SW300-2
+Add Class Member: Failed to add class member : Component CN300 0532610271
+Add Class Member: Failed to add class member : Component D300 SS26
+Add Class Member: Failed to add class member : Component S300 MSK12C02
+Added Member To Class: ClassName=POWER SUPPLY Member=Component SW300 SW

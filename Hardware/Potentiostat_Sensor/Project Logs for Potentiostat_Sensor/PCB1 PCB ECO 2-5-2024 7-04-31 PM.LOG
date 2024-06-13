@@ -1,0 +1,14 @@
+Added Component: Designator=SW301(XH2.54)
+Add component (AddParameter): Name = "Category"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Connector 2"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin D302-A
+Add Pin To Net: Unknown Pin: Pin D302-K
+Add Pin To Net: Unknown Pin: Pin D303-A
+Add Pin To Net: Unknown Pin: Pin D303-K
+Added Pin To Net: NetName=NetD302_K Pin=SW301-1
+Added Pin To Net: NetName=VIN_DC Pin=SW301-2
+Added Member To Class: ClassName=POWER SUPPLY Member=Component SW301 SWITCH ON/OFF

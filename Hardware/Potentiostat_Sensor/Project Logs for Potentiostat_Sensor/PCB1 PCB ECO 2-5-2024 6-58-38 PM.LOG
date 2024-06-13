@@ -1,0 +1,41 @@
+Add Component: Footprint Not Found MOLX-532610271_V
+Add Component: Footprint Not Found MSK12C02
+Add Component: Footprint Not Found SW
+Added Component: Designator=U300(TSOP65P490X95-8N)
+Add Pin To Net: Unknown Pin: Pin CN300-1
+Add Pin To Net: Unknown Pin: Pin CN300-2
+Add Pin To Net: Unknown Pin: Pin D300-1
+Add Pin To Net: Unknown Pin: Pin D300-2
+Add Pin To Net: Unknown Pin: Pin D302-A
+Add Pin To Net: Unknown Pin: Pin D302-K
+Add Pin To Net: Unknown Pin: Pin D303-A
+Add Pin To Net: Unknown Pin: Pin D303-K
+Add Pin To Net: Unknown Pin: Pin S300-A1
+Add Pin To Net: Unknown Pin: Pin S300-B1
+Add Pin To Net: Unknown Pin: Pin SW300-1
+Add Pin To Net: Unknown Pin: Pin SW300-2
+Added Pin To Net: NetName=NetC304_2 Pin=U300-1
+Added Pin To Net: NetName=NetR300_1 Pin=U300-2
+Added Pin To Net: NetName=NetR302_1 Pin=U300-3
+Added Pin To Net: NetName=AGND Pin=U300-4
+Added Pin To Net: NetName=NetD300_2 Pin=U300-5
+Added Pin To Net: NetName=NetC301_2 Pin=U300-6
+Added Pin To Net: NetName=NetC301_2 Pin=U300-7
+Added Pin To Net: NetName=NetC305_2 Pin=U300-8
+Add Pin To Net: Unknown Pin: Pin U409-1
+Add Pin To Net: Unknown Pin: Pin U409-2
+Add Pin To Net: Unknown Pin: Pin U409-3
+Add Pin To Net: Unknown Pin: Pin U409-4
+Add Pin To Net: Unknown Pin: Pin U409-5
+Add Pin To Net: Unknown Pin: Pin U410-1
+Add Pin To Net: Unknown Pin: Pin U410-2
+Add Pin To Net: Unknown Pin: Pin U410-3
+Add Pin To Net: Unknown Pin: Pin U410-4
+Add Pin To Net: Unknown Pin: Pin U410-5
+Add Class Member: Failed to add class member : Component CN300 0532610271
+Add Class Member: Failed to add class member : Component D300 SS26
+Add Class Member: Failed to add class member : Component S300 MSK12C02
+Add Class Member: Failed to add class member : Component SW300 SW
+Added Member To Class: ClassName=POWER SUPPLY Member=Component U300 MP1542
+Add Class Member: Failed to add class member : Component U409 AD8605
+Add Class Member: Failed to add class member : Component U410 AD8605

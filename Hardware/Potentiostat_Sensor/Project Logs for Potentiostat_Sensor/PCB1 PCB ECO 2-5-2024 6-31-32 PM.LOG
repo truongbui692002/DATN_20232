@@ -1,0 +1,150 @@
+Add Component: Footprint Not Found MOLX-532610271_V
+Add Component: Footprint Not Found GCT_USB4056-03-A_REVA
+Add Component: Footprint Not Found MSK12C02
+Add Component: Footprint Not Found SW
+Added Component: Designator=U201(MICROSD2)
+Add component (AddParameter): Name = "Category"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part number"; Value = "SD_CARD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "User_Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U406(TSOP65P640X110-16N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "MAX4617CUE+T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U408(PSON50P300X80_HS-11N)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2024 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "AD4008BCPZ-RL7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Analog Devices Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found XT32-3
+Add Pin To Net: Unknown Pin: Pin CN300-1
+Add Pin To Net: Unknown Pin: Pin CN300-2
+Add Pin To Net: Unknown Pin: Pin D300-1
+Add Pin To Net: Unknown Pin: Pin D300-2
+Add Pin To Net: Unknown Pin: Pin D302-A
+Add Pin To Net: Unknown Pin: Pin D302-K
+Add Pin To Net: Unknown Pin: Pin D303-A
+Add Pin To Net: Unknown Pin: Pin D303-K
+Add Pin To Net: Unknown Pin: Pin J200-A1
+Add Pin To Net: Unknown Pin: Pin J200-A4
+Add Pin To Net: Unknown Pin: Pin J200-A5
+Add Pin To Net: Unknown Pin: Pin J200-A6
+Add Pin To Net: Unknown Pin: Pin J200-A7
+Add Pin To Net: Unknown Pin: Pin J200-A9
+Add Pin To Net: Unknown Pin: Pin J200-A12
+Add Pin To Net: Unknown Pin: Pin J200-B1
+Add Pin To Net: Unknown Pin: Pin J200-B4
+Add Pin To Net: Unknown Pin: Pin J200-B5
+Add Pin To Net: Unknown Pin: Pin J200-B9
+Add Pin To Net: Unknown Pin: Pin J200-B12
+Add Pin To Net: Unknown Pin: Pin J200-S1
+Add Pin To Net: Unknown Pin: Pin J200-S2
+Add Pin To Net: Unknown Pin: Pin J200-S3
+Add Pin To Net: Unknown Pin: Pin J200-S4
+Add Pin To Net: Unknown Pin: Pin S300-A1
+Add Pin To Net: Unknown Pin: Pin S300-B1
+Add Pin To Net: Unknown Pin: Pin SW300-1
+Add Pin To Net: Unknown Pin: Pin SW300-2
+Added Pin To Net: NetName=SS_SD Pin=U201-2
+Added Pin To Net: NetName=MOSI Pin=U201-3
+Added Pin To Net: NetName=VDD_3V3 Pin=U201-4
+Added Pin To Net: NetName=SCK Pin=U201-5
+Added Pin To Net: NetName=GND Pin=U201-6
+Added Pin To Net: NetName=MISO Pin=U201-7
+Added Pin To Net: NetName=GND Pin=U201-10
+Added Pin To Net: NetName=GND Pin=U201-11
+Added Pin To Net: NetName=GND Pin=U201-12
+Added Pin To Net: NetName=GND Pin=U201-13
+Add Pin To Net: Unknown Pin: Pin U300-1
+Add Pin To Net: Unknown Pin: Pin U300-2
+Add Pin To Net: Unknown Pin: Pin U300-3
+Add Pin To Net: Unknown Pin: Pin U300-4
+Add Pin To Net: Unknown Pin: Pin U300-5
+Add Pin To Net: Unknown Pin: Pin U300-6
+Add Pin To Net: Unknown Pin: Pin U300-7
+Add Pin To Net: Unknown Pin: Pin U300-8
+Add Pin To Net: Unknown Pin: Pin U401-1
+Add Pin To Net: Unknown Pin: Pin U401-2
+Add Pin To Net: Unknown Pin: Pin U401-3
+Add Pin To Net: Unknown Pin: Pin U401-4
+Add Pin To Net: Unknown Pin: Pin U401-5
+Add Pin To Net: Unknown Pin: Pin U402-1
+Add Pin To Net: Unknown Pin: Pin U402-2
+Add Pin To Net: Unknown Pin: Pin U402-3
+Add Pin To Net: Unknown Pin: Pin U402-4
+Add Pin To Net: Unknown Pin: Pin U402-5
+Add Pin To Net: Unknown Pin: Pin U403-1
+Add Pin To Net: Unknown Pin: Pin U403-2
+Add Pin To Net: Unknown Pin: Pin U403-3
+Add Pin To Net: Unknown Pin: Pin U403-4
+Add Pin To Net: Unknown Pin: Pin U403-5
+Add Pin To Net: Unknown Pin: Pin U404-1
+Add Pin To Net: Unknown Pin: Pin U404-2
+Add Pin To Net: Unknown Pin: Pin U404-3
+Add Pin To Net: Unknown Pin: Pin U404-4
+Add Pin To Net: Unknown Pin: Pin U404-5
+Add Pin To Net: Unknown Pin: Pin U405-1
+Add Pin To Net: Unknown Pin: Pin U405-2
+Add Pin To Net: Unknown Pin: Pin U405-4
+Add Pin To Net: Unknown Pin: Pin U405-6
+Added Pin To Net: NetName=NetR409_1 Pin=U406-1
+Added Pin To Net: NetName=NetR411_1 Pin=U406-2
+Added Pin To Net: NetName=NetC414_1 Pin=U406-3
+Added Pin To Net: NetName=NetR412_1 Pin=U406-4
+Added Pin To Net: NetName=NetR410_1 Pin=U406-5
+Added Pin To Net: NetName=GND Pin=U406-6
+Added Pin To Net: NetName=GND Pin=U406-8
+Added Pin To Net: NetName=SW_C Pin=U406-9
+Added Pin To Net: NetName=SW_B Pin=U406-10
+Added Pin To Net: NetName=SW_A Pin=U406-11
+Added Pin To Net: NetName=NetR408_1 Pin=U406-12
+Added Pin To Net: NetName=NetR405_1 Pin=U406-13
+Added Pin To Net: NetName=NetR406_1 Pin=U406-14
+Added Pin To Net: NetName=NetR407_1 Pin=U406-15
+Added Pin To Net: NetName=VDD_3V3 Pin=U406-16
+Added Pin To Net: NetName=5VDC Pin=U408-1
+Added Pin To Net: NetName=1.8VDC Pin=U408-2
+Added Pin To Net: NetName=NetC416_2 Pin=U408-3
+Added Pin To Net: NetName=AGND Pin=U408-4
+Added Pin To Net: NetName=GND Pin=U408-5
+Added Pin To Net: NetName=SPI_CS2 Pin=U408-6
+Added Pin To Net: NetName=MISO Pin=U408-7
+Added Pin To Net: NetName=SCK Pin=U408-8
+Added Pin To Net: NetName=VDD_3V3 Pin=U408-10
+Added Pin To Net: NetName=AGND Pin=U408-11
+Add Pin To Net: Unknown Pin: Pin U409-1
+Add Pin To Net: Unknown Pin: Pin U409-2
+Add Pin To Net: Unknown Pin: Pin U409-3
+Add Pin To Net: Unknown Pin: Pin U409-4
+Add Pin To Net: Unknown Pin: Pin U409-5
+Add Pin To Net: Unknown Pin: Pin U410-1
+Add Pin To Net: Unknown Pin: Pin U410-2
+Add Pin To Net: Unknown Pin: Pin U410-3
+Add Pin To Net: Unknown Pin: Pin U410-4
+Add Pin To Net: Unknown Pin: Pin U410-5
+Add Pin To Net: Unknown Pin: Pin XT200-1
+Add Pin To Net: Unknown Pin: Pin XT200-2
+Add Pin To Net: Unknown Pin: Pin XT200-3
+Add Class Member: Failed to add class member : Component CN300 0532610271
+Add Class Member: Failed to add class member : Component D300 SS26
+Add Class Member: Failed to add class member : Component J200 USB4056-03-A
+Add Class Member: Failed to add class member : Component S300 MSK12C02
+Add Class Member: Failed to add class member : Component SW300 SW
+Added Member To Class: ClassName=ESP32 Member=Component U201 SD_CARD
+Add Class Member: Failed to add class member : Component U300 MP1542
+Add Class Member: Failed to add class member : Component U401 AD8605
+Add Class Member: Failed to add class member : Component U402 AD8605
+Add Class Member: Failed to add class member : Component U403 AD8605
+Add Class Member: Failed to add class member : Component U404 AD8605
+Add Class Member: Failed to add class member : Component U405 LT6654AIS6-2.5#TRMPBF
+Added Member To Class: ClassName=ANALOG Member=Component U406 MAX4617CUE+T
+Added Member To Class: ClassName=ANALOG Member=Component U408 AD4008BCPZ-RL7
+Add Class Member: Failed to add class member : Component U409 AD8605
+Add Class Member: Failed to add class member : Component U410 AD8605
+Add Class Member: Failed to add class member : Component XT200 Q3812000ZWFAC

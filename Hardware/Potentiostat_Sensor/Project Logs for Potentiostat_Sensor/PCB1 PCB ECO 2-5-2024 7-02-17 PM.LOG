@@ -1,0 +1,20 @@
+Added Component: Designator=D300(sma)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "UCLAMP0571P.TNT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/uclamp0571p.tnt/semtech?region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.com/datasheet/2/761/uClampxx71P-1360280.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SEMTECH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "UCLAMP0571P.TNT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "947-UCLAMP0571P.TNT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Semtech/UCLAMP0571PTNT?qs=rBWM4%252BvDhIdABRCK070WwQ%3D%3D"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found MSK12C02
+Added Pin To Net: NetName=9VDC Pin=D300-1
+Added Pin To Net: NetName=NetD300_2 Pin=D300-2
+Add Pin To Net: Unknown Pin: Pin D302-A
+Add Pin To Net: Unknown Pin: Pin D302-K
+Add Pin To Net: Unknown Pin: Pin D303-A
+Add Pin To Net: Unknown Pin: Pin D303-K
+Add Pin To Net: Unknown Pin: Pin S300-A1
+Add Pin To Net: Unknown Pin: Pin S300-B1
+Added Member To Class: ClassName=POWER SUPPLY Member=Component D300 SS26
+Add Class Member: Failed to add class member : Component S300 MSK12C02

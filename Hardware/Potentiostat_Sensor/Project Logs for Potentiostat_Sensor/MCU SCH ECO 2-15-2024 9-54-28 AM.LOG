@@ -1,0 +1,314 @@
+Removed Parameter Case/Package:0201 from Part D103
+Removed Parameter Case/Package:0201 from Part D104
+Removed Parameter Case/Package:0201 from Part D105
+Removed Parameter Case/Package:0201 from Part D106
+Removed Parameter Case/Package:0201 from Part R111
+Removed Parameter Case/Package:0603 from Part C102
+Removed Parameter Case/Package:0603 from Part C109
+Removed Parameter Case Code (Imperial):0201 from Part R111
+Removed Parameter Case Code (Metric):0603 from Part R111
+Removed Parameter Category:Chip SMD Resistors from Part R111
+Removed Parameter Category:RESISTORS from Part R101
+Removed Parameter Category:RESISTORS from Part R105
+Removed Parameter Category:RESISTORS from Part R106
+Removed Parameter Category:RESISTORS from Part R107
+Removed Parameter Category:RESISTORS from Part R108
+Removed Parameter Category:RESISTORS from Part R109
+Removed Parameter Category:RESISTORS from Part R114
+Removed Parameter Category:RESISTORS from Part R115
+Removed Parameter Category:RESISTORS from Part R116
+Removed Parameter Category:RESISTORS from Part R117
+Removed Parameter Category:RESISTORS from Part R118
+Removed Parameter Category:RESISTORS from Part R119
+Removed Parameter Category:RESISTORS from Part R120
+Removed Parameter Category:RESISTORS from Part R121
+Removed Parameter Category:RESISTORS from Part R122
+Removed Parameter Category:TRAN NPN from Part Q100
+Removed Parameter Clamping Voltage:3V from Part D103
+Removed Parameter Clamping Voltage:3V from Part D104
+Removed Parameter Clamping Voltage:3V from Part D105
+Removed Parameter Clamping Voltage:3V from Part D106
+Removed Parameter Class:Passive from Part R100
+Removed Parameter Class:Passive from Part R102
+Removed Parameter Class:Passive from Part R103
+Removed Parameter ComponentLink1 Description:Manufacturer from Part P100
+Removed Parameter ComponentLink1URL:http://www.we-online.com from Part P100
+Removed Parameter ComponentLink2 Description:Datasheet from Part P100
+Removed Parameter ComponentLink2URL:http://katalog.we-online.de/em/datasheet/6130xx143121.pdf from Part P100
+Removed Parameter Composition:Zener from Part D103
+Removed Parameter Composition:Zener from Part D104
+Removed Parameter Composition:Zener from Part D105
+Removed Parameter Composition:Zener from Part D106
+Removed Parameter Created by:Karrer Zheng from Part P100
+Removed Parameter Created Date:29 March 2013 from Part P100
+Removed Parameter Direction:Bidirectional from Part D103
+Removed Parameter Direction:Bidirectional from Part D104
+Removed Parameter Direction:Bidirectional from Part D105
+Removed Parameter Direction:Bidirectional from Part D106
+Removed Parameter Element Configuration:Single from Part D103
+Removed Parameter Element Configuration:Single from Part D104
+Removed Parameter Element Configuration:Single from Part D105
+Removed Parameter Element Configuration:Single from Part D106
+Removed Parameter ESD Protection:Yes from Part D103
+Removed Parameter ESD Protection:Yes from Part D104
+Removed Parameter ESD Protection:Yes from Part D105
+Removed Parameter ESD Protection:Yes from Part D106
+Removed Parameter Height:0.01inch from Part R111
+Removed Parameter Height:0.33mm from Part D103
+Removed Parameter Height:0.33mm from Part D104
+Removed Parameter Height:0.33mm from Part D105
+Removed Parameter Height:0.33mm from Part D106
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C100
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C103
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C104
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C105
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C106
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C107
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C108
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C100
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C103
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C104
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C105
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C106
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C107
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C108
+Removed Parameter Lead Free:Lead Free from Part D103
+Removed Parameter Lead Free:Lead Free from Part D104
+Removed Parameter Lead Free:Lead Free from Part D105
+Removed Parameter Lead Free:Lead Free from Part D106
+Removed Parameter Leakage Current:70nA from Part D103
+Removed Parameter Leakage Current:70nA from Part D104
+Removed Parameter Leakage Current:70nA from Part D105
+Removed Parameter Leakage Current:70nA from Part D106
+Removed Parameter Length:0.6mm from Part D103
+Removed Parameter Length:0.6mm from Part D104
+Removed Parameter Length:0.6mm from Part D105
+Removed Parameter Length:0.6mm from Part D106
+Removed Parameter Length:0.024inch from Part R111
+Removed Parameter Max Breakdown Voltage:67.8V from Part D103
+Removed Parameter Max Breakdown Voltage:67.8V from Part D104
+Removed Parameter Max Breakdown Voltage:67.8V from Part D105
+Removed Parameter Max Breakdown Voltage:67.8V from Part D106
+Removed Parameter Max Operating Temperature:150°C from Part D103
+Removed Parameter Max Operating Temperature:150°C from Part D104
+Removed Parameter Max Operating Temperature:150°C from Part D105
+Removed Parameter Max Operating Temperature:150°C from Part D106
+Removed Parameter Max Operating Temperature:155°C from Part R111
+Removed Parameter Max Reverse Leakage Current:70nA from Part D103
+Removed Parameter Max Reverse Leakage Current:70nA from Part D104
+Removed Parameter Max Reverse Leakage Current:70nA from Part D105
+Removed Parameter Max Reverse Leakage Current:70nA from Part D106
+Removed Parameter Max Surge Current:1.3A from Part D103
+Removed Parameter Max Surge Current:1.3A from Part D104
+Removed Parameter Max Surge Current:1.3A from Part D105
+Removed Parameter Max Surge Current:1.3A from Part D106
+Removed Parameter Min Breakdown Voltage:6V from Part D103
+Removed Parameter Min Breakdown Voltage:6V from Part D104
+Removed Parameter Min Breakdown Voltage:6V from Part D105
+Removed Parameter Min Breakdown Voltage:6V from Part D106
+Removed Parameter Min Operating Temperature:-40°C from Part D103
+Removed Parameter Min Operating Temperature:-40°C from Part D104
+Removed Parameter Min Operating Temperature:-40°C from Part D105
+Removed Parameter Min Operating Temperature:-40°C from Part D106
+Removed Parameter Min Operating Temperature:-55°C from Part R111
+Removed Parameter Mount:Surface Mount from Part D103
+Removed Parameter Mount:Surface Mount from Part D104
+Removed Parameter Mount:Surface Mount from Part D105
+Removed Parameter Mount:Surface Mount from Part D106
+Removed Parameter NoPins:02 from Part P100
+Removed Parameter Number of Bidirectional Channels:1 from Part D103
+Removed Parameter Number of Bidirectional Channels:1 from Part D104
+Removed Parameter Number of Bidirectional Channels:1 from Part D105
+Removed Parameter Number of Bidirectional Channels:1 from Part D106
+Removed Parameter Number of Elements:1 from Part D103
+Removed Parameter Number of Elements:1 from Part D104
+Removed Parameter Number of Elements:1 from Part D105
+Removed Parameter Number of Elements:1 from Part D106
+Removed Parameter Number of Pins:2 from Part D103
+Removed Parameter Number of Pins:2 from Part D104
+Removed Parameter Number of Pins:2 from Part D105
+Removed Parameter Number of Pins:2 from Part D106
+Removed Parameter Operating Supply Voltage:58V from Part D103
+Removed Parameter Operating Supply Voltage:58V from Part D104
+Removed Parameter Operating Supply Voltage:58V from Part D105
+Removed Parameter Operating Supply Voltage:58V from Part D106
+Removed Parameter Package:0805 from Part R101
+Removed Parameter Package:0805 from Part R105
+Removed Parameter Package:0805 from Part R106
+Removed Parameter Package:0805 from Part R107
+Removed Parameter Package:0805 from Part R108
+Removed Parameter Package:0805 from Part R109
+Removed Parameter Package:0805 from Part R114
+Removed Parameter Package:0805 from Part R115
+Removed Parameter Package:0805 from Part R116
+Removed Parameter Package:0805 from Part R117
+Removed Parameter Package:0805 from Part R118
+Removed Parameter Package:0805 from Part R119
+Removed Parameter Package:0805 from Part R120
+Removed Parameter Package:0805 from Part R121
+Removed Parameter Package:0805 from Part R122
+Removed Parameter Package:SOT-23 from Part Q100
+Removed Parameter Package Quantity:1 from Part D103
+Removed Parameter Package Quantity:1 from Part D104
+Removed Parameter Package Quantity:1 from Part D105
+Removed Parameter Package Quantity:1 from Part D106
+Removed Parameter PackageReference:RAD-0.3 from Part C100
+Removed Parameter PackageReference:RAD-0.3 from Part C103
+Removed Parameter PackageReference:RAD-0.3 from Part C104
+Removed Parameter PackageReference:RAD-0.3 from Part C105
+Removed Parameter PackageReference:RAD-0.3 from Part C106
+Removed Parameter PackageReference:RAD-0.3 from Part C107
+Removed Parameter PackageReference:RAD-0.3 from Part C108
+Removed Parameter Packaging:Tape and Reel from Part D103
+Removed Parameter Packaging:Tape and Reel from Part D104
+Removed Parameter Packaging:Tape and Reel from Part D105
+Removed Parameter Packaging:Tape and Reel from Part D106
+Removed Parameter Packaging:Tape and Reel from Part R111
+Removed Parameter partNo:613002143121 from Part P100
+Removed Parameter PartNumber:0603N180J500CT from Part C102
+Removed Parameter PartNumber:0603N180J500CT from Part C109
+Removed Parameter Part number:MMBT4401 from Part Q100
+Removed Parameter Part number:RC0805FR-071KL from Part R101
+Removed Parameter Part number:RC0805FR-0722RL from Part R105
+Removed Parameter Part number:RC0805FR-0722RL from Part R106
+Removed Parameter Part number:RC0805FR-0722RL from Part R107
+Removed Parameter Part number:RC0805FR-0722RL from Part R108
+Removed Parameter Part number:RC0805FR-0722RL from Part R109
+Removed Parameter Part number:RC0805FR-0722RL from Part R114
+Removed Parameter Part number:RC0805FR-0722RL from Part R115
+Removed Parameter Part number:RC0805FR-0722RL from Part R116
+Removed Parameter Part number:RC0805FR-0722RL from Part R117
+Removed Parameter Part number:RC0805FR-0722RL from Part R118
+Removed Parameter Part number:RC0805FR-0722RL from Part R119
+Removed Parameter Part number:RC0805FR-0722RL from Part R120
+Removed Parameter Part number:RC0805FR-0722RL from Part R121
+Removed Parameter Part number:RC0805FR-0722RL from Part R122
+Removed Parameter PartNumber:STM32F103C8T6 from Part U100
+Removed Parameter PartNumber:WTL5G60391VH from Part X100
+Removed Parameter Peak Pulse Current:1A from Part D103
+Removed Parameter Peak Pulse Current:1A from Part D104
+Removed Parameter Peak Pulse Current:1A from Part D105
+Removed Parameter Peak Pulse Current:1A from Part D106
+Removed Parameter Peak Pulse Power:400W from Part D103
+Removed Parameter Peak Pulse Power:400W from Part D104
+Removed Parameter Peak Pulse Power:400W from Part D105
+Removed Parameter Peak Pulse Power:400W from Part D106
+Removed Parameter Polarity:Bidirectional from Part D103
+Removed Parameter Polarity:Bidirectional from Part D104
+Removed Parameter Polarity:Bidirectional from Part D105
+Removed Parameter Polarity:Bidirectional from Part D106
+Removed Parameter Power Dissipation:400W from Part D103
+Removed Parameter Power Dissipation:400W from Part D104
+Removed Parameter Power Dissipation:400W from Part D105
+Removed Parameter Power Dissipation:400W from Part D106
+Removed Parameter Power Line Protection:No from Part D103
+Removed Parameter Power Line Protection:No from Part D104
+Removed Parameter Power Line Protection:No from Part D105
+Removed Parameter Power Line Protection:No from Part D106
+Removed Parameter Published:8-Jun-2000 from Part C100
+Removed Parameter Published:8-Jun-2000 from Part C103
+Removed Parameter Published:8-Jun-2000 from Part C104
+Removed Parameter Published:8-Jun-2000 from Part C105
+Removed Parameter Published:8-Jun-2000 from Part C106
+Removed Parameter Published:8-Jun-2000 from Part C107
+Removed Parameter Published:8-Jun-2000 from Part C108
+Removed Parameter Published:08/06/2000 from Part R100
+Removed Parameter Published:08/06/2000 from Part R102
+Removed Parameter Published:08/06/2000 from Part R103
+Removed Parameter Publisher:Altium Hobart Technology Centre from Part R100
+Removed Parameter Publisher:Altium Hobart Technology Centre from Part R102
+Removed Parameter Publisher:Altium Hobart Technology Centre from Part R103
+Removed Parameter Publisher:Altium Limited from Part C100
+Removed Parameter Publisher:Altium Limited from Part C103
+Removed Parameter Publisher:Altium Limited from Part C104
+Removed Parameter Publisher:Altium Limited from Part C105
+Removed Parameter Publisher:Altium Limited from Part C106
+Removed Parameter Publisher:Altium Limited from Part C107
+Removed Parameter Publisher:Altium Limited from Part C108
+Removed Parameter Radiation Hardening:No from Part D103
+Removed Parameter Radiation Hardening:No from Part D104
+Removed Parameter Radiation Hardening:No from Part D105
+Removed Parameter Radiation Hardening:No from Part D106
+Removed Parameter REACH SVHC:No SVHC from Part D103
+Removed Parameter REACH SVHC:No SVHC from Part D104
+Removed Parameter REACH SVHC:No SVHC from Part D105
+Removed Parameter REACH SVHC:No SVHC from Part D106
+Removed Parameter Resistance:100kR from Part R111
+Removed Parameter Resistor Type:Thick Film from Part R111
+Removed Parameter Reverse Breakdown Voltage:64.4V from Part D103
+Removed Parameter Reverse Breakdown Voltage:64.4V from Part D104
+Removed Parameter Reverse Breakdown Voltage:64.4V from Part D105
+Removed Parameter Reverse Breakdown Voltage:64.4V from Part D106
+Removed Parameter Reverse Standoff Voltage:3V from Part D103
+Removed Parameter Reverse Standoff Voltage:3V from Part D104
+Removed Parameter Reverse Standoff Voltage:3V from Part D105
+Removed Parameter Reverse Standoff Voltage:3V from Part D106
+Removed Parameter RoHS:Y from Part R111
+Removed Parameter Supplier Part Number 1:P10.0KABCT-ND from Part R111
+Removed Parameter Supplier Part Number 2:311-10.0KMCT-ND from Part R111
+Removed Parameter Termination:SMD/SMT from Part D103
+Removed Parameter Termination:SMD/SMT from Part D104
+Removed Parameter Termination:SMD/SMT from Part D105
+Removed Parameter Termination:SMD/SMT from Part D106
+Removed Parameter Test Current:1mA from Part D103
+Removed Parameter Test Current:1mA from Part D104
+Removed Parameter Test Current:1mA from Part D105
+Removed Parameter Test Current:1mA from Part D106
+Removed Parameter User_Description:0.6A, 40V, NPN from Part Q100
+Removed Parameter User_Description:RES SMD 1K OHM 1% 1/8W 0805 from Part R101
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R105
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R106
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R107
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R108
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R109
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R114
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R115
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R116
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R117
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R118
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R119
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R120
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R121
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R122
+Removed Parameter Value:1k from Part R101
+Removed Parameter Value:8Mhz from Part X100
+Removed Parameter Value:18pF from Part C102
+Removed Parameter Value:18pF from Part C109
+Removed Parameter Value:22R from Part R105
+Removed Parameter Value:22R from Part R106
+Removed Parameter Value:22R from Part R107
+Removed Parameter Value:22R from Part R108
+Removed Parameter Value:22R from Part R109
+Removed Parameter Value:22R from Part R114
+Removed Parameter Value:22R from Part R115
+Removed Parameter Value:22R from Part R116
+Removed Parameter Value:22R from Part R117
+Removed Parameter Value:22R from Part R118
+Removed Parameter Value:22R from Part R119
+Removed Parameter Value:22R from Part R120
+Removed Parameter Value:22R from Part R121
+Removed Parameter Value:22R from Part R122
+Removed Parameter Value:33p from Part C100
+Removed Parameter Value:33p from Part C103
+Removed Parameter Value:33p from Part C104
+Removed Parameter Value:33p from Part C105
+Removed Parameter Value:33p from Part C106
+Removed Parameter Value:33p from Part C107
+Removed Parameter Value:33p from Part C108
+Removed Parameter Value: from Part Q100
+Removed Parameter Value: from Part TP100
+Removed Parameter Value:LED 3 ly Single Colour from Part D100
+Removed Parameter Value:LED 3 ly Single Colour from Part D101
+Removed Parameter Value:STM32F103C8T6 from Part U100
+Removed Parameter Voltage Rating (DC):58V from Part D103
+Removed Parameter Voltage Rating (DC):58V from Part D104
+Removed Parameter Voltage Rating (DC):58V from Part D105
+Removed Parameter Voltage Rating (DC):58V from Part D106
+Removed Parameter Weight:0.01lb from Part D103
+Removed Parameter Weight:0.01lb from Part D104
+Removed Parameter Weight:0.01lb from Part D105
+Removed Parameter Weight:0.01lb from Part D106
+Removed Parameter Width:0.35mm from Part D103
+Removed Parameter Width:0.35mm from Part D104
+Removed Parameter Width:0.35mm from Part D105
+Removed Parameter Width:0.35mm from Part D106

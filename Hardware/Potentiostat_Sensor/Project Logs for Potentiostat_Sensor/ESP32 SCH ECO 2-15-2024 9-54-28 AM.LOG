@@ -1,0 +1,396 @@
+Removed Parameter Case/Package:0201 from Part D202
+Removed Parameter Case/Package:0201 from Part D203
+Removed Parameter Case/Package:0201 from Part D204
+Removed Parameter Case/Package:0201 from Part D205
+Removed Parameter Case/Package:0201 from Part D206
+Removed Parameter Case/Package:0603 from Part C201
+Removed Parameter Category: from Part MODE200
+Removed Parameter Category: from Part Q200
+Removed Parameter Category: from Part S200
+Removed Parameter Category: from Part S201
+Removed Parameter Category: from Part U201
+Removed Parameter Category:IC UART Interface from Part U200
+Removed Parameter Category:RESISTORS from Part R202
+Removed Parameter Category:RESISTORS from Part R203
+Removed Parameter Category:RESISTORS from Part R204
+Removed Parameter Category:RESISTORS from Part R205
+Removed Parameter Category:RESISTORS from Part R206
+Removed Parameter Category:RESISTORS from Part R207
+Removed Parameter Category:RESISTORS from Part R208
+Removed Parameter Category:RESISTORS from Part R209
+Removed Parameter Category:RESISTORS from Part R210
+Removed Parameter Category:RESISTORS from Part R211
+Removed Parameter Category:RESISTORS from Part R212
+Removed Parameter Category:RESISTORS from Part R213
+Removed Parameter Category:RESISTORS from Part R214
+Removed Parameter Category:RESISTORS from Part R215
+Removed Parameter Category:RESISTORS from Part R216
+Removed Parameter Category:RESISTORS from Part R217
+Removed Parameter Category:RESISTORS from Part R218
+Removed Parameter Category:RESISTORS from Part R219
+Removed Parameter Category:RESISTORS from Part R220
+Removed Parameter Category:RESISTORS from Part R221
+Removed Parameter Category:RESISTORS from Part R222
+Removed Parameter Category:RESISTORS from Part R223
+Removed Parameter Category:USB Connectors from Part J200
+Removed Parameter Clamping Voltage:3V from Part D202
+Removed Parameter Clamping Voltage:3V from Part D203
+Removed Parameter Clamping Voltage:3V from Part D204
+Removed Parameter Clamping Voltage:3V from Part D205
+Removed Parameter Clamping Voltage:3V from Part D206
+Removed Parameter Class:Passive from Part R200
+Removed Parameter Class:Passive from Part R201
+Removed Parameter Composition:Zener from Part D202
+Removed Parameter Composition:Zener from Part D203
+Removed Parameter Composition:Zener from Part D204
+Removed Parameter Composition:Zener from Part D205
+Removed Parameter Composition:Zener from Part D206
+Removed Parameter Direction:Bidirectional from Part D202
+Removed Parameter Direction:Bidirectional from Part D203
+Removed Parameter Direction:Bidirectional from Part D204
+Removed Parameter Direction:Bidirectional from Part D205
+Removed Parameter Direction:Bidirectional from Part D206
+Removed Parameter Element Configuration:Single from Part D202
+Removed Parameter Element Configuration:Single from Part D203
+Removed Parameter Element Configuration:Single from Part D204
+Removed Parameter Element Configuration:Single from Part D205
+Removed Parameter Element Configuration:Single from Part D206
+Removed Parameter ESD Protection:Yes from Part D202
+Removed Parameter ESD Protection:Yes from Part D203
+Removed Parameter ESD Protection:Yes from Part D204
+Removed Parameter ESD Protection:Yes from Part D205
+Removed Parameter ESD Protection:Yes from Part D206
+Removed Parameter Height:0.33mm from Part D202
+Removed Parameter Height:0.33mm from Part D203
+Removed Parameter Height:0.33mm from Part D204
+Removed Parameter Height:0.33mm from Part D205
+Removed Parameter Height:0.33mm from Part D206
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C200
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C202
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C203
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C204
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C205
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C206
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C207
+Removed Parameter LatestRevisionDate:17-Jul-2002 from Part C208
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C200
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C202
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C203
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C204
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C205
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C206
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C207
+Removed Parameter LatestRevisionNote:Re-released for DXP Platform. from Part C208
+Removed Parameter Lead Free:Lead Free from Part D202
+Removed Parameter Lead Free:Lead Free from Part D203
+Removed Parameter Lead Free:Lead Free from Part D204
+Removed Parameter Lead Free:Lead Free from Part D205
+Removed Parameter Lead Free:Lead Free from Part D206
+Removed Parameter Leakage Current:70nA from Part D202
+Removed Parameter Leakage Current:70nA from Part D203
+Removed Parameter Leakage Current:70nA from Part D204
+Removed Parameter Leakage Current:70nA from Part D205
+Removed Parameter Leakage Current:70nA from Part D206
+Removed Parameter Length:0.6mm from Part D202
+Removed Parameter Length:0.6mm from Part D203
+Removed Parameter Length:0.6mm from Part D204
+Removed Parameter Length:0.6mm from Part D205
+Removed Parameter Length:0.6mm from Part D206
+Removed Parameter Max Breakdown Voltage:67.8V from Part D202
+Removed Parameter Max Breakdown Voltage:67.8V from Part D203
+Removed Parameter Max Breakdown Voltage:67.8V from Part D204
+Removed Parameter Max Breakdown Voltage:67.8V from Part D205
+Removed Parameter Max Breakdown Voltage:67.8V from Part D206
+Removed Parameter Max Operating Temperature:150°C from Part D202
+Removed Parameter Max Operating Temperature:150°C from Part D203
+Removed Parameter Max Operating Temperature:150°C from Part D204
+Removed Parameter Max Operating Temperature:150°C from Part D205
+Removed Parameter Max Operating Temperature:150°C from Part D206
+Removed Parameter Max Reverse Leakage Current:70nA from Part D202
+Removed Parameter Max Reverse Leakage Current:70nA from Part D203
+Removed Parameter Max Reverse Leakage Current:70nA from Part D204
+Removed Parameter Max Reverse Leakage Current:70nA from Part D205
+Removed Parameter Max Reverse Leakage Current:70nA from Part D206
+Removed Parameter Max Surge Current:1.3A from Part D202
+Removed Parameter Max Surge Current:1.3A from Part D203
+Removed Parameter Max Surge Current:1.3A from Part D204
+Removed Parameter Max Surge Current:1.3A from Part D205
+Removed Parameter Max Surge Current:1.3A from Part D206
+Removed Parameter Min Breakdown Voltage:6V from Part D202
+Removed Parameter Min Breakdown Voltage:6V from Part D203
+Removed Parameter Min Breakdown Voltage:6V from Part D204
+Removed Parameter Min Breakdown Voltage:6V from Part D205
+Removed Parameter Min Breakdown Voltage:6V from Part D206
+Removed Parameter Min Operating Temperature:-40°C from Part D202
+Removed Parameter Min Operating Temperature:-40°C from Part D203
+Removed Parameter Min Operating Temperature:-40°C from Part D204
+Removed Parameter Min Operating Temperature:-40°C from Part D205
+Removed Parameter Min Operating Temperature:-40°C from Part D206
+Removed Parameter Mount:Surface Mount from Part D202
+Removed Parameter Mount:Surface Mount from Part D203
+Removed Parameter Mount:Surface Mount from Part D204
+Removed Parameter Mount:Surface Mount from Part D205
+Removed Parameter Mount:Surface Mount from Part D206
+Removed Parameter Number of Bidirectional Channels:1 from Part D202
+Removed Parameter Number of Bidirectional Channels:1 from Part D203
+Removed Parameter Number of Bidirectional Channels:1 from Part D204
+Removed Parameter Number of Bidirectional Channels:1 from Part D205
+Removed Parameter Number of Bidirectional Channels:1 from Part D206
+Removed Parameter Number of Elements:1 from Part D202
+Removed Parameter Number of Elements:1 from Part D203
+Removed Parameter Number of Elements:1 from Part D204
+Removed Parameter Number of Elements:1 from Part D205
+Removed Parameter Number of Elements:1 from Part D206
+Removed Parameter Number of Pins:2 from Part D202
+Removed Parameter Number of Pins:2 from Part D203
+Removed Parameter Number of Pins:2 from Part D204
+Removed Parameter Number of Pins:2 from Part D205
+Removed Parameter Number of Pins:2 from Part D206
+Removed Parameter Operating Supply Voltage:58V from Part D202
+Removed Parameter Operating Supply Voltage:58V from Part D203
+Removed Parameter Operating Supply Voltage:58V from Part D204
+Removed Parameter Operating Supply Voltage:58V from Part D205
+Removed Parameter Operating Supply Voltage:58V from Part D206
+Removed Parameter Package:0805 from Part R202
+Removed Parameter Package:0805 from Part R203
+Removed Parameter Package:0805 from Part R204
+Removed Parameter Package:0805 from Part R205
+Removed Parameter Package:0805 from Part R206
+Removed Parameter Package:0805 from Part R207
+Removed Parameter Package:0805 from Part R208
+Removed Parameter Package:0805 from Part R209
+Removed Parameter Package:0805 from Part R210
+Removed Parameter Package:0805 from Part R211
+Removed Parameter Package:0805 from Part R212
+Removed Parameter Package:0805 from Part R213
+Removed Parameter Package:0805 from Part R214
+Removed Parameter Package:0805 from Part R215
+Removed Parameter Package:0805 from Part R216
+Removed Parameter Package:0805 from Part R217
+Removed Parameter Package:0805 from Part R218
+Removed Parameter Package:0805 from Part R219
+Removed Parameter Package:0805 from Part R220
+Removed Parameter Package:0805 from Part R221
+Removed Parameter Package:0805 from Part R222
+Removed Parameter Package:0805 from Part R223
+Removed Parameter Package: from Part MODE200
+Removed Parameter Package: from Part Q200
+Removed Parameter Package: from Part S200
+Removed Parameter Package: from Part S201
+Removed Parameter Package: from Part U201
+Removed Parameter Package:Module Olimex LTD from Part ESP200
+Removed Parameter Package:SOIC-16 from Part U200
+Removed Parameter Package Quantity:1 from Part D202
+Removed Parameter Package Quantity:1 from Part D203
+Removed Parameter Package Quantity:1 from Part D204
+Removed Parameter Package Quantity:1 from Part D205
+Removed Parameter Package Quantity:1 from Part D206
+Removed Parameter PackageReference:RAD-0.3 from Part C200
+Removed Parameter PackageReference:RAD-0.3 from Part C202
+Removed Parameter PackageReference:RAD-0.3 from Part C203
+Removed Parameter PackageReference:RAD-0.3 from Part C204
+Removed Parameter PackageReference:RAD-0.3 from Part C205
+Removed Parameter PackageReference:RAD-0.3 from Part C206
+Removed Parameter PackageReference:RAD-0.3 from Part C207
+Removed Parameter PackageReference:RAD-0.3 from Part C208
+Removed Parameter Packaging:Tape and Reel from Part D202
+Removed Parameter Packaging:Tape and Reel from Part D203
+Removed Parameter Packaging:Tape and Reel from Part D204
+Removed Parameter Packaging:Tape and Reel from Part D205
+Removed Parameter Packaging:Tape and Reel from Part D206
+Removed Parameter Part number:CH340G from Part U200
+Removed Parameter PartNumber:CL10A106KP8NNNC from Part C201
+Removed Parameter Part number: from Part MODE200
+Removed Parameter Part number:MMBT4401 from Part Q200
+Removed Parameter Part number:RC0805FR-071KL from Part R209
+Removed Parameter Part number:RC0805FR-0710KL from Part R202
+Removed Parameter Part number:RC0805FR-0710KL from Part R203
+Removed Parameter Part number:RC0805FR-0710KL from Part R204
+Removed Parameter Part number:RC0805FR-0710KL from Part R205
+Removed Parameter Part number:RC0805FR-0710KL from Part R206
+Removed Parameter Part number:RC0805FR-0722RL from Part R207
+Removed Parameter Part number:RC0805FR-0722RL from Part R208
+Removed Parameter Part number:RC0805FR-0722RL from Part R210
+Removed Parameter Part number:RC0805FR-0722RL from Part R211
+Removed Parameter Part number:RC0805FR-0722RL from Part R212
+Removed Parameter Part number:RC0805FR-0722RL from Part R213
+Removed Parameter Part number:RC0805FR-0722RL from Part R214
+Removed Parameter Part number:RC0805FR-0722RL from Part R215
+Removed Parameter Part number:RC0805FR-0722RL from Part R216
+Removed Parameter Part number:RC0805FR-0722RL from Part R217
+Removed Parameter Part number:RC0805FR-0722RL from Part R218
+Removed Parameter Part number:RC0805FR-0722RL from Part R219
+Removed Parameter Part number:RC0805FR-0722RL from Part R220
+Removed Parameter Part number:RC0805FR-0722RL from Part R221
+Removed Parameter Part number:RC0805FR-0722RL from Part R222
+Removed Parameter Part number:RC0805FR-0722RL from Part R223
+Removed Parameter Part number:SD_CARD from Part U201
+Removed Parameter Part number:SW from Part S200
+Removed Parameter Part number:SW from Part S201
+Removed Parameter Part number:Wroom 32D from Part ESP200
+Removed Parameter PartNumber:WTL5G60391VH from Part X200
+Removed Parameter Peak Pulse Current:1A from Part D202
+Removed Parameter Peak Pulse Current:1A from Part D203
+Removed Parameter Peak Pulse Current:1A from Part D204
+Removed Parameter Peak Pulse Current:1A from Part D205
+Removed Parameter Peak Pulse Current:1A from Part D206
+Removed Parameter Peak Pulse Power:400W from Part D202
+Removed Parameter Peak Pulse Power:400W from Part D203
+Removed Parameter Peak Pulse Power:400W from Part D204
+Removed Parameter Peak Pulse Power:400W from Part D205
+Removed Parameter Peak Pulse Power:400W from Part D206
+Removed Parameter Polarity:Bidirectional from Part D202
+Removed Parameter Polarity:Bidirectional from Part D203
+Removed Parameter Polarity:Bidirectional from Part D204
+Removed Parameter Polarity:Bidirectional from Part D205
+Removed Parameter Polarity:Bidirectional from Part D206
+Removed Parameter Power Dissipation:400W from Part D202
+Removed Parameter Power Dissipation:400W from Part D203
+Removed Parameter Power Dissipation:400W from Part D204
+Removed Parameter Power Dissipation:400W from Part D205
+Removed Parameter Power Dissipation:400W from Part D206
+Removed Parameter Power Line Protection:No from Part D202
+Removed Parameter Power Line Protection:No from Part D203
+Removed Parameter Power Line Protection:No from Part D204
+Removed Parameter Power Line Protection:No from Part D205
+Removed Parameter Power Line Protection:No from Part D206
+Removed Parameter Price:None from Part ESP200
+Removed Parameter Published:8-Jun-2000 from Part C200
+Removed Parameter Published:8-Jun-2000 from Part C202
+Removed Parameter Published:8-Jun-2000 from Part C203
+Removed Parameter Published:8-Jun-2000 from Part C204
+Removed Parameter Published:8-Jun-2000 from Part C205
+Removed Parameter Published:8-Jun-2000 from Part C206
+Removed Parameter Published:8-Jun-2000 from Part C207
+Removed Parameter Published:8-Jun-2000 from Part C208
+Removed Parameter Published:08/06/2000 from Part R200
+Removed Parameter Published:08/06/2000 from Part R201
+Removed Parameter Publisher:Altium Hobart Technology Centre from Part R200
+Removed Parameter Publisher:Altium Hobart Technology Centre from Part R201
+Removed Parameter Publisher:Altium Limited from Part C200
+Removed Parameter Publisher:Altium Limited from Part C202
+Removed Parameter Publisher:Altium Limited from Part C203
+Removed Parameter Publisher:Altium Limited from Part C204
+Removed Parameter Publisher:Altium Limited from Part C205
+Removed Parameter Publisher:Altium Limited from Part C206
+Removed Parameter Publisher:Altium Limited from Part C207
+Removed Parameter Publisher:Altium Limited from Part C208
+Removed Parameter Radiation Hardening:No from Part D202
+Removed Parameter Radiation Hardening:No from Part D203
+Removed Parameter Radiation Hardening:No from Part D204
+Removed Parameter Radiation Hardening:No from Part D205
+Removed Parameter Radiation Hardening:No from Part D206
+Removed Parameter REACH SVHC:No SVHC from Part D202
+Removed Parameter REACH SVHC:No SVHC from Part D203
+Removed Parameter REACH SVHC:No SVHC from Part D204
+Removed Parameter REACH SVHC:No SVHC from Part D205
+Removed Parameter REACH SVHC:No SVHC from Part D206
+Removed Parameter Reverse Breakdown Voltage:64.4V from Part D202
+Removed Parameter Reverse Breakdown Voltage:64.4V from Part D203
+Removed Parameter Reverse Breakdown Voltage:64.4V from Part D204
+Removed Parameter Reverse Breakdown Voltage:64.4V from Part D205
+Removed Parameter Reverse Breakdown Voltage:64.4V from Part D206
+Removed Parameter Reverse Standoff Voltage:3V from Part D202
+Removed Parameter Reverse Standoff Voltage:3V from Part D203
+Removed Parameter Reverse Standoff Voltage:3V from Part D204
+Removed Parameter Reverse Standoff Voltage:3V from Part D205
+Removed Parameter Reverse Standoff Voltage:3V from Part D206
+Removed Parameter RoHS:Yes from Part J200
+Removed Parameter Supplier Part Number 1:71AJ9394 from Part J200
+Removed Parameter Termination:SMD/SMT from Part D202
+Removed Parameter Termination:SMD/SMT from Part D203
+Removed Parameter Termination:SMD/SMT from Part D204
+Removed Parameter Termination:SMD/SMT from Part D205
+Removed Parameter Termination:SMD/SMT from Part D206
+Removed Parameter Test Current:1mA from Part D202
+Removed Parameter Test Current:1mA from Part D203
+Removed Parameter Test Current:1mA from Part D204
+Removed Parameter Test Current:1mA from Part D205
+Removed Parameter Test Current:1mA from Part D206
+Removed Parameter Tolerance:10% from Part C201
+Removed Parameter User_Description: from Part MODE200
+Removed Parameter User_Description: from Part Q200
+Removed Parameter User_Description: from Part S200
+Removed Parameter User_Description: from Part S201
+Removed Parameter User_Description: from Part U201
+Removed Parameter User_Description:RES SMD 1K OHM 1% 1/8W 0805 from Part R209
+Removed Parameter User_Description:RES SMD 10K OHM 1% 1/8W 0805 from Part R202
+Removed Parameter User_Description:RES SMD 10K OHM 1% 1/8W 0805 from Part R203
+Removed Parameter User_Description:RES SMD 10K OHM 1% 1/8W 0805 from Part R204
+Removed Parameter User_Description:RES SMD 10K OHM 1% 1/8W 0805 from Part R205
+Removed Parameter User_Description:RES SMD 10K OHM 1% 1/8W 0805 from Part R206
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R207
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R208
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R210
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R211
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R212
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R213
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R214
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R215
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R216
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R217
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R218
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R219
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R220
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R221
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R222
+Removed Parameter User_Description:RES SMD 22 OHM 1% 1/8W 0805 from Part R223
+Removed Parameter User_Description:USB to UART Interface from Part U200
+Removed Parameter Value:1k from Part R209
+Removed Parameter Value:5.1kR from Part R210
+Removed Parameter Value:5.1kR from Part R211
+Removed Parameter Value:8Mhz from Part X200
+Removed Parameter Value:10k from Part R202
+Removed Parameter Value:10k from Part R203
+Removed Parameter Value:10k from Part R204
+Removed Parameter Value:10k from Part R205
+Removed Parameter Value:10k from Part R206
+Removed Parameter Value:10uF from Part C201
+Removed Parameter Value:22R from Part R207
+Removed Parameter Value:22R from Part R208
+Removed Parameter Value:22R from Part R212
+Removed Parameter Value:22R from Part R213
+Removed Parameter Value:22R from Part R214
+Removed Parameter Value:22R from Part R215
+Removed Parameter Value:22R from Part R216
+Removed Parameter Value:22R from Part R217
+Removed Parameter Value:22R from Part R218
+Removed Parameter Value:22R from Part R219
+Removed Parameter Value:22R from Part R220
+Removed Parameter Value:22R from Part R221
+Removed Parameter Value:22R from Part R222
+Removed Parameter Value:22R from Part R223
+Removed Parameter Value:33p from Part C200
+Removed Parameter Value:33p from Part C202
+Removed Parameter Value:33p from Part C203
+Removed Parameter Value:33p from Part C204
+Removed Parameter Value:33p from Part C205
+Removed Parameter Value:33p from Part C206
+Removed Parameter Value:33p from Part C207
+Removed Parameter Value:33p from Part C208
+Removed Parameter Value:C1815 from Part Q200
+Removed Parameter Value:Connector 2 from Part MODE200
+Removed Parameter Value:DESD2CAN2s from Part D207
+Removed Parameter Value: from Part TP202
+Removed Parameter Value: from Part TP203
+Removed Parameter Value: from Part U200
+Removed Parameter Value: from Part U201
+Removed Parameter Value:LED 3 ly Single Colour from Part D200
+Removed Parameter Value:LED 3 ly Single Colour from Part D201
+Removed Parameter Value:SW chip 2 pin from Part S200
+Removed Parameter Value:SW chip 2 pin from Part S201
+Removed Parameter Voltage Rating (DC):58V from Part D202
+Removed Parameter Voltage Rating (DC):58V from Part D203
+Removed Parameter Voltage Rating (DC):58V from Part D204
+Removed Parameter Voltage Rating (DC):58V from Part D205
+Removed Parameter Voltage Rating (DC):58V from Part D206
+Removed Parameter Weight:0.01lb from Part D202
+Removed Parameter Weight:0.01lb from Part D203
+Removed Parameter Weight:0.01lb from Part D204
+Removed Parameter Weight:0.01lb from Part D205
+Removed Parameter Weight:0.01lb from Part D206
+Removed Parameter Width:0.35mm from Part D202
+Removed Parameter Width:0.35mm from Part D203
+Removed Parameter Width:0.35mm from Part D204
+Removed Parameter Width:0.35mm from Part D205
+Removed Parameter Width:0.35mm from Part D206

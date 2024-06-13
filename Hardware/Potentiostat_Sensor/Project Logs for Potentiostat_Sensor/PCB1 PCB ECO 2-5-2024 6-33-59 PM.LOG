@@ -1,0 +1,94 @@
+Add Component: Footprint Not Found MOLX-532610271_V
+Add Component: Footprint Not Found GCT_USB4056-03-A_REVA
+Add Component: Footprint Not Found MSK12C02
+Add Component: Footprint Not Found SW
+Added Component: Designator=X200(XTAL_SMD_3P5)
+Add component (AddParameter): Name = "Manufacturer"; Value = "WTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "WTL5G60391VH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "8Mhz"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin CN300-1
+Add Pin To Net: Unknown Pin: Pin CN300-2
+Add Pin To Net: Unknown Pin: Pin D300-1
+Add Pin To Net: Unknown Pin: Pin D300-2
+Add Pin To Net: Unknown Pin: Pin D302-A
+Add Pin To Net: Unknown Pin: Pin D302-K
+Add Pin To Net: Unknown Pin: Pin D303-A
+Add Pin To Net: Unknown Pin: Pin D303-K
+Add Pin To Net: Unknown Pin: Pin J200-A1
+Add Pin To Net: Unknown Pin: Pin J200-A4
+Add Pin To Net: Unknown Pin: Pin J200-A5
+Add Pin To Net: Unknown Pin: Pin J200-A6
+Add Pin To Net: Unknown Pin: Pin J200-A7
+Add Pin To Net: Unknown Pin: Pin J200-A9
+Add Pin To Net: Unknown Pin: Pin J200-A12
+Add Pin To Net: Unknown Pin: Pin J200-B1
+Add Pin To Net: Unknown Pin: Pin J200-B4
+Add Pin To Net: Unknown Pin: Pin J200-B5
+Add Pin To Net: Unknown Pin: Pin J200-B9
+Add Pin To Net: Unknown Pin: Pin J200-B12
+Add Pin To Net: Unknown Pin: Pin J200-S1
+Add Pin To Net: Unknown Pin: Pin J200-S2
+Add Pin To Net: Unknown Pin: Pin J200-S3
+Add Pin To Net: Unknown Pin: Pin J200-S4
+Add Pin To Net: Unknown Pin: Pin S300-A1
+Add Pin To Net: Unknown Pin: Pin S300-B1
+Add Pin To Net: Unknown Pin: Pin SW300-1
+Add Pin To Net: Unknown Pin: Pin SW300-2
+Add Pin To Net: Unknown Pin: Pin U300-1
+Add Pin To Net: Unknown Pin: Pin U300-2
+Add Pin To Net: Unknown Pin: Pin U300-3
+Add Pin To Net: Unknown Pin: Pin U300-4
+Add Pin To Net: Unknown Pin: Pin U300-5
+Add Pin To Net: Unknown Pin: Pin U300-6
+Add Pin To Net: Unknown Pin: Pin U300-7
+Add Pin To Net: Unknown Pin: Pin U300-8
+Add Pin To Net: Unknown Pin: Pin U401-1
+Add Pin To Net: Unknown Pin: Pin U401-2
+Add Pin To Net: Unknown Pin: Pin U401-3
+Add Pin To Net: Unknown Pin: Pin U401-4
+Add Pin To Net: Unknown Pin: Pin U401-5
+Add Pin To Net: Unknown Pin: Pin U402-1
+Add Pin To Net: Unknown Pin: Pin U402-2
+Add Pin To Net: Unknown Pin: Pin U402-3
+Add Pin To Net: Unknown Pin: Pin U402-4
+Add Pin To Net: Unknown Pin: Pin U402-5
+Add Pin To Net: Unknown Pin: Pin U403-1
+Add Pin To Net: Unknown Pin: Pin U403-2
+Add Pin To Net: Unknown Pin: Pin U403-3
+Add Pin To Net: Unknown Pin: Pin U403-4
+Add Pin To Net: Unknown Pin: Pin U403-5
+Add Pin To Net: Unknown Pin: Pin U404-1
+Add Pin To Net: Unknown Pin: Pin U404-2
+Add Pin To Net: Unknown Pin: Pin U404-3
+Add Pin To Net: Unknown Pin: Pin U404-4
+Add Pin To Net: Unknown Pin: Pin U404-5
+Add Pin To Net: Unknown Pin: Pin U405-1
+Add Pin To Net: Unknown Pin: Pin U405-2
+Add Pin To Net: Unknown Pin: Pin U405-4
+Add Pin To Net: Unknown Pin: Pin U405-6
+Add Pin To Net: Unknown Pin: Pin U409-1
+Add Pin To Net: Unknown Pin: Pin U409-2
+Add Pin To Net: Unknown Pin: Pin U409-3
+Add Pin To Net: Unknown Pin: Pin U409-4
+Add Pin To Net: Unknown Pin: Pin U409-5
+Add Pin To Net: Unknown Pin: Pin U410-1
+Add Pin To Net: Unknown Pin: Pin U410-2
+Add Pin To Net: Unknown Pin: Pin U410-3
+Add Pin To Net: Unknown Pin: Pin U410-4
+Add Pin To Net: Unknown Pin: Pin U410-5
+Added Pin To Net: NetName=NetC207_1 Pin=X200-1
+Added Pin To Net: NetName=NetC208_1 Pin=X200-2
+Add Class Member: Failed to add class member : Component CN300 0532610271
+Add Class Member: Failed to add class member : Component D300 SS26
+Add Class Member: Failed to add class member : Component J200 USB4056-03-A
+Add Class Member: Failed to add class member : Component S300 MSK12C02
+Add Class Member: Failed to add class member : Component SW300 SW
+Add Class Member: Failed to add class member : Component U300 MP1542
+Add Class Member: Failed to add class member : Component U401 AD8605
+Add Class Member: Failed to add class member : Component U402 AD8605
+Add Class Member: Failed to add class member : Component U403 AD8605
+Add Class Member: Failed to add class member : Component U404 AD8605
+Add Class Member: Failed to add class member : Component U405 LT6654AIS6-2.5#TRMPBF
+Add Class Member: Failed to add class member : Component U409 AD8605
+Add Class Member: Failed to add class member : Component U410 AD8605
+Added Member To Class: ClassName=ESP32 Member=Component X200 WTL5G60391VH

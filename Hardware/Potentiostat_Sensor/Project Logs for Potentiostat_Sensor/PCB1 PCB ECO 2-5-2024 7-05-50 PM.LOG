@@ -1,0 +1,5 @@
+Add Pin To Net: Unknown Pin: Pin D300-2
+Added Pin To Net: NetName=NetD300_1 Pin=L300-2
+Added Pin To Net: NetName=NetD300_1 Pin=U300-5
+Added Net: Name=NetD300_1
+Add Class Member: Failed to add class member : Component D300 SS26
