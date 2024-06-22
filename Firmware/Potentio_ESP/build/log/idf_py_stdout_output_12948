@@ -1,0 +1,1071 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time Jun 21 2024 16:36:30[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=261e4h (156132) map[0m
+[0;32mI (163) esp_image: segment 1: paddr=0003620c vaddr=3ffbdb60 size=0476ch ( 18284) load[0m
+[0;32mI (170) esp_image: segment 2: paddr=0003a980 vaddr=40080000 size=05698h ( 22168) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=90e78h (593528) map[0m
+[0;32mI (394) esp_image: segment 4: paddr=000d0ea0 vaddr=40085698 size=151fch ( 86524) load[0m
+[0;32mI (444) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (444) boot: Disabling RNG early entropy source...[0m
+[0;32mI (455) cpu_start: Multicore app[0m
+[0;32mI (456) cpu_start: Pro cpu up.[0m
+[0;32mI (456) cpu_start: Starting app cpu, entry point is 0x40081544[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (474) cpu_start: Pro cpu start user code[0m
+[0;32mI (474) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (474) cpu_start: Application information:[0m
+[0;32mI (478) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (484) cpu_start: App version:      b1d72289b-dirty[0m
+[0;32mI (489) cpu_start: Compile time:     Jun 21 2024 16:36:18[0m
+[0;32mI (496) cpu_start: ELF file SHA256:  c69b5bb872700a3d...[0m
+[0;32mI (502) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (507) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (511) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (516) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (521) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (528) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (534) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (540) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (546) heap_init: At 3FFC7D28 len 000182D8 (96 KiB): DRAM[0m
+[0;32mI (553) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (559) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (565) heap_init: At 4009A894 len 0000576C (21 KiB): IRAM[0m
+[0;32mI (573) spi_flash: detected chip: generic[0m
+[0;32mI (576) spi_flash: flash io: dio[0m
+[0;33mW (580) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.[0m
+[0;32mI (594) coexist: coex firmware version: ebddf30[0m
+[0;32mI (599) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (604) app_start: Starting scheduler on CPU1[0m
+I (604) main_task: Started on CPU0[0m
+[0;32mI (614) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (704) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (714) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1134) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1144) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1144) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1154) SDCARD: Initializing SD card[0m
+[0;32mI (1154) SDCARD: Using SPI peripheral[0m
+[0;32mI (1154) ADC: calibration scheme version is Line Fitting[0m
+[0;32mI (1164) ADC: Calibration Success[0m
+[0;32mI (1164) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1164) SDCARD: Mounting filesystem[0m
+[0;32mI (1174) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1174) ADC: ADC2 Channel[3] Raw Data: 3463[0m
+[0;32mI (1184) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1184) gpio: GPIO[13]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1204) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1214) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1214) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1224) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1234) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1234) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1194) ADC: ADC2 Channel[3] Cali Voltage: 2832 mV[0m
+[0;32mI (1244) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1254) sdspi_transaction: cmd=52, R1 response: command not supported[0m
+[0;32mI (1254) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1274) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1274) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1284) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1284) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;32mI (1154) main_task: Returned from app_main()[0m
+[0;32mI (1424) sdspi_transaction: cmd=5, R1 response: command not supported[0m
+[0;32mI (1534) SDCARD: Filesystem mounted[0m
+Name: CBADS
+Type: SDHC/SDXC
+Speed: 20.00 MHz (limit: 20.00 MHz)
+Size: 30728MB
+CSD: ver=2, sector_size=512, capacity=62930944 read_bl_len=9
+SSR: bus_width=1
+[0;32mI (2254) ADC: ADC2 Channel[3] Raw Data: 3215[0m
+[0;32mI (2254) ADC: ADC2 Channel[3] Cali Voltage: 2682 mV[0m
+[0;32mI (3254) ADC: ADC2 Channel[3] Raw Data: 3171[0m
+[0;32mI (3254) ADC: ADC2 Channel[3] Cali Voltage: 2653 mV[0m
+[0;32mI (4254) ADC: ADC2 Channel[3] Raw Data: 3901[0m
+[0;32mI (4254) ADC: ADC2 Channel[3] Cali Voltage: 3041 mV[0m
+[0;32mI (5254) ADC: ADC2 Channel[3] Raw Data: 3603[0m
+[0;32mI (5254) ADC: ADC2 Channel[3] Cali Voltage: 2903 mV[0m
+[0;32mI (6254) ADC: ADC2 Channel[3] Raw Data: 3175[0m
+[0;32mI (6254) ADC: ADC2 Channel[3] Cali Voltage: 2656 mV[0m
+[0;32mI (7254) ADC: ADC2 Channel[3] Raw Data: 3723[0m
+[0;32mI (7254) ADC: ADC2 Channel[3] Cali Voltage: 2961 mV[0m
+[0;32mI (8254) ADC: ADC2 Channel[3] Raw Data: 3455[0m
+[0;32mI (8254) ADC: ADC2 Channel[3] Cali Voltage: 2827 mV[0m
+[0;32mI (9254) ADC: ADC2 Channel[3] Raw Data: 3548[0m
+[0;32mI (9254) ADC: ADC2 Channel[3] Cali Voltage: 2876 mV[0m
+[0;32mI (10254) ADC: ADC2 Channel[3] Raw Data: 3547[0m
+[0;32mI (10254) ADC: ADC2 Channel[3] Cali Voltage: 2876 mV[0m
+[0;32mI (11254) ADC: ADC2 Channel[3] Raw Data: 3222[0m
+[0;32mI (11254) ADC: ADC2 Channel[3] Cali Voltage: 2687 mV[0m
+[0;32mI (12254) ADC: ADC2 Channel[3] Raw Data: 3792[0m
+[0;32mI (12254) ADC: ADC2 Channel[3] Cali Voltage: 2993 mV[0m
+[0;32mI (13254) ADC: ADC2 Channel[3] Raw Data: 3312[0m
+[0;32mI (13254) ADC: ADC2 Channel[3] Cali Voltage: 2744 mV[0m
+[0;32mI (14044) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 52:e5:24:5d:20:bb:[0m
+[0;32mI (14044) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 52:e5:24:5d:20:bb:[0m
+[0;33mW (14054) BT_L2CAP: l2cble_start_conn_update, the last connection update command still pending.[0m
+[0;32mI (14254) ADC: ADC2 Channel[3] Raw Data: 3823[0m
+[0;32mI (14254) ADC: ADC2 Channel[3] Cali Voltage: 3007 mV[0m
+[0;32mI (14674) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (14964) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (15134) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (15134) GATTS_DEMO: GATT_WRITE_EVT, value len 15, value :[0m
+[0;32mI (15134) GATTS_DEMO: 47 41 54 54 5f 43 6f 6e 6e 65 63 74 65 64 00 [0m
+[0;32mI (15144) GATTS_DEMO: GATT_Connected, len: 14[0m
+[0;32mI (15184) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (15254) ADC: ADC2 Channel[3] Raw Data: 3557[0m
+[0;32mI (15254) ADC: ADC2 Channel[3] Cali Voltage: 2881 mV[0m
+[0;32mI (15434) UART: Data recv_a from BLE: GATT_Connected[0m
+[0;32mI (16094) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 2, handle 42
+[0m
+[0;32mI (16094) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (16094) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (16134) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 3, handle 46
+[0m
+[0;32mI (16134) GATTS_DEMO: 41 0b [0m
+[0;32mI (16134) GATTS_DEMO: Battery: 2881mV[0m
+[0;32mI (16254) ADC: ADC2 Channel[3] Raw Data: 3301[0m
+[0;32mI (16254) ADC: ADC2 Channel[3] Cali Voltage: 2737 mV[0m
+[0;32mI (16294) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 4, handle 42[0m
+[0;32mI (16294) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (16294) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (16304) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (16304) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (16304) GATTS_DEMO: Res: mA[0m
+[0;32mI (16314) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (16314) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 5, handle 46[0m
+[0;32mI (16324) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (16334) GATTS_DEMO: 31 30 30 40 35 30 30 40 31 30 30 40 00 [0m
+[0;32mI (16334) GATTS_DEMO: 100@500@100@, len: 12[0m
+[0;32mI (16344) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (16344) GATTS_DEMO: End voltage: 500.0[0m
+[0;32mI (16354) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (17104) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 6, handle 42
+[0m
+[0;32mI (17104) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (17104) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (17144) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 7, handle 46
+[0m
+[0;32mI (17144) GATTS_DEMO: b1 0a [0m
+[0;32mI (17154) GATTS_DEMO: Battery: 2737mV[0m
+[0;32mI (17254) ADC: ADC2 Channel[3] Raw Data: 3870[0m
+[0;32mI (17254) ADC: ADC2 Channel[3] Cali Voltage: 3027 mV[0m
+[0;32mI (17454) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":500.0,"scan_rate":100.0}[0m
+[0;32mI (17964) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (18114) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 8, handle 42
+[0m
+[0;32mI (18114) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (18114) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (18164) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 9, handle 46
+[0m
+[0;32mI (18164) GATTS_DEMO: d3 0b [0m
+[0;32mI (18164) GATTS_DEMO: Battery: 3027mV[0m
+[0;32mI (18254) ADC: ADC2 Channel[3] Raw Data: 3342[0m
+[0;32mI (18254) ADC: ADC2 Channel[3] Cali Voltage: 2762 mV[0m
+[0;32mI (19104) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 10, handle 42
+[0m
+[0;32mI (19104) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (19104) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (19144) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 11, handle 46
+[0m
+[0;32mI (19154) GATTS_DEMO: ca 0a [0m
+[0;32mI (19154) GATTS_DEMO: Battery: 2762mV[0m
+[0;32mI (19254) ADC: ADC2 Channel[3] Raw Data: 3842[0m
+[0;32mI (19254) ADC: ADC2 Channel[3] Cali Voltage: 3015 mV[0m
+[0;32mI (20114) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 12, handle 42
+[0m
+[0;32mI (20114) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (20114) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (20164) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 13, handle 46
+[0m
+[0;32mI (20164) GATTS_DEMO: c7 0b [0m
+[0;32mI (20164) GATTS_DEMO: Battery: 3015mV[0m
+[0;32mI (20254) ADC: ADC2 Channel[3] Raw Data: 3452[0m
+[0;32mI (20254) ADC: ADC2 Channel[3] Cali Voltage: 2826 mV[0m
+[0;32mI (21124) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 14, handle 42
+[0m
+[0;32mI (21134) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (21134) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (21174) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 15, handle 46
+[0m
+[0;32mI (21174) GATTS_DEMO: 0a 0b [0m
+[0;32mI (21174) GATTS_DEMO: Battery: 2826mV[0m
+[0;32mI (21254) ADC: ADC2 Channel[3] Raw Data: 3186[0m
+[0;32mI (21254) ADC: ADC2 Channel[3] Cali Voltage: 2663 mV[0m
+[0;32mI (22114) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 16, handle 42
+[0m
+[0;32mI (22124) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (22124) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (22164) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 17, handle 46
+[0m
+[0;32mI (22164) GATTS_DEMO: 67 0a [0m
+[0;32mI (22164) GATTS_DEMO: Battery: 2663mV[0m
+[0;32mI (22254) ADC: ADC2 Channel[3] Raw Data: 3751[0m
+[0;32mI (22254) ADC: ADC2 Channel[3] Cali Voltage: 2974 mV[0m
+[0;32mI (23134) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 18, handle 42
+[0m
+[0;32mI (23134) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (23134) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (23174) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 19, handle 46
+[0m
+[0;32mI (23174) GATTS_DEMO: 9e 0b [0m
+[0;32mI (23174) GATTS_DEMO: Battery: 2974mV[0m
+[0;32mI (23254) ADC: ADC2 Channel[3] Raw Data: 3421[0m
+[0;32mI (23254) ADC: ADC2 Channel[3] Cali Voltage: 2808 mV[0m
+[0;32mI (24144) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 20, handle 42
+[0m
+[0;32mI (24144) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (24144) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (24214) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 21, handle 46
+[0m
+[0;32mI (24214) GATTS_DEMO: f8 0a [0m
+[0;32mI (24214) GATTS_DEMO: Battery: 2808mV[0m
+[0;32mI (24254) ADC: ADC2 Channel[3] Raw Data: 3479[0m
+[0;32mI (24254) ADC: ADC2 Channel[3] Cali Voltage: 2840 mV[0m
+[0;32mI (25134) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 22, handle 42
+[0m
+[0;32mI (25134) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (25134) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (25174) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 23, handle 46
+[0m
+[0;32mI (25184) GATTS_DEMO: 18 0b [0m
+[0;32mI (25184) GATTS_DEMO: Battery: 2840mV[0m
+[0;32mI (25254) ADC: ADC2 Channel[3] Raw Data: 3460[0m
+[0;32mI (25254) ADC: ADC2 Channel[3] Cali Voltage: 2830 mV[0m
+[0;32mI (26144) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 24, handle 42
+[0m
+[0;32mI (26144) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (26144) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (26194) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 25, handle 46
+[0m
+[0;32mI (26194) GATTS_DEMO: 0e 0b [0m
+[0;32mI (26194) GATTS_DEMO: Battery: 2830mV[0m
+[0;32mI (26254) ADC: ADC2 Channel[3] Raw Data: 3949[0m
+[0;32mI (26254) ADC: ADC2 Channel[3] Cali Voltage: 3061 mV[0m
+[0;32mI (27154) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 26, handle 42
+[0m
+[0;32mI (27164) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (27164) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (27204) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 27, handle 46
+[0m
+[0;32mI (27204) GATTS_DEMO: f5 0b [0m
+[0;32mI (27204) GATTS_DEMO: Battery: 3061mV[0m
+[0;32mI (27254) ADC: ADC2 Channel[3] Raw Data: 3555[0m
+[0;32mI (27254) ADC: ADC2 Channel[3] Cali Voltage: 2880 mV[0m
+[0;32mI (28174) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 28, handle 42
+[0m
+[0;32mI (28174) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (28174) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (28214) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 29, handle 46
+[0m
+[0;32mI (28214) GATTS_DEMO: 40 0b [0m
+[0;32mI (28214) GATTS_DEMO: Battery: 2880mV[0m
+[0;32mI (28254) ADC: ADC2 Channel[3] Raw Data: 3278[0m
+[0;32mI (28254) ADC: ADC2 Channel[3] Cali Voltage: 2723 mV[0m
+[0;32mI (29164) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 30, handle 42
+[0m
+[0;32mI (29164) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (29164) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (29204) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 31, handle 46
+[0m
+[0;32mI (29204) GATTS_DEMO: a3 0a [0m
+[0;32mI (29204) GATTS_DEMO: Battery: 2723mV[0m
+[0;32mI (29254) ADC: ADC2 Channel[3] Raw Data: 3609[0m
+[0;32mI (29254) ADC: ADC2 Channel[3] Cali Voltage: 2906 mV[0m
+[0;32mI (30174) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 32, handle 42
+[0m
+[0;32mI (30174) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (30174) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (30224) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 33, handle 46
+[0m
+[0;32mI (30224) GATTS_DEMO: 5a 0b [0m
+[0;32mI (30224) GATTS_DEMO: Battery: 2906mV[0m
+[0;32mI (30254) ADC: ADC2 Channel[3] Raw Data: 3265[0m
+[0;32mI (30254) ADC: ADC2 Channel[3] Cali Voltage: 2715 mV[0m
+[0;32mI (31204) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 34, handle 42
+[0m
+[0;32mI (31214) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (31214) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (31254) ADC: ADC2 Channel[3] Raw Data: 3879[0m
+[0;32mI (31254) ADC: ADC2 Channel[3] Cali Voltage: 3031 mV[0m
+[0;32mI (31254) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 35, handle 46
+[0m
+[0;32mI (31254) GATTS_DEMO: d7 0b [0m
+[0;32mI (31264) GATTS_DEMO: Battery: 3031mV[0m
+[0;32mI (32174) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 36, handle 42
+[0m
+[0;32mI (32174) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (32174) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (32224) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 37, handle 46
+[0m
+[0;32mI (32224) GATTS_DEMO: d7 0b [0m
+[0;32mI (32224) GATTS_DEMO: Battery: 3031mV[0m
+[0;32mI (32254) ADC: ADC2 Channel[3] Raw Data: 3497[0m
+[0;32mI (32254) ADC: ADC2 Channel[3] Cali Voltage: 2850 mV[0m
+[0;32mI (33184) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 38, handle 42
+[0m
+[0;32mI (33194) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (33194) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (33234) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 39, handle 46
+[0m
+[0;32mI (33234) GATTS_DEMO: 22 0b [0m
+[0;32mI (33234) GATTS_DEMO: Battery: 2850mV[0m
+[0;32mI (33254) ADC: ADC2 Channel[3] Raw Data: 3239[0m
+[0;32mI (33254) ADC: ADC2 Channel[3] Cali Voltage: 2698 mV[0m
+[0;32mI (34204) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 40, handle 42
+[0m
+[0;32mI (34204) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (34204) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (34244) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 41, handle 46
+[0m
+[0;32mI (34244) GATTS_DEMO: 8a 0a [0m
+[0;32mI (34244) GATTS_DEMO: Battery: 2698mV[0m
+[0;32mI (34254) ADC: ADC2 Channel[3] Raw Data: 3603[0m
+[0;32mI (34254) ADC: ADC2 Channel[3] Cali Voltage: 2903 mV[0m
+[0;32mI (35194) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 42, handle 42
+[0m
+[0;32mI (35194) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (35194) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (35234) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 43, handle 46
+[0m
+[0;32mI (35234) GATTS_DEMO: 57 0b [0m
+[0;32mI (35234) GATTS_DEMO: Battery: 2903mV[0m
+[0;32mI (35264) ADC: ADC2 Channel[3] Raw Data: 3739[0m
+[0;32mI (35264) ADC: ADC2 Channel[3] Cali Voltage: 2968 mV[0m
+[0;32mI (36204) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 44, handle 42
+[0m
+[0;32mI (36204) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (36204) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (36244) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 45, handle 46
+[0m
+[0;32mI (36254) GATTS_DEMO: 98 0b [0m
+[0;32mI (36254) GATTS_DEMO: Battery: 2968mV[0m
+[0;32mI (36264) ADC: ADC2 Channel[3] Raw Data: 3173[0m
+[0;32mI (36264) ADC: ADC2 Channel[3] Cali Voltage: 2654 mV[0m
+[0;32mI (37214) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 46, handle 42
+[0m
+[0;32mI (37214) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (37214) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (37264) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 47, handle 46
+[0m
+[0;32mI (37264) GATTS_DEMO: 5e 0a [0m
+[0;32mI (37264) GATTS_DEMO: Battery: 2654mV[0m
+[0;32mI (37264) ADC: ADC2 Channel[3] Raw Data: 3932[0m
+[0;32mI (37274) ADC: ADC2 Channel[3] Cali Voltage: 3054 mV[0m
+[0;32mI (38224) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 48, handle 42
+[0m
+[0;32mI (38234) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (38234) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (38274) ADC: ADC2 Channel[3] Raw Data: 3177[0m
+[0;32mI (38274) ADC: ADC2 Channel[3] Cali Voltage: 2657 mV[0m
+[0;32mI (38274) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 49, handle 46
+[0m
+[0;32mI (38274) GATTS_DEMO: 61 0a [0m
+[0;32mI (38284) GATTS_DEMO: Battery: 2657mV[0m
+[0;32mI (39214) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 50, handle 42
+[0m
+[0;32mI (39224) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (39224) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (39264) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 51, handle 46
+[0m
+[0;32mI (39264) GATTS_DEMO: 61 0a [0m
+[0;32mI (39264) GATTS_DEMO: Battery: 2657mV[0m
+[0;32mI (39274) ADC: ADC2 Channel[3] Raw Data: 3260[0m
+[0;32mI (39274) ADC: ADC2 Channel[3] Cali Voltage: 2711 mV[0m
+[0;32mI (39534) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 52, handle 42[0m
+[0;32mI (39534) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (39534) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (39544) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (39894) UART: Data recv from BLE: Start_device[0m
+[0;32mI (40284) ADC: ADC2 Channel[3] Raw Data: 3247[0m
+[0;32mI (40284) ADC: ADC2 Channel[3] Cali Voltage: 2703 mV[0m
+[0;32mI (40404) UART: Data from STM: {"start":1,"potential":100,"current":0}, MSG_Size:39[0m
+[0;32mI (40404) UART: start:1[0m
+[0;32mI (40404) UART: 100 - 0.000000 - 1[0m
+[0;32mI (40404) UART: DATA WRITE TO APP: 100-0[0m
+[0;32mI (40544) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 53, handle 42
+[0m
+[0;32mI (40544) GATTS_DEMO: Status Start: 1[0m
+[0;32mI (40544) GATTS_DEMO: 64 00 00 00 00 00 [0m
+[0;32mI (40594) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 54, handle 46
+[0m
+[0;32mI (40594) GATTS_DEMO: 8f 0a [0m
+[0;32mI (40594) GATTS_DEMO: Battery: 2703mV[0m
+[0;32mI (41284) ADC: ADC2 Channel[3] Raw Data: 3527[0m
+[0;32mI (41284) ADC: ADC2 Channel[3] Cali Voltage: 2866 mV[0m
+[0;32mI (41424) UART: Data from STM: {"start":1,"potential":200,"current":0}, MSG_Size:39[0m
+[0;32mI (41424) UART: start:1[0m
+[0;32mI (41424) UART: 200 - 0.000000 - 2[0m
+[0;32mI (41424) UART: DATA WRITE TO APP: 200-0[0m
+[0;32mI (41534) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 55, handle 42
+[0m
+[0;32mI (41534) GATTS_DEMO: Status Start: 1[0m
+[0;32mI (41534) GATTS_DEMO: c8 00 00 00 00 00 [0m
+[0;32mI (41584) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 56, handle 46
+[0m
+[0;32mI (41584) GATTS_DEMO: 32 0b [0m
+[0;32mI (41584) GATTS_DEMO: Battery: 2866mV[0m
+[0;32mI (42284) ADC: ADC2 Channel[3] Raw Data: 3248[0m
+[0;32mI (42284) ADC: ADC2 Channel[3] Cali Voltage: 2704 mV[0m
+[0;32mI (42444) UART: Data from STM: {"start":1,"potential":300,"current":0}, MSG_Size:39[0m
+[0;32mI (42444) UART: start:1[0m
+[0;32mI (42444) UART: 300 - 0.000000 - 3[0m
+[0;32mI (42444) UART: DATA WRITE TO APP: 300-0[0m
+[0;32mI (42554) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 57, handle 42
+[0m
+[0;32mI (42554) GATTS_DEMO: Status Start: 1[0m
+[0;32mI (42554) GATTS_DEMO: 2c 01 00 00 00 00 [0m
+[0;32mI (42594) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 58, handle 46
+[0m
+[0;32mI (42594) GATTS_DEMO: 90 0a [0m
+[0;32mI (42594) GATTS_DEMO: Battery: 2704mV[0m
+[0;32mI (43284) ADC: ADC2 Channel[3] Raw Data: 3557[0m
+[0;32mI (43284) ADC: ADC2 Channel[3] Cali Voltage: 2881 mV[0m
+[0;32mI (43464) UART: Data from STM: {"start":1,"potential":400,"current":0}, MSG_Size:39[0m
+[0;32mI (43464) UART: start:1[0m
+[0;32mI (43464) UART: 400 - 0.000000 - 4[0m
+[0;32mI (43464) UART: DATA WRITE TO APP: 400-0[0m
+[0;32mI (43564) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 59, handle 42
+[0m
+[0;32mI (43564) GATTS_DEMO: Status Start: 1[0m
+[0;32mI (43564) GATTS_DEMO: 90 01 00 00 00 00 [0m
+[0;32mI (43604) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 60, handle 46
+[0m
+[0;32mI (43604) GATTS_DEMO: 41 0b [0m
+[0;32mI (43604) GATTS_DEMO: Battery: 2881mV[0m
+[0;32mI (44284) ADC: ADC2 Channel[3] Raw Data: 3177[0m
+[0;32mI (44284) ADC: ADC2 Channel[3] Cali Voltage: 2657 mV[0m
+[0;32mI (44484) UART: Data from STM: {"start":0,"potential":500,"current":0}, MSG_Size:39[0m
+[0;32mI (44484) UART: start:0[0m
+[0;32mI (44484) UART: 500 - 0.000000 - 5[0m
+[0;32mI (44554) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 61, handle 42
+[0m
+[0;32mI (44554) GATTS_DEMO: Status Start: 1[0m
+[0;32mI (44554) GATTS_DEMO: f4 01 00 00 00 00 [0m
+[0;32mI (44594) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 62, handle 46
+[0m
+[0;32mI (44594) GATTS_DEMO: 61 0a [0m
+[0;32mI (44594) GATTS_DEMO: Battery: 2657mV[0m
+[0;32mI (45284) ADC: ADC2 Channel[3] Raw Data: 3520[0m
+[0;32mI (45284) ADC: ADC2 Channel[3] Cali Voltage: 2863 mV[0m
+[0;32mI (45504) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (45504) UART: start: 0[0m
+[0;32mI (45564) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 63, handle 42
+[0m
+[0;32mI (45564) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (45564) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (45604) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 64, handle 46
+[0m
+[0;32mI (45614) GATTS_DEMO: 2f 0b [0m
+[0;32mI (45614) GATTS_DEMO: Battery: 2863mV[0m
+[0;32mI (46284) ADC: ADC2 Channel[3] Raw Data: 3221[0m
+[0;32mI (46284) ADC: ADC2 Channel[3] Cali Voltage: 2686 mV[0m
+[0;32mI (46574) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 65, handle 42
+[0m
+[0;32mI (46574) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (46574) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (46624) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 66, handle 46
+[0m
+[0;32mI (46624) GATTS_DEMO: 7e 0a [0m
+[0;32mI (46624) GATTS_DEMO: Battery: 2686mV[0m
+[0;32mI (47284) ADC: ADC2 Channel[3] Raw Data: 3653[0m
+[0;32mI (47284) ADC: ADC2 Channel[3] Cali Voltage: 2928 mV[0m
+[0;32mI (47564) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 67, handle 42
+[0m
+[0;32mI (47564) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (47564) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (47614) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 68, handle 46
+[0m
+[0;32mI (47614) GATTS_DEMO: 70 0b [0m
+[0;32mI (47614) GATTS_DEMO: Battery: 2928mV[0m
+[0;32mI (48284) ADC: ADC2 Channel[3] Raw Data: 3206[0m
+[0;32mI (48284) ADC: ADC2 Channel[3] Cali Voltage: 2676 mV[0m
+[0;32mI (48574) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 69, handle 42
+[0m
+[0;32mI (48584) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (48584) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (48624) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 70, handle 46
+[0m
+[0;32mI (48624) GATTS_DEMO: 74 0a [0m
+[0;32mI (48624) GATTS_DEMO: Battery: 2676mV[0m
+[0;32mI (49284) ADC: ADC2 Channel[3] Raw Data: 3773[0m
+[0;32mI (49284) ADC: ADC2 Channel[3] Cali Voltage: 2984 mV[0m
+[0;32mI (49594) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 71, handle 42
+[0m
+[0;32mI (49594) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (49594) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (49654) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 72, handle 46
+[0m
+[0;32mI (49664) GATTS_DEMO: a8 0b [0m
+[0;32mI (49664) GATTS_DEMO: Battery: 2984mV[0m
+[0;32mI (50284) ADC: ADC2 Channel[3] Raw Data: 3499[0m
+[0;32mI (50284) ADC: ADC2 Channel[3] Cali Voltage: 2851 mV[0m
+[0;32mI (50584) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 73, handle 42
+[0m
+[0;32mI (50584) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (50584) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (50624) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 74, handle 46
+[0m
+[0;32mI (50624) GATTS_DEMO: 23 0b [0m
+[0;32mI (50624) GATTS_DEMO: Battery: 2851mV[0m
+[0;32mI (51284) ADC: ADC2 Channel[3] Raw Data: 3343[0m
+[0;32mI (51284) ADC: ADC2 Channel[3] Cali Voltage: 2762 mV[0m
+[0;32mI (51594) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 75, handle 42
+[0m
+[0;32mI (51594) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (51594) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (51644) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 76, handle 46
+[0m
+[0;32mI (51644) GATTS_DEMO: ca 0a [0m
+[0;32mI (51644) GATTS_DEMO: Battery: 2762mV[0m
+[0;32mI (52284) ADC: ADC2 Channel[3] Raw Data: 3773[0m
+[0;32mI (52284) ADC: ADC2 Channel[3] Cali Voltage: 2984 mV[0m
+[0;32mI (52604) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 77, handle 42
+[0m
+[0;32mI (52604) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (52614) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (52654) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 78, handle 46
+[0m
+[0;32mI (52654) GATTS_DEMO: a8 0b [0m
+[0;32mI (52654) GATTS_DEMO: Battery: 2984mV[0m
+[0;32mI (53284) ADC: ADC2 Channel[3] Raw Data: 3427[0m
+[0;32mI (53284) ADC: ADC2 Channel[3] Cali Voltage: 2811 mV[0m
+[0;32mI (53614) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 79, handle 42
+[0m
+[0;32mI (53624) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (53624) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (53664) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 80, handle 46
+[0m
+[0;32mI (53664) GATTS_DEMO: fb 0a [0m
+[0;32mI (53664) GATTS_DEMO: Battery: 2811mV[0m
+[0;32mI (54284) ADC: ADC2 Channel[3] Raw Data: 3167[0m
+[0;32mI (54284) ADC: ADC2 Channel[3] Cali Voltage: 2650 mV[0m
+[0;32mI (54604) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 81, handle 42
+[0m
+[0;32mI (54614) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (54614) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (54654) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 82, handle 46
+[0m
+[0;32mI (54654) GATTS_DEMO: 5a 0a [0m
+[0;32mI (54654) GATTS_DEMO: Battery: 2650mV[0m
+[0;32mI (55284) ADC: ADC2 Channel[3] Raw Data: 3611[0m
+[0;32mI (55284) ADC: ADC2 Channel[3] Cali Voltage: 2907 mV[0m
+[0;32mI (55624) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 83, handle 42
+[0m
+[0;32mI (55624) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (55624) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (55664) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 84, handle 46
+[0m
+[0;32mI (55664) GATTS_DEMO: 5b 0b [0m
+[0;32mI (55664) GATTS_DEMO: Battery: 2907mV[0m
+[0;32mI (56284) ADC: ADC2 Channel[3] Raw Data: 3235[0m
+[0;32mI (56284) ADC: ADC2 Channel[3] Cali Voltage: 2695 mV[0m
+[0;32mI (56634) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 85, handle 42
+[0m
+[0;32mI (56634) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (56634) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (56674) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 86, handle 46
+[0m
+[0;32mI (56684) GATTS_DEMO: 87 0a [0m
+[0;32mI (56684) GATTS_DEMO: Battery: 2695mV[0m
+[0;32mI (57284) ADC: ADC2 Channel[3] Raw Data: 3482[0m
+[0;32mI (57284) ADC: ADC2 Channel[3] Cali Voltage: 2842 mV[0m
+[0;32mI (57624) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 87, handle 42
+[0m
+[0;32mI (57624) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (57624) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (57664) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 88, handle 46
+[0m
+[0;32mI (57674) GATTS_DEMO: 1a 0b [0m
+[0;32mI (57674) GATTS_DEMO: Battery: 2842mV[0m
+[0;32mI (58284) ADC: ADC2 Channel[3] Raw Data: 3471[0m
+[0;32mI (58284) ADC: ADC2 Channel[3] Cali Voltage: 2836 mV[0m
+[0;32mI (58634) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 89, handle 42
+[0m
+[0;32mI (58634) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (58634) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (58684) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 90, handle 46
+[0m
+[0;32mI (58684) GATTS_DEMO: 14 0b [0m
+[0;32mI (58684) GATTS_DEMO: Battery: 2836mV[0m
+[0;32mI (59284) ADC: ADC2 Channel[3] Raw Data: 3952[0m
+[0;32mI (59284) ADC: ADC2 Channel[3] Cali Voltage: 3062 mV[0m
+[0;32mI (59644) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 91, handle 42
+[0m
+[0;32mI (59654) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (59654) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (59694) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 92, handle 46
+[0m
+[0;32mI (59694) GATTS_DEMO: f6 0b [0m
+[0;32mI (59694) GATTS_DEMO: Battery: 3062mV[0m
+[0;32mI (60284) ADC: ADC2 Channel[3] Raw Data: 3393[0m
+[0;32mI (60284) ADC: ADC2 Channel[3] Cali Voltage: 2792 mV[0m
+[0;32mI (60644) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 93, handle 42
+[0m
+[0;32mI (60644) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (60644) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (60684) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 94, handle 46
+[0m
+[0;32mI (60684) GATTS_DEMO: e8 0a [0m
+[0;32mI (60684) GATTS_DEMO: Battery: 2792mV[0m
+[0;32mI (61284) ADC: ADC2 Channel[3] Raw Data: 3747[0m
+[0;32mI (61284) ADC: ADC2 Channel[3] Cali Voltage: 2972 mV[0m
+[0;32mI (61654) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 95, handle 42
+[0m
+[0;32mI (61654) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (61654) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (61694) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 96, handle 46
+[0m
+[0;32mI (61694) GATTS_DEMO: 9c 0b [0m
+[0;32mI (61694) GATTS_DEMO: Battery: 2972mV[0m
+[0;32mI (62284) ADC: ADC2 Channel[3] Raw Data: 3219[0m
+[0;32mI (62284) ADC: ADC2 Channel[3] Cali Voltage: 2685 mV[0m
+[0;32mI (62664) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 97, handle 42
+[0m
+[0;32mI (62664) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (62664) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (62714) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 98, handle 46
+[0m
+[0;32mI (62714) GATTS_DEMO: 7d 0a [0m
+[0;32mI (62714) GATTS_DEMO: Battery: 2685mV[0m
+[0;32mI (63284) ADC: ADC2 Channel[3] Raw Data: 3491[0m
+[0;32mI (63284) ADC: ADC2 Channel[3] Cali Voltage: 2847 mV[0m
+[0;32mI (63674) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 99, handle 42
+[0m
+[0;32mI (63674) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (63674) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (63724) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 100, handle 46
+[0m
+[0;32mI (63724) GATTS_DEMO: 1f 0b [0m
+[0;32mI (63724) GATTS_DEMO: Battery: 2847mV[0m
+[0;32mI (64284) ADC: ADC2 Channel[3] Raw Data: 3250[0m
+[0;32mI (64284) ADC: ADC2 Channel[3] Cali Voltage: 2705 mV[0m
+[0;32mI (64664) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 101, handle 42
+[0m
+[0;32mI (64664) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (64664) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (64714) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 102, handle 46
+[0m
+[0;32mI (64714) GATTS_DEMO: 91 0a [0m
+[0;32mI (64714) GATTS_DEMO: Battery: 2705mV[0m
+[0;32mI (65284) ADC: ADC2 Channel[3] Raw Data: 3870[0m
+[0;32mI (65284) ADC: ADC2 Channel[3] Cali Voltage: 3027 mV[0m
+[0;32mI (65674) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 103, handle 42
+[0m
+[0;32mI (65684) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (65684) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (65724) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 104, handle 46
+[0m
+[0;32mI (65724) GATTS_DEMO: d3 0b [0m
+[0;32mI (65724) GATTS_DEMO: Battery: 3027mV[0m
+[0;32mI (66284) ADC: ADC2 Channel[3] Raw Data: 3409[0m
+[0;32mI (66284) ADC: ADC2 Channel[3] Cali Voltage: 2801 mV[0m
+[0;32mI (66694) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 105, handle 42
+[0m
+[0;32mI (66694) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (66694) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (66734) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 106, handle 46
+[0m
+[0;32mI (66734) GATTS_DEMO: f1 0a [0m
+[0;32mI (66734) GATTS_DEMO: Battery: 2801mV[0m
+[0;32mI (67284) ADC: ADC2 Channel[3] Raw Data: 3520[0m
+[0;32mI (67284) ADC: ADC2 Channel[3] Cali Voltage: 2863 mV[0m
+[0;32mI (67684) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 107, handle 42
+[0m
+[0;32mI (67684) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (67684) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (67724) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 108, handle 46
+[0m
+[0;32mI (67724) GATTS_DEMO: 2f 0b [0m
+[0;32mI (67724) GATTS_DEMO: Battery: 2863mV[0m
+[0;32mI (68284) ADC: ADC2 Channel[3] Raw Data: 3679[0m
+[0;32mI (68284) ADC: ADC2 Channel[3] Cali Voltage: 2940 mV[0m
+[0;32mI (68694) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 109, handle 42
+[0m
+[0;32mI (68694) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (68694) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (68734) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 110, handle 46
+[0m
+[0;32mI (68744) GATTS_DEMO: 7c 0b [0m
+[0;32mI (68744) GATTS_DEMO: Battery: 2940mV[0m
+[0;32mI (69284) ADC: ADC2 Channel[3] Raw Data: 3271[0m
+[0;32mI (69284) ADC: ADC2 Channel[3] Cali Voltage: 2718 mV[0m
+[0;32mI (69704) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 111, handle 42
+[0m
+[0;32mI (69704) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (69704) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (69754) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 112, handle 46
+[0m
+[0;32mI (69754) GATTS_DEMO: 9e 0a [0m
+[0;32mI (69754) GATTS_DEMO: Battery: 2718mV[0m
+[0;32mI (70284) ADC: ADC2 Channel[3] Raw Data: 3595[0m
+[0;32mI (70284) ADC: ADC2 Channel[3] Cali Voltage: 2899 mV[0m
+[0;32mI (70694) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 113, handle 42
+[0m
+[0;32mI (70694) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (70694) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (70764) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 114, handle 46
+[0m
+[0;32mI (70764) GATTS_DEMO: 53 0b [0m
+[0;32mI (70764) GATTS_DEMO: Battery: 2899mV[0m
+[0;32mI (71284) ADC: ADC2 Channel[3] Raw Data: 3766[0m
+[0;32mI (71284) ADC: ADC2 Channel[3] Cali Voltage: 2981 mV[0m
+[0;32mI (71714) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 115, handle 42
+[0m
+[0;32mI (71714) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (71714) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (71754) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 116, handle 46
+[0m
+[0;32mI (71754) GATTS_DEMO: a5 0b [0m
+[0;32mI (71754) GATTS_DEMO: Battery: 2981mV[0m
+[0;32mI (72284) ADC: ADC2 Channel[3] Raw Data: 3309[0m
+[0;32mI (72284) ADC: ADC2 Channel[3] Cali Voltage: 2742 mV[0m
+[0;32mI (72724) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 117, handle 42
+[0m
+[0;32mI (72724) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (72724) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (72764) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 118, handle 46
+[0m
+[0;32mI (72764) GATTS_DEMO: b6 0a [0m
+[0;32mI (72764) GATTS_DEMO: Battery: 2742mV[0m
+[0;32mI (73284) ADC: ADC2 Channel[3] Raw Data: 3658[0m
+[0;32mI (73284) ADC: ADC2 Channel[3] Cali Voltage: 2930 mV[0m
+[0;32mI (73714) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 119, handle 42
+[0m
+[0;32mI (73714) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (73714) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (73804) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 120, handle 46
+[0m
+[0;32mI (73804) GATTS_DEMO: 72 0b [0m
+[0;32mI (73804) GATTS_DEMO: Battery: 2930mV[0m
+[0;32mI (74284) ADC: ADC2 Channel[3] Raw Data: 3949[0m
+[0;32mI (74284) ADC: ADC2 Channel[3] Cali Voltage: 3061 mV[0m
+[0;32mI (74724) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 121, handle 42
+[0m
+[0;32mI (74724) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (74724) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (74774) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 122, handle 46
+[0m
+[0;32mI (74774) GATTS_DEMO: f5 0b [0m
+[0;32mI (74774) GATTS_DEMO: Battery: 3061mV[0m
+[0;32mI (75284) ADC: ADC2 Channel[3] Raw Data: 3593[0m
+[0;32mI (75284) ADC: ADC2 Channel[3] Cali Voltage: 2898 mV[0m
+[0;32mI (75734) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 123, handle 42
+[0m
+[0;32mI (75734) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (75734) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (75784) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 124, handle 46
+[0m
+[0;32mI (75784) GATTS_DEMO: 52 0b [0m
+[0;32mI (75784) GATTS_DEMO: Battery: 2898mV[0m
+[0;32mI (76284) ADC: ADC2 Channel[3] Raw Data: 3183[0m
+[0;32mI (76284) ADC: ADC2 Channel[3] Cali Voltage: 2661 mV[0m
+[0;32mI (76744) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 125, handle 42
+[0m
+[0;32mI (76754) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (76754) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (76794) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 126, handle 46
+[0m
+[0;32mI (76794) GATTS_DEMO: 65 0a [0m
+[0;32mI (76794) GATTS_DEMO: Battery: 2661mV[0m
+[0;32mI (77284) ADC: ADC2 Channel[3] Raw Data: 3505[0m
+[0;32mI (77284) ADC: ADC2 Channel[3] Cali Voltage: 2854 mV[0m
+[0;32mI (77734) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 127, handle 42
+[0m
+[0;32mI (77744) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (77744) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (77784) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 128, handle 46
+[0m
+[0;32mI (77784) GATTS_DEMO: 26 0b [0m
+[0;32mI (77784) GATTS_DEMO: Battery: 2854mV[0m
+[0;32mI (78284) ADC: ADC2 Channel[3] Raw Data: 3959[0m
+[0;32mI (78284) ADC: ADC2 Channel[3] Cali Voltage: 3065 mV[0m
+[0;32mI (78754) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 129, handle 42
+[0m
+[0;32mI (78754) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (78754) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (78794) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 130, handle 46
+[0m
+[0;32mI (78794) GATTS_DEMO: f9 0b [0m
+[0;32mI (78794) GATTS_DEMO: Battery: 3065mV[0m
+[0;32mI (79284) ADC: ADC2 Channel[3] Raw Data: 3497[0m
+[0;32mI (79284) ADC: ADC2 Channel[3] Cali Voltage: 2850 mV[0m
+[0;32mI (79764) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 131, handle 42
+[0m
+[0;32mI (79764) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (79764) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (79804) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 132, handle 46
+[0m
+[0;32mI (79814) GATTS_DEMO: 22 0b [0m
+[0;32mI (79814) GATTS_DEMO: Battery: 2850mV[0m
+[0;32mI (80284) ADC: ADC2 Channel[3] Raw Data: 3175[0m
+[0;32mI (80284) ADC: ADC2 Channel[3] Cali Voltage: 2656 mV[0m
+[0;32mI (80754) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 133, handle 42
+[0m
+[0;32mI (80754) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (80754) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (80794) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 134, handle 46
+[0m
+[0;32mI (80804) GATTS_DEMO: 60 0a [0m
+[0;32mI (80804) GATTS_DEMO: Battery: 2656mV[0m
+[0;32mI (81284) ADC: ADC2 Channel[3] Raw Data: 3540[0m
+[0;32mI (81284) ADC: ADC2 Channel[3] Cali Voltage: 2872 mV[0m
+[0;32mI (81764) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 135, handle 42
+[0m
+[0;32mI (81764) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (81764) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (81814) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 136, handle 46
+[0m
+[0;32mI (81814) GATTS_DEMO: 38 0b [0m
+[0;32mI (81814) GATTS_DEMO: Battery: 2872mV[0m
+[0;32mI (82284) ADC: ADC2 Channel[3] Raw Data: 3855[0m
+[0;32mI (82284) ADC: ADC2 Channel[3] Cali Voltage: 3021 mV[0m
+[0;32mI (82774) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 137, handle 42
+[0m
+[0;32mI (82784) GATTS_DEMO: Status Start: 0[0m
+[0;32mI (82784) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (82824) GATTS_DEMO: GATT_READ_EVT_B, conn_id 0, trans_id 138, handle 46
+[0m
+[0;32mI (82824) GATTS_DEMO: cd 0b [0m
+[0;32mI (82824) GATTS_DEMO: Battery: 3021mV[0m
+[0;32mI (83284) ADC: ADC2 Channel[3] Raw Data: 3223[0m
+[0;32mI (83284) ADC: ADC2 Channel[3] Cali Voltage: 2687 mV[0m
+[0;32mI (83434) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 139, handle 42[0m
+[0;32mI (83434) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (83434) GATTS_DEMO: 53 61 76 65 5f 64 61 74 61 00 [0m
+[0;32mI (83444) GATTS_DEMO: Save_data, len: 9[0m
+[0;32mI (83754) UART: Data recv from BLE: Save_data[0m
+[0;32mI (83754) SDCARD: Opening file /sdcard/potentio.csv[0m
+[0;32mI (83854) SDCARD: File written[0m
+[0;32mI (83854) SDCARD: Reading file /sdcard/potentio.csv[0m
+[0;32mI (83854) SDCARD: Read from file: '{"config_dev":1,"mode":"CV","res":"mA","vol_start":200.0,"vol_end":600.0,"scan_rate":200.0,"num_cycle":2}'[0m
+[0;32mI (84284) ADC: ADC2 Channel[3] Raw Data: 3301[0m
+[0;32mI (84284) ADC: ADC2 Channel[3] Cali Voltage: 2737 mV[0m
+[0;32mI (85284) ADC: ADC2 Channel[3] Raw Data: 3873[0m
+[0;32mI (85284) ADC: ADC2 Channel[3] Cali Voltage: 3029 mV[0m
+[0;32mI (86284) ADC: ADC2 Channel[3] Raw Data: 3501[0m
+[0;32mI (86284) ADC: ADC2 Channel[3] Cali Voltage: 2852 mV[0m
+[0;32mI (87284) ADC: ADC2 Channel[3] Raw Data: 3745[0m
+[0;32mI (87284) ADC: ADC2 Channel[3] Cali Voltage: 2971 mV[0m
+[0;32mI (88284) ADC: ADC2 Channel[3] Raw Data: 3481[0m
+[0;32mI (88284) ADC: ADC2 Channel[3] Cali Voltage: 2841 mV[0m
+[0;32mI (89284) ADC: ADC2 Channel[3] Raw Data: 3216[0m
+[0;32mI (89284) ADC: ADC2 Channel[3] Cali Voltage: 2683 mV[0m
+[0;32mI (90284) ADC: ADC2 Channel[3] Raw Data: 3897[0m
+[0;32mI (90284) ADC: ADC2 Channel[3] Cali Voltage: 3039 mV[0m
+[0;32mI (91284) ADC: ADC2 Channel[3] Raw Data: 3534[0m
+[0;32mI (91284) ADC: ADC2 Channel[3] Cali Voltage: 2869 mV[0m
+[0;32mI (92284) ADC: ADC2 Channel[3] Raw Data: 3200[0m
+[0;32mI (92284) ADC: ADC2 Channel[3] Cali Voltage: 2673 mV[0m
+[0;32mI (93284) ADC: ADC2 Channel[3] Raw Data: 3673[0m
+[0;32mI (93284) ADC: ADC2 Channel[3] Cali Voltage: 2937 mV[0m
+[0;32mI (94284) ADC: ADC2 Channel[3] Raw Data: 3385[0m
+[0;32mI (94284) ADC: ADC2 Channel[3] Cali Voltage: 2787 mV[0m
+[0;32mI (95284) ADC: ADC2 Channel[3] Raw Data: 3798[0m
+[0;32mI (95284) ADC: ADC2 Channel[3] Cali Voltage: 2995 mV[0m
+[0;32mI (96284) ADC: ADC2 Channel[3] Raw Data: 3223[0m
+[0;32mI (96284) ADC: ADC2 Channel[3] Cali Voltage: 2687 mV[0m
+[0;32mI (97284) ADC: ADC2 Channel[3] Raw Data: 3523[0m
+[0;32mI (97284) ADC: ADC2 Channel[3] Cali Voltage: 2864 mV[0m
+[0;32mI (97604) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 140, handle 42[0m
+[0;32mI (97604) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (97614) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (97614) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (97624) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (97624) GATTS_DEMO: Res: mA[0m
+[0;32mI (97624) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (97634) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 141, handle 46[0m
+[0;32mI (97634) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (97644) GATTS_DEMO: 31 30 30 40 35 30 30 40 31 30 30 40 00 [0m
+[0;32mI (97654) GATTS_DEMO: 100@500@100@, len: 12[0m
+[0;32mI (97654) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (97664) GATTS_DEMO: End voltage: 500.0[0m
+[0;32mI (97664) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (98284) ADC: ADC2 Channel[3] Raw Data: 3774[0m
+[0;32mI (98284) ADC: ADC2 Channel[3] Cali Voltage: 2985 mV[0m
+[0;32mI (99034) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":500.0,"scan_rate":100.0}[0m
+[0;32mI (99284) ADC: ADC2 Channel[3] Raw Data: 3611[0m
+[0;32mI (99284) ADC: ADC2 Channel[3] Cali Voltage: 2907 mV[0m
+[0;32mI (99544) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (100284) ADC: ADC2 Channel[3] Raw Data: 3761[0m
+[0;32mI (100284) ADC: ADC2 Channel[3] Cali Voltage: 2979 mV[0m
+[0;32mI (101284) ADC: ADC2 Channel[3] Raw Data: 3627[0m
+[0;32mI (101284) ADC: ADC2 Channel[3] Cali Voltage: 2915 mV[0m
+[0;32mI (102284) ADC: ADC2 Channel[3] Raw Data: 3184[0m
+[0;32mI (102284) ADC: ADC2 Channel[3] Cali Voltage: 2662 mV[0m
+[0;32mI (103284) ADC: ADC2 Channel[3] Raw Data: 3743[0m
+[0;32mI (103284) ADC: ADC2 Channel[3] Cali Voltage: 2970 mV[0m
+[0;32mI (104284) ADC: ADC2 Channel[3] Raw Data: 3186[0m
+[0;32mI (104284) ADC: ADC2 Channel[3] Cali Voltage: 2663 mV[0m
+[0;32mI (105284) ADC: ADC2 Channel[3] Raw Data: 3401[0m
+[0;32mI (105284) ADC: ADC2 Channel[3] Cali Voltage: 2797 mV[0m
+[0;32mI (106284) ADC: ADC2 Channel[3] Raw Data: 3915[0m
+[0;32mI (106284) ADC: ADC2 Channel[3] Cali Voltage: 3047 mV[0m
+[0;32mI (107284) ADC: ADC2 Channel[3] Raw Data: 3371[0m
+[0;32mI (107284) ADC: ADC2 Channel[3] Cali Voltage: 2779 mV[0m
+[0;32mI (108284) ADC: ADC2 Channel[3] Raw Data: 3760[0m
+[0;32mI (108284) ADC: ADC2 Channel[3] Cali Voltage: 2978 mV[0m
+[0;32mI (109284) ADC: ADC2 Channel[3] Raw Data: 3250[0m
+[0;32mI (109284) ADC: ADC2 Channel[3] Cali Voltage: 2705 mV[0m
+[0;32mI (110284) ADC: ADC2 Channel[3] Raw Data: 3749[0m
+[0;32mI (110284) ADC: ADC2 Channel[3] Cali Voltage: 2973 mV[0m
+[0;32mI (111284) ADC: ADC2 Channel[3] Raw Data: 3376[0m
+[0;32mI (111284) ADC: ADC2 Channel[3] Cali Voltage: 2782 mV[0m
+[0;32mI (112284) ADC: ADC2 Channel[3] Raw Data: 3712[0m
+[0;32mI (112284) ADC: ADC2 Channel[3] Cali Voltage: 2956 mV[0m
+[0;32mI (113284) ADC: ADC2 Channel[3] Raw Data: 3716[0m
+[0;32mI (113284) ADC: ADC2 Channel[3] Cali Voltage: 2958 mV[0m
+[0;32mI (114284) ADC: ADC2 Channel[3] Raw Data: 3381[0m
+[0;32mI (114284) ADC: ADC2 Channel[3] Cali Voltage: 2785 mV[0m
+[0;32mI (115284) ADC: ADC2 Channel[3] Raw Data: 3939[0m
+[0;32mI (115284) ADC: ADC2 Channel[3] Cali Voltage: 3057 mV[0m
+[0;32mI (116284) ADC: ADC2 Channel[3] Raw Data: 3477[0m
+[0;32mI (116284) ADC: ADC2 Channel[3] Cali Voltage: 2839 mV[0m
+[0;32mI (117284) ADC: ADC2 Channel[3] Raw Data: 3793[0m
+[0;32mI (117284) ADC: ADC2 Channel[3] Cali Voltage: 2993 mV[0m
+[0;32mI (118284) ADC: ADC2 Channel[3] Raw Data: 3293[0m
+[0;32mI (118284) ADC: ADC2 Channel[3] Cali Voltage: 2732 mV[0m
+[0;32mI (119284) ADC: ADC2 Channel[3] Raw Data: 3713[0m
+[0;32mI (119284) ADC: ADC2 Channel[3] Cali Voltage: 2956 mV[0m
+[0;32mI (120284) ADC: ADC2 Channel[3] Raw Data: 3694[0m
+[0;32mI (120284) ADC: ADC2 Channel[3] Cali Voltage: 2947 mV[0m
+[0;32mI (121284) ADC: ADC2 Channel[3] Raw Data: 3214[0m
+[0;32mI (121284) ADC: ADC2 Channel[3] Cali Voltage: 2682 mV[0m
+[0;32mI (122284) ADC: ADC2 Channel[3] Raw Data: 3824[0m
+[0;32mI (122284) ADC: ADC2 Channel[3] Cali Voltage: 3007 mV[0m
+[0;32mI (123284) ADC: ADC2 Channel[3] Raw Data: 3495[0m
+[0;32mI (123284) ADC: ADC2 Channel[3] Cali Voltage: 2849 mV[0m
+[0;32mI (124284) ADC: ADC2 Channel[3] Raw Data: 3266[0m
+[0;32mI (124284) ADC: ADC2 Channel[3] Cali Voltage: 2715 mV[0m
+[0;32mI (125284) ADC: ADC2 Channel[3] Raw Data: 3643[0m
+[0;32mI (125284) ADC: ADC2 Channel[3] Cali Voltage: 2923 mV[0m
+[0;32mI (126284) ADC: ADC2 Channel[3] Raw Data: 3346[0m
+[0;32mI (126284) ADC: ADC2 Channel[3] Cali Voltage: 2764 mV[0m
+[0;32mI (127284) ADC: ADC2 Channel[3] Raw Data: 3600[0m
+[0;32mI (127284) ADC: ADC2 Channel[3] Cali Voltage: 2902 mV[0m
+[0;32mI (128284) ADC: ADC2 Channel[3] Raw Data: 3399[0m
+[0;32mI (128284) ADC: ADC2 Channel[3] Cali Voltage: 2795 mV[0m
+[0;32mI (129284) ADC: ADC2 Channel[3] Raw Data: 3770[0m
+[0;32mI (129284) ADC: ADC2 Channel[3] Cali Voltage: 2983 mV[0m
+[0;32mI (130284) ADC: ADC2 Channel[3] Raw Data: 3211[0m
+[0;32mI (130284) ADC: ADC2 Channel[3] Cali Voltage: 2680 mV[0m
+[0;32mI (131284) ADC: ADC2 Channel[3] Raw Data: 3504[0m
+[0;32mI (131284) ADC: ADC2 Channel[3] Cali Voltage: 2854 mV[0m
+[0;32mI (132284) ADC: ADC2 Channel[3] Raw Data: 3955[0m
+[0;32mI (132284) ADC: ADC2 Channel[3] Cali Voltage: 3064 mV[0m
+[0;32mI (133284) ADC: ADC2 Channel[3] Raw Data: 3446[0m
+[0;32mI (133284) ADC: ADC2 Channel[3] Cali Voltage: 2822 mV[0m
+[0;32mI (134284) ADC: ADC2 Channel[3] Raw Data: 3207[0m
+[0;32mI (134284) ADC: ADC2 Channel[3] Cali Voltage: 2677 mV[0m
+[0;32mI (135284) ADC: ADC2 Channel[3] Raw Data: 3859[0m
+[0;32mI (135284) ADC: ADC2 Channel[3] Cali Voltage: 3023 mV[0m
+[0;32mI (136284) ADC: ADC2 Channel[3] Raw Data: 3509[0m
+[0;32mI (136284) ADC: ADC2 Channel[3] Cali Voltage: 2857 mV[0m
+[0;32mI (137284) ADC: ADC2 Channel[3] Raw Data: 3287[0m
+[0;32mI (137284) ADC: ADC2 Channel[3] Cali Voltage: 2728 mV[0m
+[0;32mI (138284) ADC: ADC2 Channel[3] Raw Data: 3951[0m
+[0;32mI (138284) ADC: ADC2 Channel[3] Cali Voltage: 3062 mV[0m
+[0;32mI (139284) ADC: ADC2 Channel[3] Raw Data: 3540[0m
+[0;32mI (139284) ADC: ADC2 Channel[3] Cali Voltage: 2872 mV[0m
+[0;32mI (140284) ADC: ADC2 Channel[3] Raw Data: 3314[0m
+[0;32mI (140284) ADC: ADC2 Channel[3] Cali Voltage: 2745 mV[0m
+[0;32mI (141284) ADC: ADC2 Channel[3] Raw Data: 3516[0m
+[0;32mI (141284) ADC: ADC2 Channel[3] Cali Voltage: 2860 mV[0m
+[0;32mI (142284) ADC: ADC2 Channel[3] Raw Data: 3946[0m
+[0;32mI (142284) ADC: ADC2 Channel[3] Cali Voltage: 3060 mV[0m
+[0;32mI (143284) ADC: ADC2 Channel[3] Raw Data: 3641[0m
+[0;32mI (143284) ADC: ADC2 Channel[3] Cali Voltage: 2922 mV[0m
+[0;32mI (144284) ADC: ADC2 Channel[3] Raw Data: 3693[0m
+[0;32mI (144284) ADC: ADC2 Channel[3] Cali Voltage: 2947 mV[0m
+[0;32mI (145284) ADC: ADC2 Channel[3] Raw Data: 3648[0m
+[0;32mI (145284) ADC: ADC2 Channel[3] Cali Voltage: 2926 mV[0m
+[0;32mI (146284) ADC: ADC2 Channel[3] Raw Data: 3332[0m
+[0;32mI (146284) ADC: ADC2 Channel[3] Cali Voltage: 2756 mV[0m
+[0;32mI (147284) ADC: ADC2 Channel[3] Raw Data: 3184[0m
+[0;32mI (147284) ADC: ADC2 Channel[3] Cali Voltage: 2662 mV[0m
+[0;32mI (148284) ADC: ADC2 Channel[3] Raw Data: 3819[0m
+[0;32mI (148284) ADC: ADC2 Channel[3] Cali Voltage: 3005 mV[0m
+[0;32mI (149284) ADC: ADC2 Channel[3] Raw Data: 3426[0m
+[0;32mI (149284) ADC: ADC2 Channel[3] Cali Voltage: 2811 mV[0m
+[0;32mI (150284) ADC: ADC2 Channel[3] Raw Data: 3175[0m
+[0;32mI (150284) ADC: ADC2 Channel[3] Cali Voltage: 2656 mV[0m
+[0;32mI (151284) ADC: ADC2 Channel[3] Raw Data: 3600[0m
+[0;32mI (151284) ADC: ADC2 Channel[3] Cali Voltage: 2902 mV[0m
+[0;32mI (152284) ADC: ADC2 Channel[3] Raw Data: 3322[0m
+[0;32mI (152284) ADC: ADC2 Channel[3] Cali Voltage: 2750 mV[0m
+[0;32mI (153284) ADC: ADC2 Channel[3] Raw Data: 3472[0m
+[0;32mI (153284) ADC: ADC2 Channel[3] Cali Voltage: 2837 mV[0m
+[0;32mI (154284) ADC: ADC2 Channel[3] Raw Data: 3838[0m
+[0;32mI (154284) ADC: ADC2 Channel[3] Cali Voltage: 3014 mV[0m
+[0;32mI (155284) ADC: ADC2 Channel[3] Raw Data: 3332[0m
+[0;32mI (155284) ADC: ADC2 Channel[3] Cali Voltage: 2756 mV[0m
+[0;32mI (156284) ADC: ADC2 Channel[3] Raw Data: 3459[0m
+[0;32mI (156284) ADC: ADC2 Channel[3] Cali Voltage: 2830 mV[0m
+[0;32mI (157284) ADC: ADC2 Channel[3] Raw Data: 3952[0m
+[0;32mI (157284) ADC: ADC2 Channel[3] Cali Voltage: 3062 mV[0m
+[0;32mI (158284) ADC: ADC2 Channel[3] Raw Data: 3611[0m
+[0;32mI (158284) ADC: ADC2 Channel[3] Cali Voltage: 2907 mV[0m
+[0;32mI (159284) ADC: ADC2 Channel[3] Raw Data: 3253[0m
+[0;32mI (159284) ADC: ADC2 Channel[3] Cali Voltage: 2707 mV[0m
+[0;32mI (160284) ADC: ADC2 Channel[3] Raw Data: 3873[0m
+[0;32mI (160284) ADC: ADC2 Channel[3] Cali Voltage: 3029 mV[0m
+[0;32mI (161284) ADC: ADC2 Channel[3] Raw Data: 3510[0m
+[0;32mI (161284) ADC: ADC2 Channel[3] Cali Voltage: 2857 mV[0m
+[0;32mI (162284) ADC: ADC2 Channel[3] Raw Data: 3248[0m
+[0;32mI (162284) ADC: ADC2 Channel[3] Cali Voltage: 2704 mV[0m
+[0;32mI (163284) ADC: ADC2 Channel[3] Raw Data: 3769[0m
+[0;32mI (163284) ADC: ADC2 Channel[3] Cali Voltage: 2982 mV[0m
+[0;32mI (164284) ADC: ADC2 Channel[3] Raw Data: 3207[0m
+[0;32mI (164284) ADC: ADC2 Channel[3] Cali Voltage: 2677 mV[0m
+[0;32mI (165284) ADC: ADC2 Channel[3] Raw Data: 3374[0m
+[0;32mI (165284) ADC: ADC2 Channel[3] Cali Voltage: 2781 mV[0m

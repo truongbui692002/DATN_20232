@@ -1,0 +1,345 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=213f4h (136180) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=0003141c vaddr=3ffbdb60 size=0453ch ( 17724) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035960 vaddr=40080000 size=0a6b8h ( 42680) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=81b18h (531224) map[0m
+[0;32mI (373) esp_image: segment 4: paddr=000c1b40 vaddr=4008a6b8 size=0e660h ( 58976) load[0m
+[0;32mI (410) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (410) boot: Disabling RNG early entropy source...[0m
+[0;32mI (422) cpu_start: Multicore app[0m
+[0;32mI (422) cpu_start: Pro cpu up.[0m
+[0;32mI (422) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (440) cpu_start: Pro cpu start user code[0m
+[0;32mI (440) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (440) cpu_start: Application information:[0m
+[0;32mI (445) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (450) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (456) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (462) cpu_start: ELF file SHA256:  60f9ec9280b52f2b...[0m
+[0;32mI (468) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (473) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (478) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (482) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (487) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (495) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (500) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (507) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (513) heap_init: At 3FFC75B0 len 00018A50 (98 KiB): DRAM[0m
+[0;32mI (519) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (525) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (532) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (539) spi_flash: detected chip: generic[0m
+[0;32mI (542) spi_flash: flash io: dio[0m
+[0;33mW (546) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (560) coexist: coex firmware version: ebddf30[0m
+[0;32mI (566) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (570) app_start: Starting scheduler on CPU1[0m
+I (570) main_task: Started on CPU0[0m
+[0;32mI (580) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (670) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (680) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1100) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1110) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1120) main_task: Returned from app_main()[0m
+[0;32mI (1130) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1130) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1140) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1140) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1150) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1150) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1160) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1900) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (2890) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (3880) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (4870) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (5970) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (6960) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (7950) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (8940) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (9930) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (11030) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (12020) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (13010) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (14000) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (14990) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (16090) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (17080) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (18070) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (19060) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (20050) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (21150) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (22140) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (23130) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (24120) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (25110) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (26210) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (27200) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (28190) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (29180) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (30170) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (31270) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (32260) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (33250) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (34240) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (35230) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (36330) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (37320) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (38310) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (39300) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (40290) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (41390) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (42380) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (43370) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (44360) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (45350) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (46450) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (47440) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (48430) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (49420) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (50410) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (51510) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (52500) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (53490) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (54480) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (55470) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (56570) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (57560) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (58550) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (59540) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (60530) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (61630) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (62620) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (63610) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (64600) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (65590) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (66690) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (67680) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (68670) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (69660) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (70650) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (71750) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (72740) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (73730) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (74720) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (75710) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (76810) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (77800) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (78790) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (79780) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (80770) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (81870) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (82860) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (83850) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (84840) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (85830) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (86820) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (87920) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (88910) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (89900) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (90890) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (91880) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (92980) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (93970) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (94960) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (95950) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (96940) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (98040) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (99030) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (100020) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (101010) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (102000) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (103100) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (104090) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (105080) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (106070) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (107060) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (108160) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (109150) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (110140) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (111130) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (112120) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (113220) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (114210) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (115200) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (116190) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (117180) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (118280) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (119270) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (120260) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (121250) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (122240) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (123340) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (124330) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (125320) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (126310) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (127300) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (128400) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (129390) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (130380) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (131370) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (132360) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (133460) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (134450) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (135440) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (136430) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (137420) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (138520) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (139510) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (140500) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (141490) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (142480) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (143580) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (144570) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (145560) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (146550) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (147540) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (148640) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (149630) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (150620) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (151610) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (152600) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (153700) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (154690) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (155680) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (156670) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (157660) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (158760) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (159750) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (160740) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (161730) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (162720) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (163820) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (164810) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (165800) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (166790) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (167780) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (168880) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (169870) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (170860) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (171850) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (172840) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (173940) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (174930) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (175920) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (176910) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (177900) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (179000) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (179990) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (180980) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (181970) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (182960) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (184060) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (185050) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (186040) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (187030) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (188020) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (189120) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (190110) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (191100) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (192090) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (193080) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (194180) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (195170) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (196160) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (197150) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (198140) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (199240) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (200230) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (201220) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (202210) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (203200) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (204300) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (205290) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (206280) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (207270) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (208260) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (209360) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (210350) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (211340) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (212330) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (213320) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (214420) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (215410) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (216400) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (217390) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (218380) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (219480) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (220470) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (221460) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (222450) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (223440) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (224540) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (225530) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (226520) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (227510) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (228500) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (229600) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (230590) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (231580) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (232570) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (233560) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (234660) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (235650) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (236640) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (237630) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (238620) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (239720) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (240710) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (241700) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (242690) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (243680) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (244780) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (245770) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (246760) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (247750) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (248740) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (249840) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (250830) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (251820) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (252810) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (253800) UART: Data from STM: {"Potential"0.0,"Collect_volt":2.499716,"Current":1.249858,"Scan Rate":20.0,"Scan count":2}, MSG_Size:91[0m
+[0;32mI (261060) UART: Data from STM: {"Potential"20.0,"Collect_volt":0.001957,"Current":0.000978,"Scan Rate":20.0,"Scan count":0}, MSG_Size:92[0m

@@ -1,0 +1,192 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=25694h (153236) map[0m
+[0;32mI (162) esp_image: segment 1: paddr=000356bc vaddr=3ffbdb60 size=0473ch ( 18236) load[0m
+[0;32mI (169) esp_image: segment 2: paddr=00039e00 vaddr=40080000 size=06218h ( 25112) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=8f130h (586032) map[0m
+[0;32mI (392) esp_image: segment 4: paddr=000cf158 vaddr=40086218 size=1467ch ( 83580) load[0m
+[0;32mI (440) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (440) boot: Disabling RNG early entropy source...[0m
+[0;32mI (452) cpu_start: Multicore app[0m
+[0;32mI (452) cpu_start: Pro cpu up.[0m
+[0;32mI (452) cpu_start: Starting app cpu, entry point is 0x40081544[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (470) cpu_start: Pro cpu start user code[0m
+[0;32mI (470) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (470) cpu_start: Application information:[0m
+[0;32mI (475) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (480) cpu_start: App version:      b1d72289b-dirty[0m
+[0;32mI (486) cpu_start: Compile time:     Jun 17 2024 14:16:29[0m
+[0;32mI (492) cpu_start: ELF file SHA256:  9ce0f18f8e5d57b7...[0m
+[0;32mI (498) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (503) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (508) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (513) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (517) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (530) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (537) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (543) heap_init: At 3FFC7708 len 000188F8 (98 KiB): DRAM[0m
+[0;32mI (549) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (555) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (562) heap_init: At 4009A894 len 0000576C (21 KiB): IRAM[0m
+[0;32mI (569) spi_flash: detected chip: generic[0m
+[0;32mI (573) spi_flash: flash io: dio[0m
+[0;33mW (576) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (590) coexist: coex firmware version: ebddf30[0m
+[0;32mI (596) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (600) app_start: Starting scheduler on CPU1[0m
+I (600) main_task: Started on CPU0[0m
+[0;32mI (610) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (700) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (710) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1130) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1130) SDCARD: Initializing SD card[0m
+[0;32mI (1130) SDCARD: Using SPI peripheral[0m
+[0;32mI (1140) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1140) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1150) SDCARD: Mounting filesystem[0m
+[0;32mI (1160) gpio: GPIO[21]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1160) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1170) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1180) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1180) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1190) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1190) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1200) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1210) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1210) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1220) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1230) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1230) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1240) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1240) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1250) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;31mE (1280) vfs_fat_sdmmc: sdmmc_card_init failed (0x107).[0m
+[0;32mI (1280) gpio: GPIO[21]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (1280) SDCARD: Failed to initialize the card (ESP_ERR_TIMEOUT). Make sure SD card lines have pull-up resistors in place.[0m
+[0;32mI (1290) main_task: Returned from app_main()[0m
+[0;32mI (120510) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 6a:55:57:ed:91:6f:[0m
+[0;32mI (120520) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 6a:55:57:ed:91:6f:[0m
+[0;33mW (120520) BT_L2CAP: l2cble_start_conn_update, the last connection update command still pending.[0m
+[0;32mI (121230) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (121530) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (121760) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (121760) GATTS_DEMO: GATT_WRITE_EVT, value len 15, value :[0m
+[0;32mI (121770) GATTS_DEMO: 47 41 54 54 5f 43 6f 6e 6e 65 63 74 65 64 00 [0m
+[0;32mI (121770) GATTS_DEMO: GATT_Connected, len: 14[0m
+[0;32mI (121810) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (122170) UART: Data recv_a from BLE: GATT_Connected[0m
+[0;32mI (123830) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 2, handle 42[0m
+[0;32mI (123830) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (123840) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (123840) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (123850) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (123850) GATTS_DEMO: Res: mA[0m
+[0;32mI (123850) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (123860) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 3, handle 46[0m
+[0;32mI (123860) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (123870) GATTS_DEMO: 31 30 30 40 35 30 30 40 31 30 30 6c 40 00 [0m
+[0;32mI (123880) GATTS_DEMO: 100@500@100l@, len: 13[0m
+[0;32mI (123880) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (123890) GATTS_DEMO: End voltage: 500.0[0m
+[0;32mI (123890) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (125210) SDCARD: Opening file /sdcard/data_potentio.txt[0m
+[0;31mE (125210) SDCARD: Failed to open file for writing[0m
+[0;32mI (125210) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":500.0,"scan_rate":100.0}[0m
+[0;32mI (125730) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (1130) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1140) SDCARD: Initializing SD card[0m
+[0;32mI (1140) SDCARD: Using SPI peripheral[0m
+[0;32mI (1150) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1150) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1160) SDCARD: Mounting filesystem[0m
+[0;32mI (1170) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1170) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1170) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1180) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1180) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1190) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1190) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1200) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1210) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1220) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1220) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1230) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1230) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1240) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1240) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;32mI (1160) gpio: GPIO[21]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (1280) vfs_fat_sdmmc: sdmmc_card_init failed (0x107).[0m
+[0;32mI (1280) gpio: GPIO[21]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (1280) SDCARD: Failed to initialize the card (ESP_ERR_TIMEOUT). Make sure SD card lines have pull-up resistors in place.[0m
+[0;32mI (1290) main_task: Returned from app_main()[0m

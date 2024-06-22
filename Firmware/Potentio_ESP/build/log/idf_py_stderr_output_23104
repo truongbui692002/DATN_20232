@@ -1,0 +1,285 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- idf_monitor on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40056722: _strtol_r in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x4005671f: _strtol_r in ROM
+[0m
+[0;33m0x4005682b: strtol in ROM
+[0m
+[0;33m0x400566cd: atoi in ROM
+[0m
+[0;33m0x400d874d: parse_data_a_ble at D:/GIT/esp32-idf/Potentio_ESP/main/common_user.c:65
+[0m
+[0;33m0x400d8162: gatts_profile_a_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:288
+[0m
+[0;33m0x400d787a: gatts_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:621
+[0m
+[0;33m0x400dce3e: btc_gatts_cb_to_app at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:38
+[0m
+[0;33m0x400dd8b1: btc_gatts_cb_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:798
+[0m
+[0;33m0x400fde7d: btc_thread_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/btc/core/btc_task.c:207
+[0m
+[0;33m0x40100232: osi_thread_run at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/osi/thread.c:165 (discriminator 1)
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40056722: _strtol_r in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x4005671f: _strtol_r in ROM
+[0m
+[0;33m0x4005682b: strtol in ROM
+[0m
+[0;33m0x400566cd: atoi in ROM
+[0m
+[0;33m0x400d874d: parse_data_a_ble at D:/GIT/esp32-idf/Potentio_ESP/main/common_user.c:65
+[0m
+[0;33m0x400d8162: gatts_profile_a_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:288
+[0m
+[0;33m0x400d787a: gatts_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:621
+[0m
+[0;33m0x400dce3e: btc_gatts_cb_to_app at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:38
+[0m
+[0;33m0x400dd8b1: btc_gatts_cb_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:798
+[0m
+[0;33m0x400fde7d: btc_thread_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/btc/core/btc_task.c:207
+[0m
+[0;33m0x40100232: osi_thread_run at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/osi/thread.c:165 (discriminator 1)
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40056722: _strtol_r in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x4005671f: _strtol_r in ROM
+[0m
+[0;33m0x4005682b: strtol in ROM
+[0m
+[0;33m0x400566cd: atoi in ROM
+[0m
+[0;33m0x400d874d: parse_data_a_ble at D:/GIT/esp32-idf/Potentio_ESP/main/common_user.c:65
+[0m
+[0;33m0x400d8162: gatts_profile_a_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:288
+[0m
+[0;33m0x400d787a: gatts_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:621
+[0m
+[0;33m0x400dce3e: btc_gatts_cb_to_app at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:38
+[0m
+[0;33m0x400dd8b1: btc_gatts_cb_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:798
+[0m
+[0;33m0x400fde7d: btc_thread_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/btc/core/btc_task.c:207
+[0m
+[0;33m0x40100232: osi_thread_run at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/osi/thread.c:165 (discriminator 1)
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40056722: _strtol_r in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x4005671f: _strtol_r in ROM
+[0m
+[0;33m0x4005682b: strtol in ROM
+[0m
+[0;33m0x400566cd: atoi in ROM
+[0m
+[0;33m0x400d874d: parse_data_a_ble at D:/GIT/esp32-idf/Potentio_ESP/main/common_user.c:65
+[0m
+[0;33m0x400d8162: gatts_profile_a_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:288
+[0m
+[0;33m0x400d787a: gatts_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:621
+[0m
+[0;33m0x400dce3e: btc_gatts_cb_to_app at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:38
+[0m
+[0;33m0x400dd8b1: btc_gatts_cb_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:798
+[0m
+[0;33m0x400fde7d: btc_thread_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/btc/core/btc_task.c:207
+[0m
+[0;33m0x40100232: osi_thread_run at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/osi/thread.c:165 (discriminator 1)
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40056722: _strtol_r in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x4005671f: _strtol_r in ROM
+[0m
+[0;33m0x4005682b: strtol in ROM
+[0m
+[0;33m0x400566cd: atoi in ROM
+[0m
+[0;33m0x400d874d: parse_data_a_ble at D:/GIT/esp32-idf/Potentio_ESP/main/common_user.c:65
+[0m
+[0;33m0x400d8162: gatts_profile_a_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:288
+[0m
+[0;33m0x400d787a: gatts_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:621
+[0m
+[0;33m0x400dce3e: btc_gatts_cb_to_app at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:38
+[0m
+[0;33m0x400dd8b1: btc_gatts_cb_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:798
+[0m
+[0;33m0x400fde7d: btc_thread_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/btc/core/btc_task.c:207
+[0m
+[0;33m0x40100232: osi_thread_run at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/osi/thread.c:165 (discriminator 1)
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40056722: _strtol_r in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x4005671f: _strtol_r in ROM
+[0m
+[0;33m0x4005682b: strtol in ROM
+[0m
+[0;33m0x400566cd: atoi in ROM
+[0m
+[0;33m0x400d874d: parse_data_a_ble at D:/GIT/esp32-idf/Potentio_ESP/main/common_user.c:65
+[0m
+[0;33m0x400d8162: gatts_profile_a_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:288
+[0m
+[0;33m0x400d787a: gatts_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:621
+[0m
+[0;33m0x400dce3e: btc_gatts_cb_to_app at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:38
+[0m
+[0;33m0x400dd8b1: btc_gatts_cb_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:798
+[0m
+[0;33m0x400fde7d: btc_thread_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/btc/core/btc_task.c:207
+[0m
+[0;33m0x40100232: osi_thread_run at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/osi/thread.c:165 (discriminator 1)
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40056722: _strtol_r in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x4005671f: _strtol_r in ROM
+[0m
+[0;33m0x4005682b: strtol in ROM
+[0m
+[0;33m0x400566cd: atoi in ROM
+[0m
+[0;33m0x400d874d: parse_data_a_ble at D:/GIT/esp32-idf/Potentio_ESP/main/common_user.c:65
+[0m
+[0;33m0x400d8162: gatts_profile_a_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:288
+[0m
+[0;33m0x400d787a: gatts_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:621
+[0m
+[0;33m0x400dce3e: btc_gatts_cb_to_app at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:38
+[0m
+[0;33m0x400dd8b1: btc_gatts_cb_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:798
+[0m
+[0;33m0x400fde7d: btc_thread_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/btc/core/btc_task.c:207
+[0m
+[0;33m0x40100232: osi_thread_run at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/osi/thread.c:165 (discriminator 1)
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40056722: _strtol_r in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x4005671f: _strtol_r in ROM
+[0m
+[0;33m0x4005682b: strtol in ROM
+[0m
+[0;33m0x400566cd: atoi in ROM
+[0m
+[0;33m0x400d874d: parse_data_a_ble at D:/GIT/esp32-idf/Potentio_ESP/main/common_user.c:65
+[0m
+[0;33m0x400d8162: gatts_profile_a_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:288
+[0m
+[0;33m0x400d787a: gatts_event_handler at D:/GIT/esp32-idf/Potentio_ESP/main/app_ble.c:621
+[0m
+[0;33m0x400dce3e: btc_gatts_cb_to_app at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:38
+[0m
+[0;33m0x400dd8b1: btc_gatts_cb_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/host/bluedroid/btc/profile/std/gatt/btc_gatts.c:798
+[0m
+[0;33m0x400fde7d: btc_thread_handler at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/btc/core/btc_task.c:207
+[0m
+[0;33m0x40100232: osi_thread_run at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/bt/common/osi/thread.c:165 (discriminator 1)
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0m

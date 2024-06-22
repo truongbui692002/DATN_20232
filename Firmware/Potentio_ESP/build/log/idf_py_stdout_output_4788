@@ -1,0 +1,2760 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21624h (136740) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=0003164c vaddr=3ffbdb60 size=0457ch ( 17788) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035bd0 vaddr=40080000 size=0a448h ( 42056) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=82470h (533616) map[0m
+[0;32mI (374) esp_image: segment 4: paddr=000c2498 vaddr=4008a448 size=0e8d0h ( 59600) load[0m
+[0;32mI (411) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (411) boot: Disabling RNG early entropy source...[0m
+[0;32mI (423) cpu_start: Multicore app[0m
+[0;32mI (423) cpu_start: Pro cpu up.[0m
+[0;32mI (423) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (441) cpu_start: Pro cpu start user code[0m
+[0;32mI (441) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (441) cpu_start: Application information:[0m
+[0;32mI (446) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (451) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (457) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (463) cpu_start: ELF file SHA256:  92068c468aec8c8c...[0m
+[0;32mI (469) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (474) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (479) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (484) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (489) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (496) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (502) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (508) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (514) heap_init: At 3FFC7570 len 00018A90 (98 KiB): DRAM[0m
+[0;32mI (520) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (526) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (533) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;33mW (548) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (562) coexist: coex firmware version: ebddf30[0m
+[0;32mI (567) app_start: Starting scheduler on CPU0[0m
+[0;32[0;32mI (571) app_start: Starting scheduler on CPU1[0m
+mI (571) main_task: Started on CPU0[0m
+[0;32mI (581) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (671) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (681) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1111) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1111) main_task: Returned from app_main()[0m
+[0;32mI (1121) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1121) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1141) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1141) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1141) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1151) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1151) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1161) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1161) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1171) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1181) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1191) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1191) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1201) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1201) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1211) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1211) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;32mI (16271) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 58:a8:cd:e2:6a:53:[0m
+[0;32mI (16271) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 58:a8:cd:e2:6a:53:[0m
+[0;33mW (16271) BT_L2CAP: l2cble_start_conn_update, the last connection update command still pending.[0m
+[0;32mI (16891) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (17181) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (17371) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (17371) GATTS_DEMO: GATT_WRITE_EVT, value len 15, value :[0m
+[0;32mI (17381) GATTS_DEMO: 47 41 54 54 5f 43 6f 6e 6e 65 63 74 65 64 00 [0m
+[0;32mI (17381) GATTS_DEMO: GATT_Connected, len: 14[0m
+[0;32mI (17401) UART: Data recv from BLE: GATT_Connected[0m
+[0;32mI (17421) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (20651) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 2, handle 42[0m
+[0;32mI (20651) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (20651) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (20661) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (20661) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (20661) GATTS_DEMO: Res: mA[0m
+[0;32mI (20671) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (20671) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 3, handle 46[0m
+[0;32mI (20681) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (20691) GATTS_DEMO: 2d 32 30 30 40 38 30 30 40 32 30 40 00 [0m
+[0;32mI (20691) GATTS_DEMO: -200@800@20@, len: 12[0m
+[0;32mI (20701) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (20701) UART: Data recv from BLE: 1@1@1@, Acc_conf: 1[0m
+[0;32mI (20701) GATTS_DEMO: End voltage: 800.0[0m
+[0;32mI (20711) GATTS_DEMO: Scan rate: 20.0[0m
+[0;32mI (24941) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 4, handle 42[0m
+[0;32mI (24951) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (24951) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (24951) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (24961) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (24961) GATTS_DEMO: Res: mA[0m
+[0;32mI (24971) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (24971) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 5, handle 46[0m
+[0;32mI (24981) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (24981) GATTS_DEMO: 2d 32 30 30 40 38 30 30 40 32 30 40 00 [0m
+[0;32mI (24991) GATTS_DEMO: -200@800@20@, len: 12[0m
+[0;32mI (24991) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (25001) GATTS_DEMO: End voltage: 800.0[0m
+[0;32mI (25001) UART: Data recv from BLE: 1@1@1@, Acc_conf: 1[0m
+[0;32mI (25001) GATTS_DEMO: Scan rate: 20.0[0m
+[0;32mI (33111) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 6, handle 42[0m
+[0;32mI (33111) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (33121) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (33121) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (33131) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (33131) GATTS_DEMO: Res: mA[0m
+[0;32mI (33131) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (33141) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 7, handle 46[0m
+[0;32mI (33141) GATTS_DEMO: GATT_WRITE_EVT, value len 16, value :[0m
+[0;32mI (33151) UART: Data recv from BLE: 1@1@1@, Acc_conf: 1[0m
+[0;32mI (33151) GATTS_DEMO: 2d 32 30 30 30 40 38 30 30 30 40 32 30 30 40 00 [0m
+[0;32mI (33161) GATTS_DEMO: -2000@8000@200@, len: 15[0m
+[0;32mI (33171) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (33171) GATTS_DEMO: End voltage: 8000.0[0m
+[0;32mI (33181) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (40161) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 8, handle 42[0m
+[0;32mI (40161) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (40161) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (40161) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (40171) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (40171) GATTS_DEMO: Res: mA[0m
+[0;32mI (40181) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (40181) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 9, handle 46[0m
+[0;32mI (40191) GATTS_DEMO: GATT_WRITE_EVT, value len 16, value :[0m
+[0;32mI (40191) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 00 [0m
+[0;32mI (40201) UART: Data recv from BLE: 1@1@1@, Acc_conf: 1[0m
+[0;32mI (40201) GATTS_DEMO: -2000@2000@200@, len: 15[0m
+[0;32mI (40211) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (40221) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (40221) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (45761) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 10, handle 42[0m
+[0;32mI (45761) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (45761) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (45771) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (45771) GATTS_DEMO: Mode: CV[0m
+[0;32mI (45771) GATTS_DEMO: Res: μA[0m
+[0;32mI (45781) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (45781) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 11, handle 46[0m
+[0;32mI (45791) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (45801) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (45801) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (45811) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (45811) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (45821) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (45821) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (45821) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (45831) GATTS_DEMO: Mode: 2[0m
+[0;32mI (45841) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (1292901) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (1299151) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 12, handle 42[0m
+[0;32mI (1299151) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (1299151) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (1299161) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (1299161) GATTS_DEMO: Mode: CV[0m
+[0;32mI (1299171) GATTS_DEMO: Res: μA[0m
+[0;32mI (1299171) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (1299171) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (1299191) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 13, handle 46[0m
+[0;32mI (1299191) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (1299201) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (1299201) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (1299211) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (1299211) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (1299221) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (1299221) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (1299231) GATTS_DEMO: Mode: 2[0m
+[0;32mI (1299231) GATTS_DEMO: num_cycle: 20[0m
+[0;33mW (1305701) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (1305701) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (1305701) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (1317021) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 4c:46:cd:e5:06:a8:[0m
+[0;32mI (1317021) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 4c:46:cd:e5:06:a8:[0m
+[0;33mW (1317031) BT_L2CAP: l2cble_start_conn_update, the last connection update command still pending.[0m
+[0;32mI (1317641) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (1317941) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (1318141) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (1318141) GATTS_DEMO: GATT_WRITE_EVT, value len 15, value :[0m
+[0;32mI (1318141) GATTS_DEMO: 47 41 54 54 5f 43 6f 6e 6e 65 63 74 65 64 00 [0m
+[0;32mI (1318151) GATTS_DEMO: GATT_Connected, len: 14[0m
+[0;32mI (1318181) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (1318211) UART: Data recv from BLE: GATT_Connected[0m
+[0;32mI (1318321) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (1350931) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 2, handle 42
+[0m
+[0;32mI (1350941) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1350941) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1350941) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1352101) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 3, handle 42
+[0m
+[0;32mI (1352111) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1352111) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1352111) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1353121) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 4, handle 42
+[0m
+[0;32mI (1353121) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1353121) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1353121) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1354111) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 5, handle 42
+[0m
+[0;32mI (1354111) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1354111) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1354111) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1355101) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 6, handle 42
+[0m
+[0;32mI (1355101) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1355101) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1355111) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1356131) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 7, handle 42
+[0m
+[0;32mI (1356131) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1356131) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1356141) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1357121) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 8, handle 42
+[0m
+[0;32mI (1357121) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1357121) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1357131) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1358111) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 9, handle 42
+[0m
+[0;32mI (1358111) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1358111) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1358121) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1359121) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 10, handle 42
+[0m
+[0;32mI (1359131) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1359131) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1359131) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1360141) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 11, handle 42
+[0m
+[0;32mI (1360141) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1360141) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1360141) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1361151) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 12, handle 42
+[0m
+[0;32mI (1361151) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1361151) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1361161) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1362161) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 13, handle 42
+[0m
+[0;32mI (1362161) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1362161) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1362171) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1363151) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 14, handle 42
+[0m
+[0;32mI (1363151) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1363151) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1363161) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1364141) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 15, handle 42
+[0m
+[0;32mI (1364141) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1364141) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1364151) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1365151) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 16, handle 42
+[0m
+[0;32mI (1365161) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1365161) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1365161) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1366141) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 17, handle 42
+[0m
+[0;32mI (1366151) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1366151) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1366151) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1367161) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 18, handle 42
+[0m
+[0;32mI (1367161) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1367161) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1367171) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1368171) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 19, handle 42
+[0m
+[0;32mI (1368171) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1368171) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1368181) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1369161) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 20, handle 42
+[0m
+[0;32mI (1369161) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1369161) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1369171) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1370171) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 21, handle 42
+[0m
+[0;32mI (1370171) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1370171) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1370181) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1371181) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 22, handle 42
+[0m
+[0;32mI (1371191) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1371191) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1371191) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1372171) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 23, handle 42
+[0m
+[0;32mI (1372181) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1372181) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1372181) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1373231) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 24, handle 42
+[0m
+[0;32mI (1373231) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1373231) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1373241) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1374201) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 25, handle 42
+[0m
+[0;32mI (1374201) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1374201) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1374211) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1375191) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 26, handle 42
+[0m
+[0;32mI (1375191) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1375191) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1375201) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1376201) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 27, handle 42
+[0m
+[0;32mI (1376201) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1376201) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1376211) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1377211) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 28, handle 42
+[0m
+[0;32mI (1377221) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1377221) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1377221) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1378231) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 29, handle 42
+[0m
+[0;32mI (1378231) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1378231) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1378231) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1379221) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 30, handle 42
+[0m
+[0;32mI (1379221) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1379221) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1379221) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1380231) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 31, handle 42
+[0m
+[0;32mI (1380231) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1380231) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1380241) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1381241) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 32, handle 42
+[0m
+[0;32mI (1381241) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1381241) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1381251) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1382231) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 33, handle 42
+[0m
+[0;32mI (1382231) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1382231) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1382241) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1383241) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 34, handle 42
+[0m
+[0;32mI (1383251) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1383251) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1383251) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1384231) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 35, handle 42
+[0m
+[0;32mI (1384241) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1384241) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1384241) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1385251) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 36, handle 42
+[0m
+[0;32mI (1385251) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1385251) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1385251) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1386261) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 37, handle 42
+[0m
+[0;32mI (1386261) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1386261) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1386271) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1387271) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 38, handle 42
+[0m
+[0;32mI (1387271) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1387271) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1387281) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1388281) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 39, handle 42
+[0m
+[0;32mI (1388291) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1388291) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1388291) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1389271) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 40, handle 42
+[0m
+[0;32mI (1389281) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1389281) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1389281) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1390261) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 41, handle 42
+[0m
+[0;32mI (1390271) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1390271) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1390271) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1391281) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 42, handle 42
+[0m
+[0;32mI (1391281) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1391281) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1391281) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1392271) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 43, handle 42
+[0m
+[0;32mI (1392271) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1392271) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1392271) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1393321) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 44, handle 42
+[0m
+[0;32mI (1393331) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1393331) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1393331) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1394291) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 45, handle 42
+[0m
+[0;32mI (1394291) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1394291) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1394301) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1395301) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 46, handle 42
+[0m
+[0;32mI (1395311) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1395311) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1395311) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1396291) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 47, handle 42
+[0m
+[0;32mI (1396301) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1396301) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1396301) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1397311) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 48, handle 42
+[0m
+[0;32mI (1397311) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1397311) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1397311) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1398321) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 49, handle 42
+[0m
+[0;32mI (1398321) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1398321) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1398331) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1399331) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 50, handle 42
+[0m
+[0;32mI (1399331) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1399331) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1399341) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1400321) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 51, handle 42
+[0m
+[0;32mI (1400321) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1400321) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1400331) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1401331) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 52, handle 42
+[0m
+[0;32mI (1401341) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1401341) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1401341) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1402321) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 53, handle 42
+[0m
+[0;32mI (1402331) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1402331) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1402331) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1403341) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 54, handle 42
+[0m
+[0;32mI (1403341) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1403341) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1403341) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1404351) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 55, handle 42
+[0m
+[0;32mI (1404351) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1404351) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1404361) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1405341) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 56, handle 42
+[0m
+[0;32mI (1405341) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1405341) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1405351) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1406351) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 57, handle 42
+[0m
+[0;32mI (1406351) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1406351) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1406361) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1407361) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 58, handle 42
+[0m
+[0;32mI (1407371) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1407371) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1407371) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1408351) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 59, handle 42
+[0m
+[0;32mI (1408361) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1408361) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1408361) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1409371) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 60, handle 42
+[0m
+[0;32mI (1409371) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1409371) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1409371) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1410361) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 61, handle 42
+[0m
+[0;32mI (1410361) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1410361) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1410361) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1411371) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 62, handle 42
+[0m
+[0;32mI (1411371) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1411371) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1411381) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1412381) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 63, handle 42
+[0m
+[0;32mI (1412381) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1412381) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1412391) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1413371) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 64, handle 42
+[0m
+[0;32mI (1413371) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1413371) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1413381) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1414381) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 65, handle 42
+[0m
+[0;32mI (1414391) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1414391) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1414391) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1415401) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 66, handle 42
+[0m
+[0;32mI (1415401) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1415401) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1415401) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1416391) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 67, handle 42
+[0m
+[0;32mI (1416391) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1416391) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1416391) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1417421) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 68, handle 42
+[0m
+[0;32mI (1417421) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1417421) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1417431) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1418411) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 69, handle 42
+[0m
+[0;32mI (1418411) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1418411) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1418421) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1419421) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 70, handle 42
+[0m
+[0;32mI (1419431) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1419431) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1419431) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1420411) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 71, handle 42
+[0m
+[0;32mI (1420421) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1420421) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1420421) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1421401) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 72, handle 42
+[0m
+[0;32mI (1421411) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1421411) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1421411) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1422441) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 73, handle 42
+[0m
+[0;32mI (1422441) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1422441) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1422451) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1423431) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 74, handle 42
+[0m
+[0;32mI (1423431) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1423431) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1423441) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1424441) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 75, handle 42
+[0m
+[0;32mI (1424441) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1424441) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1424451) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1425431) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 76, handle 42
+[0m
+[0;32mI (1425431) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1425431) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1425441) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1426441) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 77, handle 42
+[0m
+[0;32mI (1426451) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1426451) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1426451) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1427431) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 78, handle 42
+[0m
+[0;32mI (1427441) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1427441) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1427441) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1428451) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 79, handle 42
+[0m
+[0;32mI (1428451) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1428451) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1428451) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1429461) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 80, handle 42
+[0m
+[0;32mI (1429461) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1429461) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1429471) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1430471) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 81, handle 42
+[0m
+[0;32mI (1430471) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1430471) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1430481) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1431481) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 82, handle 42
+[0m
+[0;32mI (1431491) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1431491) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1431491) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1432471) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 83, handle 42
+[0m
+[0;32mI (1432481) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1432481) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1432481) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1433491) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 84, handle 42
+[0m
+[0;32mI (1433491) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1433491) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1433491) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1434481) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 85, handle 42
+[0m
+[0;32mI (1434481) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1434481) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1434481) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1435491) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 86, handle 42
+[0m
+[0;32mI (1435491) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1435491) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1435501) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1436501) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 87, handle 42
+[0m
+[0;32mI (1436501) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1436501) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1436511) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1437491) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 88, handle 42
+[0m
+[0;32mI (1437491) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1437491) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1437501) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1438501) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 89, handle 42
+[0m
+[0;32mI (1438511) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1438511) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1438511) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1439521) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 90, handle 42
+[0m
+[0;32mI (1439521) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1439521) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1439521) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1440511) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 91, handle 42
+[0m
+[0;32mI (1440511) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1440511) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1440511) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1441521) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 92, handle 42
+[0m
+[0;32mI (1441521) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1441521) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1441531) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1442511) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 93, handle 42
+[0m
+[0;32mI (1442511) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1442511) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1442521) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1443541) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 94, handle 42
+[0m
+[0;32mI (1443551) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1443551) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1443551) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1444531) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 95, handle 42
+[0m
+[0;32mI (1444541) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1444541) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1444541) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1445551) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 96, handle 42
+[0m
+[0;32mI (1445551) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1445551) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1445551) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1446541) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 97, handle 42
+[0m
+[0;32mI (1446541) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1446541) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1446541) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1447551) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 98, handle 42
+[0m
+[0;32mI (1447551) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1447551) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1447561) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1448541) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 99, handle 42
+[0m
+[0;32mI (1448541) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1448541) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1448551) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1449571) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 100, handle 42
+[0m
+[0;32mI (1449581) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1449581) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1449581) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1450561) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 101, handle 42
+[0m
+[0;32mI (1450571) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1450571) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1450571) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1451581) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 102, handle 42
+[0m
+[0;32mI (1451581) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1451581) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1451581) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1452571) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 103, handle 42
+[0m
+[0;32mI (1452571) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1452571) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1452571) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1453581) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 104, handle 42
+[0m
+[0;32mI (1453581) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1453581) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1453591) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1454571) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 105, handle 42
+[0m
+[0;32mI (1454571) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1454571) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1454581) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1455581) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 106, handle 42
+[0m
+[0;32mI (1455581) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1455581) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1455591) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1456591) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 107, handle 42
+[0m
+[0;32mI (1456601) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1456601) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1456601) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1457611) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 108, handle 42
+[0m
+[0;32mI (1457611) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1457611) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1457611) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1458621) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 109, handle 42
+[0m
+[0;32mI (1458621) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1458621) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1458631) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1459611) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 110, handle 42
+[0m
+[0;32mI (1459611) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1459611) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1459621) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1460621) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 111, handle 42
+[0m
+[0;32mI (1460621) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1460621) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1460631) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1461631) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 112, handle 42
+[0m
+[0;32mI (1461641) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1461641) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1461641) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1462621) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 113, handle 42
+[0m
+[0;32mI (1462631) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1462631) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1462631) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1463641) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 114, handle 42
+[0m
+[0;32mI (1463641) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1463641) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1463641) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1464651) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 115, handle 42
+[0m
+[0;32mI (1464651) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1464651) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1464661) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1465641) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 116, handle 42
+[0m
+[0;32mI (1465641) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1465641) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1465651) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1466631) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 117, handle 42
+[0m
+[0;32mI (1466631) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1466631) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1466641) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1467641) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 118, handle 42
+[0m
+[0;32mI (1467641) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1467641) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1467651) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1468651) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 119, handle 42
+[0m
+[0;32mI (1468661) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1468661) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1468661) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1469641) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 120, handle 42
+[0m
+[0;32mI (1469651) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1469651) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1469651) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1470661) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 121, handle 42
+[0m
+[0;32mI (1470661) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1470661) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1470661) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1471651) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 122, handle 42
+[0m
+[0;32mI (1471651) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1471651) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1471651) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1472661) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 123, handle 42
+[0m
+[0;32mI (1472661) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1472661) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1472671) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1473671) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 124, handle 42
+[0m
+[0;32mI (1473671) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1473671) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1473681) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1474681) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 125, handle 42
+[0m
+[0;32mI (1474691) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1474691) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1474691) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1475671) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 126, handle 42
+[0m
+[0;32mI (1475681) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1475681) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1475681) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1476691) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 127, handle 42
+[0m
+[0;32mI (1476691) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1476691) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1476691) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1477701) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 128, handle 42
+[0m
+[0;32mI (1477701) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1477701) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1477711) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1478691) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 129, handle 42
+[0m
+[0;32mI (1478691) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1478691) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1478701) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1479701) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 130, handle 42
+[0m
+[0;32mI (1479701) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1479701) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1479711) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1480691) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 131, handle 42
+[0m
+[0;32mI (1480691) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1480691) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1480701) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1481701) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 132, handle 42
+[0m
+[0;32mI (1481711) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1481711) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1481711) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1482721) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 133, handle 42
+[0m
+[0;32mI (1482721) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1482721) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1482721) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1483731) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 134, handle 42
+[0m
+[0;32mI (1483731) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1483731) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1483741) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1484721) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 135, handle 42
+[0m
+[0;32mI (1484721) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1484721) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1484731) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1485731) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 136, handle 42
+[0m
+[0;32mI (1485731) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1485731) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1485741) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1486721) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 137, handle 42
+[0m
+[0;32mI (1486721) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1486721) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1486731) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1487731) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 138, handle 42
+[0m
+[0;32mI (1487731) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1487741) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1487741) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1488751) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 139, handle 42
+[0m
+[0;32mI (1488751) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1488751) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1488751) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1489781) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 140, handle 42
+[0m
+[0;32mI (1489781) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1489781) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1489791) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1490751) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 141, handle 42
+[0m
+[0;32mI (1490751) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1490751) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1490761) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1491761) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 142, handle 42
+[0m
+[0;32mI (1491761) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1491761) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1491771) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1492751) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 143, handle 42
+[0m
+[0;32mI (1492751) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1492751) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1492761) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1493761) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 144, handle 42
+[0m
+[0;32mI (1493771) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1493771) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1493771) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1494751) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 145, handle 42
+[0m
+[0;32mI (1494761) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1494761) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1494761) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1495771) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 146, handle 42
+[0m
+[0;32mI (1495771) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1495771) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1495771) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1496781) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 147, handle 42
+[0m
+[0;32mI (1496781) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1496781) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1496791) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1497771) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 148, handle 42
+[0m
+[0;32mI (1497771) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1497771) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1497781) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1498781) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 149, handle 42
+[0m
+[0;32mI (1498781) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1498781) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1498791) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1499791) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 150, handle 42
+[0m
+[0;32mI (1499791) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1499801) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1499801) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1500831) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 151, handle 42
+[0m
+[0;32mI (1500831) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1500831) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1500841) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1501801) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 152, handle 42
+[0m
+[0;32mI (1501801) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1501801) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1501801) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1502811) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 153, handle 42
+[0m
+[0;32mI (1502811) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1502811) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1502821) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1503801) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 154, handle 42
+[0m
+[0;32mI (1503801) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1503801) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1503811) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1504811) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 155, handle 42
+[0m
+[0;32mI (1504811) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1504811) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1504821) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1505821) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 156, handle 42
+[0m
+[0;32mI (1505831) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1505831) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1505831) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1506811) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 157, handle 42
+[0m
+[0;32mI (1506821) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1506821) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1506821) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1507821) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 158, handle 42
+[0m
+[0;32mI (1507831) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1507831) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1507831) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1508841) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 159, handle 42
+[0m
+[0;32mI (1508841) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1508841) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1508851) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1509871) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 160, handle 42
+[0m
+[0;32mI (1509871) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1509881) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1509881) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1510841) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 161, handle 42
+[0m
+[0;32mI (1510841) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1510841) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1510851) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1511851) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 162, handle 42
+[0m
+[0;32mI (1511851) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1511861) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1511861) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1512841) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 163, handle 42
+[0m
+[0;32mI (1512841) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1512851) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1512851) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1513881) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 164, handle 42
+[0m
+[0;32mI (1513881) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1513881) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1513891) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1514871) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 165, handle 42
+[0m
+[0;32mI (1514871) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1514871) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1514881) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1515861) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 166, handle 42
+[0m
+[0;32mI (1515861) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1515861) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1515871) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1516891) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 167, handle 42
+[0m
+[0;32mI (1516901) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1516901) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1516901) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1517881) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 168, handle 42
+[0m
+[0;32mI (1517891) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1517891) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1517891) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1518901) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 169, handle 42
+[0m
+[0;32mI (1518901) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1518901) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1518901) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1519881) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 170, handle 42
+[0m
+[0;32mI (1519891) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1519891) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1519891) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1520901) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 171, handle 42
+[0m
+[0;32mI (1520901) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1520901) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1520911) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1521911) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 172, handle 42
+[0m
+[0;32mI (1521911) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1521911) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1521921) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1522901) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 173, handle 42
+[0m
+[0;32mI (1522901) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1522901) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1522911) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1523911) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 174, handle 42
+[0m
+[0;32mI (1523911) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1523921) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1523921) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1524901) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 175, handle 42
+[0m
+[0;32mI (1524901) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1524911) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1524911) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1525921) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 176, handle 42
+[0m
+[0;32mI (1525921) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1525921) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1525921) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1526931) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 177, handle 42
+[0m
+[0;32mI (1526931) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1526931) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1526941) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1527921) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 178, handle 42
+[0m
+[0;32mI (1527921) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1527921) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1527931) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1528931) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 179, handle 42
+[0m
+[0;32mI (1528931) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1528931) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1528941) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1529941) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 180, handle 42
+[0m
+[0;32mI (1529951) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1529951) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1529951) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1530961) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 181, handle 42
+[0m
+[0;32mI (1530961) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1530961) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1530961) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1531941) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 182, handle 42
+[0m
+[0;32mI (1531951) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1531951) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1531951) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1532961) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 183, handle 42
+[0m
+[0;32mI (1532961) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1532961) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1532971) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1533951) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 184, handle 42
+[0m
+[0;32mI (1533951) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1533951) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1533961) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1534961) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 185, handle 42
+[0m
+[0;32mI (1534961) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1534961) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1534971) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1535971) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 186, handle 42
+[0m
+[0;32mI (1535971) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1535981) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1535981) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1536961) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 187, handle 42
+[0m
+[0;32mI (1536961) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1536971) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1536971) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1537971) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 188, handle 42
+[0m
+[0;32mI (1537981) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1537981) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1537981) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1538991) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 189, handle 42
+[0m
+[0;32mI (1538991) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1538991) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1539001) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1540001) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 190, handle 42
+[0m
+[0;32mI (1540001) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1540001) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1540011) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1540991) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 191, handle 42
+[0m
+[0;32mI (1540991) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1540991) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1541001) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1542001) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 192, handle 42
+[0m
+[0;32mI (1542001) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1542011) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1542011) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1543011) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 193, handle 42
+[0m
+[0;32mI (1543021) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1543021) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1543021) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1544031) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 194, handle 42
+[0m
+[0;32mI (1544031) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1544031) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1544041) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1545021) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 195, handle 42
+[0m
+[0;32mI (1545021) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1545021) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1545031) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1546031) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 196, handle 42
+[0m
+[0;32mI (1546031) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1546031) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1546041) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1547021) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 197, handle 42
+[0m
+[0;32mI (1547021) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1547021) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1547031) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1548031) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 198, handle 42
+[0m
+[0;32mI (1548031) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1548041) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1548041) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1549021) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 199, handle 42
+[0m
+[0;32mI (1549021) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1549031) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1549031) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1550031) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 200, handle 42
+[0m
+[0;32mI (1550041) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1550041) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1550041) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1551021) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 201, handle 42
+[0m
+[0;32mI (1551031) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1551031) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1551031) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1552041) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 202, handle 42
+[0m
+[0;32mI (1552041) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1552041) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1552051) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1553051) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 203, handle 42
+[0m
+[0;32mI (1553051) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1553051) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1553061) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1554061) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 204, handle 42
+[0m
+[0;32mI (1554061) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1554071) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1554071) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1555051) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 205, handle 42
+[0m
+[0;32mI (1555051) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1555061) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1555061) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1556061) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 206, handle 42
+[0m
+[0;32mI (1556071) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1556071) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1556071) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1557081) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 207, handle 42
+[0m
+[0;32mI (1557081) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1557081) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1557091) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1558071) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 208, handle 42
+[0m
+[0;32mI (1558071) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1558071) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1558081) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1559081) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 209, handle 42
+[0m
+[0;32mI (1559081) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1559081) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1559091) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1560091) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 210, handle 42
+[0m
+[0;32mI (1560091) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1560101) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1560101) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1561081) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 211, handle 42
+[0m
+[0;32mI (1561081) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1561091) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1561091) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1562071) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 212, handle 42
+[0m
+[0;32mI (1562071) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1562081) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1562081) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1563111) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 213, handle 42
+[0m
+[0;32mI (1563111) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1563111) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1563121) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1564101) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 214, handle 42
+[0m
+[0;32mI (1564101) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1564101) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1564111) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1565091) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 215, handle 42
+[0m
+[0;32mI (1565091) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1565091) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1565101) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1566101) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 216, handle 42
+[0m
+[0;32mI (1566101) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1566101) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1566111) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1567091) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 217, handle 42
+[0m
+[0;32mI (1567091) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1567091) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1567101) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1568121) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 218, handle 42
+[0m
+[0;32mI (1568131) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1568131) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1568131) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1569111) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 219, handle 42
+[0m
+[0;32mI (1569121) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1569121) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1569121) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1570131) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 220, handle 42
+[0m
+[0;32mI (1570131) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1570131) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1570141) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1571121) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 221, handle 42
+[0m
+[0;32mI (1571121) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1571121) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1571131) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1572131) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 222, handle 42
+[0m
+[0;32mI (1572131) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1572131) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1572141) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1573141) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 223, handle 42
+[0m
+[0;32mI (1573141) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1573151) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1573151) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1574131) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 224, handle 42
+[0m
+[0;32mI (1574131) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1574141) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1574141) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1575141) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 225, handle 42
+[0m
+[0;32mI (1575151) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1575151) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1575151) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1576131) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 226, handle 42
+[0m
+[0;32mI (1576141) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1576141) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1576141) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1577171) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 227, handle 42
+[0m
+[0;32mI (1577171) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1577171) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1577181) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1578161) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 228, handle 42
+[0m
+[0;32mI (1578161) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1578161) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1578171) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1579171) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 229, handle 42
+[0m
+[0;32mI (1579171) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1579181) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1579181) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1580161) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 230, handle 42
+[0m
+[0;32mI (1580161) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1580171) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1580171) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1581171) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 231, handle 42
+[0m
+[0;32mI (1581181) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1581181) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1581181) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1582161) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 232, handle 42
+[0m
+[0;32mI (1582171) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1582171) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1582171) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1583181) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 233, handle 42
+[0m
+[0;32mI (1583181) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1583181) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1583191) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1584191) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 234, handle 42
+[0m
+[0;32mI (1584191) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1584191) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1584201) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1585181) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 235, handle 42
+[0m
+[0;32mI (1585181) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1585181) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1585191) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1586191) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 236, handle 42
+[0m
+[0;32mI (1586191) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1586201) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1586201) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1587201) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 237, handle 42
+[0m
+[0;32mI (1587211) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1587211) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1587211) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1588191) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 238, handle 42
+[0m
+[0;32mI (1588201) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1588201) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1588201) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1589211) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 239, handle 42
+[0m
+[0;32mI (1589211) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1589211) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1589221) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1590201) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 240, handle 42
+[0m
+[0;32mI (1590201) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1590201) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1590211) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1591211) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 241, handle 42
+[0m
+[0;32mI (1591211) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1591211) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1591221) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1592221) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 242, handle 42
+[0m
+[0;32mI (1592221) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1592231) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1592231) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1593211) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 243, handle 42
+[0m
+[0;32mI (1593211) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1593221) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1593221) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1594221) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 244, handle 42
+[0m
+[0;32mI (1594231) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1594231) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1594231) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1595211) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 245, handle 42
+[0m
+[0;32mI (1595221) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1595221) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1595221) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1596231) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 246, handle 42
+[0m
+[0;32mI (1596231) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1596231) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1596241) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1597241) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 247, handle 42
+[0m
+[0;32mI (1597241) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1597241) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1597251) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1598251) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 248, handle 42
+[0m
+[0;32mI (1598251) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1598261) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1598261) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1599241) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 249, handle 42
+[0m
+[0;32mI (1599241) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1599251) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1599251) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1600251) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 250, handle 42
+[0m
+[0;32mI (1600261) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1600261) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1600261) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1601241) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 251, handle 42
+[0m
+[0;32mI (1601251) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1601251) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1601251) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1602261) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 252, handle 42
+[0m
+[0;32mI (1602261) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1602261) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1602271) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1603271) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 253, handle 42
+[0m
+[0;32mI (1603271) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1603271) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1603281) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1604261) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 254, handle 42
+[0m
+[0;32mI (1604261) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1604261) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1604271) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1605291) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 255, handle 42
+[0m
+[0;32mI (1605301) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1605301) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1605301) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1606281) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 256, handle 42
+[0m
+[0;32mI (1606291) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1606291) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1606291) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1607301) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 257, handle 42
+[0m
+[0;32mI (1607301) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1607301) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1607311) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1608311) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 258, handle 42
+[0m
+[0;32mI (1608311) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1608311) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1608321) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1609301) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 259, handle 42
+[0m
+[0;32mI (1609301) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1609301) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1609311) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1610291) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 260, handle 42
+[0m
+[0;32mI (1610291) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1610291) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1610301) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1611301) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 261, handle 42
+[0m
+[0;32mI (1611301) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1611311) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1611311) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1612311) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 262, handle 42
+[0m
+[0;32mI (1612321) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1612321) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1612321) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1613331) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 263, handle 42
+[0m
+[0;32mI (1613331) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1613331) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1613341) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1614321) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 264, handle 42
+[0m
+[0;32mI (1614321) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1614321) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1614331) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1615331) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 265, handle 42
+[0m
+[0;32mI (1615331) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1615331) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1615341) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1616321) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 266, handle 42
+[0m
+[0;32mI (1616321) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1616321) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1616331) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1617331) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 267, handle 42
+[0m
+[0;32mI (1617331) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1617341) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1617341) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1618321) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 268, handle 42
+[0m
+[0;32mI (1618321) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1618331) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1618331) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1619331) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 269, handle 42
+[0m
+[0;32mI (1619341) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1619341) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1619341) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1620351) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 270, handle 42
+[0m
+[0;32mI (1620351) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1620351) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1620361) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1621341) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 271, handle 42
+[0m
+[0;32mI (1621341) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1621341) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1621351) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1622371) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 272, handle 42
+[0m
+[0;32mI (1622371) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1622381) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1622381) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1623361) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 273, handle 42
+[0m
+[0;32mI (1623361) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1623371) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1623371) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1624371) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 274, handle 42
+[0m
+[0;32mI (1624381) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1624381) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1624381) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1625361) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 275, handle 42
+[0m
+[0;32mI (1625371) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1625371) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1625371) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1626381) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 276, handle 42
+[0m
+[0;32mI (1626381) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1626381) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1626391) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1627391) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 277, handle 42
+[0m
+[0;32mI (1627391) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1627391) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1627401) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1628381) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 278, handle 42
+[0m
+[0;32mI (1628381) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1628381) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1628391) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1629391) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 279, handle 42
+[0m
+[0;32mI (1629391) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1629401) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1629401) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1630381) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 280, handle 42
+[0m
+[0;32mI (1630381) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1630391) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1630391) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1631421) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 281, handle 42
+[0m
+[0;32mI (1631421) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1631421) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1631431) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1632411) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 282, handle 42
+[0m
+[0;32mI (1632411) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1632411) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1632421) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1633421) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 283, handle 42
+[0m
+[0;32mI (1633421) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1633421) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1633431) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1634411) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 284, handle 42
+[0m
+[0;32mI (1634411) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1634411) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1634421) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1635421) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 285, handle 42
+[0m
+[0;32mI (1635421) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1635431) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1635431) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1636411) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 286, handle 42
+[0m
+[0;32mI (1636411) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1636421) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1636421) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1637451) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 287, handle 42
+[0m
+[0;32mI (1637451) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1637451) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1637461) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1638441) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 288, handle 42
+[0m
+[0;32mI (1638441) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1638441) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1638441) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1639451) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 289, handle 42
+[0m
+[0;32mI (1639451) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1639451) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1639461) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1640441) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 290, handle 42
+[0m
+[0;32mI (1640441) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1640441) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1640451) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1641451) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 291, handle 42
+[0m
+[0;32mI (1641451) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1641451) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1641461) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1642461) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 292, handle 42
+[0m
+[0;32mI (1642471) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1642471) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1642471) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1643451) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 293, handle 42
+[0m
+[0;32mI (1643461) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1643461) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1643461) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1644471) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 294, handle 42
+[0m
+[0;32mI (1644471) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1644471) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1644481) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1645481) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 295, handle 42
+[0m
+[0;32mI (1645481) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1645481) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1645491) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1646471) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 296, handle 42
+[0m
+[0;32mI (1646471) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1646471) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1646481) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1647481) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 297, handle 42
+[0m
+[0;32mI (1647481) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1647491) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1647491) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1648491) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 298, handle 42
+[0m
+[0;32mI (1648501) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1648501) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1648501) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1649481) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 299, handle 42
+[0m
+[0;32mI (1649491) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1649491) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1649491) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1650501) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 300, handle 42
+[0m
+[0;32mI (1650501) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1650501) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1650501) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1651511) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 301, handle 42
+[0m
+[0;32mI (1651511) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1651511) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1651521) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1652521) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 302, handle 42
+[0m
+[0;32mI (1652521) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1652521) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1652531) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1653511) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 303, handle 42
+[0m
+[0;32mI (1653511) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1653511) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1653521) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1654501) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 304, handle 42
+[0m
+[0;32mI (1654501) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1654501) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1654511) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1655511) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 305, handle 42
+[0m
+[0;32mI (1655521) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1655521) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1655521) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1656531) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 306, handle 42
+[0m
+[0;32mI (1656531) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1656531) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1656541) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1657541) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 307, handle 42
+[0m
+[0;32mI (1657541) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1657541) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1657551) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1658531) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 308, handle 42
+[0m
+[0;32mI (1658531) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1658531) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1658541) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1659541) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 309, handle 42
+[0m
+[0;32mI (1659541) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1659551) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1659551) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1660531) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 310, handle 42
+[0m
+[0;32mI (1660531) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1660531) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1660541) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1661571) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 311, handle 42
+[0m
+[0;32mI (1661571) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1661571) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1661571) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1662561) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 312, handle 42
+[0m
+[0;32mI (1662561) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1662561) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1662561) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1663571) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 313, handle 42
+[0m
+[0;32mI (1663571) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1663571) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1663581) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1664561) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 314, handle 42
+[0m
+[0;32mI (1664561) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1664561) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1664571) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1665571) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 315, handle 42
+[0m
+[0;32mI (1665571) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1665571) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1665581) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1666561) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 316, handle 42
+[0m
+[0;32mI (1666561) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1666561) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1666571) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1667621) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 317, handle 42
+[0m
+[0;32mI (1667621) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1667621) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1667631) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1668591) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 318, handle 42
+[0m
+[0;32mI (1668591) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1668591) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1668601) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1669601) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 319, handle 42
+[0m
+[0;32mI (1669601) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1669601) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1669611) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1670591) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 320, handle 42
+[0m
+[0;32mI (1670591) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1670591) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1670601) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1671601) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 321, handle 42
+[0m
+[0;32mI (1671601) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1671611) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1671611) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1672611) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 322, handle 42
+[0m
+[0;32mI (1672621) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1672621) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1672621) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1673631) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 323, handle 42
+[0m
+[0;32mI (1673631) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1673631) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1673631) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1674621) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 324, handle 42
+[0m
+[0;32mI (1674621) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1674621) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1674621) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1675631) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 325, handle 42
+[0m
+[0;32mI (1675631) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1675631) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1675641) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1676621) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 326, handle 42
+[0m
+[0;32mI (1676621) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1676621) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1676631) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1677631) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 327, handle 42
+[0m
+[0;32mI (1677631) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1677631) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1677641) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1678621) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 328, handle 42
+[0m
+[0;32mI (1678621) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1678621) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1678631) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1679631) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 329, handle 42
+[0m
+[0;32mI (1679641) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1679641) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1679641) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1680651) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 330, handle 42
+[0m
+[0;32mI (1680651) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1680651) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1680651) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1681661) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 331, handle 42
+[0m
+[0;32mI (1681661) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1681661) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1681671) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1682651) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 332, handle 42
+[0m
+[0;32mI (1682651) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1682651) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1682661) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1683661) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 333, handle 42
+[0m
+[0;32mI (1683661) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1683671) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1683671) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1684651) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 334, handle 42
+[0m
+[0;32mI (1684651) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1684651) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1684661) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1685691) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 335, handle 42
+[0m
+[0;32mI (1685691) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1685691) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1685691) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1686681) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 336, handle 42
+[0m
+[0;32mI (1686681) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1686681) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1686681) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1687671) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 337, handle 42
+[0m
+[0;32mI (1687671) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1687671) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1687671) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1688681) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 338, handle 42
+[0m
+[0;32mI (1688681) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1688681) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1688691) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1689691) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 339, handle 42
+[0m
+[0;32mI (1689691) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1689691) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1689701) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1690701) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 340, handle 42
+[0m
+[0;32mI (1690711) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1690711) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1690711) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1691691) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 341, handle 42
+[0m
+[0;32mI (1691701) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1691701) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1691701) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1692711) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 342, handle 42
+[0m
+[0;32mI (1692711) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1692711) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1692711) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1693701) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 343, handle 42
+[0m
+[0;32mI (1693701) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1693701) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1693701) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1694711) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 344, handle 42
+[0m
+[0;32mI (1694711) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1694711) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1694721) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1695721) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 345, handle 42
+[0m
+[0;32mI (1695721) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1695721) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1695731) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1696711) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 346, handle 42
+[0m
+[0;32mI (1696711) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1696711) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1696721) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1697721) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 347, handle 42
+[0m
+[0;32mI (1697731) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1697731) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1697731) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1698741) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 348, handle 42
+[0m
+[0;32mI (1698741) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1698741) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1698741) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1699751) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 349, handle 42
+[0m
+[0;32mI (1699751) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1699751) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1699761) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1700741) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 350, handle 42
+[0m
+[0;32mI (1700741) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1700741) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1700751) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1701751) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 351, handle 42
+[0m
+[0;32mI (1701751) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1701751) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1701761) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1702741) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 352, handle 42
+[0m
+[0;32mI (1702741) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1702741) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1702751) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1703751) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 353, handle 42
+[0m
+[0;32mI (1703761) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1703761) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1703761) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1704741) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 354, handle 42
+[0m
+[0;32mI (1704751) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1704751) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1704751) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1705761) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 355, handle 42
+[0m
+[0;32mI (1705761) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1705761) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1705761) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1706771) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 356, handle 42
+[0m
+[0;32mI (1706771) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1706771) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1706781) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1707801) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 357, handle 42
+[0m
+[0;32mI (1707811) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1707811) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1707811) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1708771) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 358, handle 42
+[0m
+[0;32mI (1708771) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1708771) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1708781) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1709811) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 359, handle 42
+[0m
+[0;32mI (1709811) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1709811) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1709811) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1710801) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 360, handle 42
+[0m
+[0;32mI (1710801) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1710801) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1710801) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1711811) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 361, handle 42
+[0m
+[0;32mI (1711811) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1711811) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1711821) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1712801) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 362, handle 42
+[0m
+[0;32mI (1712801) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1712801) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1712811) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1713791) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 363, handle 42
+[0m
+[0;32mI (1713791) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1713791) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1713801) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1714821) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 364, handle 42
+[0m
+[0;32mI (1714831) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1714831) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1714831) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1715811) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 365, handle 42
+[0m
+[0;32mI (1715821) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1715821) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1715821) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1716831) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 366, handle 42
+[0m
+[0;32mI (1716831) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1716831) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1716831) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1717841) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 367, handle 42
+[0m
+[0;32mI (1717841) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1717841) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1717851) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1718831) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 368, handle 42
+[0m
+[0;32mI (1718831) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1718831) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1718841) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1719861) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 369, handle 42
+[0m
+[0;32mI (1719871) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1719871) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1719871) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1720831) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 370, handle 42
+[0m
+[0;32mI (1720831) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1720831) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1720841) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1721841) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 371, handle 42
+[0m
+[0;32mI (1721851) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1721851) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1721851) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1722861) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 372, handle 42
+[0m
+[0;32mI (1722861) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1722861) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1722861) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1723871) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 373, handle 42
+[0m
+[0;32mI (1723871) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1723871) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1723881) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1724881) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 374, handle 42
+[0m
+[0;32mI (1724881) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1724881) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1724891) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1725921) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 375, handle 42
+[0m
+[0;32mI (1725921) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1725921) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1725921) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1726931) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 376, handle 42
+[0m
+[0;32mI (1726931) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1726931) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1726941) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1727941) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 377, handle 42
+[0m
+[0;32mI (1727941) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1727941) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1727951) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1728951) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 378, handle 42
+[0m
+[0;32mI (1728961) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1728961) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1728961) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1729941) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 379, handle 42
+[0m
+[0;32mI (1729951) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1729951) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1729951) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1730961) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 380, handle 42
+[0m
+[0;32mI (1730961) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1730961) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1730961) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1731951) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 381, handle 42
+[0m
+[0;32mI (1731951) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1731951) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1731951) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1732961) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 382, handle 42
+[0m
+[0;32mI (1732961) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1732961) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1732971) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1733951) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 383, handle 42
+[0m
+[0;32mI (1733951) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1733951) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1733961) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1734961) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 384, handle 42
+[0m
+[0;32mI (1734961) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1734961) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1734971) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1735971) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 385, handle 42
+[0m
+[0;32mI (1735981) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1735981) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1735981) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1736991) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 386, handle 42
+[0m
+[0;32mI (1736991) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1736991) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1736991) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1737981) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 387, handle 42
+[0m
+[0;32mI (1737981) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1737981) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1737981) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1738991) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 388, handle 42
+[0m
+[0;32mI (1738991) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1738991) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1739001) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1740001) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 389, handle 42
+[0m
+[0;32mI (1740001) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1740001) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1740011) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1740991) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 390, handle 42
+[0m
+[0;32mI (1740991) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1740991) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1741001) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1742001) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 391, handle 42
+[0m
+[0;32mI (1742011) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1742011) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1742011) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1743021) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 392, handle 42
+[0m
+[0;32mI (1743021) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1743021) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1743021) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1744011) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 393, handle 42
+[0m
+[0;32mI (1744011) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1744011) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1744011) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1745021) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 394, handle 42
+[0m
+[0;32mI (1745021) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1745021) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1745031) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1746011) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 395, handle 42
+[0m
+[0;32mI (1746011) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1746011) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1746021) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1747041) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 396, handle 42
+[0m
+[0;32mI (1747051) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1747051) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1747051) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1748031) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 397, handle 42
+[0m
+[0;32mI (1748041) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1748041) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1748041) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1749051) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 398, handle 42
+[0m
+[0;32mI (1749051) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1749051) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1749051) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1750041) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 399, handle 42
+[0m
+[0;32mI (1750041) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1750041) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1750041) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1751071) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 400, handle 42
+[0m
+[0;32mI (1751071) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1751071) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1751081) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1752041) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 401, handle 42
+[0m
+[0;32mI (1752041) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1752041) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1752051) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1753071) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 402, handle 42
+[0m
+[0;32mI (1753081) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1753081) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1753081) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1754061) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 403, handle 42
+[0m
+[0;32mI (1754071) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1754071) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1754071) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1755081) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 404, handle 42
+[0m
+[0;32mI (1755081) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1755081) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1755081) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1756091) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 405, handle 42
+[0m
+[0;32mI (1756091) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1756091) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1756101) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1757081) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 406, handle 42
+[0m
+[0;32mI (1757081) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1757081) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1757091) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1758091) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 407, handle 42
+[0m
+[0;32mI (1758091) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1758091) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1758101) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1759081) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 408, handle 42
+[0m
+[0;32mI (1759081) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1759081) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1759091) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1760071) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 409, handle 42
+[0m
+[0;32mI (1760071) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1760071) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1760081) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1761131) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 410, handle 42
+[0m
+[0;32mI (1761131) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1761131) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1761141) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1762101) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 411, handle 42
+[0m
+[0;32mI (1762101) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1762101) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1762101) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1763111) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 412, handle 42
+[0m
+[0;32mI (1763111) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1763111) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1763121) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1764101) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 413, handle 42
+[0m
+[0;32mI (1764101) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1764101) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1764111) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1765111) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 414, handle 42
+[0m
+[0;32mI (1765111) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1765111) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1765121) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1766151) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 415, handle 42
+[0m
+[0;32mI (1766151) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1766151) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1766151) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1767141) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 416, handle 42
+[0m
+[0;32mI (1767141) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1767141) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1767141) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1768131) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 417, handle 42
+[0m
+[0;32mI (1768131) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1768131) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1768131) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1769141) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 418, handle 42
+[0m
+[0;32mI (1769141) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1769141) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1769151) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1770151) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 419, handle 42
+[0m
+[0;32mI (1770151) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1770151) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1770161) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1771141) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 420, handle 42
+[0m
+[0;32mI (1771141) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1771141) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1771151) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1772151) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 421, handle 42
+[0m
+[0;32mI (1772161) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1772161) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1772161) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1773141) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 422, handle 42
+[0m
+[0;32mI (1773151) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1773151) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1773151) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1774161) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 423, handle 42
+[0m
+[0;32mI (1774161) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1774161) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1774161) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1775171) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 424, handle 42
+[0m
+[0;32mI (1775171) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1775171) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1775181) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1776181) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 425, handle 42
+[0m
+[0;32mI (1776181) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1776181) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1776191) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1777171) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 426, handle 42
+[0m
+[0;32mI (1777171) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1777171) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1777181) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1778181) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 427, handle 42
+[0m
+[0;32mI (1778191) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1778191) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1778191) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1779171) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 428, handle 42
+[0m
+[0;32mI (1779181) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1779181) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1779181) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1780191) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 429, handle 42
+[0m
+[0;32mI (1780191) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1780191) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1780191) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1781181) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 430, handle 42
+[0m
+[0;32mI (1781181) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1781181) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1781181) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1782191) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 431, handle 42
+[0m
+[0;32mI (1782191) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1782191) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1782201) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1783201) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 432, handle 42
+[0m
+[0;32mI (1783201) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1783201) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1783211) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1784211) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 433, handle 42
+[0m
+[0;32mI (1784221) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1784221) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1784221) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1785231) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 434, handle 42
+[0m
+[0;32mI (1785231) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1785231) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1785231) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1786221) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 435, handle 42
+[0m
+[0;32mI (1786221) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1786221) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1786221) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1787231) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 436, handle 42
+[0m
+[0;32mI (1787231) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1787231) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1787241) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1788221) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 437, handle 42
+[0m
+[0;32mI (1788221) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1788221) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1788231) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1789231) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 438, handle 42
+[0m
+[0;32mI (1789231) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1789231) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1789241) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1790221) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 439, handle 42
+[0m
+[0;32mI (1790221) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1790221) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1790231) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1791231) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 440, handle 42
+[0m
+[0;32mI (1791241) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1791241) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1791241) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1792251) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 441, handle 42
+[0m
+[0;32mI (1792251) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1792251) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1792251) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1793261) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 442, handle 42
+[0m
+[0;32mI (1793261) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1793261) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1793271) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1794251) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 443, handle 42
+[0m
+[0;32mI (1794251) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1794251) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1794261) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1795261) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 444, handle 42
+[0m
+[0;32mI (1795261) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1795261) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1795271) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1796271) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 445, handle 42
+[0m
+[0;32mI (1796281) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1796281) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1796281) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1797261) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 446, handle 42
+[0m
+[0;32mI (1797271) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1797271) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1797271) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1798251) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 447, handle 42
+[0m
+[0;32mI (1798261) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1798261) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1798261) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1799271) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 448, handle 42
+[0m
+[0;32mI (1799271) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1799271) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1799271) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1800281) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 449, handle 42
+[0m
+[0;32mI (1800281) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1800281) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1800291) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1801271) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 450, handle 42
+[0m
+[0;32mI (1801271) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1801271) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1801281) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1802281) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 451, handle 42
+[0m
+[0;32mI (1802281) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1802281) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1802291) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1803291) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 452, handle 42
+[0m
+[0;32mI (1803291) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1803301) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1803301) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1804311) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 453, handle 42
+[0m
+[0;32mI (1804311) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1804311) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1804311) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1805301) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 454, handle 42
+[0m
+[0;32mI (1805301) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1805301) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1805301) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1806311) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 455, handle 42
+[0m
+[0;32mI (1806311) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1806311) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1806321) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1807321) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 456, handle 42
+[0m
+[0;32mI (1807321) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1807321) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1807331) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1808331) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 457, handle 42
+[0m
+[0;32mI (1808341) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1808341) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1808341) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1809351) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 458, handle 42
+[0m
+[0;32mI (1809351) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1809351) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1809351) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1810311) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 459, handle 42
+[0m
+[0;32mI (1810321) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1810321) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1810321) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1811331) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 460, handle 42
+[0m
+[0;32mI (1811331) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1811331) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1811331) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1812341) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 461, handle 42
+[0m
+[0;32mI (1812341) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1812341) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1812351) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1813351) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 462, handle 42
+[0m
+[0;32mI (1813351) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1813351) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1813361) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1814341) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 463, handle 42
+[0m
+[0;32mI (1814341) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1814341) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1814351) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1815331) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 464, handle 42
+[0m
+[0;32mI (1815331) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1815331) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1815341) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1816341) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 465, handle 42
+[0m
+[0;32mI (1816341) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1816351) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1816351) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1817361) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 466, handle 42
+[0m
+[0;32mI (1817361) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1817361) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1817361) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1818371) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 467, handle 42
+[0m
+[0;32mI (1818371) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1818371) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1818381) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1819381) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 468, handle 42
+[0m
+[0;32mI (1819381) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1819381) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1819391) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1820371) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 469, handle 42
+[0m
+[0;32mI (1820371) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1820371) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1820381) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1821381) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 470, handle 42
+[0m
+[0;32mI (1821391) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1821391) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1821391) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1822371) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 471, handle 42
+[0m
+[0;32mI (1822381) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1822381) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1822381) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1823391) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 472, handle 42
+[0m
+[0;32mI (1823391) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1823391) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1823391) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1824381) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 473, handle 42
+[0m
+[0;32mI (1824381) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1824381) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1824381) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1825431) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 474, handle 42
+[0m
+[0;32mI (1825431) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1825441) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1825441) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1826401) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 475, handle 42
+[0m
+[0;32mI (1826401) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1826401) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1826411) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1827391) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 476, handle 42
+[0m
+[0;32mI (1827391) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1827391) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1827401) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1828401) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 477, handle 42
+[0m
+[0;32mI (1828401) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1828411) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1828411) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1829421) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 478, handle 42
+[0m
+[0;32mI (1829421) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1829421) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1829421) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1830431) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 479, handle 42
+[0m
+[0;32mI (1830431) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1830431) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1830441) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1831421) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 480, handle 42
+[0m
+[0;32mI (1831421) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1831421) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1831431) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1832431) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 481, handle 42
+[0m
+[0;32mI (1832431) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1832431) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1832441) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1833441) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 482, handle 42
+[0m
+[0;32mI (1833451) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1833451) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1833451) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1834431) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 483, handle 42
+[0m
+[0;32mI (1834441) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1834441) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1834441) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1835451) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 484, handle 42
+[0m
+[0;32mI (1835451) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1835451) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1835451) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1836431) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 485, handle 42
+[0m
+[0;32mI (1836441) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1836441) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1836441) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1837471) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 486, handle 42
+[0m
+[0;32mI (1837471) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1837471) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1837481) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1838461) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 487, handle 42
+[0m
+[0;32mI (1838461) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1838461) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1838471) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1839471) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 488, handle 42
+[0m
+[0;32mI (1839471) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1839481) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1839481) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1840461) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 489, handle 42
+[0m
+[0;32mI (1840461) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1840471) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1840471) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1841481) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 490, handle 42
+[0m
+[0;32mI (1841481) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1841481) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1841481) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1842491) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 491, handle 42
+[0m
+[0;32mI (1842491) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1842491) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1842501) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1843481) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 492, handle 42
+[0m
+[0;32mI (1843481) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1843481) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1843491) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1844511) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 493, handle 42
+[0m
+[0;32mI (1844511) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1844521) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1844521) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1845501) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 494, handle 42
+[0m
+[0;32mI (1845501) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1845511) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1845511) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1846521) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 495, handle 42
+[0m
+[0;32mI (1846521) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1846521) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1846521) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1847511) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 496, handle 42
+[0m
+[0;32mI (1847511) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1847511) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1847511) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1848521) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 497, handle 42
+[0m
+[0;32mI (1848521) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1848521) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1848531) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1849511) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 498, handle 42
+[0m
+[0;32mI (1849511) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1849511) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1849521) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1850541) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 499, handle 42
+[0m
+[0;32mI (1850541) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1850551) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1850551) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1851531) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 500, handle 42
+[0m
+[0;32mI (1851531) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1851541) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1851541) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1852541) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 501, handle 42
+[0m
+[0;32mI (1852551) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1852551) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1852551) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1853531) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 502, handle 42
+[0m
+[0;32mI (1853541) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1853541) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1853541) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1854551) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 503, handle 42
+[0m
+[0;32mI (1854551) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1854551) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1854561) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1855561) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 504, handle 42
+[0m
+[0;32mI (1855561) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1855561) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1855571) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1856551) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 505, handle 42
+[0m
+[0;32mI (1856551) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1856551) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1856561) GATTS_DEMO: 4f 6b [0m
+[0;32mI (1857561) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 506, handle 42
+[0m
+[0;32mI (1857561) GATTS_DEMO: RxBuffer:Ok, len:2[0m
+[0;32mI (1857571) GATTS_DEMO: data_ble_write: Ok[0m
+[0;32mI (1857571) GATTS_DEMO: 4f 6b [0m

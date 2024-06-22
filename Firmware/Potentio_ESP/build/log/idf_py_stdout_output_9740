@@ -1,0 +1,542 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=216d4h (136916) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=000316fc vaddr=3ffbdb60 size=0457ch ( 17788) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035c80 vaddr=40080000 size=0a398h ( 41880) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=82508h (533768) map[0m
+[0;32mI (374) esp_image: segment 4: paddr=000c2530 vaddr=4008a398 size=0e980h ( 59776) load[0m
+[0;32mI (411) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (411) boot: Disabling RNG early entropy source...[0m
+[0;32mI (423) cpu_start: Multicore app[0m
+[0;32mI (423) cpu_start: Pro cpu up.[0m
+[0;32mI (423) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (441) cpu_start: Pro cpu start user code[0m
+[0;32mI (441) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (441) cpu_start: Application information:[0m
+[0;32mI (446) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (451) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (457) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (463) cpu_start: ELF file SHA256:  a72718633ecfbc4c...[0m
+[0;32mI (469) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (474) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (479) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (484) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (489) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (496) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (502) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (508) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (514) heap_init: At 3FFC7570 len 00018A90 (98 KiB): DRAM[0m
+[0;32mI (520) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (526) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (533) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;33mW (548) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (562) coexist: coex firmware version: ebddf30[0m
+[0;32mI (567) app_start: Starting scheduler on CPU0[0m
+[0;32[0;32mI (571) app_start: Starting scheduler on CPU1[0m
+mI (571) main_task: Started on CPU0[0m
+[0;32mI (581) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (671) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (681) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1101) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1111) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1111) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1111) main_task: Returned from app_main()[0m
+[0;32mI (1131) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1131) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1141) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1141) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1151) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1151) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1161) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1161) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1171) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1181) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1191) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1191) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1201) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1201) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1211) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;32mI (13891) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 47:af:5c:aa:53:a6:[0m
+[0;32mI (13891) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 47:af:5c:aa:53:a6:[0m
+[0;33mW (13891) BT_L2CAP: l2cble_start_conn_update, the last connection update command still pending.[0m
+[0;32mI (14511) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (14801) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (15021) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (15021) GATTS_DEMO: GATT_WRITE_EVT, value len 15, value :[0m
+[0;32mI (15021) GATTS_DEMO: 47 41 54 54 5f 43 6f 6e 6e 65 63 74 65 64 00 [0m
+[0;32mI (15031) GATTS_DEMO: GATT_Connected, len: 14[0m
+[0;32mI (15031) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (15091) UART: Data recv from BLE: GATT_Connected[0m
+[0;32mI (23401) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 2, handle 42[0m
+[0;32mI (23401) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (23401) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (23411) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (23411) GATTS_DEMO: Mode: CV[0m
+[0;32mI (23421) GATTS_DEMO: Res: μA[0m
+[0;32mI (23421) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (23421) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 3, handle 46[0m
+[0;32mI (23431) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (23441) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (23441) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (23451) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (23451) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (23461) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (23461) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (23471) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (26551) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 4, handle 42[0m
+[0;32mI (26551) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (26551) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (26561) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (26561) GATTS_DEMO: Mode: CV[0m
+[0;32mI (26571) GATTS_DEMO: Res: μA[0m
+[0;32mI (26571) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (26571) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 5, handle 46[0m
+[0;32mI (26581) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (26591) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (26591) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (26601) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (26601) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (26611) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (26611) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (26621) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (29171) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (29281) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (29281) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (31501) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 6, handle 42[0m
+[0;32mI (31501) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (31511) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (31511) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (31511) GATTS_DEMO: Mode: CV[0m
+[0;32mI (31521) GATTS_DEMO: Res: μA[0m
+[0;32mI (31521) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (31531) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 7, handle 46[0m
+[0;32mI (31531) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (31541) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (31551) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (31551) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (31561) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (31561) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (31571) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (31571) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (31701) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (31701) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (33531) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 8, handle 42[0m
+[0;32mI (33531) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (33531) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (33531) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (33541) GATTS_DEMO: Mode: CV[0m
+[0;32mI (33541) GATTS_DEMO: Res: μA[0m
+[0;32mI (33551) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (33551) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 9, handle 46[0m
+[0;32mI (33561) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (33561) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (33571) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (33581) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (33581) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (33591) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (33591) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (33591) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (33681) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (33681) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (36071) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 10, handle 42[0m
+[0;32mI (36071) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (36071) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (36081) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (36081) GATTS_DEMO: Mode: CV[0m
+[0;32mI (36091) GATTS_DEMO: Res: μA[0m
+[0;32mI (36091) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (36091) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 11, handle 46[0m
+[0;32mI (36101) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (36111) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (36111) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (36121) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (36121) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (36131) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (36131) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (36141) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (36211) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (36211) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (37711) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 12, handle 42[0m
+[0;32mI (37711) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (37721) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (37721) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (37721) GATTS_DEMO: Mode: CV[0m
+[0;32mI (37731) GATTS_DEMO: Res: μA[0m
+[0;32mI (37731) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (37741) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 13, handle 46[0m
+[0;32mI (37741) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (37751) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (37761) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (37761) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (37771) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (37771) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (37781) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (37781) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (37861) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (37861) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (41021) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 14, handle 42[0m
+[0;32mI (41021) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (41021) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (41031) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (41031) GATTS_DEMO: Mode: CV[0m
+[0;32mI (41041) GATTS_DEMO: Res: μA[0m
+[0;32mI (41041) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (41041) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 15, handle 46[0m
+[0;32mI (41051) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (41061) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (41061) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (41071) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (41071) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (41081) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (41081) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (41091) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (41161) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (41161) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (42461) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 16, handle 42[0m
+[0;32mI (42461) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (42461) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (42471) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (42471) GATTS_DEMO: Mode: CV[0m
+[0;32mI (42481) GATTS_DEMO: Res: μA[0m
+[0;32mI (42481) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (42481) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 17, handle 46[0m
+[0;32mI (42491) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (42501) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (42501) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (42511) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (42511) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (42521) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (42521) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (42531) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (42591) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (42591) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (43691) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 18, handle 42[0m
+[0;32mI (43691) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (43701) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (43701) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (43711) GATTS_DEMO: Mode: CV[0m
+[0;32mI (43711) GATTS_DEMO: Res: μA[0m
+[0;32mI (43721) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (43721) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 19, handle 46[0m
+[0;32mI (43731) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (43731) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (43741) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (43741) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (43751) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (43751) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (43761) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (43761) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (43911) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (43911) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (44441) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 20, handle 42[0m
+[0;32mI (44441) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (44441) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (44441) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (44451) GATTS_DEMO: Mode: CV[0m
+[0;32mI (44451) GATTS_DEMO: Res: μA[0m
+[0;32mI (44461) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (44461) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 21, handle 46[0m
+[0;32mI (44471) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (44471) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (44481) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (44491) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (44491) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (44501) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (44501) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (44501) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (44571) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (44571) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (44681) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 22, handle 42[0m
+[0;32mI (44681) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (44691) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (44691) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (44701) GATTS_DEMO: Mode: CV[0m
+[0;32mI (44701) GATTS_DEMO: Res: μA[0m
+[0;32mI (44711) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (44711) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 23, handle 46[0m
+[0;32mI (44721) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (44721) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (44731) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (44731) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (44741) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (44741) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (44751) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (44751) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (44901) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (44901) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (44931) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 24, handle 42[0m
+[0;32mI (44941) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (44941) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (44941) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (44951) GATTS_DEMO: Mode: CV[0m
+[0;32mI (44951) GATTS_DEMO: Res: μA[0m
+[0;32mI (44951) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (44961) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 25, handle 46[0m
+[0;32mI (44971) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (44971) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (44981) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (44981) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (44991) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (44991) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (45001) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (45001) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (45011) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (45011) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (46011) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 26, handle 42[0m
+[0;32mI (46011) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (46021) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (46021) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (46021) GATTS_DEMO: Mode: CV[0m
+[0;32mI (46031) GATTS_DEMO: Res: μA[0m
+[0;32mI (46031) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (46041) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 27, handle 46[0m
+[0;32mI (46041) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (46051) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (46061) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (46061) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (46071) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (46071) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (46081) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (46081) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (46231) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (46231) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (47521) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 28, handle 42[0m
+[0;32mI (47521) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (47531) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (47531) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (47531) GATTS_DEMO: Mode: CV[0m
+[0;32mI (47541) GATTS_DEMO: Res: μA[0m
+[0;32mI (47541) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (47551) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 29, handle 46[0m
+[0;32mI (47551) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (47561) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (47571) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (47571) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (47581) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (47581) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (47591) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (47591) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (47661) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (47661) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (48511) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 30, handle 42[0m
+[0;32mI (48511) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (48511) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (48521) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (48521) GATTS_DEMO: Mode: CV[0m
+[0;32mI (48521) GATTS_DEMO: Res: μA[0m
+[0;32mI (48531) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (48531) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 31, handle 46[0m
+[0;32mI (48541) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (48551) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (48551) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (48561) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (48561) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (48571) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (48571) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (48581) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (48651) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (48651) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (51441) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 32, handle 42[0m
+[0;32mI (51441) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (51441) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (51441) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (51451) GATTS_DEMO: Mode: CV[0m
+[0;32mI (51451) GATTS_DEMO: Res: μA[0m
+[0;32mI (51461) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (51461) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 33, handle 46[0m
+[0;32mI (51471) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (51471) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (51481) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (51491) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (51491) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (51501) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (51501) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (51501) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (51621) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (51621) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (52631) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 34, handle 42[0m
+[0;32mI (52631) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (52631) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (52641) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (52641) GATTS_DEMO: Mode: CV[0m
+[0;32mI (52651) GATTS_DEMO: Res: μA[0m
+[0;32mI (52651) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (52651) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 35, handle 46[0m
+[0;32mI (52661) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (52671) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (52671) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (52681) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (52681) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (52691) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (52691) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (52701) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (52831) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (52831) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (53931) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 36, handle 42[0m
+[0;32mI (53941) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (53941) GATTS_DEMO: 31 40 32 40 32 40 00 [0m
+[0;32mI (53941) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (53951) GATTS_DEMO: Mode: CV[0m
+[0;32mI (53951) GATTS_DEMO: Res: μA[0m
+[0;32mI (53951) GATTS_DEMO: 1@2@2@, len: 6[0m
+[0;32mI (53961) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 37, handle 46[0m
+[0;32mI (53971) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (53971) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 32 [0m
+[0;32mI (53981) GATTS_DEMO: 30 40 00 [0m
+[0;32mI (53981) GATTS_DEMO: -2000@2000@200@20@, len: 18[0m
+[0;32mI (53991) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (53991) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (54001) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (54001) GATTS_DEMO: num_cycle: 20[0m
+[0;32mI (54151) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (54151) UART: Data recv from BLE: 1@2@2@, Acc_conf: 1[0m
+[0;32mI (68201) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 38, handle 42[0m
+[0;32mI (68201) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (68201) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (68211) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (68211) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (68221) GATTS_DEMO: Res: μA[0m
+[0;32mI (68221) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (68221) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 39, handle 46[0m
+[0;32mI (68231) GATTS_DEMO: GATT_WRITE_EVT, value len 16, value :[0m
+[0;32mI (68241) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 00 [0m
+[0;32mI (68241) GATTS_DEMO: -2000@2000@200@, len: 15[0m
+[0;32mI (68251) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (68251) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (68261) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (68341) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (68341) UART: Data recv from BLE: 1@1@2@, Acc_conf: 1[0m
+[0;32mI (73301) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 40, handle 42[0m
+[0;32mI (73311) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (73311) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (73311) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (73321) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (73321) GATTS_DEMO: Res: mA[0m
+[0;32mI (73321) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (73331) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 41, handle 46[0m
+[0;32mI (73341) GATTS_DEMO: GATT_WRITE_EVT, value len 16, value :[0m
+[0;32mI (73341) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 00 [0m
+[0;32mI (73351) GATTS_DEMO: -2000@2000@200@, len: 15[0m
+[0;32mI (73351) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (73361) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (73361) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (73511) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (73511) UART: Data recv from BLE: 1@1@1@, Acc_conf: 1[0m
+[0;32mI (75761) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 42, handle 42[0m
+[0;32mI (75761) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (75761) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (75771) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (75771) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (75781) GATTS_DEMO: Res: mA[0m
+[0;32mI (75781) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (75781) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 43, handle 46[0m
+[0;32mI (75791) GATTS_DEMO: GATT_WRITE_EVT, value len 16, value :[0m
+[0;32mI (75801) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 00 [0m
+[0;32mI (75801) GATTS_DEMO: -2000@2000@200@, len: 15[0m
+[0;32mI (75811) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (75811) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (75821) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (75931) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (75931) UART: Data recv from BLE: 1@1@1@, Acc_conf: 1[0m
+[0;32mI (77581) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 44, handle 42[0m
+[0;32mI (77581) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (77581) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (77591) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (77591) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (77601) GATTS_DEMO: Res: mA[0m
+[0;32mI (77601) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (77611) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 45, handle 46[0m
+[0;32mI (77611) GATTS_DEMO: GATT_WRITE_EVT, value len 16, value :[0m
+[0;32mI (77621) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 00 [0m
+[0;32mI (77631) GATTS_DEMO: -2000@2000@200@, len: 15[0m
+[0;32mI (77631) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (77641) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (77641) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (77801) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (77801) UART: Data recv from BLE: 1@1@1@, Acc_conf: 1[0m
+[0;32mI (79921) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 46, handle 42[0m
+[0;32mI (79921) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (79931) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (79931) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (79931) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (79941) GATTS_DEMO: Res: mA[0m
+[0;32mI (79941) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (79951) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 47, handle 46[0m
+[0;32mI (79951) GATTS_DEMO: GATT_WRITE_EVT, value len 16, value :[0m
+[0;32mI (79961) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 00 [0m
+[0;32mI (79971) GATTS_DEMO: -2000@2000@200@, len: 15[0m
+[0;32mI (79971) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (79981) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (79981) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (80111) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (80111) UART: Data recv from BLE: 1@1@1@, Acc_conf: 1[0m
+[0;32mI (82151) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 48, handle 42[0m
+[0;32mI (82151) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (82151) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (82151) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (82161) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (82161) GATTS_DEMO: Res: mA[0m
+[0;32mI (82171) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (82171) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 49, handle 46[0m
+[0;32mI (82181) GATTS_DEMO: GATT_WRITE_EVT, value len 16, value :[0m
+[0;32mI (82181) GATTS_DEMO: 2d 32 30 30 30 40 32 30 30 30 40 32 30 30 40 00 [0m
+[0;32mI (82191) GATTS_DEMO: -2000@2000@200@, len: 15[0m
+[0;32mI (82201) GATTS_DEMO: Start voltage: -2000.0[0m
+[0;32mI (82201) GATTS_DEMO: End voltage: 2000.0[0m
+[0;32mI (82211) GATTS_DEMO: Scan rate: 200.0[0m
+[0;32mI (82311) UART: Data from STM: Ok, MSG_Size:2[0m
+[0;32mI (82311) UART: Data recv from BLE: 1@1@1@, Acc_conf: 1[0m

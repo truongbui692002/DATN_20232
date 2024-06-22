@@ -1,0 +1,886 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=2171ch (136988) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=00031744 vaddr=3ffbdb60 size=0458ch ( 17804) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035cd8 vaddr=40080000 size=0a340h ( 41792) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=82f70h (536432) map[0m
+[0;32mI (375) esp_image: segment 4: paddr=000c2f98 vaddr=4008a340 size=0e9d8h ( 59864) load[0m
+[0;32mI (412) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (412) boot: Disabling RNG early entropy source...[0m
+[0;32mI (424) cpu_start: Multicore app[0m
+[0;32mI (424) cpu_start: Pro cpu up.[0m
+[0;32mI (424) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (442) cpu_start: Pro cpu start user code[0m
+[0;32mI (442) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (442) cpu_start: Application information:[0m
+[0;32mI (447) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (452) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (458) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (464) cpu_start: ELF file SHA256:  1c39810979fab5d4...[0m
+[0;32mI (470) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (475) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (480) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (485) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (490) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (497) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (503) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (509) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (515) heap_init: At 3FFC77C0 len 00018840 (98 KiB): DRAM[0m
+[0;32mI (521) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (527) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (534) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (542) spi_flash: detected chip: generic[0m
+[0;32mI (545) spi_flash: flash io: dio[0m
+[0;33mW (549) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (563) coexist: coex firmware version: ebddf30[0m
+[0;32mI (568) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (572) app_start: Starting scheduler on CPU1[0m
+I (572) main_task: Started on CPU0[0m
+[0;32mI (582) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (672) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (682) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1092) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1102) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1102) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1112) main_task: Returned from app_main()[0m
+[0;32mI (1122) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1122) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1132) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1132) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1142) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1142) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1152) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1162) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1162) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1172) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1182) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1182) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1192) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1192) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1202) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;32mI (5222) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 5e:fd:29:21:d3:b5:[0m
+[0;32mI (5222) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 5e:fd:29:21:d3:b5:[0m
+[0;33mW (5232) BT_L2CAP: l2cble_start_conn_update, the last connection update command still pending.[0m
+[0;32mI (5842) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (6142) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (6332) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (6332) GATTS_DEMO: GATT_WRITE_EVT, value len 15, value :[0m
+[0;32mI (6332) GATTS_DEMO: 47 41 54 54 5f 43 6f 6e 6e 65 63 74 65 64 00 [0m
+[0;32mI (6342) GATTS_DEMO: GATT_Connected, len: 14[0m
+[0;32mI (6382) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (7172) UART: Data recv_a from BLE: GATT_Connected[0m
+[0;32mI (7272) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 2, handle 42
+[0m
+[0;32mI (7322) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 3, handle 42
+[0m
+[0;32mI (8282) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 4, handle 42
+[0m
+[0;32mI (8332) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 5, handle 42
+[0m
+[0;32mI (9302) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 6, handle 42
+[0m
+[0;32mI (9342) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 7, handle 42
+[0m
+[0;32mI (10312) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 8, handle 42
+[0m
+[0;32mI (10362) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 9, handle 42
+[0m
+[0;32mI (10402) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 10, handle 42[0m
+[0;32mI (10412) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (10412) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (10412) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (10422) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (10422) GATTS_DEMO: Res: mA[0m
+[0;32mI (10422) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (10432) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 11, handle 46[0m
+[0;32mI (10442) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (10442) GATTS_DEMO: 31 30 30 40 33 30 30 40 35 30 40 00 [0m
+[0;32mI (10452) GATTS_DEMO: 100@300@50@, len: 11[0m
+[0;32mI (10452) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (10462) GATTS_DEMO: End voltage: 300.0[0m
+[0;32mI (10462) GATTS_DEMO: Scan rate: 50.0[0m
+[0;32mI (10472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 12, handle 42
+[0m
+[0;32mI (11302) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 13, handle 42
+[0m
+[0;32mI (11352) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 14, handle 42
+[0m
+[0;32mI (12212) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":300.0,"scan_rate":50.0}[0m
+[0;32mI (12312) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 15, handle 42
+[0m
+[0;32mI (12362) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 16, handle 42
+[0m
+[0;32mI (13222) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (13222) UART: Hellooooooo[0m
+[0;32mI (13332) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 17, handle 42
+[0m
+[0;32mI (13372) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 18, handle 42
+[0m
+[0;32mI (14342) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 19, handle 42
+[0m
+[0;32mI (14382) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 20, handle 42
+[0m
+[0;32mI (15332) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 21, handle 42
+[0m
+[0;32mI (15372) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 22, handle 42
+[0m
+[0;32mI (15422) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 23, handle 42[0m
+[0;32mI (15422) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (15422) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (15432) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (16252) UART: Data recv from BLE: Start_device[0m
+[0;32mI (16412) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 24, handle 42
+[0m
+[0;32mI (16452) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 25, handle 42
+[0m
+[0;32mI (17262) UART: Data from STM: {"start":1,"stop":0,"data1":"100","data2":"-0.002"}, MSG_Size:51[0m
+[0;32mI (17262) UART: Hellooooooo[0m
+[0;32mI (17262) UART: 0[0m
+[0;32mI (17422) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 26, handle 42
+[0m
+[0;32mI (17472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 27, handle 42
+[0m
+[0;32mI (18272) UART: Data from STM: {"start":1,"stop":0,"data1":"150","data2":"-0.002"}, MSG_Size:51[0m
+[0;32mI (18272) UART: Hellooooooo[0m
+[0;32mI (18272) UART: 0[0m
+[0;32mI (18432) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 28, handle 42
+[0m
+[0;32mI (18482) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 29, handle 42
+[0m
+[0;32mI (19282) UART: Data from STM: {"start":1,"stop":0,"data1":"200","data2":"-0.002"}, MSG_Size:51[0m
+[0;32mI (19282) UART: Hellooooooo[0m
+[0;32mI (19282) UART: 0[0m
+[0;32mI (19452) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 30, handle 42
+[0m
+[0;32mI (19512) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 31, handle 42
+[0m
+[0;32mI (20292) UART: Data from STM: {"start":1,"stop":0,"data1":"250","data2":"-0.002"}, MSG_Size:51[0m
+[0;32mI (20292) UART: Hellooooooo[0m
+[0;32mI (20292) UART: 0[0m
+[0;32mI (20462) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 32, handle 42
+[0m
+[0;32mI (20502) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 33, handle 42
+[0m
+[0;32mI (21302) UART: Data from STM: {"start":1,"stop":0,"data1":"300","data2":"-0.002"}, MSG_Size:51[0m
+[0;32mI (21302) UART: Hellooooooo[0m
+[0;32mI (21302) UART: 0[0m
+[0;32mI (21472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 34, handle 42
+[0m
+[0;32mI (21522) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 35, handle 42
+[0m
+[0;32mI (22482) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 36, handle 42
+[0m
+[0;32mI (22532) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 37, handle 42
+[0m
+[0;32mI (23472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 38, handle 42
+[0m
+[0;32mI (23522) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 39, handle 42
+[0m
+[0;32mI (24512) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 40, handle 42
+[0m
+[0;32mI (24552) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 41, handle 42
+[0m
+[0;32mI (25502) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 42, handle 42
+[0m
+[0;32mI (25542) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 43, handle 42
+[0m
+[0;32mI (26512) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 44, handle 42
+[0m
+[0;32mI (26562) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 45, handle 42
+[0m
+[0;32mI (27502) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 46, handle 42
+[0m
+[0;32mI (27552) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 47, handle 42
+[0m
+[0;32mI (28542) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 48, handle 42
+[0m
+[0;32mI (28602) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 49, handle 42
+[0m
+[0;32mI (29522) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 50, handle 42
+[0m
+[0;32mI (29572) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 51, handle 42
+[0m
+[0;32mI (30542) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 52, handle 42
+[0m
+[0;32mI (30582) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 53, handle 42
+[0m
+[0;32mI (31552) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 54, handle 42
+[0m
+[0;32mI (31602) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 55, handle 42
+[0m
+[0;32mI (32562) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 56, handle 42
+[0m
+[0;32mI (32612) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 57, handle 42
+[0m
+[0;32mI (33572) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 58, handle 42
+[0m
+[0;32mI (33642) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 59, handle 42
+[0m
+[0;32mI (34612) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 60, handle 42
+[0m
+[0;32mI (34662) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 61, handle 42
+[0m
+[0;32mI (35622) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 62, handle 42
+[0m
+[0;32mI (35672) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 63, handle 42
+[0m
+[0;32mI (36612) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 64, handle 42
+[0m
+[0;32mI (36662) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 65, handle 42
+[0m
+[0;32mI (37602) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 66, handle 42
+[0m
+[0;32mI (37672) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 67, handle 42
+[0m
+[0;32mI (38642) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 68, handle 42
+[0m
+[0;32mI (38682) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 69, handle 42
+[0m
+[0;32mI (39632) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 70, handle 42
+[0m
+[0;32mI (39672) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 71, handle 42
+[0m
+[0;32mI (40642) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 72, handle 42
+[0m
+[0;32mI (40712) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 73, handle 42
+[0m
+[0;32mI (41652) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 74, handle 42
+[0m
+[0;32mI (41702) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 75, handle 42
+[0m
+[0;32mI (42662) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 76, handle 42
+[0m
+[0;32mI (42732) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 77, handle 42
+[0m
+[0;32mI (43772) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 78, handle 42
+[0m
+[0;32mI (43812) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 79, handle 42
+[0m
+[0;32mI (44692) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 80, handle 42
+[0m
+[0;32mI (44742) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 81, handle 42
+[0m
+[0;32mI (45682) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 82, handle 42
+[0m
+[0;32mI (45752) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 83, handle 42
+[0m
+[0;32mI (46692) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 84, handle 42
+[0m
+[0;32mI (46742) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 85, handle 42
+[0m
+[0;32mI (47702) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 86, handle 42
+[0m
+[0;32mI (47772) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 87, handle 42
+[0m
+[0;32mI (48692) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 88, handle 42
+[0m
+[0;32mI (48742) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 89, handle 42
+[0m
+[0;32mI (49732) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 90, handle 42
+[0m
+[0;32mI (49782) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 91, handle 42
+[0m
+[0;32mI (50722) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 92, handle 42
+[0m
+[0;32mI (50772) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 93, handle 42
+[0m
+[0;32mI (51732) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 94, handle 42
+[0m
+[0;32mI (51782) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 95, handle 42
+[0m
+[0;32mI (52742) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 96, handle 42
+[0m
+[0;32mI (52792) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 97, handle 42
+[0m
+[0;32mI (53762) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 98, handle 42
+[0m
+[0;32mI (53802) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 99, handle 42
+[0m
+[0;32mI (54772) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 100, handle 42
+[0m
+[0;32mI (54822) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 101, handle 42
+[0m
+[0;32mI (55782) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 102, handle 42
+[0m
+[0;32mI (55852) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 103, handle 42
+[0m
+[0;32mI (56772) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 104, handle 42
+[0m
+[0;32mI (56822) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 105, handle 42
+[0m
+[0;32mI (57812) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 106, handle 42
+[0m
+[0;32mI (57852) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 107, handle 42
+[0m
+[0;32mI (58822) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 108, handle 42
+[0m
+[0;32mI (58872) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 109, handle 42
+[0m
+[0;32mI (59832) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 110, handle 42
+[0m
+[0;32mI (59882) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 111, handle 42
+[0m
+[0;32mI (60822) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 112, handle 42
+[0m
+[0;32mI (60872) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 113, handle 42
+[0m
+[0;32mI (61812) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 114, handle 42
+[0m
+[0;32mI (61862) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 115, handle 42
+[0m
+[0;32mI (62852) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 116, handle 42
+[0m
+[0;32mI (62892) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 117, handle 42
+[0m
+[0;32mI (63812) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 118, handle 42
+[0m
+[0;32mI (63862) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 119, handle 42
+[0m
+[0;32mI (64832) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 120, handle 42
+[0m
+[0;32mI (64872) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 121, handle 42
+[0m
+[0;32mI (65842) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 122, handle 42
+[0m
+[0;32mI (65892) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 123, handle 42
+[0m
+[0;32mI (66832) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 124, handle 42
+[0m
+[0;32mI (66882) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 125, handle 42
+[0m
+[0;32mI (67842) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 126, handle 42
+[0m
+[0;32mI (67892) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 127, handle 42
+[0m
+[0;32mI (68832) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 128, handle 42
+[0m
+[0;32mI (68882) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 129, handle 42
+[0m
+[0;32mI (69842) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 130, handle 42
+[0m
+[0;32mI (69912) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 131, handle 42
+[0m
+[0;32mI (70882) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 132, handle 42
+[0m
+[0;32mI (70932) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 133, handle 42
+[0m
+[0;32mI (71852) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 134, handle 42
+[0m
+[0;32mI (71892) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 135, handle 42
+[0m
+[0;32mI (72862) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 136, handle 42
+[0m
+[0;32mI (72912) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 137, handle 42
+[0m
+[0;32mI (73852) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 138, handle 42
+[0m
+[0;32mI (73902) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 139, handle 42
+[0m
+[0;32mI (74862) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 140, handle 42
+[0m
+[0;32mI (74932) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 141, handle 42
+[0m
+[0;32mI (75872) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 142, handle 42
+[0m
+[0;32mI (75922) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 143, handle 42
+[0m
+[0;32mI (76862) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 144, handle 42
+[0m
+[0;32mI (76912) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 145, handle 42
+[0m
+[0;32mI (77902) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 146, handle 42
+[0m
+[0;32mI (77952) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 147, handle 42
+[0m
+[0;32mI (78892) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 148, handle 42
+[0m
+[0;32mI (78932) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 149, handle 42
+[0m
+[0;32mI (79882) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 150, handle 42
+[0m
+[0;32mI (79922) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 151, handle 42
+[0m
+[0;32mI (80892) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 152, handle 42
+[0m
+[0;32mI (80942) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 153, handle 42
+[0m
+[0;32mI (81902) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 154, handle 42
+[0m
+[0;32mI (81952) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 155, handle 42
+[0m
+[0;32mI (82922) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 156, handle 42
+[0m
+[0;32mI (82962) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 157, handle 42
+[0m
+[0;32mI (83932) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 158, handle 42
+[0m
+[0;32mI (83982) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 159, handle 42
+[0m
+[0;32mI (84942) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 160, handle 42
+[0m
+[0;32mI (84992) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 161, handle 42
+[0m
+[0;32mI (85952) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 162, handle 42
+[0m
+[0;32mI (86002) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 163, handle 42
+[0m
+[0;32mI (86922) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 164, handle 42
+[0m
+[0;32mI (86972) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 165, handle 42
+[0m
+[0;32mI (87932) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 166, handle 42
+[0m
+[0;32mI (87982) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 167, handle 42
+[0m
+[0;32mI (88952) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 168, handle 42
+[0m
+[0;32mI (88992) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 169, handle 42
+[0m
+[0;32mI (89962) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 170, handle 42
+[0m
+[0;32mI (90052) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 171, handle 42
+[0m
+[0;32mI (90992) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 172, handle 42
+[0m
+[0;32mI (91042) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 173, handle 42
+[0m
+[0;32mI (91982) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 174, handle 42
+[0m
+[0;32mI (92032) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 175, handle 42
+[0m
+[0;32mI (92972) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 176, handle 42
+[0m
+[0;32mI (93042) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 177, handle 42
+[0m
+[0;32mI (93992) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 178, handle 42
+[0m
+[0;32mI (94032) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 179, handle 42
+[0m
+[0;32mI (95002) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 180, handle 42
+[0m
+[0;32mI (95042) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 181, handle 42
+[0m
+[0;32mI (95992) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 182, handle 42
+[0m
+[0;32mI (96032) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 183, handle 42
+[0m
+[0;32mI (97002) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 184, handle 42
+[0m
+[0;32mI (97072) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 185, handle 42
+[0m
+[0;32mI (97992) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 186, handle 42
+[0m
+[0;32mI (98042) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 187, handle 42
+[0m
+[0;32mI (99002) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 188, handle 42
+[0m
+[0;32mI (99052) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 189, handle 42
+[0m
+[0;32mI (100022) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 190, handle 42
+[0m
+[0;32mI (100062) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 191, handle 42
+[0m
+[0;32mI (101012) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 192, handle 42
+[0m
+[0;32mI (101052) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 193, handle 42
+[0m
+[0;32mI (102042) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 194, handle 42
+[0m
+[0;32mI (102092) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 195, handle 42
+[0m
+[0;32mI (103032) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 196, handle 42
+[0m
+[0;32mI (103082) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 197, handle 42
+[0m
+[0;32mI (104042) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 198, handle 42
+[0m
+[0;32mI (104092) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 199, handle 42
+[0m
+[0;32mI (105082) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 200, handle 42
+[0m
+[0;32mI (105122) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 201, handle 42
+[0m
+[0;32mI (106052) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 202, handle 42
+[0m
+[0;32mI (106092) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 203, handle 42
+[0m
+[0;32mI (107082) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 204, handle 42
+[0m
+[0;32mI (107132) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 205, handle 42
+[0m
+[0;32mI (108052) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 206, handle 42
+[0m
+[0;32mI (108092) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 207, handle 42
+[0m
+[0;32mI (109062) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 208, handle 42
+[0m
+[0;32mI (109112) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 209, handle 42
+[0m
+[0;32mI (110072) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 210, handle 42
+[0m
+[0;32mI (110122) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 211, handle 42
+[0m
+[0;32mI (111092) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 212, handle 42
+[0m
+[0;32mI (111132) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 213, handle 42
+[0m
+[0;32mI (112082) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 214, handle 42
+[0m
+[0;32mI (112122) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 215, handle 42
+[0m
+[0;32mI (113072) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 216, handle 42
+[0m
+[0;32mI (113112) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 217, handle 42
+[0m
+[0;32mI (114082) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 218, handle 42
+[0m
+[0;32mI (114122) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 219, handle 42
+[0m
+[0;32mI (115092) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 220, handle 42
+[0m
+[0;32mI (115142) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 221, handle 42
+[0m
+[0;32mI (116082) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 222, handle 42
+[0m
+[0;32mI (116132) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 223, handle 42
+[0m
+[0;32mI (117092) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 224, handle 42
+[0m
+[0;32mI (117142) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 225, handle 42
+[0m
+[0;32mI (118112) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 226, handle 42
+[0m
+[0;32mI (118152) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 227, handle 42
+[0m
+[0;32mI (119122) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 228, handle 42
+[0m
+[0;32mI (119162) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 229, handle 42
+[0m
+[0;32mI (120112) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 230, handle 42
+[0m
+[0;32mI (120152) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 231, handle 42
+[0m
+[0;32mI (121122) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 232, handle 42
+[0m
+[0;32mI (121172) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 233, handle 42
+[0m
+[0;32mI (122132) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 234, handle 42
+[0m
+[0;32mI (122222) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 235, handle 42
+[0m
+[0;32mI (123122) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 236, handle 42
+[0m
+[0;32mI (123172) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 237, handle 42
+[0m
+[0;32mI (124162) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 238, handle 42
+[0m
+[0;32mI (124202) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 239, handle 42
+[0m
+[0;32mI (125152) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 240, handle 42
+[0m
+[0;32mI (125192) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 241, handle 42
+[0m
+[0;32mI (126162) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 242, handle 42
+[0m
+[0;32mI (126212) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 243, handle 42
+[0m
+[0;32mI (127172) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 244, handle 42
+[0m
+[0;32mI (127222) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 245, handle 42
+[0m
+[0;32mI (128162) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 246, handle 42
+[0m
+[0;32mI (128212) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 247, handle 42
+[0m
+[0;32mI (129182) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 248, handle 42
+[0m
+[0;32mI (129222) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 249, handle 42
+[0m
+[0;32mI (130192) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 250, handle 42
+[0m
+[0;32mI (130232) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 251, handle 42
+[0m
+[0;32mI (131182) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 252, handle 42
+[0m
+[0;32mI (131222) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 253, handle 42
+[0m
+[0;32mI (132192) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 254, handle 42
+[0m
+[0;32mI (132262) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 255, handle 42
+[0m
+[0;32mI (133202) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 256, handle 42
+[0m
+[0;32mI (133252) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 257, handle 42
+[0m
+[0;32mI (134192) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 258, handle 42
+[0m
+[0;32mI (134242) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 259, handle 42
+[0m
+[0;32mI (135212) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 260, handle 42
+[0m
+[0;32mI (135252) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 261, handle 42
+[0m
+[0;32mI (136222) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 262, handle 42
+[0m
+[0;32mI (136262) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 263, handle 42
+[0m
+[0;32mI (137232) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 264, handle 42
+[0m
+[0;32mI (137282) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 265, handle 42
+[0m
+[0;32mI (138222) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 266, handle 42
+[0m
+[0;32mI (138272) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 267, handle 42
+[0m
+[0;32mI (139232) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 268, handle 42
+[0m
+[0;32mI (139302) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 269, handle 42
+[0m
+[0;32mI (140252) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 270, handle 42
+[0m
+[0;32mI (140312) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 271, handle 42
+[0m
+[0;32mI (141282) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 272, handle 42
+[0m
+[0;32mI (141352) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 273, handle 42
+[0m
+[0;32mI (142252) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 274, handle 42
+[0m
+[0;32mI (142292) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 275, handle 42
+[0m
+[0;32mI (143262) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 276, handle 42
+[0m
+[0;32mI (143312) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 277, handle 42
+[0m
+[0;32mI (144272) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 278, handle 42
+[0m
+[0;32mI (144322) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 279, handle 42
+[0m
+[0;32mI (145262) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 280, handle 42
+[0m
+[0;32mI (145312) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 281, handle 42
+[0m
+[0;32mI (146282) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 282, handle 42
+[0m
+[0;32mI (146322) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 283, handle 42
+[0m
+[0;32mI (147292) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 284, handle 42
+[0m
+[0;32mI (147332) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 285, handle 42
+[0m
+[0;32mI (148302) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 286, handle 42
+[0m
+[0;32mI (148352) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 287, handle 42
+[0m
+[0;32mI (149312) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 288, handle 42
+[0m
+[0;32mI (149362) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 289, handle 42
+[0m
+[0;32mI (150332) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 290, handle 42
+[0m
+[0;32mI (150372) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 291, handle 42
+[0m
+[0;32mI (151322) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 292, handle 42
+[0m
+[0;32mI (151362) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 293, handle 42
+[0m
+[0;32mI (152332) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 294, handle 42
+[0m
+[0;32mI (152372) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 295, handle 42
+[0m
+[0;32mI (153322) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 296, handle 42
+[0m
+[0;32mI (153362) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 297, handle 42
+[0m
+[0;32mI (154332) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 298, handle 42
+[0m
+[0;32mI (154382) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 299, handle 42
+[0m
+[0;32mI (155372) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 300, handle 42
+[0m
+[0;32mI (155412) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 301, handle 42
+[0m
+[0;32mI (156362) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 302, handle 42
+[0m
+[0;32mI (156402) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 303, handle 42
+[0m
+[0;32mI (157372) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 304, handle 42
+[0m
+[0;32mI (157412) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 305, handle 42
+[0m
+[0;32mI (158382) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 306, handle 42
+[0m
+[0;32mI (158452) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 307, handle 42
+[0m
+[0;32mI (159372) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 308, handle 42
+[0m
+[0;32mI (159422) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 309, handle 42
+[0m
+[0;32mI (160382) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 310, handle 42
+[0m
+[0;32mI (160432) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 311, handle 42
+[0m
+[0;32mI (161402) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 312, handle 42
+[0m
+[0;32mI (161442) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 313, handle 42
+[0m
+[0;32mI (162392) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 314, handle 42
+[0m
+[0;32mI (162452) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 315, handle 42
+[0m
+[0;32mI (163422) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 316, handle 42
+[0m
+[0;32mI (163472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 317, handle 42
+[0m
+[0;32mI (164412) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 318, handle 42
+[0m
+[0;32mI (164462) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 319, handle 42
+[0m
+[0;32mI (165422) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 320, handle 42
+[0m
+[0;32mI (165472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 321, handle 42
+[0m
+[0;32mI (166412) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 322, handle 42
+[0m
+[0;32mI (166462) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 323, handle 42
+[0m
+[0;32mI (167452) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 324, handle 42
+[0m
+[0;32mI (167492) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 325, handle 42
+[0m
+[0;32mI (168442) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 326, handle 42
+[0m
+[0;32mI (168482) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 327, handle 42
+[0m
+[0;32mI (169452) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 328, handle 42
+[0m
+[0;32mI (169502) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 329, handle 42
+[0m
+[0;32mI (170442) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 330, handle 42
+[0m
+[0;32mI (170492) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 331, handle 42
+[0m
+[0;32mI (171452) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 332, handle 42
+[0m
+[0;32mI (171502) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 333, handle 42
+[0m
+[0;32mI (172472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 334, handle 42
+[0m
+[0;32mI (172512) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 335, handle 42
+[0m
+[0;32mI (173482) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 336, handle 42
+[0m
+[0;32mI (173522) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 337, handle 42
+[0m
+[0;32mI (174472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 338, handle 42
+[0m
+[0;32mI (174512) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 339, handle 42
+[0m
+[0;32mI (175482) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 340, handle 42
+[0m
+[0;32mI (175532) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 341, handle 42
+[0m
+[0;32mI (176472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 342, handle 42
+[0m
+[0;32mI (176522) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 343, handle 42
+[0m
+[0;32mI (177482) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 344, handle 42
+[0m
+[0;32mI (177532) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 345, handle 42
+[0m
+[0;32mI (178472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 346, handle 42
+[0m
+[0;32mI (178522) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 347, handle 42
+[0m
+[0;32mI (179492) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 348, handle 42
+[0m
+[0;32mI (179532) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 349, handle 42
+[0m
+[0;32mI (180522) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 350, handle 42
+[0m
+[0;32mI (180572) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 351, handle 42
+[0m
+[0;32mI (181532) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 352, handle 42
+[0m
+[0;32mI (181602) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 353, handle 42
+[0m
+[0;32mI (182522) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 354, handle 42
+[0m
+[0;32mI (182572) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 355, handle 42
+[0m
+[0;32mI (183512) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 356, handle 42
+[0m
+[0;32mI (183562) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 357, handle 42
+[0m
+[0;32mI (184532) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 358, handle 42
+[0m
+[0;32mI (184572) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 359, handle 42
+[0m
+[0;32mI (185542) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 360, handle 42
+[0m
+[0;32mI (185582) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 361, handle 42
+[0m
+[0;32mI (186532) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 362, handle 42
+[0m
+[0;32mI (186572) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 363, handle 42
+[0m
+[0;32mI (187542) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 364, handle 42
+[0m
+[0;32mI (187592) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 365, handle 42
+[0m
+[0;32mI (188552) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 366, handle 42
+[0m
+[0;32mI (188602) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 367, handle 42
+[0m

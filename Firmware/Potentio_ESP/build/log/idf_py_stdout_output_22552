@@ -1,0 +1,112 @@
+[1/13] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\GIT\esp32-idf\Potentio_ESP\build\bootloader\esp-idf\esptool_py && D:\ESP_IDF_V5_1\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/GIT/esp32-idf/Potentio_ESP/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[2/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from D:/GIT/esp32-idf/Potentio_ESP/main/main.c:3:
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:4:86: warning: backslash and newline separated by space
+    4 | #define LOGO        "========================================================= \r\n" \
+      |                                                                                       
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:5:135: warning: backslash and newline separated by space
+    5 |                     " _______   __    __  ____    ____ .___________..______       __    __    ______   .__   __.   _______      \r\n" \
+      |                                                                                                                                        
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:6:141: warning: backslash and newline separated by space
+    6 |                     "|       \\ |  |  |  | \\   \\  /   / |           ||   _  \\     |  |  |  |  /  __  \\  |  \\ |  |  /  _____|     \r\n" \
+      |                                                                                                                                              
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:7:138: warning: backslash and newline separated by space
+    7 |                     "|  .--.  ||  |  |  |  \\   \\/   /  `---|  |----`|  |_)  |    |  |  |  | |  |  |  | |   \\|  | |  |  __       \r\n" \
+      |                                                                                                                                           
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:8:136: warning: backslash and newline separated by space
+    8 |                     "|  |  |  ||  |  |  |   \\_    _/       |  |     |      /     |  |  |  | |  |  |  | |  . `  | |  | |_ |      \r\n" \
+      |                                                                                                                                         
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:9:138: warning: backslash and newline separated by space
+    9 |                     "|  '--'  ||  `--'  |     |  |         |  |     |  |\\  \\----.|  `--'  | |  `--'  | |  |\\   | |  |__| |      \r\n" \
+      |                                                                                                                                           
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:10:140: warning: backslash and newline separated by space
+   10 |                     "|_______/  \\______/      |__|         |__|     | _| `._____| \\______/   \\______/  |__| \\__|  \\______|      \r\n" \
+      |                                                                                                                                             
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:23:168: warning: backslash and newline separated by space
+   23 |                     "| _|       \\______/      |__|     |_______||__| \\__|     |__|     |__|  \\______/  |_______/       |__|    /__/     \\__\\  |__|          \r\n" \
+      |                                                                                                                                                                         
+D:/GIT/esp32-idf/Potentio_ESP/main/main.c:7:20: warning: 'TAG' defined but not used [-Wunused-variable]
+    7 | static const char *TAG = "MAIN";
+      |                    ^~~
+[3/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/uart_user.c.obj
+D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c: In function 'uart_user_task':
+D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:44:15: warning: unused variable 'ret' [-Wunused-variable]
+   44 |     esp_err_t ret;
+      |               ^~~
+[4/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/common_user.c.obj
+[5/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_ble.c.obj
+[6/11] Linking C static library esp-idf\main\libmain.a
+[7/11] Generating ld/sections.ld
+[8/11] Linking CXX executable Potentio_ESP.elf
+[9/11] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated D:/GIT/esp32-idf/Potentio_ESP/build/Potentio_ESP.bin
+[10/11] cmd.exe /C "cd /D D:\GIT\esp32-idf\Potentio_ESP\build\esp-idf\esptool_py && D:\ESP_IDF_V5_1\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/GIT/esp32-idf/Potentio_ESP/build/partition_table/partition-table.bin D:/GIT/esp32-idf/Potentio_ESP/build/Potentio_ESP.bin"
+Potentio_ESP.bin binary size 0xc19f0 bytes. Smallest app partition is 0x100000 bytes. 0x3e610 bytes (24%) free.
+[10/11] cmd.exe /C "cd /D D:\ESP_IDF_V5_1\Espressif\frameworks\esp-idf-v5.1\components\esptool_py && D:\ESP_IDF_V5_1\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1 -D SERIAL_TOOL=D:/ESP_IDF_V5_1/Espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe;;D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=D:/GIT/esp32-idf/Potentio_ESP/build -P D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esptool_py/run_serial_tool.cmake"
+esptool esp32 -p COM4 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 Potentio_ESP.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.6.2
+Serial port COM4
+Connecting.....
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 34:98:7a:6e:e9:28
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000d1fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26640 bytes to 16668...
+Writing at 0x00001000... (50 %)
+Writing at 0x0000769b... (100 %)
+Wrote 26640 bytes (16668 compressed) at 0x00001000 in 0.7 seconds (effective 288.1 kbit/s)...
+Hash of data verified.
+Compressed 793072 bytes to 469169...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001dd7e... (6 %)
+Writing at 0x0002acf2... (10 %)
+Writing at 0x0003757d... (13 %)
+Writing at 0x0003cc93... (17 %)
+Writing at 0x00042ba0... (20 %)
+Writing at 0x0004818d... (24 %)
+Writing at 0x0004de40... (27 %)
+Writing at 0x00053497... (31 %)
+Writing at 0x00058bb5... (34 %)
+Writing at 0x0005e6bd... (37 %)
+Writing at 0x00063de9... (41 %)
+Writing at 0x0006a483... (44 %)
+Writing at 0x0007033a... (48 %)
+Writing at 0x0007648e... (51 %)
+Writing at 0x0007c047... (55 %)
+Writing at 0x00081e40... (58 %)
+Writing at 0x00087d42... (62 %)
+Writing at 0x0008dbe2... (65 %)
+Writing at 0x00093f92... (68 %)
+Writing at 0x00099ded... (72 %)
+Writing at 0x0009ff82... (75 %)
+Writing at 0x000a5a68... (79 %)
+Writing at 0x000ab116... (82 %)
+Writing at 0x000b1a7a... (86 %)
+Writing at 0x000ba223... (89 %)
+Writing at 0x000c208b... (93 %)
+Writing at 0x000c8108... (96 %)
+Writing at 0x000cdba4... (100 %)
+Wrote 793072 bytes (469169 compressed) at 0x00010000 in 10.9 seconds (effective 580.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 466.0 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

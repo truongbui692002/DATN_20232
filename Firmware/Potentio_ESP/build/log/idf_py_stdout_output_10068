@@ -1,0 +1,255 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time Jun 21 2024 16:36:30[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=261e4h (156132) map[0m
+[0;32mI (163) esp_image: segment 1: paddr=0003620c vaddr=3ffbdb60 size=0476ch ( 18284) load[0m
+[0;32mI (170) esp_image: segment 2: paddr=0003a980 vaddr=40080000 size=05698h ( 22168) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=90e68h (593512) map[0m
+[0;32mI (394) esp_image: segment 4: paddr=000d0e90 vaddr=40085698 size=151fch ( 86524) load[0m
+[0;32mI (444) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (444) boot: Disabling RNG early entropy source...[0m
+[0;32mI (455) cpu_start: Multicore app[0m
+[0;32mI (456) cpu_start: Pro cpu up.[0m
+[0;32mI (456) cpu_start: Starting app cpu, entry point is 0x40081544[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (474) cpu_start: Pro cpu start user code[0m
+[0;32mI (474) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (474) cpu_start: Application information:[0m
+[0;32mI (478) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (484) cpu_start: App version:      b1d72289b-dirty[0m
+[0;32mI (489) cpu_start: Compile time:     Jun 21 2024 16:36:18[0m
+[0;32mI (496) cpu_start: ELF file SHA256:  dae01d86f2b6129d...[0m
+[0;32mI (502) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (507) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (511) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (516) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (521) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (528) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (534) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (540) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (547) heap_init: At 3FFC7D28 len 000182D8 (96 KiB): DRAM[0m
+[0;32mI (553) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (559) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (565) heap_init: At 4009A894 len 0000576C (21 KiB): IRAM[0m
+[0;32mI (573) spi_flash: detected chip: generic[0m
+[0;32mI (576) spi_flash: flash io: dio[0m
+[0;33mW (580) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.[0m
+[0;32mI (594) coexist: coex firmware version: ebddf30[0m
+[0;32mI (599) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (604) app_start: Starting scheduler on CPU1[0m
+I (604) main_task: Started on CPU0[0m
+[0;32mI (614) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (704) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (714) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1134) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1144) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1154) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1154) SDCARD: Initializing SD card[0m
+[0;32mI (1154) SDCARD: Using SPI peripheral[0m
+[0;32mI (1154) ADC: calibration scheme version is Line Fitting[0m
+[0;32mI (1174) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1174) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1174) ADC: Calibration Success[0m
+[0;32mI (1184) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1164) SDCARD: Mounting filesystem[0m
+[0;32mI (1194) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1184) ADC: ADC2 Channel[3] Raw Data: 3376[0m
+[0;32mI (1204) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1194) gpio: GPIO[13]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1204) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1224) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1234) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1234) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1244) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1254) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1264) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1264) sdspi_transaction: cmd=52, R1 response: command not supported[0m
+[0;32mI (1264) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1274) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1284) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;32mI (1204) ADC: ADC2 Channel[3] Cali Voltage: 2782 mV[0m
+[0;32mI (1154) main_task: Returned from app_main()[0m
+[0;32mI (1434) sdspi_transaction: cmd=5, R1 response: command not supported[0m
+[0;32mI (1544) SDCARD: Filesystem mounted[0m
+Name: CBADS
+Type: SDHC/SDXC
+Speed: 20.00 MHz (limit: 20.00 MHz)
+Size: 30728MB
+CSD: ver=2, sector_size=512, capacity=62930944 read_bl_len=9
+SSR: bus_width=1
+[0;32mI (2294) ADC: ADC2 Channel[3] Raw Data: 3191[0m
+[0;32mI (2294) ADC: ADC2 Channel[3] Cali Voltage: 2666 mV[0m
+[0;32mI (3294) ADC: ADC2 Channel[3] Raw Data: 3461[0m
+[0;32mI (3294) ADC: ADC2 Channel[3] Cali Voltage: 2831 mV[0m
+[0;32mI (4294) ADC: ADC2 Channel[3] Raw Data: 3441[0m
+[0;32mI (4294) ADC: ADC2 Channel[3] Cali Voltage: 2819 mV[0m
+[0;32mI (5294) ADC: ADC2 Channel[3] Raw Data: 3261[0m
+[0;32mI (5294) ADC: ADC2 Channel[3] Cali Voltage: 2712 mV[0m
+[0;32mI (6294) ADC: ADC2 Channel[3] Raw Data: 3199[0m
+[0;32mI (6294) ADC: ADC2 Channel[3] Cali Voltage: 2672 mV[0m
+[0;32mI (7294) ADC: ADC2 Channel[3] Raw Data: 3706[0m
+[0;32mI (7294) ADC: ADC2 Channel[3] Cali Voltage: 2953 mV[0m
+[0;32mI (8294) ADC: ADC2 Channel[3] Raw Data: 3773[0m
+[0;32mI (8294) ADC: ADC2 Channel[3] Cali Voltage: 2984 mV[0m
+[0;32mI (9294) ADC: ADC2 Channel[3] Raw Data: 3539[0m
+[0;32mI (9294) ADC: ADC2 Channel[3] Cali Voltage: 2872 mV[0m
+[0;32mI (10294) ADC: ADC2 Channel[3] Raw Data: 3543[0m
+[0;32mI (10294) ADC: ADC2 Channel[3] Cali Voltage: 2874 mV[0m
+[0;32mI (11294) ADC: ADC2 Channel[3] Raw Data: 3531[0m
+[0;32mI (11294) ADC: ADC2 Channel[3] Cali Voltage: 2868 mV[0m
+[0;32mI (12294) ADC: ADC2 Channel[3] Raw Data: 3520[0m
+[0;32mI (12294) ADC: ADC2 Channel[3] Cali Voltage: 2863 mV[0m
+[0;32mI (13294) ADC: ADC2 Channel[3] Raw Data: 3773[0m
+[0;32mI (13294) ADC: ADC2 Channel[3] Cali Voltage: 2984 mV[0m
+[0;32mI (14294) ADC: ADC2 Channel[3] Raw Data: 3512[0m
+[0;32mI (14294) ADC: ADC2 Channel[3] Cali Voltage: 2858 mV[0m
+[0;32mI (15294) ADC: ADC2 Channel[3] Raw Data: 3509[0m
+[0;32mI (15294) ADC: ADC2 Channel[3] Cali Voltage: 2857 mV[0m
+[0;32mI (16294) ADC: ADC2 Channel[3] Raw Data: 3392[0m
+[0;32mI (16294) ADC: ADC2 Channel[3] Cali Voltage: 2792 mV[0m
+[0;32mI (17294) ADC: ADC2 Channel[3] Raw Data: 3296[0m
+[0;32mI (17294) ADC: ADC2 Channel[3] Cali Voltage: 2734 mV[0m
+[0;32mI (18294) ADC: ADC2 Channel[3] Raw Data: 3208[0m
+[0;32mI (18294) ADC: ADC2 Channel[3] Cali Voltage: 2678 mV[0m
+[0;32mI (19294) ADC: ADC2 Channel[3] Raw Data: 3877[0m
+[0;32mI (19294) ADC: ADC2 Channel[3] Cali Voltage: 3030 mV[0m
+[0;32mI (20294) ADC: ADC2 Channel[3] Raw Data: 3646[0m
+[0;32mI (20294) ADC: ADC2 Channel[3] Cali Voltage: 2925 mV[0m
+[0;32mI (21294) ADC: ADC2 Channel[3] Raw Data: 3518[0m
+[0;32mI (21294) ADC: ADC2 Channel[3] Cali Voltage: 2861 mV[0m
+[0;32mI (22294) ADC: ADC2 Channel[3] Raw Data: 3243[0m
+[0;32mI (22294) ADC: ADC2 Channel[3] Cali Voltage: 2700 mV[0m
+[0;32mI (23294) ADC: ADC2 Channel[3] Raw Data: 3856[0m
+[0;32mI (23294) ADC: ADC2 Channel[3] Cali Voltage: 3021 mV[0m
+[0;32mI (24294) ADC: ADC2 Channel[3] Raw Data: 3943[0m
+[0;32mI (24294) ADC: ADC2 Channel[3] Cali Voltage: 3058 mV[0m
+[0;32mI (25294) ADC: ADC2 Channel[3] Raw Data: 3761[0m
+[0;32mI (25294) ADC: ADC2 Channel[3] Cali Voltage: 2979 mV[0m
+[0;32mI (26294) ADC: ADC2 Channel[3] Raw Data: 3526[0m
+[0;32mI (26294) ADC: ADC2 Channel[3] Cali Voltage: 2865 mV[0m
+[0;32mI (27294) ADC: ADC2 Channel[3] Raw Data: 3403[0m
+[0;32mI (27294) ADC: ADC2 Channel[3] Cali Voltage: 2798 mV[0m
+[0;32mI (28294) ADC: ADC2 Channel[3] Raw Data: 3408[0m
+[0;32mI (28294) ADC: ADC2 Channel[3] Cali Voltage: 2801 mV[0m
+[0;32mI (29294) ADC: ADC2 Channel[3] Raw Data: 3344[0m
+[0;32mI (29294) ADC: ADC2 Channel[3] Cali Voltage: 2763 mV[0m
+[0;32mI (30294) ADC: ADC2 Channel[3] Raw Data: 3235[0m
+[0;32mI (30294) ADC: ADC2 Channel[3] Cali Voltage: 2695 mV[0m
+[0;32mI (31294) ADC: ADC2 Channel[3] Raw Data: 3251[0m
+[0;32mI (31294) ADC: ADC2 Channel[3] Cali Voltage: 2706 mV[0m
+[0;32mI (32294) ADC: ADC2 Channel[3] Raw Data: 3373[0m
+[0;32mI (32294) ADC: ADC2 Channel[3] Cali Voltage: 2780 mV[0m
+[0;32mI (33294) ADC: ADC2 Channel[3] Raw Data: 3906[0m
+[0;32mI (33294) ADC: ADC2 Channel[3] Cali Voltage: 3043 mV[0m
+[0;32mI (34294) ADC: ADC2 Channel[3] Raw Data: 3257[0m
+[0;32mI (34294) ADC: ADC2 Channel[3] Cali Voltage: 2709 mV[0m
+[0;32mI (35294) ADC: ADC2 Channel[3] Raw Data: 3327[0m
+[0;32mI (35294) ADC: ADC2 Channel[3] Cali Voltage: 2753 mV[0m
+[0;32mI (36294) ADC: ADC2 Channel[3] Raw Data: 3359[0m
+[0;32mI (36294) ADC: ADC2 Channel[3] Cali Voltage: 2772 mV[0m
+[0;32mI (37294) ADC: ADC2 Channel[3] Raw Data: 3289[0m
+[0;32mI (37294) ADC: ADC2 Channel[3] Cali Voltage: 2729 mV[0m
+[0;32mI (38294) ADC: ADC2 Channel[3] Raw Data: 3742[0m
+[0;32mI (38294) ADC: ADC2 Channel[3] Cali Voltage: 2970 mV[0m
+[0;32mI (39294) ADC: ADC2 Channel[3] Raw Data: 3605[0m
+[0;32mI (39294) ADC: ADC2 Channel[3] Cali Voltage: 2904 mV[0m
+[0;32mI (40294) ADC: ADC2 Channel[3] Raw Data: 3638[0m
+[0;32mI (40294) ADC: ADC2 Channel[3] Cali Voltage: 2921 mV[0m
+[0;32mI (41294) ADC: ADC2 Channel[3] Raw Data: 3509[0m
+[0;32mI (41294) ADC: ADC2 Channel[3] Cali Voltage: 2857 mV[0m
+[0;32mI (42294) ADC: ADC2 Channel[3] Raw Data: 3460[0m
+[0;32mI (42294) ADC: ADC2 Channel[3] Cali Voltage: 2830 mV[0m
+[0;32mI (43294) ADC: ADC2 Channel[3] Raw Data: 3552[0m
+[0;32mI (43294) ADC: ADC2 Channel[3] Cali Voltage: 2878 mV[0m
+[0;32mI (44294) ADC: ADC2 Channel[3] Raw Data: 3507[0m
+[0;32mI (44294) ADC: ADC2 Channel[3] Cali Voltage: 2855 mV[0m
+[0;32mI (45294) ADC: ADC2 Channel[3] Raw Data: 3377[0m
+[0;32mI (45294) ADC: ADC2 Channel[3] Cali Voltage: 2783 mV[0m
+[0;32mI (46294) ADC: ADC2 Channel[3] Raw Data: 3390[0m
+[0;32mI (46294) ADC: ADC2 Channel[3] Cali Voltage: 2790 mV[0m
+[0;32mI (47294) ADC: ADC2 Channel[3] Raw Data: 3362[0m
+[0;32mI (47294) ADC: ADC2 Channel[3] Cali Voltage: 2774 mV[0m
+[0;32mI (48294) ADC: ADC2 Channel[3] Raw Data: 3344[0m
+[0;32mI (48294) ADC: ADC2 Channel[3] Cali Voltage: 2763 mV[0m
+[0;32mI (49294) ADC: ADC2 Channel[3] Raw Data: 3206[0m
+[0;32mI (49294) ADC: ADC2 Channel[3] Cali Voltage: 2676 mV[0m
+[0;32mI (50294) ADC: ADC2 Channel[3] Raw Data: 3601[0m
+[0;32mI (50294) ADC: ADC2 Channel[3] Cali Voltage: 2902 mV[0m
+[0;32mI (51294) ADC: ADC2 Channel[3] Raw Data: 3728[0m
+[0;32mI (51294) ADC: ADC2 Channel[3] Cali Voltage: 2963 mV[0m
+[0;32mI (52294) ADC: ADC2 Channel[3] Raw Data: 3594[0m
+[0;32mI (52294) ADC: ADC2 Channel[3] Cali Voltage: 2899 mV[0m
+[0;32mI (53294) ADC: ADC2 Channel[3] Raw Data: 3470[0m
+[0;32mI (53294) ADC: ADC2 Channel[3] Cali Voltage: 2836 mV[0m
+[0;32mI (54294) ADC: ADC2 Channel[3] Raw Data: 3440[0m
+[0;32mI (54294) ADC: ADC2 Channel[3] Cali Voltage: 2819 mV[0m
+[0;32mI (55294) ADC: ADC2 Channel[3] Raw Data: 3472[0m
+[0;32mI (55294) ADC: ADC2 Channel[3] Cali Voltage: 2837 mV[0m
+[0;32mI (56294) ADC: ADC2 Channel[3] Raw Data: 3491[0m
+[0;32mI (56294) ADC: ADC2 Channel[3] Cali Voltage: 2847 mV[0m
+[0;32mI (57294) ADC: ADC2 Channel[3] Raw Data: 3365[0m
+[0;32mI (57294) ADC: ADC2 Channel[3] Cali Voltage: 2775 mV[0m
+[0;32mI (58294) ADC: ADC2 Channel[3] Raw Data: 3200[0m
+[0;32mI (58294) ADC: ADC2 Channel[3] Cali Voltage: 2673 mV[0m
+[0;32mI (59294) ADC: ADC2 Channel[3] Raw Data: 3197[0m
+[0;32mI (59294) ADC: ADC2 Channel[3] Cali Voltage: 2670 mV[0m
+[0;32mI (60294) ADC: ADC2 Channel[3] Raw Data: 3901[0m
+[0;32mI (60294) ADC: ADC2 Channel[3] Cali Voltage: 3041 mV[0m
+[0;32mI (61294) ADC: ADC2 Channel[3] Raw Data: 3328[0m
+[0;32mI (61294) ADC: ADC2 Channel[3] Cali Voltage: 2754 mV[0m
+[0;32mI (62294) ADC: ADC2 Channel[3] Raw Data: 3934[0m
+[0;32mI (62294) ADC: ADC2 Channel[3] Cali Voltage: 3055 mV[0m
+[0;32mI (63294) ADC: ADC2 Channel[3] Raw Data: 3237[0m
+[0;32mI (63294) ADC: ADC2 Channel[3] Cali Voltage: 2696 mV[0m
+[0;32mI (64294) ADC: ADC2 Channel[3] Raw Data: 3200[0m
+[0;32mI (64294) ADC: ADC2 Channel[3] Cali Voltage: 2673 mV[0m

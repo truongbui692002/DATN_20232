@@ -1,0 +1,512 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=213dch (136156) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=00031404 vaddr=3ffbdb60 size=0453ch ( 17724) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035948 vaddr=40080000 size=0a6d0h ( 42704) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=81adch (531164) map[0m
+[0;32mI (373) esp_image: segment 4: paddr=000c1b04 vaddr=4008a6d0 size=0e648h ( 58952) load[0m
+[0;32mI (410) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (410) boot: Disabling RNG early entropy source...[0m
+[0;32mI (422) cpu_start: Multicore app[0m
+[0;32mI (422) cpu_start: Pro cpu up.[0m
+[0;32mI (422) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (440) cpu_start: Pro cpu start user code[0m
+[0;32mI (440) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (440) cpu_start: Application information:[0m
+[0;32mI (445) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (450) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (456) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (462) cpu_start: ELF file SHA256:  1e65e182e2c5c1b7...[0m
+[0;32mI (468) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (473) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (478) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (483) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (487) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (495) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (501) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (507) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (513) heap_init: At 3FFC75B0 len 00018A50 (98 KiB): DRAM[0m
+[0;32mI (519) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (525) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (532) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (539) spi_flash: detected chip: generic[0m
+[0;32mI (543) spi_flash: flash io: dio[0m
+[0;33mW (546) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (560) coexist: coex firmware version: ebddf30[0m
+[0;32mI (566) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (570) app_start: Starting scheduler on CPU1[0m
+I (570) main_task: Started on CPU0[0m
+[0;32mI (580) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (670) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (680) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1100) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1110) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1110) main_task: Returned from app_main()[0m
+[0;32mI (1130) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1130) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1130) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1140) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1140) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1150) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1150) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1780) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (2880) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (3060) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 68:e8:81:55:2f:a9:[0m
+[0;32mI (3680) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (3870) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (3980) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (4170) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (4860) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (5450) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 1, handle 42
+[0m
+[0;32mI (5460) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (5460) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5470) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5480) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5490) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5490) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5500) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5510) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5510) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5520) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5530) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5540) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5540) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5550) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5560) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5560) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5570) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5580) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5590) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5590) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5600) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5610) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5610) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5620) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5630) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5630) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5640) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5650) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5660) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5660) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5670) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5680) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5680) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5690) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5700) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5710) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5710) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5720) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5730) GATTS_DEMO: 00 00 00 00 00 00 00 00 [0m
+[0;32mI (5850) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (6950) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (7940) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (8930) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (9920) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (10490) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 2, handle 42
+[0m
+[0;32mI (10500) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (10500) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10510) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10520) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10530) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10530) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10540) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10550) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10550) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10560) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10570) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10580) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10580) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10590) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10600) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10610) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10610) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10620) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10630) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10630) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10640) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10650) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10660) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10660) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10670) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10680) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10680) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10690) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10700) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10710) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10710) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10720) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10730) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10730) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10740) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10750) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10760) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10760) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (10770) GATTS_DEMO: 00 00 00 00 00 00 00 00 [0m
+[0;32mI (11020) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (12010) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (13000) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (14100) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (15090) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (16080) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (17070) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (18170) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (19160) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (19830) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 3, handle 42
+[0m
+[0;32mI (19830) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (19840) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19850) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19860) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19860) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19870) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19880) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19880) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19890) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19900) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19910) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19910) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19920) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19930) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19930) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19940) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19950) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19960) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19960) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19970) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19980) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19990) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (19990) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20000) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20010) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20010) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20020) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20030) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20040) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20040) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20050) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20060) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20060) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20070) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20080) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20090) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20090) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20100) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20110) GATTS_DEMO: 00 00 00 00 00 00 00 00 [0m
+[0;32mI (20150) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (21140) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (22240) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (23230) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (24220) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (25210) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (25840) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 4, handle 42[0m
+[0;32mI (25910) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 5, handle 42[0m
+[0;32mI (25950) GATTS_DEMO: ESP_GATTS_EXEC_WRITE_EVT[0m
+[0;32mI (25950) GATTS_DEMO: 7b 5c 22 6e 61 6d 65 5c 22 3a 54 72 75 6f 6e 67 [0m
+[0;32mI (25950) GATTS_DEMO: 2c 5c 22 54 75 6f 69 5c 22 3a 20 31 39 7d [0m
+[0;32mI (25960) GATTS_DEMO: {\"name\":Truong,\"Tuoi\": 19}[0m
+[0;32mI (26310) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (27300) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (28290) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (29280) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (30380) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (31370) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (32360) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (33460) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (34450) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (35440) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (36430) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (37530) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (38520) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (39510) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (40100) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 7, handle 42
+[0m
+[0;32mI (40110) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (40110) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40120) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40130) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40130) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40140) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40150) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40160) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40160) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40170) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40180) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40190) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40190) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40200) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40210) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40210) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40220) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40230) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40240) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40240) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40250) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40260) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40260) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40270) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40280) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40290) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40290) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40300) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40310) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40310) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40320) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40330) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40340) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40340) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40350) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40360) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40370) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40370) GATTS_DEMO: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40380) GATTS_DEMO: 00 00 00 00 00 00 00 00 [0m
+[0;32mI (40500) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (41600) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (42590) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (43580) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (44570) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (45670) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (46660) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (47650) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (48640) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (49740) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (50730) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (51720) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (52820) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (53810) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (54800) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (55790) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (56890) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (57880) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (58870) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (59860) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (60960) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (61950) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (62940) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (63930) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (65030) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (66020) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (67010) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (68000) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (69100) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (70090) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (71080) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (72180) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (73170) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (74160) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (75150) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (76250) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (77240) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (78230) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (79220) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (80320) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (81310) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (82300) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (83290) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (84390) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (85380) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (86370) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (87360) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (88460) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (89450) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (90440) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (91540) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (92530) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (93520) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (94510) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (95610) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (96600) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (97590) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (98580) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (99680) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (100670) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (101660) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (102650) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (103750) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (104740) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (105730) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (106720) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (107820) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (108810) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (109800) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (110900) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (111890) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (112880) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (113870) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (114970) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (115960) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (116950) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (117940) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (119040) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (120030) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (121020) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (122010) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (123110) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (124100) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (125090) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (126080) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (127180) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (128170) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (129160) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (130260) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (131250) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (132240) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (133230) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (134330) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (135320) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (136310) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (137300) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (138400) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (139390) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (140380) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (141370) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (142470) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (143460) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (144450) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (145440) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (146540) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (147530) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (148520) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (149620) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (150610) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (151600) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (152590) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (153690) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (154680) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (155670) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (156660) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (157760) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (158750) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (159740) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (160730) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (161830) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (162820) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (163810) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (164800) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (165900) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (166890) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (167880) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (168980) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (169970) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (170960) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (171950) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (173050) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (174040) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (175030) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (176020) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (177120) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (178110) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (179100) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (180090) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (181190) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (182180) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (183170) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (184160) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (185260) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (186250) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (187240) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (188340) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (189330) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (190320) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (191310) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (192410) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (193400) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (194390) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (195380) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (196480) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (197470) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (198460) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (199450) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (200550) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (201540) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (202530) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (203520) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (204620) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (205610) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (206600) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (207700) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (208690) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (209680) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (210670) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (211770) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (212760) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (213750) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (214740) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (215840) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (216830) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (217820) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (218810) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (219910) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (220900) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (221890) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (222880) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (223980) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (224970) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (225960) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (227060) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (228050) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (229040) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (230030) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (231130) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (232120) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (233110) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (234100) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (235200) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (236190) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (237180) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (238170) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (239270) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (240260) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (241250) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (242240) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (243340) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (244330) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (245320) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (246420) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (247410) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (248400) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (249390) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m

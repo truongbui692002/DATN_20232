@@ -1,0 +1,342 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=2172ch (137004) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=00031754 vaddr=3ffbdb60 size=0458ch ( 17804) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035ce8 vaddr=40080000 size=0a330h ( 41776) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=82ff0h (536560) map[0m
+[0;32mI (375) esp_image: segment 4: paddr=000c3018 vaddr=4008a330 size=0e9e8h ( 59880) load[0m
+[0;32mI (412) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (413) boot: Disabling RNG early entropy source...[0m
+[0;32mI (424) cpu_start: Multicore app[0m
+[0;32mI (424) cpu_start: Pro cpu up.[0m
+[0;32mI (425) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (442) cpu_start: Pro cpu start user code[0m
+[0;32mI (442) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (442) cpu_start: Application information:[0m
+[0;32mI (447) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (452) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (458) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (464) cpu_start: ELF file SHA256:  a59e24d98ce6df46...[0m
+[0;32mI (470) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (475) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (480) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (485) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (490) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (497) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (503) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (509) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (515) heap_init: At 3FFC77C0 len 00018840 (98 KiB): DRAM[0m
+[0;32mI (521) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (528) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (534) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (542) spi_flash: detected chip: generic[0m
+[0;32mI (545) spi_flash: flash io: dio[0m
+[0;33mW (549) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (563) coexist: coex firmware version: ebddf30[0m
+[0;32mI (568) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (572) app_start: Starting scheduler on CPU1[0m
+I (572) main_task: Started on CPU0[0m
+[0;32mI (582) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (672) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (682) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1112) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1112) main_task: Returned from app_main()[0m
+[0;32mI (1122) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1122) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1142) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1142) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1142) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1152) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1152) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1162) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1162) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1172) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1182) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1182) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1192) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1202) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1202) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1212) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1212) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;32mI (410172) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:116[0m
+[0;32mI (410172) UART: Hellooooooo[0m
+[0;32mI (411172) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (411182) UART: Hellooooooo[0m
+[0;32mI (412192) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (412202) UART: Hellooooooo[0m
+[0;32mI (413212) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_re_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasu, MSG_Size:256[0m
+[0;32mI (413222) UART: Hellooooooo[0m
+[0;32mI (414232) UART: Data from STM: re_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_d, MSG_Size:256[0m
+[0;32mI (414242) UART: Hellooooooo[0m
+[0;32mI (415252) UART: Data from STM: onemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donem, MSG_Size:256[0m
+[0;32mI (415262) UART: Hellooooooo[0m
+[0;32mI (416272) UART: Data from STM: easure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasuasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_doneme, MSG_Size:256[0m
+[0;32mI (416282) UART: Hellooooooo[0m
+[0;32mI (417292) UART: Data from STM: asure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasur, MSG_Size:256[0m
+[0;32mI (417302) UART: Hellooooooo[0m
+[0;32mI (418312) UART: Data from STM: e_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemere_donem, MSG_Size:256[0m
+[0;32mI (418332) UART: Hellooooooo[0m
+[0;32mI (419332) UART: Data from STM: easure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasu, MSG_Size:256[0m
+[0;32mI (419342) UART: Hellooooooo[0m
+[0;32mI (420352) UART: Data from STM: re_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_d, MSG_Size:256[0m
+[0;32mI (420362) UART: Hellooooooo[0m
+[0;32mI (421372) UART: Data from STM: onemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasuasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_doure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (421382) UART: Hellooooooo[0m
+[0;32mI (422392) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeaseasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasu, MSG_Size:256[0m
+[0;32mI (422402) UART: Hellooooooo[0m
+[0;32mI (423412) UART: Data from STM: re_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_d, MSG_Size:256[0m
+[0;32mI (423422) UART: Hellooooooo[0m
+[0;32mI (424432) UART: Data from STM: onemeasure_donemeasure_donemeasure_donemure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (424442) UART: Hellooooooo[0m
+[0;32mI (425452) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (425462) UART: Hellooooooo[0m
+[0;32mI (426472) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasnemeasur, MSG_Size:256[0m
+[0;32mI (426482) UART: Hellooooooo[0m
+[0;32mI (427492) UART: Data from STM: e_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_doure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (427502) UART: Hellooooooo[0m
+[0;32mI (428512) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas_donemeasure_donemeasure_donemeasure_don, MSG_Size:256[0m
+[0;32mI (428522) UART: Hellooooooo[0m
+[0;32mI (429532) UART: Data from STM: emeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasureure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (429542) UART: Hellooooooo[0m
+[0;32mI (430552) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeaseasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donem, MSG_Size:256[0m
+[0;32mI (430562) UART: Hellooooooo[0m
+[0;32mI (431572) UART: Data from STM: easure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasu, MSG_Size:256[0m
+[0;32mI (431582) UART: Hellooooooo[0m
+[0;32mI (432592) UART: Data from STM: re_donemeasure_donemeasure_donemure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (432602) UART: Hellooooooo[0m
+[0;32mI (433612) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (433622) UART: Hellooooooo[0m
+[0;32mI (434632) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasnemeasure_doneme, MSG_Size:256[0m
+[0;32mI (434642) UART: Hellooooooo[0m
+[0;32mI (435652) UART: Data from STM: asure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_doure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (435662) UART: Hellooooooo[0m
+[0;32mI (436672) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas_donemeasure_donemeasure_donemeasure_donemeasure, MSG_Size:256[0m
+[0;32mI (436682) UART: Hellooooooo[0m
+[0;32mI (437692) UART: Data from STM: _donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeameasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (437702) UART: Hellooooooo[0m
+[0;32mI (438712) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_doneonemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_d, MSG_Size:256[0m
+[0;32mI (438722) UART: Hellooooooo[0m
+[0;32mI (439732) UART: Data from STM: onemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donem, MSG_Size:256[0m
+[0;32mI (439742) UART: Hellooooooo[0m
+[0;32mI (440752) UART: Data from STM: easure_donemeasure_donemeasure_dmeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (440762) UART: Hellooooooo[0m
+[0;32mI (441772) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (441782) UART: Hellooooooo[0m
+[0;32mI (442792) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donee_donemeasure_do, MSG_Size:256[0m
+[0;32mI (442802) UART: Hellooooooo[0m
+[0;32mI (443812) UART: Data from STM: nemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasurmeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (443822) UART: Hellooooooo[0m
+[0;32mI (444832) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donesure_donemeasure_donemeasure_donemeasure_donemea, MSG_Size:256[0m
+[0;32mI (444842) UART: Hellooooooo[0m
+[0;32mI (445852) UART: Data from STM: sure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_dondonemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (445862) UART: Hellooooooo[0m
+[0;32mI (446872) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_re_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasu, MSG_Size:256[0m
+[0;32mI (446882) UART: Hellooooooo[0m
+[0;32mI (447892) UART: Data from STM: re_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_d, MSG_Size:256[0m
+[0;32mI (447902) UART: Hellooooooo[0m
+[0;32mI (448912) UART: Data from STM: onemeasure_donemeasure_donemeasudonemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (448922) UART: Hellooooooo[0m
+[0;32mI (449932) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (449942) UART: Hellooooooo[0m
+[0;32mI (450952) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_asure_donemeasur, MSG_Size:256[0m
+[0;32mI (450962) UART: Hellooooooo[0m
+[0;32mI (451972) UART: Data from STM: e_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemedonemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (451982) UART: Hellooooooo[0m
+[0;32mI (452992) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_emeasure_donemeasure_donemeasure_donemeasure_don, MSG_Size:256[0m
+[0;32mI (453002) UART: Hellooooooo[0m
+[0;32mI (454012) UART: Data from STM: emeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasureure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (454022) UART: Hellooooooo[0m
+[0;32mI (455032) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeaseasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donem, MSG_Size:256[0m
+[0;32mI (455042) UART: Hellooooooo[0m
+[0;32mI (456052) UART: Data from STM: easure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasu, MSG_Size:256[0m
+[0;32mI (456062) UART: Hellooooooo[0m
+[0;32mI (457072) UART: Data from STM: re_donemeasure_donemeasure_donemure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (457082) UART: Hellooooooo[0m
+[0;32mI (458092) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (458102) UART: Hellooooooo[0m
+[0;32mI (459112) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasnemeasure_doneme, MSG_Size:256[0m
+[0;32mI (459122) UART: Hellooooooo[0m
+[0;32mI (460132) UART: Data from STM: asure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_doure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (460142) UART: Hellooooooo[0m
+[0;32mI (461152) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas_donemeasure_donemeasure_donemeasure_donemeasure, MSG_Size:256[0m
+[0;32mI (461162) UART: Hellooooooo[0m
+[0;32mI (462172) UART: Data from STM: _donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeameasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (462182) UART: Hellooooooo[0m
+[0;32mI (463192) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_doneonemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_d, MSG_Size:256[0m
+[0;32mI (463202) UART: Hellooooooo[0m
+[0;32mI (464212) UART: Data from STM: onemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donem, MSG_Size:256[0m
+[0;32mI (464222) UART: Hellooooooo[0m
+[0;32mI (465232) UART: Data from STM: easure_donemeasure_donemeasure_dmeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (465242) UART: Hellooooooo[0m
+[0;32mI (466252) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (466262) UART: Hellooooooo[0m
+[0;32mI (467272) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donee_donemeasure_do, MSG_Size:256[0m
+[0;32mI (467282) UART: Hellooooooo[0m
+[0;32mI (468292) UART: Data from STM: nemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasurmeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (468302) UART: Hellooooooo[0m
+[0;32mI (469312) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donesure_donemeasure_donemeasure_donemeasure_donemea, MSG_Size:256[0m
+[0;32mI (469322) UART: Hellooooooo[0m
+[0;32mI (470332) UART: Data from STM: sure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_dondonemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (470342) UART: Hellooooooo[0m
+[0;32mI (471352) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_re_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasu, MSG_Size:256[0m
+[0;32mI (471362) UART: Hellooooooo[0m
+[0;32mI (472372) UART: Data from STM: re_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_d, MSG_Size:256[0m
+[0;32mI (472382) UART: Hellooooooo[0m
+[0;32mI (473392) UART: Data from STM: onemeasure_donemeasure_donemeasudonemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (473402) UART: Hellooooooo[0m
+[0;32mI (474412) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (474422) UART: Hellooooooo[0m
+[0;32mI (475432) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_asure_donemeasur, MSG_Size:256[0m
+[0;32mI (475442) UART: Hellooooooo[0m
+[0;32mI (476452) UART: Data from STM: e_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemedonemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (476462) UART: Hellooooooo[0m
+[0;32mI (477472) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_emeasure_donemeasure_donemeasure_donemeasure_don, MSG_Size:256[0m
+[0;32mI (477482) UART: Hellooooooo[0m
+[0;32mI (478492) UART: Data from STM: emeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasureure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (478502) UART: Hellooooooo[0m
+[0;32mI (479512) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeaseasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donem, MSG_Size:256[0m
+[0;32mI (479522) UART: Hellooooooo[0m
+[0;32mI (480532) UART: Data from STM: easure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasu, MSG_Size:256[0m
+[0;32mI (480542) UART: Hellooooooo[0m
+[0;32mI (481552) UART: Data from STM: re_donemeasure_donemeasure_donemure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (481562) UART: Hellooooooo[0m
+[0;32mI (482572) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (482582) UART: Hellooooooo[0m
+[0;32mI (483592) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasnemeasure_doneme, MSG_Size:256[0m
+[0;32mI (483602) UART: Hellooooooo[0m
+[0;32mI (484612) UART: Data from STM: asure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_doure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (484622) UART: Hellooooooo[0m
+[0;32mI (485632) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas_donemeasure_donemeasure_donemeasure_donemeasure, MSG_Size:256[0m
+[0;32mI (485642) UART: Hellooooooo[0m
+[0;32mI (486652) UART: Data from STM: _donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeameasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (486662) UART: Hellooooooo[0m
+[0;32mI (487672) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_doneonemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_d, MSG_Size:256[0m
+[0;32mI (487682) UART: Hellooooooo[0m
+[0;32mI (488692) UART: Data from STM: onemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donem, MSG_Size:256[0m
+[0;32mI (488702) UART: Hellooooooo[0m
+[0;32mI (489712) UART: Data from STM: easure_donemeasure_donemeasure_dmeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (489722) UART: Hellooooooo[0m
+[0;32mI (490732) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (490742) UART: Hellooooooo[0m
+[0;32mI (491752) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donee_donemeasure_do, MSG_Size:256[0m
+[0;32mI (491762) UART: Hellooooooo[0m
+[0;32mI (492772) UART: Data from STM: nemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasurmeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (492782) UART: Hellooooooo[0m
+[0;32mI (493792) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (493802) UART: Hellooooooo[0m
+[0;32mI (494812) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (494822) UART: Hellooooooo[0m
+[0;32mI (495832) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_doneonemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasu, MSG_Size:256[0m
+[0;32mI (495842) UART: Hellooooooo[0m
+[0;32mI (496852) UART: Data from STM: re_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_d, MSG_Size:256[0m
+[0;32mI (496862) UART: Hellooooooo[0m
+[0;32mI (497872) UART: Data from STM: onemeasure_donemeasure_dmeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (497882) UART: Hellooooooo[0m
+[0;32mI (498892) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (498902) UART: Hellooooooo[0m
+[0;32mI (499912) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasurmeasure_donemeasur, MSG_Size:256[0m
+[0;32mI (499922) UART: Hellooooooo[0m
+[0;32mI (500932) UART: Data from STM: e_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donee_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (500942) UART: Hellooooooo[0m
+[0;32mI (501952) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (501962) UART: Hellooooooo[0m
+[0;32mI (502972) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (502982) UART: Hellooooooo[0m
+[0;32mI (503992) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasursure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donem, MSG_Size:256[0m
+[0;32mI (504002) UART: Hellooooooo[0m
+[0;32mI (505012) UART: Data from STM: easure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasu, MSG_Size:256[0m
+[0;32mI (505022) UART: Hellooooooo[0m
+[0;32mI (506032) UART: Data from STM: re_donemeasure_donemeae_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (506042) UART: Hellooooooo[0m
+[0;32mI (507052) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (507062) UART: Hellooooooo[0m
+[0;32mI (508072) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeaonemeasure_doneme, MSG_Size:256[0m
+[0;32mI (508082) UART: Hellooooooo[0m
+[0;32mI (509092) UART: Data from STM: asure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_dsure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (509102) UART: Hellooooooo[0m
+[0;32mI (510112) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (510122) UART: Hellooooooo[0m
+[0;32mI (511132) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (511142) UART: Hellooooooo[0m
+[0;32mI (512152) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeameasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_d, MSG_Size:256[0m
+[0;32mI (512162) UART: Hellooooooo[0m
+[0;32mI (513172) UART: Data from STM: onemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donem, MSG_Size:256[0m
+[0;32mI (513182) UART: Hellooooooo[0m
+[0;32mI (514192) UART: Data from STM: easure_donemeasure_donesure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (514202) UART: Hellooooooo[0m
+[0;32mI (515212) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (515222) UART: Hellooooooo[0m
+[0;32mI (516232) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donee_donemeasure_do, MSG_Size:256[0m
+[0;32mI (516242) UART: Hellooooooo[0m
+[0;32mI (517252) UART: Data from STM: nemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasurmeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (517262) UART: Hellooooooo[0m
+[0;32mI (518272) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_done, MSG_Size:256[0m
+[0;32mI (518282) UART: Hellooooooo[0m
+[0;32mI (519292) UART: Data from STM: measure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (519302) UART: Hellooooooo[0m
+[0;32mI (520312) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_doneonemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasu, MSG_Size:256[0m
+[0;32mI (520322) UART: Hellooooooo[0m
+[0;32mI (521332) UART: Data from STM: re_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_d, MSG_Size:256[0m
+[0;32mI (521342) UART: Hellooooooo[0m
+[0;32mI (522352) UART: Data from STM: onemeasure_donemeasure_dmeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (522362) UART: Hellooooooo[0m
+[0;32mI (523372) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (523382) UART: Hellooooooo[0m
+[0;32mI (524392) UART: Data from STM: donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasureeasure_donemeasur, MSG_Size:256[0m
+[0;32mI (524402) UART: Hellooooooo[0m
+[0;32mI (525412) UART: Data from STM: e_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donem_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeas, MSG_Size:256[0m
+[0;32mI (525422) UART: Hellooooooo[0m
+[0;32mI (526432) UART: Data from STM: ure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_donemeasure_, MSG_Size:256[0m
+[0;32mI (526442) UART: Hellooooooo[0m

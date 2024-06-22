@@ -1,0 +1,1582 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=216dch (136924) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=00031704 vaddr=3ffbdb60 size=0458ch ( 17804) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035c98 vaddr=40080000 size=0a380h ( 41856) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=82f8ch (536460) map[0m
+[0;32mI (375) esp_image: segment 4: paddr=000c2fb4 vaddr=4008a380 size=0e998h ( 59800) load[0m
+[0;32mI (412) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (412) boot: Disabling RNG early entropy source...[0m
+[0;32mI (424) cpu_start: Multicore app[0m
+[0;32mI (424) cpu_start: Pro cpu up.[0m
+[0;32mI (424) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (442) cpu_start: Pro cpu start user code[0m
+[0;32mI (442) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (442) cpu_start: Application information:[0m
+[0;32mI (447) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (452) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (458) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (464) cpu_start: ELF file SHA256:  0a6018118f5a4b9d...[0m
+[0;32mI (470) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (475) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (480) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (485) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (490) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (497) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (503) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (509) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (515) heap_init: At 3FFC74A0 len 00018B60 (98 KiB): DRAM[0m
+[0;32mI (521) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (527) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (534) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (542) spi_flash: detected chip: generic[0m
+[0;32mI (545) spi_flash: flash io: dio[0m
+[0;33mW (549) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (563) coexist: coex firmware version: ebddf30[0m
+[0;32mI (568) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (572) app_start: Starting scheduler on CPU1[0m
+I (572) main_task: Started on CPU0[0m
+[0;32mI (582) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (672) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (682) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1102) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1102) main_task: Returned from app_main()[0m
+[0;32mI (1112) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1112) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1132) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1132) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1132) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1142) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1142) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1152) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1152) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1162) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1172) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1182) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1182) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1192) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1192) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1202) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1202) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;32mI (8432) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 68:15:c7:c4:69:21:[0m
+[0;32mI (8432) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 68:15:c7:c4:69:21:[0m
+[0;33mW (8442) BT_L2CAP: l2cble_start_conn_update, the last connection update command still pending.[0m
+[0;32mI (9062) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (9372) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (9552) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (9562) GATTS_DEMO: GATT_WRITE_EVT, value len 15, value :[0m
+[0;32mI (9562) GATTS_DEMO: 47 41 54 54 5f 43 6f 6e 6e 65 63 74 65 64 00 [0m
+[0;32mI (9562) GATTS_DEMO: GATT_Connected, len: 14[0m
+[0;32mI (9602) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (10202) UART: Data recv_a from BLE: GATT_Connected[0m
+[0;32mI (15892) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 2, handle 42[0m
+[0;32mI (15892) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (15892) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (15902) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (15902) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (15912) GATTS_DEMO: Res: mA[0m
+[0;32mI (15912) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (15912) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 3, handle 46[0m
+[0;32mI (15922) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (15932) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (15932) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (15942) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (15942) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (15952) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (15952) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 4, handle 42
+[0m
+[0;32mI (15962) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (17262) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (18272) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (152312) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 5, handle 42[0m
+[0;32mI (152312) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (152312) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (152312) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (152322) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (152322) GATTS_DEMO: Res: mA[0m
+[0;32mI (152332) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (152332) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 6, handle 46[0m
+[0;32mI (152342) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (152342) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (152352) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (152352) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (152362) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (152362) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (152372) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 7, handle 42
+[0m
+[0;32mI (152382) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (152382) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (153602) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (154612) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (2503222) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 8, handle 42[0m
+[0;32mI (2503222) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (2503222) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (2503232) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (2503232) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (2503232) GATTS_DEMO: Res: mA[0m
+[0;32mI (2503242) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (2503242) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 9, handle 46[0m
+[0;32mI (2503252) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (2503262) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (2503262) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (2503272) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (2503272) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (2503282) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (2503282) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 10, handle 42
+[0m
+[0;32mI (2503292) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (2503292) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (2504872) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (2505882) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (2532882) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 11, handle 42[0m
+[0;32mI (2532882) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (2532882) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (2532882) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (2532892) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (2532892) GATTS_DEMO: Res: mA[0m
+[0;32mI (2532902) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (2532902) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 12, handle 46[0m
+[0;32mI (2532912) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (2532922) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (2532922) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (2532932) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (2532932) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (2532932) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (2532942) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 13, handle 42
+[0m
+[0;32mI (2532952) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (2532952) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (2534152) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (2535162) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (2543522) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 14, handle 42[0m
+[0;32mI (2543522) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (2543522) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (2543532) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (2543532) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (2543542) GATTS_DEMO: Res: mA[0m
+[0;32mI (2543542) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (2543542) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 15, handle 46[0m
+[0;32mI (2543552) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (2543562) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (2543562) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (2543572) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (2543572) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (2543582) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (2543582) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 16, handle 42
+[0m
+[0;32mI (2543592) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (2543592) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (2544712) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 17, handle 42[0m
+[0;32mI (2544712) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (2544712) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (2544722) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (2544722) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (2544722) GATTS_DEMO: Res: mA[0m
+[0;32mI (2544732) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (2544732) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 18, handle 46[0m
+[0;32mI (2544742) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (2544752) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (2544752) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (2544762) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (2544762) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (2544772) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (2544772) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 19, handle 42
+[0m
+[0;32mI (2544782) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (2544782) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (2545252) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (2546262) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (3313592) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 20, handle 42[0m
+[0;32mI (3313602) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (3313602) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (3313602) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (3313612) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (3313612) GATTS_DEMO: Res: mA[0m
+[0;32mI (3313622) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (3313622) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 21, handle 46[0m
+[0;32mI (3313632) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (3313632) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (3313642) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (3313642) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (3313652) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (3313652) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (3313662) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 22, handle 42
+[0m
+[0;32mI (3313672) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (3313672) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (3314862) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (3315872) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (3423842) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 23, handle 42[0m
+[0;32mI (3423842) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (3423852) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (3423852) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (3423862) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (3423862) GATTS_DEMO: Res: mA[0m
+[0;32mI (3423862) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (3423872) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 24, handle 46[0m
+[0;32mI (3423882) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (3423882) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (3423892) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (3423892) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (3423902) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (3423902) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (3423912) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 25, handle 42
+[0m
+[0;32mI (3423922) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (3423922) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (3424942) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (3425952) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (3428002) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 26, handle 42[0m
+[0;32mI (3428002) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (3428012) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (3428012) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (3428022) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (3428022) GATTS_DEMO: Res: mA[0m
+[0;32mI (3428032) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (3428032) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 27, handle 46[0m
+[0;32mI (3428042) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (3428042) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (3428052) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (3428052) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (3428062) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (3428062) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (3428072) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 28, handle 42
+[0m
+[0;32mI (3428072) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (3428082) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (3428652) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 29, handle 42[0m
+[0;32mI (3428662) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (3428662) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (3428662) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (3428672) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (3428672) GATTS_DEMO: Res: mA[0m
+[0;32mI (3428682) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (3428682) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 30, handle 46[0m
+[0;32mI (3428692) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (3428702) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (3428702) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (3428712) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (3428712) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (3428722) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (3428722) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 31, handle 42
+[0m
+[0;32mI (3428732) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (3428732) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (3429982) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (3430992) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (3434962) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 32, handle 42[0m
+[0;32mI (3434962) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (3434962) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (3434972) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (3434972) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (3434982) GATTS_DEMO: Res: mA[0m
+[0;32mI (3434982) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (3434982) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 33, handle 46[0m
+[0;32mI (3434992) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (3435002) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (3435002) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (3435012) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (3435012) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (3435022) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (3435022) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 34, handle 42
+[0m
+[0;32mI (3435032) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (3435042) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (3436032) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (3437042) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (3439932) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 35, handle 42[0m
+[0;32mI (3439932) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (3439932) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (3439942) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (3439942) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (3439942) GATTS_DEMO: Res: mA[0m
+[0;32mI (3439952) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (3439952) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 36, handle 46[0m
+[0;32mI (3439962) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (3439972) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (3439972) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (3439982) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (3439982) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (3439992) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (3439992) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 37, handle 42
+[0m
+[0;32mI (3440002) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (3440002) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (3441072) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (3442082) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (3469722) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 38, handle 42[0m
+[0;32mI (3469722) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (3469722) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (3469732) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (3469732) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (3469742) GATTS_DEMO: Res: mA[0m
+[0;32mI (3469742) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (3469752) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 39, handle 46[0m
+[0;32mI (3469752) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (3469762) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (3469772) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (3469772) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (3469782) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (3469782) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (3469782) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 40, handle 42
+[0m
+[0;32mI (3469792) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (3469802) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (3471362) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (3472372) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (3762572) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 41, handle 42[0m
+[0;32mI (3762572) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (3762582) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (3762582) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (3762592) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (3762592) GATTS_DEMO: Res: mA[0m
+[0;32mI (3762602) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (3762602) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 42, handle 46[0m
+[0;32mI (3762612) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (3762612) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (3762622) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (3762622) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (3762632) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (3762632) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (3762642) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 43, handle 42
+[0m
+[0;32mI (3762652) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (3762652) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (3764252) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (3765262) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (3767822) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 44, handle 42[0m
+[0;32mI (3767822) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (3767822) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (3767832) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (3767832) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (3767842) GATTS_DEMO: Res: mA[0m
+[0;32mI (3767842) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (3767842) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 45, handle 46[0m
+[0;32mI (3767852) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (3767862) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (3767862) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (3767872) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (3767872) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (3767882) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (3767882) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 46, handle 42
+[0m
+[0;32mI (3767892) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (3767902) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (3769292) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (3770302) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (3771602) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 47, handle 42[0m
+[0;32mI (3771602) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (3771602) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (3771612) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (3771612) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (3771622) GATTS_DEMO: Res: mA[0m
+[0;32mI (3771622) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (3771632) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 48, handle 46[0m
+[0;32mI (3771632) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (3771642) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (3771652) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (3771652) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (3771652) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (3771662) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (3771662) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 49, handle 42
+[0m
+[0;32mI (3771672) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (3771682) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (3773322) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (3774332) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (3928292) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 50, handle 42[0m
+[0;32mI (3928292) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (3928292) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (3928302) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (3928302) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (3928312) GATTS_DEMO: Res: mA[0m
+[0;32mI (3928312) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (3928312) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 51, handle 46[0m
+[0;32mI (3928322) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (3928332) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (3928332) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (3928342) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (3928342) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (3928352) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (3928352) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 52, handle 42
+[0m
+[0;32mI (3928362) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (3928362) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (3929862) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (3930872) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (4008282) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 53, handle 42[0m
+[0;32mI (4008282) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (4008282) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (4008282) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (4008292) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (4008292) GATTS_DEMO: Res: mA[0m
+[0;32mI (4008302) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (4008302) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 54, handle 46[0m
+[0;32mI (4008312) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (4008312) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (4008322) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (4008322) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (4008332) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (4008332) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (4008342) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 55, handle 42
+[0m
+[0;32mI (4008352) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (4008352) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (4009642) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (4010652) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (4529522) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 56, handle 42[0m
+[0;32mI (4529522) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (4529532) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (4529532) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (4529542) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (4529542) GATTS_DEMO: Res: mA[0m
+[0;32mI (4529552) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (4529552) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 57, handle 46[0m
+[0;32mI (4529562) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (4529562) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (4529572) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (4529572) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (4529582) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (4529582) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (4529592) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 58, handle 42
+[0m
+[0;32mI (4529592) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (4529602) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (4530672) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 59, handle 42[0m
+[0;32mI (4530682) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (4530682) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (4530682) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (4530692) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (4530692) GATTS_DEMO: Res: mA[0m
+[0;32mI (4530692) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (4530702) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 60, handle 46[0m
+[0;32mI (4530702) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (4530712) GATTS_DEMO: 31 30 40 35 30 40 31 30 40 00 [0m
+[0;32mI (4530722) GATTS_DEMO: 10@50@10@, len: 9[0m
+[0;32mI (4530722) GATTS_DEMO: Start voltage: 10.0[0m
+[0;32mI (4530732) GATTS_DEMO: End voltage: 50.0[0m
+[0;32mI (4530732) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (4530742) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 61, handle 42
+[0m
+[0;32mI (4530742) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (4530752) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (4530792) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":10.0,"vol_end":50.0,"scan_rate":10.0}[0m
+[0;32mI (4531802) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;33mW (4539892) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (4539902) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (4539902) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (4560932) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 5f:21:68:3a:63:44:[0m
+[0;32mI (4560932) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 5f:21:68:3a:63:44:[0m
+[0;33mW (4560932) BT_L2CAP: l2cble_start_conn_update, the last connection update command still pending.[0m
+[0;32mI (4561552) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (4561842) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (4562032) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (4562032) GATTS_DEMO: GATT_WRITE_EVT, value len 15, value :[0m
+[0;32mI (4562042) GATTS_DEMO: 47 41 54 54 5f 43 6f 6e 6e 65 63 74 65 64 00 [0m
+[0;32mI (4562042) GATTS_DEMO: GATT_Connected, len: 14[0m
+[0;32mI (4562062) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (4562102) UART: Data recv_a from BLE: GATT_Connected[0m
+[0;32mI (4569292) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 2, handle 42[0m
+[0;32mI (4569292) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (4569292) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (4569302) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (4569302) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (4569312) GATTS_DEMO: Res: mA[0m
+[0;32mI (4569312) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (4569322) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 3, handle 46[0m
+[0;32mI (4569322) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (4569332) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (4569342) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (4569342) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (4569352) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (4569352) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (4569362) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 4, handle 42
+[0m
+[0;32mI (4569362) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (4569372) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (4571182) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (4572192) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (4625072) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 5, handle 42[0m
+[0;32mI (4625072) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (4625072) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (4625082) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (4625082) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (4625092) GATTS_DEMO: Res: mA[0m
+[0;32mI (4625092) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (4625102) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 6, handle 46[0m
+[0;32mI (4625102) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (4625112) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (4625122) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (4625122) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (4625132) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (4625132) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (4625142) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 7, handle 42
+[0m
+[0;32mI (4625142) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (4625152) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (4626722) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (4627732) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (4633242) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 8, handle 42[0m
+[0;32mI (4633242) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (4633242) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (4633252) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (4633252) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (4633262) GATTS_DEMO: Res: mA[0m
+[0;32mI (4633262) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (4633262) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 9, handle 46[0m
+[0;32mI (4633272) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (4633282) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (4633282) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (4633292) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (4633292) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (4633302) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (4633302) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 10, handle 42
+[0m
+[0;32mI (4633312) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (4633312) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (4634792) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (4635802) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (4665392) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 11, handle 42[0m
+[0;32mI (4665392) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (4665392) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (4665402) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (4665402) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (4665412) GATTS_DEMO: Res: mA[0m
+[0;32mI (4665412) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (4665422) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 12, handle 46[0m
+[0;32mI (4665422) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (4665432) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (4665442) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (4665442) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (4665452) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (4665452) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (4665452) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 13, handle 42
+[0m
+[0;32mI (4665462) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (4665472) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (4667102) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (4668112) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (4715452) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 14, handle 42[0m
+[0;32mI (4715452) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (4715452) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (4715462) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (4715462) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (4715472) GATTS_DEMO: Res: mA[0m
+[0;32mI (4715472) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (4715472) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 15, handle 46[0m
+[0;32mI (4715482) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (4715492) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (4715492) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (4715502) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (4715502) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (4715512) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (4715512) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 16, handle 42
+[0m
+[0;32mI (4715522) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (4715532) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (4716582) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (4717592) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (4837692) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 17, handle 42[0m
+[0;32mI (4837692) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (4837702) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (4837702) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (4837712) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (4837712) GATTS_DEMO: Res: mA[0m
+[0;32mI (4837712) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (4837722) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 18, handle 46[0m
+[0;32mI (4837732) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (4837732) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (4837742) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (4837742) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (4837752) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (4837752) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (4837762) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 19, handle 42
+[0m
+[0;32mI (4837772) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (4837772) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (4838782) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (4839792) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (4844672) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 20, handle 42[0m
+[0;32mI (4844672) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (4844672) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (4844672) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (4844682) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (4844682) GATTS_DEMO: Res: mA[0m
+[0;32mI (4844692) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (4844692) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 21, handle 46[0m
+[0;32mI (4844702) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (4844712) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (4844712) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (4844722) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (4844722) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (4844732) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (4844732) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 22, handle 42
+[0m
+[0;32mI (4844742) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (4844742) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (4845842) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (4846852) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (4960512) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 23, handle 42[0m
+[0;32mI (4960522) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (4960522) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (4960522) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (4960532) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (4960532) GATTS_DEMO: Res: mA[0m
+[0;32mI (4960542) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (4960542) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 24, handle 46[0m
+[0;32mI (4960552) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (4960562) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (4960562) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (4960572) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (4960572) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (4960582) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (4960582) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 25, handle 42
+[0m
+[0;32mI (4960592) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (4960592) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (4961982) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (4962992) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5074052) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 26, handle 42[0m
+[0;32mI (5074052) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5074062) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5074062) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5074072) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5074072) GATTS_DEMO: Res: mA[0m
+[0;32mI (5074072) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5074082) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 27, handle 46[0m
+[0;32mI (5074092) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5074092) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5074102) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5074102) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5074112) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5074112) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5074122) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 28, handle 42
+[0m
+[0;32mI (5074132) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5074132) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5075092) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":0.0,"vol_end":0.0,"scan_rate":0.0}[0m
+[0;32mI (5076102) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5281412) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 29, handle 42[0m
+[0;32mI (5281412) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5281412) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5281422) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5281422) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5281432) GATTS_DEMO: Res: mA[0m
+[0;32mI (5281432) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5281432) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 30, handle 46[0m
+[0;32mI (5281442) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5281452) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5281452) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5281462) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5281462) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5281472) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5281472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 31, handle 42
+[0m
+[0;32mI (5281482) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5281492) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5283142) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5284152) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5317032) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 32, handle 42[0m
+[0;32mI (5317032) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5317032) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5317042) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5317042) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5317042) GATTS_DEMO: Res: mA[0m
+[0;32mI (5317052) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5317052) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 33, handle 46[0m
+[0;32mI (5317062) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5317072) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5317072) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5317082) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5317082) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5317092) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5317092) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 34, handle 42
+[0m
+[0;32mI (5317102) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5317102) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5318482) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5319492) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5350692) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 35, handle 42[0m
+[0;32mI (5350692) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5350692) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5350702) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5350702) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5350702) GATTS_DEMO: Res: mA[0m
+[0;32mI (5350712) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5350712) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 36, handle 46[0m
+[0;32mI (5350722) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5350732) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5350732) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5350742) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5350742) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5350752) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5350752) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 37, handle 42
+[0m
+[0;32mI (5350762) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5350762) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5351802) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5352812) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5360292) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 38, handle 42[0m
+[0;32mI (5360292) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5360302) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5360302) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5360312) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5360312) GATTS_DEMO: Res: mA[0m
+[0;32mI (5360312) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5360322) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 39, handle 46[0m
+[0;32mI (5360332) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5360332) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5360342) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5360342) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5360352) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5360352) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5360362) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 40, handle 42
+[0m
+[0;32mI (5360372) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5360372) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5360632) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 41, handle 42[0m
+[0;32mI (5360632) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5360642) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5360642) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5360642) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5360652) GATTS_DEMO: Res: mA[0m
+[0;32mI (5360652) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5360662) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 42, handle 46[0m
+[0;32mI (5360662) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5360672) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5360682) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5360682) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5360692) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5360692) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5360702) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 43, handle 42
+[0m
+[0;32mI (5360702) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5360712) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5361892) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5362902) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5367062) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 44, handle 42[0m
+[0;32mI (5367062) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5367072) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5367072) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5367082) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5367082) GATTS_DEMO: Res: mA[0m
+[0;32mI (5367092) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5367092) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 45, handle 46[0m
+[0;32mI (5367102) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5367102) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5367112) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5367112) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5367122) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5367122) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5367132) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 46, handle 42
+[0m
+[0;32mI (5367142) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5367142) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5368952) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5369962) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5388712) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 47, handle 42[0m
+[0;32mI (5388712) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5388722) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5388722) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5388732) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5388732) GATTS_DEMO: Res: mA[0m
+[0;32mI (5388732) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5388742) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 48, handle 46[0m
+[0;32mI (5388742) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5388752) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5388762) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5388762) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5388772) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5388772) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5388782) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 49, handle 42
+[0m
+[0;32mI (5388782) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5388792) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5390152) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5391162) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5401872) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 50, handle 42[0m
+[0;32mI (5401872) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5401882) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5401882) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5401882) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5401892) GATTS_DEMO: Res: mA[0m
+[0;32mI (5401892) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5401902) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 51, handle 46[0m
+[0;32mI (5401902) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5401912) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5401922) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5401922) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5401932) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5401932) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5401942) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 52, handle 42
+[0m
+[0;32mI (5401942) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5401952) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5402302) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 53, handle 42[0m
+[0;32mI (5402302) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5402312) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5402312) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5402322) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5402322) GATTS_DEMO: Res: mA[0m
+[0;32mI (5402322) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5402332) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 54, handle 46[0m
+[0;32mI (5402342) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5402342) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5402352) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5402352) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5402362) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5402362) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5402372) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 55, handle 42
+[0m
+[0;32mI (5402372) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5402382) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5403272) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5404282) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5427162) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 56, handle 42[0m
+[0;32mI (5427162) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5427172) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5427172) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5427182) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5427182) GATTS_DEMO: Res: mA[0m
+[0;32mI (5427182) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5427192) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 57, handle 46[0m
+[0;32mI (5427192) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5427202) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5427212) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5427212) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5427222) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5427222) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5427232) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 58, handle 42
+[0m
+[0;32mI (5427232) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5427242) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5428512) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5429522) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5437242) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 59, handle 42[0m
+[0;32mI (5437242) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5437242) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5437252) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5437252) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5437262) GATTS_DEMO: Res: mA[0m
+[0;32mI (5437262) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5437272) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 60, handle 46[0m
+[0;32mI (5437272) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5437282) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5437292) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5437292) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5437302) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5437302) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5437312) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 61, handle 42
+[0m
+[0;32mI (5437312) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5437322) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5438012) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 62, handle 42[0m
+[0;32mI (5438012) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5438012) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5438022) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5438022) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5438032) GATTS_DEMO: Res: mA[0m
+[0;32mI (5438032) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5438042) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 63, handle 46[0m
+[0;32mI (5438042) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5438052) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5438062) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5438062) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5438072) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5438072) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5438072) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 64, handle 42
+[0m
+[0;32mI (5438082) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5438092) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5438572) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 65, handle 42[0m
+[0;32mI (5438572) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5438572) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5438582) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5438582) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5438592) GATTS_DEMO: Res: mA[0m
+[0;32mI (5438592) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5438592) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 66, handle 46[0m
+[0;32mI (5438602) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5438602) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5438612) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5438622) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5438632) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5438632) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5438642) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5438642) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 67, handle 42
+[0m
+[0;32mI (5438652) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5438662) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5439022) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 68, handle 42[0m
+[0;32mI (5439022) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5439032) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5439032) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5439042) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5439042) GATTS_DEMO: Res: mA[0m
+[0;32mI (5439042) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5439052) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 69, handle 46[0m
+[0;32mI (5439062) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5439062) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5439072) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5439072) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5439082) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5439082) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5439092) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 70, handle 42
+[0m
+[0;32mI (5439092) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5439102) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5439382) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 71, handle 42[0m
+[0;32mI (5439382) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5439392) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5439392) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5439392) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5439402) GATTS_DEMO: Res: mA[0m
+[0;32mI (5439402) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5439402) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 72, handle 46[0m
+[0;32mI (5439412) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5439422) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5439432) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5439432) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5439432) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5439442) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5439442) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 73, handle 42
+[0m
+[0;32mI (5439452) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5439462) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5439632) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5439652) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 74, handle 42[0m
+[0;32mI (5439652) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5439652) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5439662) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5439662) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5439672) GATTS_DEMO: Res: mA[0m
+[0;32mI (5439672) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5439672) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 75, handle 46[0m
+[0;32mI (5439682) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5439692) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5439692) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5439702) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5439702) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5439712) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5439712) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 76, handle 42
+[0m
+[0;32mI (5439722) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5439732) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5439852) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 77, handle 42[0m
+[0;32mI (5439852) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5439862) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5439862) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5439862) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5439872) GATTS_DEMO: Res: mA[0m
+[0;32mI (5439872) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5439882) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 78, handle 46[0m
+[0;32mI (5439882) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5439892) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5439902) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5439902) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5439912) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5439912) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5439922) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 79, handle 42
+[0m
+[0;32mI (5439922) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5439932) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5440032) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 80, handle 42[0m
+[0;32mI (5440032) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5440042) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5440042) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5440042) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5440052) GATTS_DEMO: Res: mA[0m
+[0;32mI (5440052) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5440062) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 81, handle 46[0m
+[0;32mI (5440062) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5440072) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5440082) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5440082) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5440092) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5440092) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5440102) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 82, handle 42
+[0m
+[0;32mI (5440102) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5440112) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5440192) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 83, handle 42[0m
+[0;32mI (5440192) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5440192) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5440202) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5440202) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5440212) GATTS_DEMO: Res: mA[0m
+[0;32mI (5440212) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5440212) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 84, handle 46[0m
+[0;32mI (5440222) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5440232) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5440232) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5440242) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5440242) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5440252) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5440252) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 85, handle 42
+[0m
+[0;32mI (5440262) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5440272) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5440342) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 86, handle 42[0m
+[0;32mI (5440352) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5440352) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5440362) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5440362) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5440362) GATTS_DEMO: Res: mA[0m
+[0;32mI (5440372) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5440372) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 87, handle 46[0m
+[0;32mI (5440382) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5440392) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5440392) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5440402) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5440402) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5440412) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5440412) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 88, handle 42
+[0m
+[0;32mI (5440422) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5440422) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5440502) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 89, handle 42[0m
+[0;32mI (5440502) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5440512) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5440512) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5440522) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5440522) GATTS_DEMO: Res: mA[0m
+[0;32mI (5440522) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5440532) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 90, handle 46[0m
+[0;32mI (5440542) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5440542) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5440552) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5440552) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5440562) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5440562) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5440572) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 91, handle 42
+[0m
+[0;32mI (5440582) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5440582) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5440632) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5440682) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 92, handle 42[0m
+[0;32mI (5440682) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5440692) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5440692) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5440702) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5440702) GATTS_DEMO: Res: mA[0m
+[0;32mI (5440712) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5440712) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 93, handle 46[0m
+[0;32mI (5440722) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5440722) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5440732) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5440732) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5440742) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5440742) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5440752) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 94, handle 42
+[0m
+[0;32mI (5440762) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5440762) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5440862) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 95, handle 42[0m
+[0;32mI (5440862) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5440872) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5440872) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5440882) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5440882) GATTS_DEMO: Res: mA[0m
+[0;32mI (5440882) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5440892) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 96, handle 46[0m
+[0;32mI (5440902) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5440902) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5440912) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5440912) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5440922) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5440922) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5440932) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 97, handle 42
+[0m
+[0;32mI (5440942) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5440942) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5441332) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 98, handle 42[0m
+[0;32mI (5441342) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5441342) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5441352) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5441352) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5441352) GATTS_DEMO: Res: mA[0m
+[0;32mI (5441362) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5441362) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 99, handle 46[0m
+[0;32mI (5441372) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5441382) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5441382) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5441392) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5441392) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5441402) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5441402) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 100, handle 42
+[0m
+[0;32mI (5441412) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5441412) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5441642) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5441702) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 101, handle 42[0m
+[0;32mI (5441702) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5441702) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5441712) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5441712) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5441722) GATTS_DEMO: Res: mA[0m
+[0;32mI (5441722) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5441722) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 102, handle 46[0m
+[0;32mI (5441732) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5441742) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5441742) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5441752) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5441762) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5441762) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5441762) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 103, handle 42
+[0m
+[0;32mI (5441772) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5441782) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5441972) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 104, handle 42[0m
+[0;32mI (5441972) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5441972) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5441972) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5441982) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5441982) GATTS_DEMO: Res: mA[0m
+[0;32mI (5441992) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5441992) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 105, handle 46[0m
+[0;32mI (5442002) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5442012) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5442012) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5442022) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5442022) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5442032) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5442032) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 106, handle 42
+[0m
+[0;32mI (5442042) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5442042) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5442192) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 107, handle 42[0m
+[0;32mI (5442192) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5442192) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5442202) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5442202) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5442212) GATTS_DEMO: Res: mA[0m
+[0;32mI (5442212) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5442222) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 108, handle 46[0m
+[0;32mI (5442222) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5442232) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5442242) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5442242) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5442252) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5442252) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5442262) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 109, handle 42
+[0m
+[0;32mI (5442262) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5442272) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5442462) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 110, handle 42[0m
+[0;32mI (5442462) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5442472) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5442472) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5442482) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5442482) GATTS_DEMO: Res: mA[0m
+[0;32mI (5442482) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5442492) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 111, handle 46[0m
+[0;32mI (5442492) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5442502) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5442512) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5442512) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5442522) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5442522) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5442532) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 112, handle 42
+[0m
+[0;32mI (5442532) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5442542) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5442642) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5443652) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5443832) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 113, handle 42[0m
+[0;32mI (5443842) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5443842) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5443852) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5443852) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5443852) GATTS_DEMO: Res: mA[0m
+[0;32mI (5443862) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5443862) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 114, handle 46[0m
+[0;32mI (5443872) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5443882) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5443882) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5443892) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5443892) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5443902) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5443902) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 115, handle 42
+[0m
+[0;32mI (5443912) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5443912) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5444262) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 116, handle 42[0m
+[0;32mI (5444272) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5444272) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5444272) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5444282) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5444282) GATTS_DEMO: Res: mA[0m
+[0;32mI (5444292) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5444292) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 117, handle 46[0m
+[0;32mI (5444302) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5444302) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5444312) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5444322) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5444322) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5444322) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5444332) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 118, handle 42
+[0m
+[0;32mI (5444342) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5444342) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5444602) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 119, handle 42[0m
+[0;32mI (5444602) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5444612) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5444612) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5444612) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5444622) GATTS_DEMO: Res: mA[0m
+[0;32mI (5444622) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5444622) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 120, handle 46[0m
+[0;32mI (5444632) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5444642) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5444642) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5444652) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5444652) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5444662) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5444662) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 121, handle 42
+[0m
+[0;32mI (5444672) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5444682) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5444962) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 122, handle 42[0m
+[0;32mI (5444962) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5444962) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5444972) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5444972) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5444982) GATTS_DEMO: Res: mA[0m
+[0;32mI (5444982) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5444982) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 123, handle 46[0m
+[0;32mI (5444992) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5445002) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5445002) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5445012) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5445012) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5445022) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5445022) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 124, handle 42
+[0m
+[0;32mI (5445032) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5445042) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5445662) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5446672) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5453852) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 125, handle 42[0m
+[0;32mI (5453852) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5453852) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5453862) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5453862) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5453862) GATTS_DEMO: Res: mA[0m
+[0;32mI (5453872) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5453872) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 126, handle 46[0m
+[0;32mI (5453882) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5453892) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5453892) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5453902) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5453902) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5453912) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5453912) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 127, handle 42
+[0m
+[0;32mI (5453922) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5453922) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5454632) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 128, handle 42[0m
+[0;32mI (5454632) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5454642) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5454642) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5454652) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5454652) GATTS_DEMO: Res: mA[0m
+[0;32mI (5454662) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5454662) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 129, handle 46[0m
+[0;32mI (5454672) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5454672) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5454682) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5454682) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5454692) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5454692) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5454702) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 130, handle 42
+[0m
+[0;32mI (5454712) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5454712) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5454952) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 131, handle 42[0m
+[0;32mI (5454952) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5454952) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5454962) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5454962) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5454962) GATTS_DEMO: Res: mA[0m
+[0;32mI (5454972) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5454972) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 132, handle 46[0m
+[0;32mI (5454982) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5454992) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5454992) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5455002) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5455002) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5455012) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5455012) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 133, handle 42
+[0m
+[0;32mI (5455022) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5455032) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5455132) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 134, handle 42[0m
+[0;32mI (5455132) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5455132) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5455142) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5455142) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5455142) GATTS_DEMO: Res: mA[0m
+[0;32mI (5455152) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5455152) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 135, handle 46[0m
+[0;32mI (5455162) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5455172) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5455172) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5455182) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5455182) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5455192) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5455192) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 136, handle 42
+[0m
+[0;32mI (5455202) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5455202) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5455352) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 137, handle 42[0m
+[0;32mI (5455352) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5455362) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5455362) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5455372) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5455372) GATTS_DEMO: Res: mA[0m
+[0;32mI (5455382) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5455382) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 138, handle 46[0m
+[0;32mI (5455392) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5455392) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5455402) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5455402) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5455412) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5455412) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5455422) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 139, handle 42
+[0m
+[0;32mI (5455432) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5455432) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5455752) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5456762) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5473352) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 140, handle 42[0m
+[0;32mI (5473352) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5473362) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5473362) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5473372) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5473372) GATTS_DEMO: Res: mA[0m
+[0;32mI (5473382) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5473382) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 141, handle 46[0m
+[0;32mI (5473392) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5473392) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5473402) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5473402) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5473412) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5473412) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5473422) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 142, handle 42
+[0m
+[0;32mI (5473432) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5473432) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5474932) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5475942) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5516782) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 143, handle 42[0m
+[0;32mI (5516782) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5516782) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5516792) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5516792) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5516802) GATTS_DEMO: Res: mA[0m
+[0;32mI (5516802) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5516812) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 144, handle 46[0m
+[0;32mI (5516812) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5516822) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5516832) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5516832) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5516842) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5516842) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5516852) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 145, handle 42
+[0m
+[0;32mI (5516852) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5516862) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5518352) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5519362) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5538182) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 146, handle 42[0m
+[0;32mI (5538182) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5538182) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5538192) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5538192) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5538202) GATTS_DEMO: Res: mA[0m
+[0;32mI (5538202) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5538202) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 147, handle 46[0m
+[0;32mI (5538212) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5538222) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5538222) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5538232) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5538232) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5538242) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5538242) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 148, handle 42
+[0m
+[0;32mI (5538252) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5538262) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5539552) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5540562) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5567042) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 149, handle 42[0m
+[0;32mI (5567052) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5567052) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5567052) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5567062) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5567062) GATTS_DEMO: Res: mA[0m
+[0;32mI (5567072) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5567072) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 150, handle 46[0m
+[0;32mI (5567082) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5567082) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5567092) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5567102) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5567102) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5567102) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5567112) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 151, handle 42
+[0m
+[0;32mI (5567122) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5567122) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5568832) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5569842) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5580462) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 152, handle 42[0m
+[0;32mI (5580462) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5580462) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5580462) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5580472) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5580472) GATTS_DEMO: Res: mA[0m
+[0;32mI (5580482) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5580482) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 153, handle 46[0m
+[0;32mI (5580492) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5580492) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5580502) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5580512) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5580512) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5580522) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5580522) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 154, handle 42
+[0m
+[0;32mI (5580532) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5580532) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5581952) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5582962) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5674982) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 155, handle 42[0m
+[0;32mI (5674982) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5674982) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5674992) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5674992) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5674992) GATTS_DEMO: Res: mA[0m
+[0;32mI (5675002) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5675002) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 156, handle 46[0m
+[0;32mI (5675012) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5675022) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5675022) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5675032) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5675032) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5675042) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5675042) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 157, handle 42
+[0m
+[0;32mI (5675052) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5675052) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5676882) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5677892) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5878062) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 158, handle 42[0m
+[0;32mI (5878062) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5878062) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5878072) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5878072) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5878082) GATTS_DEMO: Res: mA[0m
+[0;32mI (5878082) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5878082) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 159, handle 46[0m
+[0;32mI (5878092) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5878102) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5878102) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5878112) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5878112) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5878122) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5878122) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 160, handle 42
+[0m
+[0;32mI (5878132) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5878142) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5879882) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5880892) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (5891362) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 161, handle 42[0m
+[0;32mI (5891362) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (5891362) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (5891372) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (5891372) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (5891372) GATTS_DEMO: Res: mA[0m
+[0;32mI (5891382) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (5891382) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 162, handle 46[0m
+[0;32mI (5891392) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (5891402) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (5891402) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (5891412) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (5891412) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (5891422) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (5891422) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 163, handle 42
+[0m
+[0;32mI (5891432) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (5891432) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (5893002) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (5894012) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (6054892) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 164, handle 42[0m
+[0;32mI (6054892) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (6054892) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (6054892) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (6054902) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (6054902) GATTS_DEMO: Res: mA[0m
+[0;32mI (6054912) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (6054912) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 165, handle 46[0m
+[0;32mI (6054922) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (6054922) GATTS_DEMO: 31 30 30 40 32 30 30 40 31 30 40 00 [0m
+[0;32mI (6054932) GATTS_DEMO: 100@200@10@, len: 11[0m
+[0;32mI (6054942) GATTS_DEMO: Start voltage: 100.0[0m
+[0;32mI (6054942) GATTS_DEMO: End voltage: 200.0[0m
+[0;32mI (6054952) GATTS_DEMO: Scan rate: 10.0[0m
+[0;32mI (6054952) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 166, handle 42
+[0m
+[0;32mI (6054962) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (6054962) GATTS_DEMO: 00 00 80 3f [0m
+[0;32mI (6056612) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":100.0,"vol_end":200.0,"scan_rate":10.0}[0m
+[0;32mI (6057622) UART: Data from STM: Config_done, MSG_Size:11[0m

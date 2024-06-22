@@ -1,0 +1,215 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- idf_monitor on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+[0m
+[0;33m0x40142177: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1524
+[0m
+[0;33m0x40143821: vprintf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vprintf.c:34 (discriminator 5)
+[0m
+[0;33m0x40150c61: esp_log_writev at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:200
+[0m
+[0;33m0x40096e35: esp_log_write at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:210
+[0m
+[0;33m0x400d7515: parse_data_ble at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:43
+[0m
+[0;33m0x400d7691: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:99
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+[0m
+[0;33m0x40142177: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1524
+[0m
+[0;33m0x40143821: vprintf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vprintf.c:34 (discriminator 5)
+[0m
+[0;33m0x40150c61: esp_log_writev at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:200
+[0m
+[0;33m0x40096e35: esp_log_write at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:210
+[0m
+[0;33m0x400d7515: parse_data_ble at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:43
+[0m
+[0;33m0x400d7691: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:99
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+[0m
+[0;33m0x40142177: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1524
+[0m
+[0;33m0x40143821: vprintf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vprintf.c:34 (discriminator 5)
+[0m
+[0;33m0x40150c61: esp_log_writev at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:200
+[0m
+[0;33m0x40096e35: esp_log_write at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:210
+[0m
+[0;33m0x400d7515: parse_data_ble at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:43
+[0m
+[0;33m0x400d7691: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:99
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+[0m
+[0;33m0x40142177: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1524
+[0m
+[0;33m0x40143821: vprintf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vprintf.c:34 (discriminator 5)
+[0m
+[0;33m0x40150c61: esp_log_writev at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:200
+[0m
+[0;33m0x40096e35: esp_log_write at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:210
+[0m
+[0;33m0x400d7515: parse_data_ble at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:43
+[0m
+[0;33m0x400d7691: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:99
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+[0m
+[0;33m0x40142177: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1524
+[0m
+[0;33m0x40143821: vprintf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vprintf.c:34 (discriminator 5)
+[0m
+[0;33m0x40150c61: esp_log_writev at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:200
+[0m
+[0;33m0x40096e35: esp_log_write at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:210
+[0m
+[0;33m0x400d7515: parse_data_ble at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:43
+[0m
+[0;33m0x400d7691: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:99
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+[0m
+[0;33m0x40142177: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1524
+[0m
+[0;33m0x40143821: vprintf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vprintf.c:34 (discriminator 5)
+[0m
+[0;33m0x40150c61: esp_log_writev at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:200
+[0m
+[0;33m0x40096e35: esp_log_write at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:210
+[0m
+[0;33m0x400d7515: parse_data_ble at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:43
+[0m
+[0;33m0x400d7691: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:99
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+[0m
+[0;33m0x40142177: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1524
+[0m
+[0;33m0x40143821: vprintf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vprintf.c:34 (discriminator 5)
+[0m
+[0;33m0x40150c61: esp_log_writev at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:200
+[0m
+[0;33m0x40096e35: esp_log_write at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:210
+[0m
+[0;33m0x400d7515: parse_data_ble at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:43
+[0m
+[0;33m0x400d7691: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:99
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081430: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400014fa: strlen in ROM
+[0m
+[0;33m0x40142177: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1524
+[0m
+[0;33m0x40143821: vprintf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vprintf.c:34 (discriminator 5)
+[0m
+[0;33m0x40150c61: esp_log_writev at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:200
+[0m
+[0;33m0x40096e35: esp_log_write at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:210
+[0m
+[0;33m0x400d7515: parse_data_ble at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:43
+[0m
+[0;33m0x400d7691: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:99
+[0m
+[0;33m0x400941ed: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

@@ -1,0 +1,110 @@
+[1/12] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\GIT\esp32-idf\Potentio_ESP\build\bootloader\esp-idf\esptool_py && D:\ESP_IDF_V5_1\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/GIT/esp32-idf/Potentio_ESP/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[2/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from D:/GIT/esp32-idf/Potentio_ESP/main/main.c:3:
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:4:86: warning: backslash and newline separated by space
+    4 | #define LOGO        "========================================================= \r\n" \
+      |                                                                                       
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:5:135: warning: backslash and newline separated by space
+    5 |                     " _______   __    __  ____    ____ .___________..______       __    __    ______   .__   __.   _______      \r\n" \
+      |                                                                                                                                        
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:6:141: warning: backslash and newline separated by space
+    6 |                     "|       \\ |  |  |  | \\   \\  /   / |           ||   _  \\     |  |  |  |  /  __  \\  |  \\ |  |  /  _____|     \r\n" \
+      |                                                                                                                                              
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:7:138: warning: backslash and newline separated by space
+    7 |                     "|  .--.  ||  |  |  |  \\   \\/   /  `---|  |----`|  |_)  |    |  |  |  | |  |  |  | |   \\|  | |  |  __       \r\n" \
+      |                                                                                                                                           
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:8:136: warning: backslash and newline separated by space
+    8 |                     "|  |  |  ||  |  |  |   \\_    _/       |  |     |      /     |  |  |  | |  |  |  | |  . `  | |  | |_ |      \r\n" \
+      |                                                                                                                                         
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:9:138: warning: backslash and newline separated by space
+    9 |                     "|  '--'  ||  `--'  |     |  |         |  |     |  |\\  \\----.|  `--'  | |  `--'  | |  |\\   | |  |__| |      \r\n" \
+      |                                                                                                                                           
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:10:140: warning: backslash and newline separated by space
+   10 |                     "|_______/  \\______/      |__|         |__|     | _| `._____| \\______/   \\______/  |__| \\__|  \\______|      \r\n" \
+      |                                                                                                                                             
+D:/GIT/esp32-idf/Potentio_ESP/main/logo.h:23:168: warning: backslash and newline separated by space
+   23 |                     "| _|       \\______/      |__|     |_______||__| \\__|     |__|     |__|  \\______/  |_______/       |__|    /__/     \\__\\  |__|          \r\n" \
+      |                                                                                                                                                                         
+D:/GIT/esp32-idf/Potentio_ESP/main/main.c:7:20: warning: 'TAG' defined but not used [-Wunused-variable]
+    7 | static const char *TAG = "MAIN";
+      |                    ^~~
+[3/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_ble.c.obj
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/uart_user.c.obj
+D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:4:20: warning: 'TAG' defined but not used [-Wunused-variable]
+    4 | static const char *TAG = "UART";
+      |                    ^~~
+[5/10] Linking C static library esp-idf\main\libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable Potentio_ESP.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated D:/GIT/esp32-idf/Potentio_ESP/build/Potentio_ESP.bin
+[9/10] cmd.exe /C "cd /D D:\GIT\esp32-idf\Potentio_ESP\build\esp-idf\esptool_py && D:\ESP_IDF_V5_1\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/GIT/esp32-idf/Potentio_ESP/build/partition_table/partition-table.bin D:/GIT/esp32-idf/Potentio_ESP/build/Potentio_ESP.bin"
+Potentio_ESP.bin binary size 0xc0d40 bytes. Smallest app partition is 0x100000 bytes. 0x3f2c0 bytes (25%) free.
+[9/10] cmd.exe /C "cd /D D:\ESP_IDF_V5_1\Espressif\frameworks\esp-idf-v5.1\components\esptool_py && D:\ESP_IDF_V5_1\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1 -D SERIAL_TOOL=D:/ESP_IDF_V5_1/Espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe;;D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=D:/GIT/esp32-idf/Potentio_ESP/build -P D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esptool_py/run_serial_tool.cmake"
+esptool esp32 -p COM11 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 Potentio_ESP.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.6.2
+Serial port COM11
+Connecting.........
+Chip is ESP32-D0WDQ6-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 78:21:84:8e:03:7c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000d0fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26640 bytes to 16667...
+Writing at 0x00001000... (50 %)
+Writing at 0x0000769b... (100 %)
+Wrote 26640 bytes (16667 compressed) at 0x00001000 in 0.8 seconds (effective 253.5 kbit/s)...
+Hash of data verified.
+Compressed 789824 bytes to 466899...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001dde0... (6 %)
+Writing at 0x0002ac67... (10 %)
+Writing at 0x0003760a... (13 %)
+Writing at 0x0003ccaf... (17 %)
+Writing at 0x00042ba0... (20 %)
+Writing at 0x0004818b... (24 %)
+Writing at 0x0004dda9... (27 %)
+Writing at 0x00053480... (31 %)
+Writing at 0x00058b73... (34 %)
+Writing at 0x0005e5dd... (37 %)
+Writing at 0x00064181... (41 %)
+Writing at 0x0006a42c... (44 %)
+Writing at 0x00070567... (48 %)
+Writing at 0x00076579... (51 %)
+Writing at 0x0007c201... (55 %)
+Writing at 0x00081e20... (58 %)
+Writing at 0x00087deb... (62 %)
+Writing at 0x0008dc00... (65 %)
+Writing at 0x00093f16... (68 %)
+Writing at 0x0009a185... (72 %)
+Writing at 0x0009fec0... (75 %)
+Writing at 0x000a59d6... (79 %)
+Writing at 0x000ab132... (82 %)
+Writing at 0x000b41c1... (86 %)
+Writing at 0x000ba95b... (89 %)
+Writing at 0x000c22a6... (93 %)
+Writing at 0x000c8102... (96 %)
+Writing at 0x000cde92... (100 %)
+Wrote 789824 bytes (466899 compressed) at 0x00010000 in 11.1 seconds (effective 571.4 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 302.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

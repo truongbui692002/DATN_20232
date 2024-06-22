@@ -1,0 +1,632 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=212ech (135916) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=00031314 vaddr=3ffbdb60 size=0453ch ( 17724) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035858 vaddr=40080000 size=0a7c0h ( 42944) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=8185ch (530524) map[0m
+[0;32mI (373) esp_image: segment 4: paddr=000c1884 vaddr=4008a7c0 size=0e558h ( 58712) load[0m
+[0;32mI (410) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (410) boot: Disabling RNG early entropy source...[0m
+[0;32mI (421) cpu_start: Multicore app[0m
+[0;32mI (422) cpu_start: Pro cpu up.[0m
+[0;32mI (422) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (440) cpu_start: Pro cpu start user code[0m
+[0;32mI (440) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (440) cpu_start: Application information:[0m
+[0;32mI (444) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (450) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (455) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (461) cpu_start: ELF file SHA256:  b9b4f165c6508e70...[0m
+[0;32mI (467) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (473) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (477) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (482) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (487) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (494) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (500) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (506) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (512) heap_init: At 3FFC73A8 len 00018C58 (99 KiB): DRAM[0m
+[0;32mI (519) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (525) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (531) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (539) spi_flash: detected chip: generic[0m
+[0;32mI (542) spi_flash: flash io: dio[0m
+[0;33mW (546) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (560) coexist: coex firmware version: ebddf30[0m
+[0;32mI (565) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (570) app_start: Starting scheduler on CPU1[0m
+I (570) main_task: Started on CPU0[0m
+[0;32mI (580) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (670) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (680) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1090) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1110) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1110) main_task: Returned from app_main()[0m
+[0;32mI (1120) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1120) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1130) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1130) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1140) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1140) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1150) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (7590) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 61:f4:b4:11:e1:2f:[0m
+[0;32mI (8210) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (8520) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (8670) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;33mW (14130) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (14130) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (17990) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 61:f4:b4:11:e1:2f:[0m
+[0;32mI (18610) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (18900) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (19040) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (22030) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (22030) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (22040) GATTS_DEMO: 4c 00 00 00 53 00 00 00 56 00 00 00 b5 ff 00 00 [0m
+[0;32mI (22040) GATTS_DEMO: 41 00 00 00 [0m
+[0;32mI (22050) GATTS_DEMO: L, len: 1[0m
+[0;32mI (22050) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 2, handle 42
+[0m
+[0;32mI (52570) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 3, handle 42[0m
+[0;32mI (52570) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (52570) GATTS_DEMO: 4c 00 00 00 53 00 00 00 56 00 00 00 b5 ff 00 00 [0m
+[0;32mI (52580) GATTS_DEMO: 41 00 00 00 [0m
+[0;32mI (52580) GATTS_DEMO: L, len: 1[0m
+[0;32mI (52580) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 4, handle 42
+[0m
+[0;32mI (52720) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 5, handle 42[0m
+[0;32mI (52720) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (52720) GATTS_DEMO: 4c 00 00 00 53 00 00 00 56 00 00 00 b5 ff 00 00 [0m
+[0;32mI (52730) GATTS_DEMO: 41 00 00 00 [0m
+[0;32mI (52740) GATTS_DEMO: L, len: 1[0m
+[0;32mI (52740) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 6, handle 42
+[0m
+[0;32mI (52900) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 7, handle 42[0m
+[0;32mI (52900) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (52910) GATTS_DEMO: 4c 00 00 00 53 00 00 00 56 00 00 00 b5 ff 00 00 [0m
+[0;32mI (52910) GATTS_DEMO: 41 00 00 00 [0m
+[0;32mI (52920) GATTS_DEMO: L, len: 1[0m
+[0;32mI (52920) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 8, handle 42
+[0m
+[0;32mI (53040) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 9, handle 42[0m
+[0;32mI (53040) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (53040) GATTS_DEMO: 4c 00 00 00 53 00 00 00 56 00 00 00 b5 ff 00 00 [0m
+[0;32mI (53050) GATTS_DEMO: 41 00 00 00 [0m
+[0;32mI (53050) GATTS_DEMO: L, len: 1[0m
+[0;32mI (53060) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 10, handle 42
+[0m
+[0;33mW (75110) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (75110) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (100920) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 61:f4:b4:11:e1:2f:[0m
+[0;32mI (101550) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (101860) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (101990) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (111300) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (111310) GATTS_DEMO: GATT_WRITE_EVT, value len 15, value :[0m
+[0;32mI (111310) GATTS_DEMO: 4c 53 56 6d 41 32 30 30 34 30 30 31 30 30 00 [0m
+[0;32mI (111320) GATTS_DEMO: LSVmA200400100, len: 14[0m
+[0;32mI (111330) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 2, handle 42
+[0m
+[0;32mI (286430) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 3, handle 42[0m
+[0;32mI (286430) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (286430) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (286440) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (286440) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (286450) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 4, handle 42
+[0m
+[0;32mI (523670) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 5, handle 42[0m
+[0;32mI (523670) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (523670) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (523680) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (523680) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (523690) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 6, handle 42
+[0m
+[0;32mI (523780) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 7, handle 42[0m
+[0;32mI (523780) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (523780) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (523790) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (523800) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (523800) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 8, handle 42
+[0m
+[0;32mI (527020) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 9, handle 42[0m
+[0;32mI (527020) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (527020) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (527030) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (527030) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (527060) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 10, handle 42
+[0m
+[0;32mI (527200) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 11, handle 42[0m
+[0;32mI (527200) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (527210) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (527210) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (527220) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (527220) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 12, handle 42
+[0m
+[0;32mI (527400) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 13, handle 42[0m
+[0;32mI (527400) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (527410) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (527410) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (527420) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (527420) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 14, handle 42
+[0m
+[0;32mI (555950) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 15, handle 42[0m
+[0;32mI (555960) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (555960) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (555970) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (555970) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (555980) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 16, handle 42
+[0m
+[0;32mI (557670) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 17, handle 42[0m
+[0;32mI (557670) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (557670) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (557680) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (557680) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (557690) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 18, handle 42
+[0m
+[0;32mI (557910) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 19, handle 42[0m
+[0;32mI (557910) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (557920) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (557920) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (557930) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (557940) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 20, handle 42
+[0m
+[0;32mI (572830) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 21, handle 42[0m
+[0;32mI (572830) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (572840) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 30 40 31 [0m
+[0;32mI (572840) GATTS_DEMO: 30 30 40 32 [0m
+[0;32mI (572850) GATTS_DEMO: CV@mA@200@4000@100@2, len: 20[0m
+[0;32mI (572850) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 22, handle 42
+[0m
+[0;32mI (587250) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 23, handle 42[0m
+[0;32mI (587250) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (587260) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (587260) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (587270) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (587280) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 24, handle 42
+[0m
+[0;32mI (588440) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 25, handle 42[0m
+[0;32mI (588450) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (588450) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (588460) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (588460) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (588470) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 26, handle 42
+[0m
+[0;32mI (588960) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 27, handle 42[0m
+[0;32mI (588970) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (588970) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (588980) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (588980) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (588990) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 28, handle 42
+[0m
+[0;32mI (589460) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 29, handle 42[0m
+[0;32mI (589460) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (589460) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (589470) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (589470) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (589480) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 30, handle 42
+[0m
+[0;32mI (589930) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 31, handle 42[0m
+[0;32mI (589930) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (589930) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (589940) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (589950) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (589950) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 32, handle 42
+[0m
+[0;32mI (590600) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 33, handle 42[0m
+[0;32mI (590610) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (590610) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (590620) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (590620) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (590630) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 34, handle 42
+[0m
+[0;32mI (591190) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 35, handle 42[0m
+[0;32mI (591190) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (591190) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (591200) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (591210) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (591210) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 36, handle 42
+[0m
+[0;32mI (665560) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 37, handle 42[0m
+[0;32mI (665560) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (665560) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (665570) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (665570) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (665580) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 38, handle 42
+[0m
+[0;32mI (666140) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 39, handle 42[0m
+[0;32mI (666140) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (666140) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (666150) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (666160) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (666160) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 40, handle 42
+[0m
+[0;32mI (666370) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 41, handle 42[0m
+[0;32mI (666370) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (666370) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (666380) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (666380) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (666390) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 42, handle 42
+[0m
+[0;32mI (666520) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 43, handle 42[0m
+[0;32mI (666520) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (666530) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (666530) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (666540) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (666540) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 44, handle 42
+[0m
+[0;32mI (666700) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 45, handle 42[0m
+[0;32mI (666700) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (666710) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (666710) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (666720) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (666750) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 46, handle 42
+[0m
+[0;32mI (719110) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 47, handle 42[0m
+[0;32mI (719110) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (719110) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (719120) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (719120) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (719130) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 48, handle 42
+[0m
+[0;32mI (719690) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 49, handle 42[0m
+[0;32mI (719690) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (719690) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (719700) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (719710) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (719710) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 50, handle 42
+[0m
+[0;32mI (720160) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 51, handle 42[0m
+[0;32mI (720160) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (720170) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (720170) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (720180) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (720180) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 52, handle 42
+[0m
+[0;32mI (747210) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 53, handle 42[0m
+[0;32mI (747210) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (747210) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (747220) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (747220) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (747230) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 54, handle 42
+[0m
+[0;32mI (747750) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 55, handle 42[0m
+[0;32mI (747750) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (747750) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (747760) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (747760) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (747770) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 56, handle 42
+[0m
+[0;32mI (748200) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 57, handle 42[0m
+[0;32mI (748200) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (748200) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (748210) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (748210) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (748220) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 58, handle 42
+[0m
+[0;32mI (748360) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 59, handle 42[0m
+[0;32mI (748360) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (748360) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (748370) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (748370) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (748380) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 60, handle 42
+[0m
+[0;32mI (748540) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 61, handle 42[0m
+[0;32mI (748540) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (748540) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (748550) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (748550) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (748560) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 62, handle 42
+[0m
+[0;32mI (748670) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 63, handle 42[0m
+[0;32mI (748670) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (748670) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (748680) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (748690) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (748690) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 64, handle 42
+[0m
+[0;32mI (748830) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 65, handle 42[0m
+[0;32mI (748830) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (748830) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (748840) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (748840) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (748850) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 66, handle 42
+[0m
+[0;32mI (748960) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 67, handle 42[0m
+[0;32mI (748960) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (748970) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (748970) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (748980) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (748980) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 68, handle 42
+[0m
+[0;32mI (749100) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 69, handle 42[0m
+[0;32mI (749100) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (749100) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (749110) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (749110) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (749120) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 70, handle 42
+[0m
+[0;32mI (749260) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 71, handle 42[0m
+[0;32mI (749260) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (749260) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (749270) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (749270) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (749280) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 72, handle 42
+[0m
+[0;32mI (749390) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 73, handle 42[0m
+[0;32mI (749390) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (749390) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (749400) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (749410) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (749410) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 74, handle 42
+[0m
+[0;32mI (749570) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 75, handle 42[0m
+[0;32mI (749570) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (749580) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (749580) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (749590) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (749590) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 76, handle 42
+[0m
+[0;32mI (749700) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 77, handle 42[0m
+[0;32mI (749710) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (749710) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (749720) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (749720) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (749730) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 78, handle 42
+[0m
+[0;32mI (749840) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 79, handle 42[0m
+[0;32mI (749840) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (749840) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (749850) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (749860) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (749860) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 80, handle 42
+[0m
+[0;32mI (756250) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 81, handle 42[0m
+[0;32mI (756260) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (756260) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (756260) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (756270) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (756270) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 82, handle 42
+[0m
+[0;32mI (756430) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 83, handle 42[0m
+[0;32mI (756440) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (756440) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (756450) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (756450) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (756460) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 84, handle 42
+[0m
+[0;32mI (756590) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 85, handle 42[0m
+[0;32mI (756590) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (756600) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (756600) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (756610) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (756610) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 86, handle 42
+[0m
+[0;32mI (756750) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 87, handle 42[0m
+[0;32mI (756750) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (756750) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (756760) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (756760) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (756770) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 88, handle 42
+[0m
+[0;32mI (756900) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 89, handle 42[0m
+[0;32mI (756910) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (756910) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (756920) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (756920) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (756930) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 90, handle 42
+[0m
+[0;32mI (757060) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 91, handle 42[0m
+[0;32mI (757060) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (757070) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (757070) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (757080) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (757090) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 92, handle 42
+[0m
+[0;32mI (757220) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 93, handle 42[0m
+[0;32mI (757220) GATTS_DEMO: GATT_WRITE_EVT, value len 20, value :[0m
+[0;32mI (757220) GATTS_DEMO: 43 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 30 [0m
+[0;32mI (757230) GATTS_DEMO: 30 40 32 00 [0m
+[0;32mI (757240) GATTS_DEMO: CV@mA@200@400@100@2, len: 19[0m
+[0;32mI (757240) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 94, handle 42
+[0m
+[0;33mW (760980) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x13[0m
+[0;32mI (760980) GATTS_DEMO: ESP_GATTS_DISCONNECT_EVT, disconnect reason 0x13[0m
+[0;32mI (807070) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 5a:4e:4a:19:4c:53:[0m
+[0;32mI (807690) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (808000) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (808150) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (830450) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (830450) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (830450) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (830460) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (830460) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (830470) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 2, handle 42
+[0m
+[0;32mI (831880) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 3, handle 42[0m
+[0;32mI (831890) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (831890) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (831890) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (831900) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (831910) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 4, handle 42
+[0m
+[0;32mI (832090) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 5, handle 42[0m
+[0;32mI (832090) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (832090) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (832100) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (832100) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (832110) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 6, handle 42
+[0m
+[0;32mI (832240) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 7, handle 42[0m
+[0;32mI (832250) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (832250) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (832250) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (832260) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (832270) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 8, handle 42
+[0m
+[0;32mI (832510) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 9, handle 42[0m
+[0;32mI (832520) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (832520) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (832520) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (832530) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (832540) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 10, handle 42
+[0m
+[0;32mI (832670) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 11, handle 42[0m
+[0;32mI (832670) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (832680) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (832680) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (832690) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (832700) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 12, handle 42
+[0m
+[0;32mI (832830) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 13, handle 42[0m
+[0;32mI (832830) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (832830) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (832840) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (832840) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (832850) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 14, handle 42
+[0m
+[0;32mI (833170) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 15, handle 42[0m
+[0;32mI (833170) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (833170) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (833180) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (833180) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (833190) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 16, handle 42
+[0m
+[0;32mI (833330) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 17, handle 42[0m
+[0;32mI (833330) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (833330) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (833340) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (833340) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (833350) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 18, handle 42
+[0m
+[0;32mI (833460) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 19, handle 42[0m
+[0;32mI (833460) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (833460) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (833470) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (833470) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (833480) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 20, handle 42
+[0m
+[0;32mI (833620) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 21, handle 42[0m
+[0;32mI (833620) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (833620) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (833630) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (833630) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (833640) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 22, handle 42
+[0m
+[0;32mI (833800) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 23, handle 42[0m
+[0;32mI (833800) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (833800) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (833810) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (833810) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (833820) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 24, handle 42
+[0m
+[0;32mI (833930) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 25, handle 42[0m
+[0;32mI (833930) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (833940) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (833940) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (833950) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (833950) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 26, handle 42
+[0m
+[0;32mI (836250) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 27, handle 42[0m
+[0;32mI (836250) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (836250) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (836260) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (836270) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (836270) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 28, handle 42
+[0m
+[0;32mI (836410) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 29, handle 42[0m
+[0;32mI (836410) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (836410) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (836420) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (836420) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (836430) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 30, handle 42
+[0m
+[0;32mI (836540) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 31, handle 42[0m
+[0;32mI (836540) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (836550) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (836550) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (836560) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (836560) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 32, handle 42
+[0m
+[0;32mI (836750) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 33, handle 42[0m
+[0;32mI (836750) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (836750) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (836760) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (836760) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (836770) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 34, handle 42
+[0m
+[0;32mI (840030) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 35, handle 42[0m
+[0;32mI (840030) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (840030) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (840040) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (840050) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (840050) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 36, handle 42
+[0m
+[0;32mI (840170) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 37, handle 42[0m
+[0;32mI (840170) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (840170) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (840180) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (840180) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (840190) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 38, handle 42
+[0m
+[0;32mI (840320) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 39, handle 42[0m
+[0;32mI (840320) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (840330) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (840330) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (840340) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (840340) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 40, handle 42
+[0m
+[0;32mI (840500) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 41, handle 42[0m
+[0;32mI (840500) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (840510) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (840510) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (840520) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (840520) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 42, handle 42
+[0m
+[0;32mI (842840) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 43, handle 42[0m
+[0;32mI (842850) GATTS_DEMO: GATT_WRITE_EVT, value len 19, value :[0m
+[0;32mI (842850) GATTS_DEMO: 4c 53 56 40 6d 41 40 32 30 30 40 34 30 30 40 31 [0m
+[0;32mI (842850) GATTS_DEMO: 30 30 00 [0m
+[0;32mI (842860) GATTS_DEMO: LSV@mA@200@400@100, len: 18[0m
+[0;32mI (842860) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 44, ha

@@ -1,0 +1,199 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=2173ch (137020) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=00031764 vaddr=3ffbdb60 size=0458ch ( 17804) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035cf8 vaddr=40080000 size=0a320h ( 41760) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=83024h (536612) map[0m
+[0;32mI (375) esp_image: segment 4: paddr=000c304c vaddr=4008a320 size=0e9f8h ( 59896) load[0m
+[0;32mI (412) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (413) boot: Disabling RNG early entropy source...[0m
+[0;32mI (424) cpu_start: Multicore app[0m
+[0;32mI (424) cpu_start: Pro cpu up.[0m
+[0;32mI (425) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (442) cpu_start: Pro cpu start user code[0m
+[0;32mI (442) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (442) cpu_start: Application information:[0m
+[0;32mI (447) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (452) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (458) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (464) cpu_start: ELF file SHA256:  c4b690e1bec68844...[0m
+[0;32mI (470) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (475) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (480) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (485) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (490) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (497) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (503) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (509) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (515) heap_init: At 3FFC77C0 len 00018840 (98 KiB): DRAM[0m
+[0;32mI (521) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (528) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (534) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (542) spi_flash: detected chip: generic[0m
+[0;32mI (545) spi_flash: flash io: dio[0m
+[0;33mW (549) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (563) coexist: coex firmware version: ebddf30[0m
+[0;32mI (568) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (572) app_start: Starting scheduler on CPU1[0m
+I (572) main_task: Started on CPU0[0m
+[0;32mI (582) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (672) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (682) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1102) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1112) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1122) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1122) main_task: Returned from app_main()[0m
+[0;32mI (1132) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1132) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1142) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1152) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1152) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1152) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1162) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1172) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1172) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1182) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1192) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1202) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1202) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1202) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1212) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;32mI (17452) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 69:02:6a:a4:db:a9:[0m
+[0;32mI (17452) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 69:02:6a:a4:db:a9:[0m
+[0;33mW (17462) BT_L2CAP: l2cble_start_conn_update, the last connection update command still pending.[0m
+[0;32mI (18082) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (18372) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (18572) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (18572) GATTS_DEMO: GATT_WRITE_EVT, value len 15, value :[0m
+[0;32mI (18582) GATTS_DEMO: 47 41 54 54 5f 43 6f 6e 6e 65 63 74 65 64 00 [0m
+[0;32mI (18582) GATTS_DEMO: GATT_Connected, len: 14[0m
+[0;32mI (18602) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (19312) UART: Data recv_a from BLE: GATT_Connected[0m
+[0;32mI (20702) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 2, handle 42[0m
+[0;32mI (20702) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (20702) GATTS_DEMO: 31 40 31 40 31 40 00 [0m
+[0;32mI (20712) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (20712) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (20722) GATTS_DEMO: Res: mA[0m
+[0;32mI (20722) GATTS_DEMO: 1@1@1@, len: 6[0m
+[0;32mI (20722) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 3, handle 46[0m
+[0;32mI (20732) GATTS_DEMO: GATT_WRITE_EVT, value len 12, value :[0m
+[0;32mI (20742) GATTS_DEMO: 32 30 30 40 36 35 30 40 35 30 40 00 [0m
+[0;32mI (20742) GATTS_DEMO: 200@650@50@, len: 11[0m
+[0;32mI (20752) GATTS_DEMO: Start voltage: 200.0[0m
+[0;32mI (20752) GATTS_DEMO: End voltage: 650.0[0m
+[0;32mI (20762) GATTS_DEMO: Scan rate: 50.0[0m
+[0;32mI (20762) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 4, handle 42
+[0m
+[0;32mI (20772) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (22332) UART: {"config_dev":1,"mode":"LSV","res":"mA","vol_start":200.0,"vol_end":650.0,"scan_rate":50.0}[0m
+[0;32mI (23342) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (23342) UART: Hellooooooo[0m
+[0;32mI (27472) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 5, handle 42[0m
+[0;32mI (27472) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (27482) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (27482) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (28392) UART: Data recv from BLE: Start_device[0m
+[0;32mI (28482) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 6, handle 42
+[0m
+[0;32mI (28492) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (28492) GATTS_DEMO: 01 [0m
+[0;32mI (28532) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 7, handle 42
+[0m
+[0;32mI (28532) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (29402) UART: Data from STM: {"start":1,"data1":"200","data2":"1.664"}, MSG_Size:41[0m
+[0;32mI (29402) UART: Hellooooooo[0m
+[0;32mI (29472) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 8, handle 42
+[0m
+[0;32mI (29482) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (29522) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 9, handle 42
+[0m
+[0;32mI (29522) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (30412) UART: Data from STM: {"start":1,"data1":"250","data2":"1.664"}, MSG_Size:41[0m
+[0;32mI (30412) UART: Hellooooooo[0m
+[0;32mI (30492) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 10, handle 42
+[0m
+[0;32mI (30492) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (30552) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 11, handle 42
+[0m
+[0;32mI (30562) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (31422) UART: Data from STM: {"start":1,"data1":"300","data2":"1.663"}, MSG_Size:41[0m
+[0;32mI (31422) UART: Hellooooooo[0m
+[0;32mI (31482) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 12, handle 42
+[0m
+[0;32mI (31482) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (31542) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 13, handle 42
+[0m
+[0;32mI (31552) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (32432) UART: Data from STM: {"start":1,"data1":"350","data2":"1.664"}, MSG_Size:41[0m
+[0;32mI (32432) UART: Hellooooooo[0m
+[0;32mI (32512) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 14, handle 42
+[0m
+[0;32mI (32512) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (32582) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 15, handle 42
+[0m
+[0;32mI (32582) GATTS_DEMO: RxBuffer:, len:0[0m
+[0;32mI (33442) UART: Data from STM: {"start":1,"data1":"400","data2":"1.663"}, MSG_Size:41[0m
+[0;32mI (33442) UART: Hellooooooo[0m
+[0;32mI (34452) UART: Data from STM: {"start":1,"data1":"450","data2":"1.663"}, MSG_Size:41[0m
+[0;32mI (34452) UART: Hellooooooo[0m
+[0;32mI (35462) UART: Data from STM: {"start":1,"data1":"500","data2":"1.663"}, MSG_Size:41[0m
+[0;32mI (35462) UART: Hellooooooo[0m
+[0;32mI (36472) UART: Data from STM: {"start":1,"data1":"550","data2":"1.663"}, MSG_Size:41[0m
+[0;32mI (36472) UART: Hellooooooo[0m
+[0;32mI (37482) UART: Data from STM: {"start":1,"data1":"600","data2":"1.663"}, MSG_Size:41[0m
+[0;32mI (37482) UART: Hellooooooo[0m
+[0;32mI (38492) UART: Data from STM: {"start":1,"data1":"650","data2":"1.664"}, MSG_Size:41[0m
+[0;32mI (38492) UART: Hellooooooo[0m

@@ -1,0 +1,611 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- idf_monitor on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40133888: spi_bus_initialize at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/driver/spi/gpspi/spi_common.c:826
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4000c26c: memcmp in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+[0m
+[0;33m0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c269: memcmp in ROM
+[0m
+[0;33m0x40094204: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3729 (discriminator 3)
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40098b65: __assert_func at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/newlib/assert.c:81
+[0m
+[0;33m0x40094a5b: xTaskPriorityDisinherit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:5194 (discriminator 1)
+[0m
+[0;33m0x40092b85: prvCopyDataToQueue at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/queue.c:2414
+[0m
+[0;33m0x40093041: xQueueGenericSend at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/queue.c:906
+[0m
+[0;33m0x40098956: esp_log_impl_unlock at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log_freertos.c:56
+[0m
+[0;33m0x4015f7f8: s_log_level_get_and_unlock at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:162
+[0m
+[0;33m0x4015f952: esp_log_writev at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:195
+[0m
+[0;33m0x400988b9: esp_log_write at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:210
+[0m
+[0;33m0x40132261: gpio_config at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/driver/gpio/gpio.c:404 (discriminator 13)
+[0m
+[0;33m0x40134338: sdspi_host_init_device at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/driver/spi/sdspi/sdspi_host.c:358
+[0m
+[0;33m0x400d9eed: init_sdspi_host at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/fatfs/vfs/vfs_fat_sdmmc.c:304
+[0m
+[0;33m0x400d9f71: esp_vfs_fat_sdspi_mount at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/fatfs/vfs/vfs_fat_sdmmc.c:341 (discriminator 2)
+[0m
+[0;33m0x400d7b37: sdcard_init at D:/GIT/esp32-idf/Potentio_ESP/main/sdcard.c:100 (discriminator 15)
+[0m
+[0;33m0x400d7ba6: sdcard_task at D:/GIT/esp32-idf/Potentio_ESP/main/sdcard.c:119
+[0m
+[0;33m0x40095279: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4000c26c: memcmp in ROM
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+[0m
+[0;33m0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4000c269: memcmp in ROM
+[0m
+[0;33m0x40094204: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3729 (discriminator 3)
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x40098b65: __assert_func at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/newlib/assert.c:81
+[0m
+[0;33m0x40094a5b: xTaskPriorityDisinherit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:5194 (discriminator 1)
+[0m
+[0;33m0x40092b85: prvCopyDataToQueue at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/queue.c:2414
+[0m
+[0;33m0x40093041: xQueueGenericSend at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/queue.c:906
+[0m
+[0;33m0x40098956: esp_log_impl_unlock at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log_freertos.c:56
+[0m
+[0;33m0x4015f7f8: s_log_level_get_and_unlock at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:162
+[0m
+[0;33m0x4015f952: esp_log_writev at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:195
+[0m
+[0;33m0x400988b9: esp_log_write at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/log/log.c:210
+[0m
+[0;33m0x40132261: gpio_config at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/driver/gpio/gpio.c:404 (discriminator 13)
+[0m
+[0;33m0x40134338: sdspi_host_init_device at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/driver/spi/sdspi/sdspi_host.c:358
+[0m
+[0;33m0x400d9eed: init_sdspi_host at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/fatfs/vfs/vfs_fat_sdmmc.c:304
+[0m
+[0;33m0x400d9f71: esp_vfs_fat_sdspi_mount at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/fatfs/vfs/vfs_fat_sdmmc.c:341 (discriminator 2)
+[0m
+[0;33m0x400d7b37: sdcard_init at D:/GIT/esp32-idf/Potentio_ESP/main/sdcard.c:100 (discriminator 15)
+[0m
+[0;33m0x400d7ba6: sdcard_task at D:/GIT/esp32-idf/Potentio_ESP/main/sdcard.c:119
+[0m
+[0;33m0x40095279: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40081bde: panic_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/panic.c:452
+[0m
+[0;33m0x40092b61: esp_system_abort at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x400955aa: vApplicationStackOverflowHook at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x400941e3: vTaskSwitchContext at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/tasks.c:3728
+[0m
+[0;33m0x400956f8: _frxt_dispatch at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x400956aa: _frxt_int_exit at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081544: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0m

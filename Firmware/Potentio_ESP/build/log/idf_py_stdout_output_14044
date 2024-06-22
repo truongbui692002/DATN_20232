@@ -1,0 +1,585 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21414h (136212) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=0003143c vaddr=3ffbdb60 size=0453ch ( 17724) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035980 vaddr=40080000 size=0a698h ( 42648) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=81b60h (531296) map[0m
+[0;32mI (373) esp_image: segment 4: paddr=000c1b88 vaddr=4008a698 size=0e680h ( 59008) load[0m
+[0;32mI (410) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (410) boot: Disabling RNG early entropy source...[0m
+[0;32mI (422) cpu_start: Multicore app[0m
+[0;32mI (422) cpu_start: Pro cpu up.[0m
+[0;32mI (422) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (440) cpu_start: Pro cpu start user code[0m
+[0;32mI (440) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (440) cpu_start: Application information:[0m
+[0;32mI (445) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (450) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (456) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (462) cpu_start: ELF file SHA256:  3e236fb7f3fce194...[0m
+[0;32mI (468) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (473) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (478) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (483) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (488) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (495) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (501) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (507) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (513) heap_init: At 3FFC75B0 len 00018A50 (98 KiB): DRAM[0m
+[0;32mI (519) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (525) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (532) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (539) spi_flash: detected chip: generic[0m
+[0;32mI (543) spi_flash: flash io: dio[0m
+[0;33mW (546) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (561) coexist: coex firmware version: ebddf30[0m
+[0;32mI (566) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (570) app_start: Starting scheduler on CPU1[0m
+I (570) main_task: Started on CPU0[0m
+[0;32mI (580) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (670) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (680) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1100) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1110) main_task: Returned from app_main()[0m
+[0;32mI (1110) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1130) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1130) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1130) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1140) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1140) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1150) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1150) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (2000) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (2990) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (3980) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (4970) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (5360) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 48:47:d2:9c:33:bf:[0m
+[0;32mI (5960) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (5980) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (6280) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (6420) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (7060) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (8050) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (9040) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (10030) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (11020) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (12010) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (13000) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (14100) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (14970) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (14980) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (14980) GATTS_DEMO: 53 74 61 72 74 [0m
+[0;32mI (14980) GATTS_DEMO: Start, len: 5[0m
+[0;32mI (15090) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (15090) UART: Data recv from BLE: Start[0m
+[0;32mI (16080) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (17070) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (18060) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (19050) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (20150) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (21140) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (21450) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 2, handle 42[0m
+[0;32mI (21460) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (21460) GATTS_DEMO: 53 74 61 72 74 [0m
+[0;32mI (21460) GATTS_DEMO: Start, len: 5[0m
+[0;32mI (21470) UART: Data recv from BLE: Start[0m
+[0;32mI (22130) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (23120) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (24110) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (25100) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (26090) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (27190) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (28180) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (29170) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (30160) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (31150) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (32140) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (33240) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (34230) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (35220) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (36210) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (37200) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (38190) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (39180) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (40280) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (41270) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (42260) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (43250) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (44240) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (45230) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (46330) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (47320) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (48310) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (49300) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (56340) UART: Data from STM: Config_doneHeloooooooooooo, MSG_Size:26[0m
+[0;32mI (59860) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (60080) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (61070) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (62170) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (63160) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (64150) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (66900) UART: Data from STM: , MSG_Size:3[0m
+[0;32mI (67010) UART: Data from STM: , MSG_Size:7[0m
+[0;32mI (67120) UART: Data from STM: , MSG_Size:9[0m
+[0;32mI (67230) UART: Data from STM: , MSG_Size:10[0m
+[0;32mI (67340) UART: Data from STM: , MSG_Size:10[0m
+[0;32mI (67450) UART: Data from STM: , MSG_Size:14[0m
+[0;32mI (67560) UART: Data from STM: , MSG_Size:19[0m
+[0;32mI (67670) UART: Data from STM: , MSG_Size:28[0m
+[0;32mI (67780) UART: Data from STM: , MSG_Size:15[0m
+[0;32mI (67890) UART: Data from STM: , MSG_Size:4[0m
+[0;32mI (68000) UART: Data from STM: , MSG_Size:16[0m
+[0;32mI (68110) UART: Data from STM: , MSG_Size:29[0m
+[0;32mI (68220) UART: Data from STM: , MSG_Size:23[0m
+[0;32mI (68330) UART: Data from STM: , MSG_Size:27[0m
+[0;32mI (68440) UART: Data from STM: , MSG_Size:18[0m
+[0;32mI (68550) UART: Data from STM: , MSG_Size:32[0m
+[0;32mI (68660) UART: Data from STM: , MSG_Size:28[0m
+[0;32mI (68770) UART: Data from STM: , MSG_Size:7[0m
+[0;32mI (71080) UART: Data from STM: Config_doneHeloooooooooooo, MSG_Size:26[0m
+[0;32mI (74600) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (74930) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (75920) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (76910) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (77900) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (78890) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (79880) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (80980) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (81970) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (82960) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (83950) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (84940) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (85930) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (87030) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (88020) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (89010) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (89270) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 3, handle 42[0m
+[0;32mI (89270) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (89270) GATTS_DEMO: 53 74 61 72 74 [0m
+[0;32mI (89280) GATTS_DEMO: Start, len: 5[0m
+[0;32mI (89340) UART: Data recv from BLE: Start[0m
+[0;32mI (90000) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (90990) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (91980) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (93080) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (94070) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (95060) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (96050) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (97040) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (98030) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (99130) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (100120) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (101110) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (102100) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (103090) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (104080) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (105070) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (106170) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (107160) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (108150) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (109140) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (110130) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (111120) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (118270) UART: Data from STM: Config_doneHeloooooooooooo, MSG_Size:26[0m
+[0;32mI (121790) UART: Data from STM: Config_doneHeloooooooooooo, MSG_Size:26[0m
+[0;32mI (123220) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (124210) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (124480) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 4, handle 42[0m
+[0;32mI (124480) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (124480) GATTS_DEMO: 53 74 61 72 74 [0m
+[0;32mI (124490) GATTS_DEMO: Start, len: 5[0m
+[0;32mI (124540) UART: Data recv from BLE: Start[0m
+[0;32mI (125200) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (126190) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (127180) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (128280) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (129270) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (130260) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (131250) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (132240) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (133230) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (134330) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (135320) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (136310) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (137300) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (138290) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (139280) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (140270) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (141370) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (142360) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (143350) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (144340) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (145330) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (146320) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (147420) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (148410) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (149400) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (150390) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (151380) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (152370) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (153360) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (154460) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (155450) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (156440) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (157430) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (158420) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (159410) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (160510) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (161500) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (162490) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (163480) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (164470) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (165460) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (166450) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (167550) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (168540) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (169530) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (170520) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (171510) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (172500) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (173600) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (174590) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (175580) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (176570) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (177560) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (178550) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (179540) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (180640) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (181630) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (182620) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (183610) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (184600) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (185590) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (186690) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (187680) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (188670) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (189660) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (190650) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (191640) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (192630) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (193730) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (194720) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (195710) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (196700) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (197690) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (198680) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (199780) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (200770) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (201760) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (202750) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (203740) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (204730) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (205720) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (206820) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (207810) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (208800) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (209790) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (210780) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (211770) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (212870) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (213860) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (214850) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (215840) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (216830) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (217820) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (218810) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (219910) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (220900) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (221890) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (222880) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (223870) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (224860) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (225960) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (226950) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (227940) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (228930) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (229920) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (230910) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (231900) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (233000) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (233990) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (234980) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (235970) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (236960) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (237950) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (239050) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (240040) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (241030) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (242020) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (243010) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (244000) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (245100) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (246090) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (247080) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (248070) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (249060) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (250050) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (251040) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (252140) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (253130) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (254120) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (255110) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (256100) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (257090) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (258190) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (259180) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (260170) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (261160) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (262150) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (263140) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (264130) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (265230) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (266220) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (267210) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (268200) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (269190) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (270180) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (271280) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (272270) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (273260) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (274250) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (275240) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (276230) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (277220) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (278320) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (279310) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (280300) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (281290) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (282280) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (283270) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (284370) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (285360) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (286350) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (287340) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (288330) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (289320) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (290310) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (291410) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (292400) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (293390) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (294380) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (295370) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (296360) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (297460) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (298450) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (299440) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (300430) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (301420) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (302410) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (303400) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (304500) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (305490) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (306480) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (307470) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (308460) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (309450) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (310550) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (311540) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (312530) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (313520) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (314510) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (315500) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (316490) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (317590) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (318580) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (319570) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (320560) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (321550) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (322540) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (323640) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (324630) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (325620) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (326610) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (327600) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (328590) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (329580) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (330680) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (331670) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (332660) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (333650) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (334640) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (335630) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (336730) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (337720) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (338710) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (339700) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (340690) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (341680) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (342670) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (343770) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (344760) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (345750) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (346740) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (347730) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (348720) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (349820) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (350810) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (351800) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (352790) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (353780) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (354770) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (355760) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (356860) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (357850) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (358840) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (359830) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (360820) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (361810) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (362910) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (363900) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (364890) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (365880) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (366870) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (367860) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (368850) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (369950) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (370940) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (371930) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (372920) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (373910) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (374900) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (376000) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (376990) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (377980) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (378970) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (379960) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (380950) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (381940) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (383040) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (384030) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (385020) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (386010) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (387000) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (387990) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (389090) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (390080) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (391070) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (392060) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (393050) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (394040) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (395030) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (396130) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (397120) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (398110) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (399100) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (400090) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (401080) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (402180) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (403170) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (404160) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (405150) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (406140) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (407130) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (408120) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (409220) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (410210) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (411200) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (412190) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (413180) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (414170) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (415270) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (416260) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (417250) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (418240) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (419230) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (420220) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (421210) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (422310) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (423300) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (424290) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (425280) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (426270) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (427260) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (428360) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (429350) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (430340) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (431330) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (432320) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (433310) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (434300) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (435400) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (436390) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (437380) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (438370) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (439360) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (440350) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (441450) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (442440) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (443430) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (444420) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (445410) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (446400) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (447390) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (448490) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (449480) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (450470) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (451460) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (452450) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (453440) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (454540) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (455530) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (456520) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (457510) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (458500) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (459490) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (460480) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (461580) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (462570) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (463560) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (464550) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (465540) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (466530) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (467630) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (468620) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (469610) UART: Data from STM: Heloooooooooooo, MSG_Size:15[0m
+[0;32mI (476650) UART: Data from STM: Config_doneHeloooooooooooo, MSG_Size:26[0m
+[0;32mI (479840) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (488080) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 5, handle 42[0m
+[0;32mI (488080) GATTS_DEMO: GATT_WRITE_EVT, value len 5, value :[0m
+[0;32mI (488080) GATTS_DEMO: 53 74 61 72 74 [0m
+[0;32mI (488080) GATTS_DEMO: Start, len: 5[0m
+[0;32mI (488090) UART: Data recv from BLE: Start[0m
+[0;32mI (488200) UART: Data from STM: Ok, MSG_Size:2[0m

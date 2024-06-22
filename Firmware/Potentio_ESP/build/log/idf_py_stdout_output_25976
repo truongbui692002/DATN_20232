@@ -1,0 +1,823 @@
+ize msg: 0[0ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 18 2024 15:10:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=2189ch (137372) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=000318c4 vaddr=3ffbdb60 size=04570h ( 17776) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035e3c vaddr=40080000 size=0a1dch ( 41436) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=82178h (532856) map[0m
+[0;32mI (373) esp_image: segment 4: paddr=000c21a0 vaddr=4008a1dc size=0ec08h ( 60424) load[0m
+[0;32mI (411) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (411) boot: Disabling RNG early entropy source...[0m
+[0;32mI (423) cpu_start: Multicore app[0m
+[0;32mI (423) cpu_start: Pro cpu up.[0m
+[0;32mI (423) cpu_start: Starting app cpu, entry point is 0x40081448[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (441) cpu_start: Pro cpu start user code[0m
+[0;32mI (441) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (441) cpu_start: Application information:[0m
+[0;32mI (446) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (451) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (457) cpu_start: Compile time:     May 18 2024 15:10:32[0m
+[0;32mI (463) cpu_start: ELF file SHA256:  5d7d99ca0eae0c6f...[0m
+[0;32mI (469) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (474) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (479) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (484) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (489) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (496) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (502) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (508) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (514) heap_init: At 3FFC6CF0 len 00019310 (100 KiB): DRAM[0m
+[0;32mI (520) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (527) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (533) heap_init: At 40098DE4 len 0000721C (28 KiB): IRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;33mW (548) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (562) coexist: coex firmware version: ebddf30[0m
+[0;32mI (567) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (571) app_start: Starting scheduler on CPU1[0m
+I (571) main_task: Started on CPU0[0m
+[0;32mI (581) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (681) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (691) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1111) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1121) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1121) UART: size msg: 0[0m
+[0;32mI (1121) UART: Data recv: [0m
+[0;32mI (1121) UART: size msg: 0[0m
+[0;32mI (1131) UART: Data recv: [0m
+[0;32mI (1131) UART: size msg: 0[0m
+[0;32mI (1131) UART: Data recv: [0m
+[0;32mI (1141) UART: size msg: 0[0m
+[0;32mI (1141) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1141) UART: Data recv: [0m
+[0;32mI (1151) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1151) UART: size msg: 0[0m
+[0;32mI (1161) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1161) UART: Data recv: [0m
+[0;32mI (1171) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1171) UART: size msg: 0[0m
+[0;32mI (1181) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1181) UART: Data recv: [0m
+[0;32mI (1181) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1191) UART: size msg: 0[0m
+[0;32mI (1191) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1201) UART: Data recv: [0m
+[0;32mI (1121) main_task: Returned from app_main()[0m
+[0;32mI (1211) UART: size msg: 0[0m
+[0;32mI (1221) UART: Data recv: [0m
+[0;32mI (1221) UART: size msg: 0[0m
+[0;32mI (1221) UART: Data recv: [0m
+[0;32mI (1231) UART: size msg: 0[0m
+[0;32mI (1231) UART: Data recv: [0m
+[0;32mI (1231) UART: size msg: 0[0m
+[0;32mI (1241) UART: Data recv: [0m
+[0;32mI (1241) UART: size msg: 0[0m
+[0;32mI (1241) UART: Data recv: [0m
+[0;32mI (1251) UART: size msg: 0[0m
+[0;32mI (1251) UART: Data recv: [0m
+[0;32mI (1251) UART: size msg: 0[0m
+[0;32mI (1261) UART: Data recv: [0m
+[0;32mI (1261) UART: size msg: 0[0m
+[0;32mI (1261) UART: Data recv: [0m
+[0;32mI (1271) UART: size msg: 0[0m
+[0;32mI (1271) UART: Data recv: [0m
+[0;32mI (1271) UART: size msg: 0[0m
+[0;32mI (1281) UART: Data recv: [0m
+[0;32mI (1281) UART: size msg: 0[0m
+[0;32mI (1281) UART: Data recv: [0m
+[0;32mI (1291) UART: size msg: 0[0m
+[0;32mI (1291) UART: Data recv: [0m
+[0;32mI (1291) UART: size msg: 0[0m
+[0;32mI (1301) UART: Data recv: [0m
+[0;32mI (1301) UART: size msg: 0[0m
+[0;32mI (1301) UART: Data recv: [0m
+[0;32mI (1311) UART: size msg: 0[0m
+[0;32mI (1311) UART: Data recv: [0m
+[0;32mI (1311) UART: size msg: 0[0m
+[0;32mI (1321) UART: Data recv: [0m
+[0;32mI (1321) UART: size msg: 0[0m
+[0;32mI (1321) UART: Data recv: [0m
+[0;32mI (1331) UART: size msg: 0[0m
+[0;32mI (1331) UART: Data recv: [0m
+[0;32mI (1331) UART: size msg: 0[0m
+[0;32mI (1341) UART: Data recv: [0m
+[0;32mI (1341) UART: size msg: 0[0m
+[0;32mI (1341) UART: Data recv: [0m
+[0;32mI (1351) UART: size msg: 0[0m
+[0;32mI (1351) UART: Data recv: [0m
+[0;32mI (1351) UART: size msg: 0[0m
+[0;32mI (1361) UART: Data recv: [0m
+[0;32mI (1361) UART: size msg: 0[0m
+[0;32mI (1361) UART: Data recv: [0m
+[0;32mI (1371) UART: size msg: 0[0m
+[0;32mI (1371) UART: Data recv: [0m
+[0;32mI (1371) UART: size msg: 0[0m
+[0;32mI (1381) UART: Data recv: [0m
+[0;32mI (1381) UART: size msg: 0[0m
+[0;32mI (1381) UART: Data recv: [0m
+[0;32mI (1391) UART: size msg: 0[0m
+[0;32mI (1391) UART: Data recv: [0m
+[0;32mI (1391) UART: size msg: 0[0m
+[0;32mI (1401) UART: Data recv: [0m
+[0;32mI (1401) UART: size msg: 0[0m
+[0;32mI (1411) UART: Data recv: [0m
+[0;32mI (1411) UART: size msg: 0[0m
+[0;32mI (1411) UART: Data recv: [0m
+[0;32mI (1421) UART: size msg: 0[0m
+[0;32mI (1421) UART: Data recv: [0m
+[0;32mI (1421) UART: size msg: 0[0m
+[0;32mI (1431) UART: Data recv: [0m
+[0;32mI (1431) UART: size msg: 0[0m
+[0;32mI (1431) UART: Data recv: [0m
+[0;32mI (1441) UART: size msg: 0[0m
+[0;32mI (1441) UART: Data recv: [0m
+[0;32mI (1441) UART: size msg: 0[0m
+[0;32mI (1451) UART: Data recv: [0m
+[0;32mI (1451) UART: size msg: 0[0m
+[0;32mI (1451) UART: Data recv: [0m
+[0;32mI (1461) UART: size msg: 0[0m
+[0;32mI (1461) UART: Data recv: [0m
+[0;32mI (1461) UART: size msg: 0[0m
+[0;32mI (1471) UART: Data recv: [0m
+[0;32mI (1471) UART: size msg: 0[0m
+[0;32mI (1471) UART: Data recv: [0m
+[0;32mI (1481) UART: size msg: 0[0m
+[0;32mI (1481) UART: Data recv: [0m
+[0;32mI (1481) UART: size msg: 0[0m
+[0;32mI (1491) UART: Data recv: [0m
+[0;32mI (1491) UART: size msg: 0[0m
+[0;32mI (1491) UART: Data recv: [0m
+[0;32mI (1501) UART: size msg: 0[0m
+[0;32mI (1501) UART: Data recv: [0m
+[0;32mI (1501) UART: size msg: 0[0m
+[0;32mI (1511) UART: Data recv: [0m
+[0;32mI (1511) UART: size msg: 0[0m
+[0;32mI (1511) UART: Data recv: [0m
+[0;32mI (1521) UART: size msg: 0[0m
+[0;32mI (1521) UART: Data recv: [0m
+[0;32mI (1521) UART: size msg: 0[0m
+[0;32mI (1531) UART: Data recv: [0m
+[0;32mI (1531) UART: size msg: 0[0m
+[0;32mI (1531) UART: Data recv: [0m
+[0;32mI (1541) UART: size msg: 0[0m
+[0;32mI (1541) UART: Data recv: [0m
+[0;32mI (1541) UART: size msg: 0[0m
+[0;32mI (1551) UART: Data recv: [0m
+[0;32mI (1551) UART: size msg: 0[0m
+[0;32mI (1551) UART: Data recv: [0m
+[0;32mI (1561) UART: size msg: 0[0m
+[0;32mI (1561) UART: Data recv: [0m
+[0;32mI (1561) UART: size msg: 0[0m
+[0;32mI (1571) UART: Data recv: [0m
+[0;32mI (1571) UART: size msg: 0[0m
+[0;32mI (1571) UART: Data recv: [0m
+[0;32mI (1581) UART: size msg: 0[0m
+[0;32mI (1581) UART: Data recv: [0m
+[0;32mI (1581) UART: size msg: 0[0m
+[0;32mI (1591) UART: Data recv: [0m
+[0;32mI (1591) UART: size msg: 0[0m
+[0;32mI (1591) UART: Data recv: [0m
+[0;32mI (1601) UART: size msg: 0[0m
+[0;32mI (1601) UART: Data recv: [0m
+[0;32mI (1601) UART: size msg: 0[0m
+[0;32mI (1611) UART: Data recv: [0m
+[0;32mI (1611) UART: size msg: 0[0m
+[0;32mI (1611) UART: Data recv: [0m
+[0;32mI (1621) UART: size msg: 0[0m
+[0;32mI (1621) UART: Data recv: [0m
+[0;32mI (1631) UART: size msg: 0[0m
+[0;32mI (1631) UART: Data recv: [0m
+[0;32mI (1631) UART: size msg: 0[0m
+[0;32mI (1641) UART: Data recv: [0m
+[0;32mI (1641) UART: size msg: 0[0m
+[0;32mI (1641) UART: Data recv: [0m
+[0;32mI (1651) UART: size msg: 0[0m
+[0;32mI (1651) UART: Data recv: [0m
+[0;32mI (1651) UART: size msg: 0[0m
+[0;32mI (1661) UART: Data recv: [0m
+[0;32mI (1661) UART: size msg: 0[0m
+[0;32mI (1661) UART: Data recv: [0m
+[0;32mI (1671) UART: size msg: 0[0m
+[0;32mI (1671) UART: Data recv: [0m
+[0;32mI (1671) UART: size msg: 0[0m
+[0;32mI (1681) UART: Data recv: [0m
+[0;32mI (1681) UART: size msg: 0[0m
+[0;32mI (1681) UART: Data recv: [0m
+[0;32mI (1691) UART: size msg: 0[0m
+[0;32mI (1691) UART: Data recv: [0m
+[0;32mI (1691) UART: size msg: 0[0m
+[0;32mI (1701) UART: Data recv: [0m
+[0;32mI (1701) UART: size msg: 0[0m
+[0;32mI (1701) UART: Data recv: [0m
+[0;32mI (1711) UART: size msg: 0[0m
+[0;32mI (1711) UART: Data recv: [0m
+[0;32mI (1711) UART: size msg: 0[0m
+[0;32mI (1721) UART: Data recv: [0m
+[0;32mI (1721) UART: size msg: 0[0m
+[0;32mI (1721) UART: Data recv: [0m
+[0;32mI (1731) UART: size msg: 0[0m
+[0;32mI (1731) UART: Data recv: [0m
+[0;32mI (1731) UART: size msg: 0[0m
+[0;32mI (1741) UART: Data recv: [0m
+[0;32mI (1741) UART: size msg: 0[0m
+[0;32mI (1741) UART: Data recv: [0m
+[0;32mI (1751) UART: size msg: 0[0m
+[0;32mI (1751) UART: Data recv: [0m
+[0;32mI (1751) UART: size msg: 0[0m
+[0;32mI (1761) UART: Data recv: [0m
+[0;32mI (1761) UART: size msg: 0[0m
+[0;32mI (1761) UART: Data recv: [0m
+[0;32mI (1771) UART: size msg: 0[0m
+[0;32mI (1771) UART: Data recv: [0m
+[0;32mI (1771) UART: size msg: 0[0m
+[0;32mI (1781) UART: Data recv: [0m
+[0;32mI (1781) UART: size msg: 0[0m
+[0;32mI (1781) UART: Data recv: [0m
+[0;32mI (1791) UART: size msg: 0[0m
+[0;32mI (1791) UART: Data recv: [0m
+[0;32mI (1791) UART: size msg: 0[0m
+[0;32mI (1801) UART: Data recv: [0m
+[0;32mI (1801) UART: size msg: 0[0m
+[0;32mI (1801) UART: Data recv: [0m
+[0;32mI (1811) UART: size msg: 0[0m
+[0;32mI (1811) UART: Data recv: [0m
+[0;32mI (1811) UART: size msg: 0[0m
+[0;32mI (1821) UART: Data recv: [0m
+[0;32mI (1821) UART: size msg: 0[0m
+[0;32mI (1821) UART: Data recv: [0m
+[0;32mI (1831) UART: size msg: 0[0m
+[0;32mI (1831) UART: Data recv: [0m
+[0;32mI (1831) UART: size msg: 0[0m
+[0;32mI (1841) UART: Data recv: [0m
+[0;32mI (1841) UART: size msg: 0[0m
+[0;32mI (1851) UART: Data recv: [0m
+[0;32mI (1851) UART: size msg: 0[0m
+[0;32mI (1851) UART: Data recv: [0m
+[0;32mI (1861) UART: size msg: 0[0m
+[0;32mI (1861) UART: Data recv: [0m
+[0;32mI (1861) UART: size msg: 0[0m
+[0;32mI (1871) UART: Data recv: [0m
+[0;32mI (1871) UART: size msg: 0[0m
+[0;32mI (1871) UART: Data recv: [0m
+[0;32mI (1881) UART: size msg: 0[0m
+[0;32mI (1881) UART: Data recv: [0m
+[0;32mI (1881) UART: size msg: 0[0m
+[0;32mI (1891) UART: Data recv: [0m
+[0;32mI (1891) UART: size msg: 0[0m
+[0;32mI (1891) UART: Data recv: [0m
+[0;32mI (1901) UART: size msg: 0[0m
+[0;32mI (1901) UART: Data recv: [0m
+[0;32mI (1901) UART: size msg: 0[0m
+[0;32mI (1911) UART: Data recv: [0m
+[0;32mI (1911) UART: size msg: 0[0m
+[0;32mI (1911) UART: Data recv: [0m
+[0;32mI (1921) UART: size msg: 0[0m
+[0;32mI (1921) UART: Data recv: [0m
+[0;32mI (1921) UART: size msg: 0[0m
+[0;32mI (1931) UART: Data recv: [0m
+[0;32mI (1931) UART: size msg: 0[0m
+[0;32mI (1931) UART: Data recv: [0m
+[0;32mI (1941) UART: size msg: 0[0m
+[0;32mI (1941) UART: Data recv: [0m
+[0;32mI (1941) UART: size msg: 0[0m
+[0;32mI (1951) UART: Data recv: [0m
+[0;32mI (1951) UART: size msg: 0[0m
+[0;32mI (1951) UART: Data recv: [0m
+[0;32mI (1961) UART: size msg: 0[0m
+[0;32mI (1961) UART: Data recv: [0m
+[0;32mI (1961) UART: size msg: 0[0m
+[0;32mI (1971) UART: Data recv: [0m
+[0;32mI (1971) UART: size msg: 0[0m
+[0;32mI (1971) UART: Data recv: [0m
+[0;32mI (1981) UART: size msg: 0[0m
+[0;32mI (1981) UART: Data recv: [0m
+[0;32mI (1981) UART: size msg: 0[0m
+[0;32mI (1991) UART: Data recv: [0m
+[0;32mI (1991) UART: size msg: 0[0m
+[0;32mI (1991) UART: Data recv: [0m
+[0;32mI (2001) UART: size msg: 0[0m
+[0;32mI (2001) UART: Data recv: [0m
+[0;32mI (2001) UART: size msg: 0[0m
+[0;32mI (2011) UART: Data recv: [0m
+[0;32mI (2011) UART: size msg: 0[0m
+[0;32mI (2011) UART: Data recv: [0m
+[0;32mI (2021) UART: size msg: 0[0m
+[0;32mI (2021) UART: Data recv: [0m
+[0;32mI (2021) UART: size msg: 0[0m
+[0;32mI (2031) UART: Data recv: [0m
+[0;32mI (2031) UART: size msg: 0[0m
+[0;32mI (2031) UART: Data recv: [0m
+[0;32mI (2041) UART: size msg: 0[0m
+[0;32mI (2041) UART: Data recv: [0m
+[0;32mI (2041) UART: size msg: 0[0m
+[0;32mI (2051) UART: Data recv: [0m
+[0;32mI (2051) UART: size msg: 0[0m
+[0;32mI (2061) UART: Data recv: [0m
+[0;32mI (2061) UART: size msg: 0[0m
+[0;32mI (2061) UART: Data recv: [0m
+[0;32mI (2071) UART: size msg: 0[0m
+[0;32mI (2071) UART: Data recv: [0m
+[0;32mI (2071) UART: size msg: 0[0m
+[0;32mI (2081) UART: Data recv: [0m
+[0;32mI (2081) UART: size msg: 0[0m
+[0;32mI (2081) UART: Data recv: [0m
+[0;32mI (2091) UART: size msg: 0[0m
+[0;32mI (2091) UART: Data recv: [0m
+[0;32mI (2091) UART: size msg: 0[0m
+[0;32mI (2101) UART: Data recv: [0m
+[0;32mI (2101) UART: size msg: 0[0m
+[0;32mI (2101) UART: Data recv: [0m
+[0;32mI (2111) UART: size msg: 0[0m
+[0;32mI (2111) UART: Data recv: [0m
+[0;32mI (2111) UART: size msg: 0[0m
+[0;32mI (2121) UART: Data recv: [0m
+[0;32mI (2121) UART: size msg: 0[0m
+[0;32mI (2121) UART: Data recv: [0m
+[0;32mI (2131) UART: size msg: 0[0m
+[0;32mI (2131) UART: Data recv: [0m
+[0;32mI (2131) UART: size msg: 0[0m
+[0;32mI (2141) UART: Data recv: [0m
+[0;32mI (2141) UART: size msg: 0[0m
+[0;32mI (2141) UART: Data recv: [0m
+[0;32mI (2151) UART: size msg: 0[0m
+[0;32mI (2151) UART: Data recv: [0m
+[0;32mI (2151) UART: size msg: 0[0m
+[0;32mI (2161) UART: Data recv: [0m
+[0;32mI (2161) UART: size msg: 0[0m
+[0;32mI (2161) UART: Data recv: [0m
+[0;32mI (2171) UART: size msg: 0[0m
+[0;32mI (2171) UART: Data recv: [0m
+[0;32mI (2171) UART: size msg: 0[0m
+[0;32mI (2181) UART: Data recv: [0m
+[0;32mI (2181) UART: size msg: 0[0m
+[0;32mI (2181) UART: Data recv: [0m
+[0;32mI (2191) UART: size msg: 0[0m
+[0;32mI (2191) UART: Data recv: [0m
+[0;32mI (2191) UART: size msg: 0[0m
+[0;32mI (2201) UART: Data recv: [0m
+[0;32mI (2201) UART: size msg: 0[0m
+[0;32mI (2201) UART: Data recv: [0m
+[0;32mI (2211) UART: size msg: 0[0m
+[0;32mI (2211) UART: Data recv: [0m
+[0;32mI (2211) UART: size msg: 0[0m
+[0;32mI (2221) UART: Data recv: [0m
+[0;32mI (2221) UART: size msg: 0[0m
+[0;32mI (2221) UART: Data recv: [0m
+[0;32mI (2231) UART: size msg: 0[0m
+[0;32mI (2231) UART: Data recv: [0m
+[0;32mI (2231) UART: size msg: 0[0m
+[0;32mI (2241) UART: Data recv: [0m
+[0;32mI (2241) UART: size msg: 0[0m
+[0;32mI (2241) UART: Data recv: [0m
+[0;32mI (2251) UART: size msg: 0[0m
+[0;32mI (2251) UART: Data recv: [0m
+[0;32mI (2251) UART: size msg: 0[0m
+[0;32mI (2261) UART: Data recv: [0m
+[0;32mI (2261) UART: size msg: 0[0m
+[0;32mI (2261) UART: Data recv: [0m
+[0;32mI (2271) UART: size msg: 0[0m
+[0;32mI (2271) UART: Data recv: [0m
+[0;32mI (2281) UART: size msg: 0[0m
+[0;32mI (2281) UART: Data recv: [0m
+[0;32mI (2281) UART: size msg: 0[0m
+[0;32mI (2291) UART: Data recv: [0m
+[0;32mI (2291) UART: size msg: 0[0m
+[0;32mI (2291) UART: Data recv: [0m
+[0;32mI (2301) UART: size msg: 0[0m
+[0;32mI (2301) UART: Data recv: [0m
+[0;32mI (2301) UART: size msg: 0[0m
+[0;32mI (2311) UART: Data recv: [0m
+[0;32mI (2311) UART: size msg: 0[0m
+[0;32mI (2311) UART: Data recv: [0m
+[0;32mI (2321) UART: size msg: 0[0m
+[0;32mI (2321) UART: Data recv: [0m
+[0;32mI (2321) UART: size msg: 0[0m
+[0;32mI (2331) UART: Data recv: [0m
+[0;32mI (2331) UART: size msg: 0[0m
+[0;32mI (2331) UART: Data recv: [0m
+[0;32mI (2341) UART: size msg: 0[0m
+[0;32mI (2341) UART: Data recv: [0m
+[0;32mI (2341) UART: size msg: 0[0m
+[0;32mI (2351) UART: Data recv: [0m
+[0;32mI (2351) UART: size msg: 0[0m
+[0;32mI (2351) UART: Data recv: [0m
+[0;32mI (2361) UART: size msg: 0[0m
+[0;32mI (2361) UART: Data recv: [0m
+[0;32mI (2361) UART: size msg: 0[0m
+[0;32mI (2371) UART: Data recv: [0m
+[0;32mI (2371) UART: size msg: 0[0m
+[0;32mI (2371) UART: Data recv: [0m
+[0;32mI (2381) UART: size msg: 0[0m
+[0;32mI (2381) UART: Data recv: [0m
+[0;32mI (2381) UART: size msg: 0[0m
+[0;32mI (2391) UART: Data recv: [0m
+[0;32mI (2391) UART: size msg: 0[0m
+[0;32mI (2391) UART: Data recv: [0m
+[0;32mI (2401) UART: size msg: 0[0m
+[0;32mI (2401) UART: Data recv: [0m
+[0;32mI (2401) UART: size msg: 0[0m
+[0;32mI (2411) UART: Data recv: [0m
+[0;32mI (2411) UART: size msg: 0[0m
+[0;32mI (2411) UART: Data recv: [0m
+[0;32mI (2421) UART: size msg: 0[0m
+[0;32mI (2421) UART: Data recv: [0m
+[0;32mI (2421) UART: size msg: 0[0m
+[0;32mI (2431) UART: Data recv: [0m
+[0;32mI (2431) UART: size msg: 0[0m
+[0;32mI (2431) UART: Data recv: [0m
+[0;32mI (2441) UART: size msg: 0[0m
+[0;32mI (2441) UART: Data recv: [0m
+[0;32mI (2441) UART: size msg: 0[0m
+[0;32mI (2451) UART: Data recv: [0m
+[0;32mI (2451) UART: size msg: 0[0m
+[0;32mI (2451) UART: Data recv: [0m
+[0;32mI (2461) UART: size msg: 0[0m
+[0;32mI (2461) UART: Data recv: [0m
+[0;32mI (2461) UART: size msg: 0[0m
+[0;32mI (2471) UART: Data recv: [0m
+[0;32mI (2471) UART: size msg: 0[0m
+[0;32mI (2471) UART: Data recv: [0m
+[0;32mI (2481) UART: size msg: 0[0m
+[0;32mI (2481) UART: Data recv: [0m
+[0;32mI (2481) UART: size msg: 0[0m
+[0;32mI (2491) UART: Data recv: [0m
+[0;32mI (2491) UART: size msg: 0[0m
+[0;32mI (2501) UART: Data recv: [0m
+[0;32mI (2501) UART: size msg: 0[0m
+[0;32mI (2501) UART: Data recv: [0m
+[0;32mI (2511) UART: size msg: 0[0m
+[0;32mI (2511) UART: Data recv: [0m
+[0;32mI (2511) UART: size msg: 0[0m
+[0;32mI (2521) UART: Data recv: [0m
+[0;32mI (2521) UART: size msg: 0[0m
+[0;32mI (2521) UART: Data recv: [0m
+[0;32mI (2531) UART: size msg: 0[0m
+[0;32mI (2531) UART: Data recv: [0m
+[0;32mI (2531) UART: size msg: 0[0m
+[0;32mI (2541) UART: Data recv: [0m
+[0;32mI (2541) UART: size msg: 0[0m
+[0;32mI (2541) UART: Data recv: [0m
+[0;32mI (2551) UART: size msg: 0[0m
+[0;32mI (2551) UART: Data recv: [0m
+[0;32mI (2551) UART: size msg: 0[0m
+[0;32mI (2561) UART: Data recv: [0m
+[0;32mI (2561) UART: size msg: 0[0m
+[0;32mI (2561) UART: Data recv: [0m
+[0;32mI (2571) UART: size msg: 0[0m
+[0;32mI (2571) UART: Data recv: [0m
+[0;32mI (2571) UART: size msg: 0[0m
+[0;32mI (2581) UART: Data recv: [0m
+[0;32mI (2581) UART: size msg: 0[0m
+[0;32mI (2581) UART: Data recv: [0m
+[0;32mI (2591) UART: size msg: 0[0m
+[0;32mI (2591) UART: Data recv: [0m
+[0;32mI (2591) UART: size msg: 0[0m
+[0;32mI (2601) UART: Data recv: [0m
+[0;32mI (2601) UART: size msg: 0[0m
+[0;32mI (2601) UART: Data recv: [0m
+[0;32mI (2611) UART: size msg: 0[0m
+[0;32mI (2611) UART: Data recv: [0m
+[0;32mI (2611) UART: size msg: 0[0m
+[0;32mI (2621) UART: Data recv: [0m
+[0;32mI (2621) UART: size msg: 0[0m
+[0;32mI (2621) UART: Data recv: [0m
+[0;32mI (2631) UART: size msg: 0[0m
+[0;32mI (2631) UART: Data recv: [0m
+[0;32mI (2631) UART: size msg: 0[0m
+[0;32mI (2641) UART: Data recv: [0m
+[0;32mI (2641) UART: size msg: 0[0m
+[0;32mI (2641) UART: Data recv: [0m
+[0;32mI (2651) UART: size msg: 0[0m
+[0;32mI (2651) UART: Data recv: [0m
+[0;32mI (2651) UART: size msg: 0[0m
+[0;32mI (2661) UART: Data recv: [0m
+[0;32mI (2661) UART: size msg: 0[0m
+[0;32mI (2661) UART: Data recv: [0m
+[0;32mI (2671) UART: size msg: 0[0m
+[0;32mI (2671) UART: Data recv: [0m
+[0;32mI (2671) UART: size msg: 0[0m
+[0;32mI (2681) UART: Data recv: [0m
+[0;32mI (2681) UART: size msg: 0[0m
+[0;32mI (2681) UART: Data recv: [0m
+[0;32mI (2691) UART: size msg: 0[0m
+[0;32mI (2691) UART: Data recv: [0m
+[0;32mI (2691) UART: size msg: 0[0m
+[0;32mI (2701) UART: Data recv: [0m
+[0;32mI (2701) UART: size msg: 0[0m
+[0;32mI (2711) UART: Data recv: [0m
+[0;32mI (2711) UART: size msg: 0[0m
+[0;32mI (2711) UART: Data recv: [0m
+[0;32mI (2721) UART: size msg: 0[0m
+[0;32mI (2721) UART: Data recv: [0m
+[0;32mI (2721) UART: size msg: 0[0m
+[0;32mI (2731) UART: Data recv: [0m
+[0;32mI (2731) UART: size msg: 0[0m
+[0;32mI (2731) UART: Data recv: [0m
+[0;32mI (2741) UART: size msg: 0[0m
+[0;32mI (2741) UART: Data recv: [0m
+[0;32mI (2741) UART: size msg: 0[0m
+[0;32mI (2751) UART: Data recv: [0m
+[0;32mI (2751) UART: size msg: 0[0m
+[0;32mI (2751) UART: Data recv: [0m
+[0;32mI (2761) UART: size msg: 0[0m
+[0;32mI (2761) UART: Data recv: [0m
+[0;32mI (2761) UART: size msg: 0[0m
+[0;32mI (2771) UART: Data recv: [0m
+[0;32mI (2771) UART: size msg: 0[0m
+[0;32mI (2771) UART: Data recv: [0m
+[0;32mI (2781) UART: size msg: 0[0m
+[0;32mI (2781) UART: Data recv: [0m
+[0;32mI (2781) UART: size msg: 0[0m
+[0;32mI (2791) UART: Data recv: [0m
+[0;32mI (2791) UART: size msg: 0[0m
+[0;32mI (2791) UART: Data recv: [0m
+[0;32mI (2801) UART: size msg: 0[0m
+[0;32mI (2801) UART: Data recv: [0m
+[0;32mI (2801) UART: size msg: 0[0m
+[0;32mI (2811) UART: Data recv: [0m
+[0;32mI (2811) UART: size msg: 0[0m
+[0;32mI (2811) UART: Data recv: [0m
+[0;32mI (2821) UART: size msg: 0[0m
+[0;32mI (2821) UART: Data recv: [0m
+[0;32mI (2821) UART: size msg: 0[0m
+[0;32mI (2831) UART: Data recv: [0m
+[0;32mI (2831) UART: size msg: 0[0m
+[0;32mI (2831) UART: Data recv: [0m
+[0;32mI (2841) UART: size msg: 0[0m
+[0;32mI (2841) UART: Data recv: [0m
+[0;32mI (2841) UART: size msg: 0[0m
+[0;32mI (2851) UART: Data recv: [0m
+[0;32mI (2851) UART: size msg: 0[0m
+[0;32mI (2851) UART: Data recv: [0m
+[0;32mI (2861) UART: size msg: 0[0m
+[0;32mI (2861) UART: Data recv: [0m
+[0;32mI (2861) UART: size msg: 0[0m
+[0;32mI (2871) UART: Data recv: [0m
+[0;32mI (2871) UART: size msg: 0[0m
+[0;32mI (2871) UART: Data recv: [0m
+[0;32mI (2881) UART: size msg: 0[0m
+[0;32mI (2881) UART: Data recv: [0m
+[0;32mI (2881) UART: size msg: 0[0m
+[0;32mI (2891) UART: Data recv: [0m
+[0;32mI (2891) UART: size msg: 0[0m
+[0;32mI (2891) UART: Data recv: [0m
+[0;32mI (2901) UART: size msg: 0[0m
+[0;32mI (2901) UART: Data recv: [0m
+[0;32mI (2901) UART: size msg: 0[0m
+[0;32mI (2911) UART: Data recv: [0m
+[0;32mI (2911) UART: size msg: 0[0m
+[0;32mI (2911) UART: Data recv: [0m
+[0;32mI (2921) UART: size msg: 0[0m
+[0;32mI (2921) UART: Data recv: [0m
+[0;32mI (2931) UART: size msg: 0[0m
+[0;32mI (2931) UART: Data recv: [0m
+[0;32mI (2931) UART: size msg: 0[0m
+[0;32mI (2941) UART: Data recv: [0m
+[0;32mI (2941) UART: size msg: 0[0m
+[0;32mI (2941) UART: Data recv: [0m
+[0;32mI (2951) UART: size msg: 0[0m
+[0;32mI (2951) UART: Data recv: [0m
+[0;32mI (2951) UART: size msg: 0[0m
+[0;32mI (2961) UART: Data recv: [0m
+[0;32mI (2961) UART: size msg: 0[0m
+[0;32mI (2961) UART: Data recv: [0m
+[0;32mI (2971) UART: size msg: 0[0m
+[0;32mI (2971) UART: Data recv: [0m
+[0;32mI (2971) UART: size msg: 0[0m
+[0;32mI (2981) UART: Data recv: [0m
+[0;32mI (2981) UART: size msg: 0[0m
+[0;32mI (2981) UART: Data recv: [0m
+[0;32mI (2991) UART: size msg: 0[0m
+[0;32mI (2991) UART: Data recv: [0m
+[0;32mI (2991) UART: size msg: 0[0m
+[0;32mI (3001) UART: Data recv: [0m
+[0;32mI (3001) UART: size msg: 0[0m
+[0;32mI (3001) UART: Data recv: [0m
+[0;32mI (3011) UART: size msg: 0[0m
+[0;32mI (3011) UART: Data recv: [0m
+[0;32mI (3011) UART: size msg: 0[0m
+[0;32mI (3021) UART: Data recv: [0m
+[0;32mI (3021) UART: size msg: 0[0m
+[0;32mI (3021) UART: Data recv: [0m
+[0;32mI (3031) UART: size msg: 0[0m
+[0;32mI (3031) UART: Data recv: [0m
+[0;32mI (3031) UART: size msg: 0[0m
+[0;32mI (3041) UART: Data recv: [0m
+[0;32mI (3041) UART: size msg: 0[0m
+[0;32mI (3041) UART: Data recv: [0m
+[0;32mI (3051) UART: size msg: 0[0m
+[0;32mI (3051) UART: Data recv: [0m
+[0;32mI (3051) UART: size msg: 0[0m
+[0;32mI (3061) UART: Data recv: [0m
+[0;32mI (3061) UART: size msg: 0[0m
+[0;32mI (3061) UART: Data recv: [0m
+[0;32mI (3071) UART: size msg: 0[0m
+[0;32mI (3071) UART: Data recv: [0m
+[0;32mI (3071) UART: size msg: 0[0m
+[0;32mI (3081) UART: Data recv: [0m
+[0;32mI (3081) UART: size msg: 0[0m
+[0;32mI (3081) UART: Data recv: [0m
+[0;32mI (3091) UART: size msg: 0[0m
+[0;32mI (3091) UART: Data recv: [0m
+[0;32mI (3091) UART: size msg: 0[0m
+[0;32mI (3101) UART: Data recv: [0m
+[0;32mI (3101) UART: size msg: 0[0m
+[0;32mI (3101) UART: Data recv: [0m
+[0;32mI (3111) UART: size msg: 0[0m
+[0;32mI (3111) UART: Data recv: [0m
+[0;32mI (3111) UART: size msg: 0[0m
+[0;32mI (3121) UART: Data recv: [0m
+[0;32mI (3121) UART: size msg: 0[0m
+[0;32mI (3121) UART: Data recv: [0m
+[0;32mI (3131) UART: size msg: 0[0m
+[0;32mI (3131) UART: Data recv: [0m
+[0;32mI (3131) UART: size msg: 0[0m
+[0;32mI (3141) UART: Data recv: [0m
+[0;32mI (3141) UART: size msg: 0[0m
+[0;32mI (3151) UART: Data recv: [0m
+[0;32mI (3151) UART: size msg: 0[0m
+[0;32mI (3151) UART: Data recv: [0m
+[0;32mI (3161) UART: size msg: 0[0m
+[0;32mI (3161) UART: Data recv: [0m
+[0;32mI (3161) UART: size msg: 0[0m
+[0;32mI (3171) UART: Data recv: [0m
+[0;32mI (3171) UART: size msg: 0[0m
+[0;32mI (3171) UART: Data recv: [0m
+[0;32mI (3181) UART: size msg: 0[0m
+[0;32mI (3181) UART: Data recv: [0m
+[0;32mI (3181) UART: size msg: 0[0m
+[0;32mI (3191) UART: Data recv: [0m
+[0;32mI (3191) UART: size msg: 0[0m
+[0;32mI (3191) UART: Data recv: [0m
+[0;32mI (3201) UART: size msg: 0[0m
+[0;32mI (3201) UART: Data recv: [0m
+[0;32mI (3201) UART: size msg: 0[0m
+[0;32mI (3211) UART: Data recv: [0m
+[0;32mI (3211) UART: size msg: 0[0m
+[0;32mI (3211) UART: Data recv: [0m
+[0;32mI (3221) UART: size msg: 0[0m
+[0;32mI (3221) UART: Data recv: [0m
+[0;32mI (3221) UART: size msg: 0[0m
+[0;32mI (3231) UART: Data recv: [0m
+[0;32mI (3231) UART: size msg: 0[0m
+[0;32mI (3231) UART: Data recv: [0m
+[0;32mI (3241) UART: size msg: 0[0m
+[0;32mI (3241) UART: Data recv: [0m
+[0;32mI (3241) UART: size msg: 0[0m
+[0;32mI (3251) UART: Data recv: [0m
+[0;32mI (3251) UART: size msg: 0[0m
+[0;32mI (3251) UART: Data recv: [0m
+[0;32mI (3261) UART: size msg: 0[0m
+[0;32mI (3261) UART: Data recv: [0m
+[0;32mI (3261) UART: size msg: 0[0m
+[0;32mI (3271) UART: Data recv: [0m
+[0;32mI (3271) UART: size msg: 0[0m
+[0;32mI (3271) UART: Data recv: [0m
+[0;32mI (3281) UART: size msg: 0[0m
+[0;32mI (3281) UART: Data recv: [0m
+[0;32mI (3281) UART: size msg: 0[0m
+[0;32mI (3291) UART: Data recv: [0m
+[0;32mI (3291) UART: size msg: 0[0m
+[0;32mI (3291) UART: Data recv: [0m
+[0;32mI (3301) UART: size msg: 0[0m
+[0;32mI (3301) UART: Data recv: [0m
+[0;32mI (3301) UART: size msg: 0[0m
+[0;32mI (3311) UART: Data recv: [0m
+[0;32mI (3311) UART: size msg: 0[0m
+[0;32mI (3311) UART: Data recv: [0m
+[0;32mI (3321) UART: size msg: 0[0m
+[0;32mI (3321) UART: Data recv: [0m
+[0;32mI (3321) UART: size msg: 0[0m
+[0;32mI (3331) UART: Data recv: [0m
+[0;32mI (3331) UART: size msg: 0[0m
+[0;32mI (3331) UART: Data recv: [0m
+[0;32mI (3341) UART: size msg: 0[0m
+[0;32mI (3341) UART: Data recv: [0m
+[0;32mI (3341) UART: size msg: 0[0m
+[0;32mI (3351) UART: Data recv: [0m
+[0;32mI (3351) UART: size msg: 0[0m
+[0;32mI (3361) UART: Data recv: [0m
+[0;32mI (3361) UART: size msg: 0[0m
+[0;32mI (3361) UART: Data recv: [0m
+[0;32mI (3371) UART: size msg: 0[0m
+[0;32mI (3371) UART: Data recv: [0m
+[0;32mI (3371) UART: size msg: 0[0m
+[0;32mI (3381) UART: Data recv: [0m
+[0;32mI (3381) UART: size msg: 0[0m
+[0;32mI (3381) UART: Data recv: [0m
+[0;32mI (3391) UART: size msg: 0[0m
+[0;32mI (3391) UART: Data recv: [0m
+[0;32mI (3391) UART: size msg: 0[0m
+[0;32mI (3401) UART: Data recv: [0m
+[0;32mI (3401) UART: size msg: 0[0m
+[0;32mI (3401) UART: Data recv: [0m
+[0;32mI (3411) UART: size msg: 0[0m
+[0;32mI (3411) UART: Data recv: [0m
+[0;32mI (3411) UART: size msg: 0[0m
+[0;32mI (3421) UART: Data recv: [0m
+[0;32mI (3421) UART: size msg: 0[0m
+[0;32mI (3421) UART: Data recv: [0m
+[0;32mI (3431) UART: size msg: 0[0m
+[0;32mI (3431) UART: Data recv: [0m
+[0;32mI (3431) UART: size msg: 0[0m
+[0;32mI (3441) UART: Data recv: [0m
+[0;32mI (3441) UART: size msg: 0[0m
+[0;32mI (3441) UART: Data recv: [0m
+[0;32mI (3451) UART: size msg: 0[0m
+[0;32mI (3451) UART: Data recv: [0m
+[0;32mI (3451) UART: size msg: 0[0m
+[0;32mI (3461) UART: Data recv: [0m
+[0;32mI (3461) UART: size msg: 0[0m
+[0;32mI (3461) UART: Data recv: [0m
+[0;32mI (3471) UART: size msg: 0[0m
+[0;32mI (3471) UART: Data recv: [0m
+[0;32mI (3471) UART: size msg: 0[0m
+[0;32mI (3481) UART: Data recv: [0m
+[0;32mI (3481) UART: size msg: 0[0m
+[0;32mI (3481) UART: Data recv: [0m
+[0;32mI (3491) UART: size msg: 0[0m
+[0;32mI (3491) UART: Data recv: [0m
+[0;32mI (3491) UART: size msg: 0[0m
+[0;32mI (3501) UART: Data recv: [0m
+[0;32mI (3501) UART: size msg: 0[0m
+[0;32mI (3501) UART: Data recv: [0m
+[0;32mI (3511) UART: size msg: 0[0m
+[0;32mI (3511) UART: Data recv: [0m
+[0;32mI (3511) UART: size msg: 0[0m
+[0;32mI (3521) UART: Data recv: [0m
+[0;32mI (3521) UART: size msg: 0[0m
+[0;32mI (3521) UART: Data recv: [0m
+[0;32mI (3531) UART: size msg: 0[0m
+[0;32mI (3531) UART: Data recv: [0m
+[0;32mI (3531) UART: size msg: 0[0m
+[0;32mI (3541) UART: Data recv: [0m
+[0;32mI (3541) UART: size msg: 0[0m
+[0;32mI (3541) UART: Data recv: [0m
+[0;32mI (3551) UART: size msg: 0[0m
+[0;32mI (3551) UART: Data recv: [0m
+[0;32mI (3551) UART: size msg: 0[0m
+[0;32mI (3561) UART: Data recv: [0m
+[0;32mI (3561) UART: size msg: 0[0m
+[0;32mI (3561) UART: Data recv: [0m
+[0;32mI (3571) UART: size msg: 0[0m
+[0;32mI (3571) UART: Data recv: [0m
+[0;32mI (3581) UART: size msg: 0[0m
+[0;32mI (3581) UART: Data recv: [0m
+[0;32mI (3581) UART: size msg: 0[0m
+[0;32mI (3591) UART: Data recv: [0m
+[0;32mI (3591) UART: size msg: 0[0m
+[0;32mI (3591) UART: Data recv: [0m
+[0;32mI (3601) UART: size msg: 0[0m
+[0;32mI (3601) UART: Data recv: [0m
+[0;32mI (3601) UART: size msg: 0[0m
+[0;32mI (3611) UART: Data recv: [0m
+[0;32mI (3611) UART: size msg: 0[0m
+[0;32mI (3611) UART: Data recv: [0m
+[0;32mI (3621) UART: size msg: 0[0m
+[0;32mI (3621) UART: Data recv: [0m
+[0;32mI (3621) UART: size msg: 0[0m
+[0;32mI (3631) UART: Data recv: [0m
+[0;32mI (3631) UART: size msg: 0[0m

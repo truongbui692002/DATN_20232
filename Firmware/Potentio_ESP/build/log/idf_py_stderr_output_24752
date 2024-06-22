@@ -1,0 +1,85 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM11 instead...[0m
+[0;33m--- idf_monitor on \\.\COM11 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081448: call_start_cpu1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x4008ccea: esp_crosscore_isr at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40082e61: _xt_lowint1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x4000127c: strcmp in ROM
+[0m
+[0;33m0x400d754b: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:44
+[0m
+[0;33m0x400942b9: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4008ccea: esp_crosscore_isr at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40082e61: _xt_lowint1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x400d752f: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:40
+[0m
+[0;33m0x400942b9: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4008ccea: esp_crosscore_isr at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40082e61: _xt_lowint1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x400012d2: strcmp in ROM
+[0m
+[0;33m0x400d754b: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:44
+[0m
+[0;33m0x400942b9: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4008ccea: esp_crosscore_isr at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40082e61: _xt_lowint1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x400014f5: strlen in ROM
+[0m
+[0;33m0x400d7537: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:40
+[0m
+[0;33m0x400942b9: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4008ccea: esp_crosscore_isr at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40082e61: _xt_lowint1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x40001511: strlen in ROM
+[0m
+[0;33m0x400d7537: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:40
+[0m
+[0;33m0x400942b9: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4008ccea: esp_crosscore_isr at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40082e61: _xt_lowint1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x400014f5: strlen in ROM
+[0m
+[0;33m0x400d7537: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:40
+[0m
+[0;33m0x400942b9: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4008ccea: esp_crosscore_isr at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40082e61: _xt_lowint1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x400012d2: strcmp in ROM
+[0m
+[0;33m0x400d754b: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:44
+[0m
+[0;33m0x400942b9: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x4008ccea: esp_crosscore_isr at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40082e61: _xt_lowint1 at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x400d754b: uart_user_task at D:/GIT/esp32-idf/Potentio_ESP/main/uart_user.c:44
+[0m
+[0;33m0x400942b9: vPortTaskWrapper at D:/ESP_IDF_V5_1/Espressif/frameworks/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0m

@@ -1,0 +1,2117 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=217dch (137180) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=00031804 vaddr=3ffbdb60 size=0458ch ( 17804) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035d98 vaddr=40080000 size=0a280h ( 41600) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=830a4h (536740) map[0m
+[0;32mI (375) esp_image: segment 4: paddr=000c30cc vaddr=4008a280 size=0ea98h ( 60056) load[0m
+[0;32mI (413) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (413) boot: Disabling RNG early entropy source...[0m
+[0;32mI (424) cpu_start: Multicore app[0m
+[0;32mI (425) cpu_start: Pro cpu up.[0m
+[0;32mI (425) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (442) cpu_start: Pro cpu start user code[0m
+[0;32mI (442) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (443) cpu_start: Application information:[0m
+[0;32mI (447) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (453) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (458) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (464) cpu_start: ELF file SHA256:  35a257de638b6e61...[0m
+[0;32mI (470) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (475) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (480) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (485) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (490) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (497) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (503) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (509) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (515) heap_init: At 3FFC74B0 len 00018B50 (98 KiB): DRAM[0m
+[0;32mI (521) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (528) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (534) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (542) spi_flash: detected chip: generic[0m
+[0;32mI (545) spi_flash: flash io: dio[0m
+[0;33mW (549) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (563) coexist: coex firmware version: ebddf30[0m
+[0;32mI (568) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (572) app_start: Starting scheduler on CPU1[0m
+I (572) main_task: Started on CPU0[0m
+[0;32mI (582) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (672) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (682) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1112) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1122) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1122) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1132) main_task: Returned from app_main()[0m
+[0;32mI (1142) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1142) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1152) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1152) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1162) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1162) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1172) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1182) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1182) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1192) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1202) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1202) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1212) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1212) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1222) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;32mI (21472) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 45:a9:75:dc:53:1e:[0m
+[0;32mI (21472) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 45:a9:75:dc:53:1e:[0m
+[0;33mW (21472) BT_L2CAP: l2cble_start_conn_update, the last connection update command still pending.[0m
+[0;32mI (22092) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (22382) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (22612) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 1, handle 42[0m
+[0;32mI (22612) GATTS_DEMO: GATT_WRITE_EVT, value len 15, value :[0m
+[0;32mI (22612) GATTS_DEMO: 47 41 54 54 5f 43 6f 6e 6e 65 63 74 65 64 00 [0m
+[0;32mI (22622) GATTS_DEMO: GATT_Connected, len: 14[0m
+[0;32mI (22652) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (23062) UART: Data recv_a from BLE: GATT_Connected[0m
+[0;32mI (24542) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 2, handle 42[0m
+[0;32mI (24542) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (24542) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (24542) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (24552) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (24552) GATTS_DEMO: Res: μA[0m
+[0;32mI (24562) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (24562) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 3, handle 46[0m
+[0;32mI (24572) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (24572) GATTS_DEMO: 2d 32 30 30 40 36 30 30 40 31 30 30 40 00 [0m
+[0;32mI (24582) GATTS_DEMO: -200@600@100@, len: 13[0m
+[0;32mI (24592) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (24592) GATTS_DEMO: End voltage: 600.0[0m
+[0;32mI (24602) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (25592) UART: {"config_dev":1,"mode":"LSV","res":"μA","vol_start":-200.0,"vol_end":600.0,"scan_rate":0.0}[0m
+[0;32mI (26102) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (28162) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 4, handle 42[0m
+[0;32mI (28162) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (28162) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (28172) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (28652) UART: Data recv from BLE: Start_device[0m
+[0;32mI (28652) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 5, handle 42
+[0m
+[0;32mI (28652) GATTS_DEMO: 1[0m
+[0;32mI (28652) GATTS_DEMO: 00 00 00 00 00 00 [0m
+[0;32mI (29162) UART: Data from STM: {"start":1,"potential":-200,"current":6104}, MSG_Size:43[0m
+[0;32mI (29162) UART: Hellooooooo[0m
+[0;32mI (29162) UART: start:1[0m
+[0;32mI (29162) UART: DATA WRITE TO APP: -200-6104[0m
+[0;32mI (29172) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 6, handle 42
+[0m
+[0;32mI (29172) GATTS_DEMO: 1[0m
+[0;32mI (29182) GATTS_DEMO: 38 ff d8 17 00 00 [0m
+[0;32mI (29672) UART: Data from STM: {"start":1,"potential":-200,"current":6051}, MSG_Size:43[0m
+[0;32mI (29672) UART: Hellooooooo[0m
+[0;32mI (29672) UART: start:1[0m
+[0;32mI (29672) UART: DATA WRITE TO APP: -200-6051[0m
+[0;32mI (29692) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 7, handle 42
+[0m
+[0;32mI (29692) GATTS_DEMO: 1[0m
+[0;32mI (29692) GATTS_DEMO: 38 ff a3 17 00 00 [0m
+[0;32mI (30182) UART: Data from STM: {"start":1,"potential":-200,"current":6037}, MSG_Size:43[0m
+[0;32mI (30182) UART: Hellooooooo[0m
+[0;32mI (30182) UART: start:1[0m
+[0;32mI (30182) UART: DATA WRITE TO APP: -200-6037[0m
+[0;32mI (30182) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 8, handle 42
+[0m
+[0;32mI (30192) GATTS_DEMO: 1[0m
+[0;32mI (30202) GATTS_DEMO: 38 ff 95 17 00 00 [0m
+[0;32mI (30682) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 9, handle 42
+[0m
+[0;32mI (30682) GATTS_DEMO: 1[0m
+[0;32mI (30682) GATTS_DEMO: 38 ff 95 17 00 00 [0m
+[0;32mI (30702) UART: Data from STM: {"start":1,"potential":-200,"current":6066}, MSG_Size:43[0m
+[0;32mI (30702) UART: Hellooooooo[0m
+[0;32mI (30702) UART: start:1[0m
+[0;32mI (30702) UART: DATA WRITE TO APP: -200-6066[0m
+[0;32mI (31192) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 10, handle 42
+[0m
+[0;32mI (31202) GATTS_DEMO: 1[0m
+[0;32mI (31202) GATTS_DEMO: 38 ff b2 17 00 00 [0m
+[0;32mI (31222) UART: Data from STM: {"start":1,"potential":-200,"current":-2047}, MSG_Size:44[0m
+[0;32mI (31222) UART: Hellooooooo[0m
+[0;32mI (31222) UART: start:1[0m
+[0;32mI (31222) UART: DATA WRITE TO APP: -200--2047[0m
+[0;32mI (31712) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 11, handle 42
+[0m
+[0;32mI (31712) GATTS_DEMO: 1[0m
+[0;32mI (31712) GATTS_DEMO: 38 ff 01 f8 00 00 [0m
+[0;32mI (31732) UART: Data from STM: {"start":1,"potential":-200,"current":-2019}, MSG_Size:44[0m
+[0;32mI (31732) UART: Hellooooooo[0m
+[0;32mI (31732) UART: start:1[0m
+[0;32mI (31732) UART: DATA WRITE TO APP: -200--2019[0m
+[0;32mI (32212) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 12, handle 42
+[0m
+[0;32mI (32212) GATTS_DEMO: 1[0m
+[0;32mI (32212) GATTS_DEMO: 38 ff 1d f8 00 00 [0m
+[0;32mI (32252) UART: Data from STM: {"start":1,"potential":-200,"current":-2028}, MSG_Size:44[0m
+[0;32mI (32252) UART: Hellooooooo[0m
+[0;32mI (32252) UART: start:1[0m
+[0;32mI (32252) UART: DATA WRITE TO APP: -200--2028[0m
+[0;32mI (32702) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 13, handle 42
+[0m
+[0;32mI (32702) GATTS_DEMO: 1[0m
+[0;32mI (32702) GATTS_DEMO: 38 ff 14 f8 00 00 [0m
+[0;32mI (32772) UART: Data from STM: {"start":1,"potential":-200,"current":-2081}, MSG_Size:44[0m
+[0;32mI (32772) UART: Hellooooooo[0m
+[0;32mI (32772) UART: start:1[0m
+[0;32mI (32772) UART: DATA WRITE TO APP: -200--2081[0m
+[0;32mI (33222) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 14, handle 42
+[0m
+[0;32mI (33222) GATTS_DEMO: 1[0m
+[0;32mI (33222) GATTS_DEMO: 38 ff df f7 00 00 [0m
+[0;32mI (33282) UART: Data from STM: {"start":1,"potential":-200,"current":-2095}, MSG_Size:44[0m
+[0;32mI (33282) UART: Hellooooooo[0m
+[0;32mI (33282) UART: start:1[0m
+[0;32mI (33282) UART: DATA WRITE TO APP: -200--2095[0m
+[0;32mI (33712) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 15, handle 42
+[0m
+[0;32mI (33722) GATTS_DEMO: 1[0m
+[0;32mI (33722) GATTS_DEMO: 38 ff d1 f7 00 00 [0m
+[0;32mI (33802) UART: Data from STM: {"start":1,"potential":-200,"current":-2068}, MSG_Size:44[0m
+[0;32mI (33802) UART: Hellooooooo[0m
+[0;32mI (33802) UART: start:1[0m
+[0;32mI (33802) UART: DATA WRITE TO APP: -200--2068[0m
+[0;32mI (34232) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 16, handle 42
+[0m
+[0;32mI (34232) GATTS_DEMO: 1[0m
+[0;32mI (34232) GATTS_DEMO: 38 ff ec f7 00 00 [0m
+[0;32mI (34312) UART: Data from STM: {"start":1,"potential":-200,"current":-2040}, MSG_Size:44[0m
+[0;32mI (34312) UART: Hellooooooo[0m
+[0;32mI (34312) UART: start:1[0m
+[0;32mI (34312) UART: DATA WRITE TO APP: -200--2040[0m
+[0;32mI (34732) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 17, handle 42
+[0m
+[0;32mI (34732) GATTS_DEMO: 1[0m
+[0;32mI (34732) GATTS_DEMO: 38 ff 08 f8 00 00 [0m
+[0;32mI (34832) UART: Data from STM: {"start":1,"potential":-200,"current":-2025}, MSG_Size:44[0m
+[0;32mI (34832) UART: Hellooooooo[0m
+[0;32mI (34832) UART: start:1[0m
+[0;32mI (34832) UART: DATA WRITE TO APP: -200--2025[0m
+[0;32mI (35222) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 18, handle 42
+[0m
+[0;32mI (35222) GATTS_DEMO: 1[0m
+[0;32mI (35222) GATTS_DEMO: 38 ff 17 f8 00 00 [0m
+[0;32mI (35342) UART: Data from STM: {"start":1,"potential":-200,"current":-2023}, MSG_Size:44[0m
+[0;32mI (35342) UART: Hellooooooo[0m
+[0;32mI (35342) UART: start:1[0m
+[0;32mI (35342) UART: DATA WRITE TO APP: -200--2023[0m
+[0;32mI (35742) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 19, handle 42
+[0m
+[0;32mI (35742) GATTS_DEMO: 1[0m
+[0;32mI (35742) GATTS_DEMO: 38 ff 19 f8 00 00 [0m
+[0;32mI (35852) UART: Data from STM: {"start":1,"potential":-200,"current":-2078}, MSG_Size:44[0m
+[0;32mI (35852) UART: Hellooooooo[0m
+[0;32mI (35852) UART: start:1[0m
+[0;32mI (35852) UART: DATA WRITE TO APP: -200--2078[0m
+[0;32mI (36262) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 20, handle 42
+[0m
+[0;32mI (36262) GATTS_DEMO: 1[0m
+[0;32mI (36262) GATTS_DEMO: 38 ff e2 f7 00 00 [0m
+[0;32mI (36372) UART: Data from STM: {"start":1,"potential":-200,"current":-2096}, MSG_Size:44[0m
+[0;32mI (36372) UART: Hellooooooo[0m
+[0;32mI (36372) UART: start:1[0m
+[0;32mI (36372) UART: DATA WRITE TO APP: -200--2096[0m
+[0;32mI (36732) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 21, handle 42
+[0m
+[0;32mI (36732) GATTS_DEMO: 1[0m
+[0;32mI (36732) GATTS_DEMO: 38 ff d0 f7 00 00 [0m
+[0;32mI (36882) UART: Data from STM: {"start":1,"potential":-200,"current":-2066}, MSG_Size:44[0m
+[0;32mI (36882) UART: Hellooooooo[0m
+[0;32mI (36882) UART: start:1[0m
+[0;32mI (36882) UART: DATA WRITE TO APP: -200--2066[0m
+[0;32mI (37272) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 22, handle 42
+[0m
+[0;32mI (37272) GATTS_DEMO: 1[0m
+[0;32mI (37272) GATTS_DEMO: 38 ff ee f7 00 00 [0m
+[0;32mI (37392) UART: Data from STM: {"start":1,"potential":-200,"current":-2048}, MSG_Size:44[0m
+[0;32mI (37392) UART: Hellooooooo[0m
+[0;32mI (37392) UART: start:1[0m
+[0;32mI (37392) UART: DATA WRITE TO APP: -200--2048[0m
+[0;32mI (37742) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 23, handle 42
+[0m
+[0;32mI (37742) GATTS_DEMO: 1[0m
+[0;32mI (37742) GATTS_DEMO: 38 ff 00 f8 00 00 [0m
+[0;32mI (37902) UART: Data from STM: {"start":1,"potential":-200,"current":-2027}, MSG_Size:44[0m
+[0;32mI (37902) UART: Hellooooooo[0m
+[0;32mI (37902) UART: start:1[0m
+[0;32mI (37902) UART: DATA WRITE TO APP: -200--2027[0m
+[0;32mI (38262) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 24, handle 42
+[0m
+[0;32mI (38262) GATTS_DEMO: 1[0m
+[0;32mI (38262) GATTS_DEMO: 38 ff 15 f8 00 00 [0m
+[0;32mI (38412) UART: Data from STM: {"start":1,"potential":-200,"current":-2016}, MSG_Size:44[0m
+[0;32mI (38412) UART: Hellooooooo[0m
+[0;32mI (38412) UART: start:1[0m
+[0;32mI (38412) UART: DATA WRITE TO APP: -200--2016[0m
+[0;32mI (38752) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 25, handle 42
+[0m
+[0;32mI (38762) GATTS_DEMO: 1[0m
+[0;32mI (38762) GATTS_DEMO: 38 ff 20 f8 00 00 [0m
+[0;32mI (38922) UART: Data from STM: {"start":1,"potential":-200,"current":-2067}, MSG_Size:44[0m
+[0;32mI (38922) UART: Hellooooooo[0m
+[0;32mI (38922) UART: start:1[0m
+[0;32mI (38922) UART: DATA WRITE TO APP: -200--2067[0m
+[0;32mI (39252) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 26, handle 42
+[0m
+[0;32mI (39252) GATTS_DEMO: 1[0m
+[0;32mI (39252) GATTS_DEMO: 38 ff ed f7 00 00 [0m
+[0;32mI (39432) UART: Data from STM: {"start":1,"potential":-200,"current":-2086}, MSG_Size:44[0m
+[0;32mI (39432) UART: Hellooooooo[0m
+[0;32mI (39432) UART: start:1[0m
+[0;32mI (39432) UART: DATA WRITE TO APP: -200--2086[0m
+[0;32mI (39772) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 27, handle 42
+[0m
+[0;32mI (39772) GATTS_DEMO: 1[0m
+[0;32mI (39772) GATTS_DEMO: 38 ff da f7 00 00 [0m
+[0;32mI (39942) UART: Data from STM: {"start":1,"potential":-200,"current":-2069}, MSG_Size:44[0m
+[0;32mI (39942) UART: Hellooooooo[0m
+[0;32mI (39942) UART: start:1[0m
+[0;32mI (39942) UART: DATA WRITE TO APP: -200--2069[0m
+[0;32mI (40262) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 28, handle 42
+[0m
+[0;32mI (40262) GATTS_DEMO: 1[0m
+[0;32mI (40262) GATTS_DEMO: 38 ff eb f7 00 00 [0m
+[0;32mI (40452) UART: Data from STM: {"start":1,"potential":-200,"current":-2053}, MSG_Size:44[0m
+[0;32mI (40452) UART: Hellooooooo[0m
+[0;32mI (40452) UART: start:1[0m
+[0;32mI (40452) UART: DATA WRITE TO APP: -200--2053[0m
+[0;32mI (40782) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 29, handle 42
+[0m
+[0;32mI (40782) GATTS_DEMO: 1[0m
+[0;32mI (40782) GATTS_DEMO: 38 ff fb f7 00 00 [0m
+[0;32mI (40962) UART: Data from STM: {"start":1,"potential":-200,"current":-2034}, MSG_Size:44[0m
+[0;32mI (40962) UART: Hellooooooo[0m
+[0;32mI (40962) UART: start:1[0m
+[0;32mI (40962) UART: DATA WRITE TO APP: -200--2034[0m
+[0;32mI (41272) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 30, handle 42
+[0m
+[0;32mI (41282) GATTS_DEMO: 1[0m
+[0;32mI (41282) GATTS_DEMO: 38 ff 0e f8 00 00 [0m
+[0;32mI (41472) UART: Data from STM: {"start":1,"potential":-200,"current":-2007}, MSG_Size:44[0m
+[0;32mI (41472) UART: Hellooooooo[0m
+[0;32mI (41472) UART: start:1[0m
+[0;32mI (41472) UART: DATA WRITE TO APP: -200--2007[0m
+[0;32mI (41772) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 31, handle 42
+[0m
+[0;32mI (41772) GATTS_DEMO: 1[0m
+[0;32mI (41772) GATTS_DEMO: 38 ff 29 f8 00 00 [0m
+[0;32mI (41982) UART: Data from STM: {"start":1,"potential":-200,"current":-2043}, MSG_Size:44[0m
+[0;32mI (41982) UART: Hellooooooo[0m
+[0;32mI (41982) UART: start:1[0m
+[0;32mI (41982) UART: DATA WRITE TO APP: -200--2043[0m
+[0;32mI (42292) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 32, handle 42
+[0m
+[0;32mI (42292) GATTS_DEMO: 1[0m
+[0;32mI (42292) GATTS_DEMO: 38 ff 05 f8 00 00 [0m
+[0;32mI (42492) UART: Data from STM: {"start":1,"potential":-200,"current":-2087}, MSG_Size:44[0m
+[0;32mI (42492) UART: Hellooooooo[0m
+[0;32mI (42492) UART: start:1[0m
+[0;32mI (42492) UART: DATA WRITE TO APP: -200--2087[0m
+[0;32mI (42782) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 33, handle 42
+[0m
+[0;32mI (42782) GATTS_DEMO: 1[0m
+[0;32mI (42782) GATTS_DEMO: 38 ff d9 f7 00 00 [0m
+[0;32mI (43002) UART: Data from STM: {"start":1,"potential":-200,"current":-2079}, MSG_Size:44[0m
+[0;32mI (43002) UART: Hellooooooo[0m
+[0;32mI (43002) UART: start:1[0m
+[0;32mI (43002) UART: DATA WRITE TO APP: -200--2079[0m
+[0;32mI (43302) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 34, handle 42
+[0m
+[0;32mI (43302) GATTS_DEMO: 1[0m
+[0;32mI (43302) GATTS_DEMO: 38 ff e1 f7 00 00 [0m
+[0;32mI (43512) UART: Data from STM: {"start":1,"potential":-200,"current":-2058}, MSG_Size:44[0m
+[0;32mI (43512) UART: Hellooooooo[0m
+[0;32mI (43512) UART: start:1[0m
+[0;32mI (43512) UART: DATA WRITE TO APP: -200--2058[0m
+[0;32mI (43802) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 35, handle 42
+[0m
+[0;32mI (43802) GATTS_DEMO: 1[0m
+[0;32mI (43802) GATTS_DEMO: 38 ff f6 f7 00 00 [0m
+[0;32mI (44022) UART: Data from STM: {"start":1,"potential":-200,"current":-2043}, MSG_Size:44[0m
+[0;32mI (44022) UART: Hellooooooo[0m
+[0;32mI (44022) UART: start:1[0m
+[0;32mI (44022) UART: DATA WRITE TO APP: -200--2043[0m
+[0;32mI (44332) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 36, handle 42
+[0m
+[0;32mI (44342) GATTS_DEMO: 1[0m
+[0;32mI (44342) GATTS_DEMO: 38 ff 05 f8 00 00 [0m
+[0;32mI (44532) UART: Data from STM: {"start":1,"potential":-200,"current":-2015}, MSG_Size:44[0m
+[0;32mI (44532) UART: Hellooooooo[0m
+[0;32mI (44532) UART: start:1[0m
+[0;32mI (44532) UART: DATA WRITE TO APP: -200--2015[0m
+[0;32mI (44812) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 37, handle 42
+[0m
+[0;32mI (44812) GATTS_DEMO: 1[0m
+[0;32mI (44812) GATTS_DEMO: 38 ff 21 f8 00 00 [0m
+[0;32mI (45042) UART: Data from STM: {"start":1,"potential":-200,"current":-2028}, MSG_Size:44[0m
+[0;32mI (45042) UART: Hellooooooo[0m
+[0;32mI (45042) UART: start:1[0m
+[0;32mI (45042) UART: DATA WRITE TO APP: -200--2028[0m
+[0;32mI (45302) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 38, handle 42
+[0m
+[0;32mI (45302) GATTS_DEMO: 1[0m
+[0;32mI (45302) GATTS_DEMO: 38 ff 14 f8 00 00 [0m
+[0;32mI (45552) UART: Data from STM: {"start":1,"potential":-200,"current":-2085}, MSG_Size:44[0m
+[0;32mI (45552) UART: Hellooooooo[0m
+[0;32mI (45552) UART: start:1[0m
+[0;32mI (45552) UART: DATA WRITE TO APP: -200--2085[0m
+[0;32mI (45822) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 39, handle 42
+[0m
+[0;32mI (45822) GATTS_DEMO: 1[0m
+[0;32mI (45822) GATTS_DEMO: 38 ff db f7 00 00 [0m
+[0;32mI (46062) UART: Data from STM: {"start":1,"potential":-200,"current":-2103}, MSG_Size:44[0m
+[0;32mI (46062) UART: Hellooooooo[0m
+[0;32mI (46062) UART: start:1[0m
+[0;32mI (46062) UART: DATA WRITE TO APP: -200--2103[0m
+[0;32mI (46312) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 40, handle 42
+[0m
+[0;32mI (46322) GATTS_DEMO: 1[0m
+[0;32mI (46322) GATTS_DEMO: 38 ff c9 f7 00 00 [0m
+[0;32mI (46572) UART: Data from STM: {"start":1,"potential":-200,"current":-2063}, MSG_Size:44[0m
+[0;32mI (46572) UART: Hellooooooo[0m
+[0;32mI (46572) UART: start:1[0m
+[0;32mI (46572) UART: DATA WRITE TO APP: -200--2063[0m
+[0;32mI (46852) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 41, handle 42
+[0m
+[0;32mI (46862) GATTS_DEMO: 1[0m
+[0;32mI (46862) GATTS_DEMO: 38 ff f1 f7 00 00 [0m
+[0;32mI (47082) UART: Data from STM: {"start":1,"potential":-200,"current":-2052}, MSG_Size:44[0m
+[0;32mI (47082) UART: Hellooooooo[0m
+[0;32mI (47082) UART: start:1[0m
+[0;32mI (47082) UART: DATA WRITE TO APP: -200--2052[0m
+[0;32mI (47332) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 42, handle 42
+[0m
+[0;32mI (47332) GATTS_DEMO: 1[0m
+[0;32mI (47332) GATTS_DEMO: 38 ff fc f7 00 00 [0m
+[0;32mI (47592) UART: Data from STM: {"start":1,"potential":-200,"current":-2034}, MSG_Size:44[0m
+[0;32mI (47592) UART: Hellooooooo[0m
+[0;32mI (47592) UART: start:1[0m
+[0;32mI (47592) UART: DATA WRITE TO APP: -200--2034[0m
+[0;32mI (47842) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 43, handle 42
+[0m
+[0;32mI (47852) GATTS_DEMO: 1[0m
+[0;32mI (47852) GATTS_DEMO: 38 ff 0e f8 00 00 [0m
+[0;32mI (48112) UART: Data from STM: {"start":1,"potential":-200,"current":-2010}, MSG_Size:44[0m
+[0;32mI (48112) UART: Hellooooooo[0m
+[0;32mI (48112) UART: start:1[0m
+[0;32mI (48112) UART: DATA WRITE TO APP: -200--2010[0m
+[0;32mI (48342) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 44, handle 42
+[0m
+[0;32mI (48342) GATTS_DEMO: 1[0m
+[0;32mI (48342) GATTS_DEMO: 38 ff 26 f8 00 00 [0m
+[0;32mI (48622) UART: Data from STM: {"start":1,"potential":-200,"current":-2052}, MSG_Size:44[0m
+[0;32mI (48622) UART: Hellooooooo[0m
+[0;32mI (48622) UART: start:1[0m
+[0;32mI (48622) UART: DATA WRITE TO APP: -200--2052[0m
+[0;32mI (48862) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 45, handle 42
+[0m
+[0;32mI (48862) GATTS_DEMO: 1[0m
+[0;32mI (48862) GATTS_DEMO: 38 ff fc f7 00 00 [0m
+[0;32mI (49142) UART: Data from STM: {"start":1,"potential":-200,"current":-2081}, MSG_Size:44[0m
+[0;32mI (49142) UART: Hellooooooo[0m
+[0;32mI (49142) UART: start:1[0m
+[0;32mI (49142) UART: DATA WRITE TO APP: -200--2081[0m
+[0;32mI (49352) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 46, handle 42
+[0m
+[0;32mI (49352) GATTS_DEMO: 1[0m
+[0;32mI (49352) GATTS_DEMO: 38 ff df f7 00 00 [0m
+[0;32mI (49652) UART: Data from STM: {"start":1,"potential":-200,"current":-2072}, MSG_Size:44[0m
+[0;32mI (49652) UART: Hellooooooo[0m
+[0;32mI (49652) UART: start:1[0m
+[0;32mI (49652) UART: DATA WRITE TO APP: -200--2072[0m
+[0;32mI (49852) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 47, handle 42
+[0m
+[0;32mI (49852) GATTS_DEMO: 1[0m
+[0;32mI (49852) GATTS_DEMO: 38 ff e8 f7 00 00 [0m
+[0;32mI (50162) UART: Data from STM: {"start":1,"potential":-200,"current":-2063}, MSG_Size:44[0m
+[0;32mI (50162) UART: Hellooooooo[0m
+[0;32mI (50162) UART: start:1[0m
+[0;32mI (50162) UART: DATA WRITE TO APP: -200--2063[0m
+[0;32mI (50362) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 48, handle 42
+[0m
+[0;32mI (50372) GATTS_DEMO: 1[0m
+[0;32mI (50372) GATTS_DEMO: 38 ff f1 f7 00 00 [0m
+[0;32mI (50682) UART: Data from STM: {"start":1,"potential":-200,"current":-2041}, MSG_Size:44[0m
+[0;32mI (50682) UART: Hellooooooo[0m
+[0;32mI (50682) UART: start:1[0m
+[0;32mI (50682) UART: DATA WRITE TO APP: -200--2041[0m
+[0;32mI (50862) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 49, handle 42
+[0m
+[0;32mI (50862) GATTS_DEMO: 1[0m
+[0;32mI (50862) GATTS_DEMO: 38 ff 07 f8 00 00 [0m
+[0;32mI (51192) UART: Data from STM: {"start":1,"potential":-200,"current":-2010}, MSG_Size:44[0m
+[0;32mI (51192) UART: Hellooooooo[0m
+[0;32mI (51192) UART: start:1[0m
+[0;32mI (51192) UART: DATA WRITE TO APP: -200--2010[0m
+[0;32mI (51382) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 50, handle 42
+[0m
+[0;32mI (51382) GATTS_DEMO: 1[0m
+[0;32mI (51382) GATTS_DEMO: 38 ff 26 f8 00 00 [0m
+[0;32mI (51702) UART: Data from STM: {"start":1,"potential":-200,"current":-2031}, MSG_Size:44[0m
+[0;32mI (51702) UART: Hellooooooo[0m
+[0;32mI (51702) UART: start:1[0m
+[0;32mI (51702) UART: DATA WRITE TO APP: -200--2031[0m
+[0;32mI (51892) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 51, handle 42
+[0m
+[0;32mI (51902) GATTS_DEMO: 1[0m
+[0;32mI (51902) GATTS_DEMO: 38 ff 11 f8 00 00 [0m
+[0;32mI (52212) UART: Data from STM: {"start":1,"potential":-200,"current":-2084}, MSG_Size:44[0m
+[0;32mI (52212) UART: Hellooooooo[0m
+[0;32mI (52212) UART: start:1[0m
+[0;32mI (52212) UART: DATA WRITE TO APP: -200--2084[0m
+[0;32mI (52392) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 52, handle 42
+[0m
+[0;32mI (52392) GATTS_DEMO: 1[0m
+[0;32mI (52392) GATTS_DEMO: 38 ff dc f7 00 00 [0m
+[0;32mI (52722) UART: Data from STM: {"start":1,"potential":-200,"current":-2097}, MSG_Size:44[0m
+[0;32mI (52722) UART: Hellooooooo[0m
+[0;32mI (52722) UART: start:1[0m
+[0;32mI (52722) UART: DATA WRITE TO APP: -200--2097[0m
+[0;32mI (52882) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 53, handle 42
+[0m
+[0;32mI (52892) GATTS_DEMO: 1[0m
+[0;32mI (52892) GATTS_DEMO: 38 ff cf f7 00 00 [0m
+[0;32mI (53232) UART: Data from STM: {"start":1,"potential":-200,"current":-2068}, MSG_Size:44[0m
+[0;32mI (53232) UART: Hellooooooo[0m
+[0;32mI (53232) UART: start:1[0m
+[0;32mI (53232) UART: DATA WRITE TO APP: -200--2068[0m
+[0;32mI (53402) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 54, handle 42
+[0m
+[0;32mI (53402) GATTS_DEMO: 1[0m
+[0;32mI (53402) GATTS_DEMO: 38 ff ec f7 00 00 [0m
+[0;32mI (53742) UART: Data from STM: {"start":1,"potential":-200,"current":-2055}, MSG_Size:44[0m
+[0;32mI (53742) UART: Hellooooooo[0m
+[0;32mI (53742) UART: start:1[0m
+[0;32mI (53742) UART: DATA WRITE TO APP: -200--2055[0m
+[0;32mI (53902) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 55, handle 42
+[0m
+[0;32mI (53902) GATTS_DEMO: 1[0m
+[0;32mI (53902) GATTS_DEMO: 38 ff f9 f7 00 00 [0m
+[0;32mI (54392) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 56, handle 42
+[0m
+[0;32mI (54392) GATTS_DEMO: 1[0m
+[0;32mI (54392) GATTS_DEMO: 38 ff f9 f7 00 00 [0m
+[0;32mI (54762) UART: Data from STM: {"start":1,"potential":-200,"current":-2031}, MSG_Size:44[0m
+[0;32mI (54762) UART: Hellooooooo[0m
+[0;32mI (54762) UART: start:1[0m
+[0;32mI (54762) UART: DATA WRITE TO APP: -200--2031[0m
+[0;32mI (54912) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 57, handle 42
+[0m
+[0;32mI (54912) GATTS_DEMO: 1[0m
+[0;32mI (54912) GATTS_DEMO: 38 ff 11 f8 00 00 [0m
+[0;32mI (55272) UART: Data from STM: {"start":1,"potential":-200,"current":-2010}, MSG_Size:44[0m
+[0;32mI (55272) UART: Hellooooooo[0m
+[0;32mI (55272) UART: start:1[0m
+[0;32mI (55272) UART: DATA WRITE TO APP: -200--2010[0m
+[0;32mI (55412) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 58, handle 42
+[0m
+[0;32mI (55412) GATTS_DEMO: 1[0m
+[0;32mI (55412) GATTS_DEMO: 38 ff 26 f8 00 00 [0m
+[0;32mI (55782) UART: Data from STM: {"start":1,"potential":-200,"current":-2044}, MSG_Size:44[0m
+[0;32mI (55782) UART: Hellooooooo[0m
+[0;32mI (55782) UART: start:1[0m
+[0;32mI (55782) UART: DATA WRITE TO APP: -200--2044[0m
+[0;32mI (55922) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 59, handle 42
+[0m
+[0;32mI (55922) GATTS_DEMO: 1[0m
+[0;32mI (55922) GATTS_DEMO: 38 ff 04 f8 00 00 [0m
+[0;32mI (56292) UART: Data from STM: {"start":1,"potential":-200,"current":-2094}, MSG_Size:44[0m
+[0;32mI (56292) UART: Hellooooooo[0m
+[0;32mI (56292) UART: start:1[0m
+[0;32mI (56292) UART: DATA WRITE TO APP: -200--2094[0m
+[0;32mI (56422) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 60, handle 42
+[0m
+[0;32mI (56422) GATTS_DEMO: 1[0m
+[0;32mI (56422) GATTS_DEMO: 38 ff d2 f7 00 00 [0m
+[0;32mI (56802) UART: Data from STM: {"start":1,"potential":-200,"current":-2086}, MSG_Size:44[0m
+[0;32mI (56802) UART: Hellooooooo[0m
+[0;32mI (56802) UART: start:1[0m
+[0;32mI (56802) UART: DATA WRITE TO APP: -200--2086[0m
+[0;32mI (56932) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 61, handle 42
+[0m
+[0;32mI (56942) GATTS_DEMO: 1[0m
+[0;32mI (56942) GATTS_DEMO: 38 ff da f7 00 00 [0m
+[0;32mI (57312) UART: Data from STM: {"start":1,"potential":-200,"current":-2062}, MSG_Size:44[0m
+[0;32mI (57312) UART: Hellooooooo[0m
+[0;32mI (57312) UART: start:1[0m
+[0;32mI (57312) UART: DATA WRITE TO APP: -200--2062[0m
+[0;32mI (57452) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 62, handle 42
+[0m
+[0;32mI (57452) GATTS_DEMO: 1[0m
+[0;32mI (57452) GATTS_DEMO: 38 ff f2 f7 00 00 [0m
+[0;32mI (57822) UART: Data from STM: {"start":1,"potential":-200,"current":-2046}, MSG_Size:44[0m
+[0;32mI (57822) UART: Hellooooooo[0m
+[0;32mI (57822) UART: start:1[0m
+[0;32mI (57822) UART: DATA WRITE TO APP: -200--2046[0m
+[0;32mI (57972) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 63, handle 42
+[0m
+[0;32mI (57972) GATTS_DEMO: 1[0m
+[0;32mI (57972) GATTS_DEMO: 38 ff 02 f8 00 00 [0m
+[0;32mI (58332) UART: Data from STM: {"start":1,"potential":-200,"current":-2027}$, MSG_Size:45[0m
+[0;32mI (58332) UART: Hellooooooo[0m
+[0;32mI (58332) UART: start:1[0m
+[0;32mI (58332) UART: DATA WRITE TO APP: -200--2027[0m
+[0;32mI (58442) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 64, handle 42
+[0m
+[0;32mI (58442) GATTS_DEMO: 1[0m
+[0;32mI (58442) GATTS_DEMO: 38 ff 15 f8 00 00 [0m
+[0;32mI (58962) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 65, handle 42
+[0m
+[0;32mI (58962) GATTS_DEMO: 1[0m
+[0;32mI (58962) GATTS_DEMO: 38 ff 15 f8 00 00 [0m
+[0;32mI (59452) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 66, handle 42
+[0m
+[0;32mI (59462) GATTS_DEMO: 1[0m
+[0;32mI (59462) GATTS_DEMO: 38 ff 15 f8 00 00 [0m
+[0;32mI (59972) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 67, handle 42
+[0m
+[0;32mI (59972) GATTS_DEMO: 1[0m
+[0;32mI (59972) GATTS_DEMO: 38 ff 15 f8 00 00 [0m
+[0;32mI (60472) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 68, handle 42
+[0m
+[0;32mI (60472) GATTS_DEMO: 1[0m
+[0;32mI (60472) GATTS_DEMO: 38 ff 15 f8 00 00 [0m
+[0;32mI (60982) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 69, handle 42
+[0m
+[0;32mI (60992) GATTS_DEMO: 1[0m
+[0;32mI (60992) GATTS_DEMO: 38 ff 15 f8 00 00 [0m
+[0;32mI (61482) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 70, handle 42
+[0m
+[0;32mI (61482) GATTS_DEMO: 1[0m
+[0;32mI (61482) GATTS_DEMO: 38 ff 15 f8 00 00 [0m
+[0;32mI (61972) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 71, handle 42
+[0m
+[0;32mI (61982) GATTS_DEMO: 1[0m
+[0;32mI (61982) GATTS_DEMO: 38 ff 15 f8 00 00 [0m
+[0;32mI (62492) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 72, handle 42
+[0m
+[0;32mI (62492) GATTS_DEMO: 1[0m
+[0;32mI (62492) GATTS_DEMO: 38 ff 15 f8 00 00 [0m
+[0;32mI (62922) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (62922) UART: start: 0[0m
+[0;32mI (62992) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 73, handle 42
+[0m
+[0;32mI (62992) GATTS_DEMO: 0[0m
+[0;32mI (62992) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (65282) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 74, handle 42[0m
+[0;32mI (65282) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (65292) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (65292) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (65302) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (65302) GATTS_DEMO: Res: μA[0m
+[0;32mI (65302) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (65312) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 75, handle 46[0m
+[0;32mI (65312) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (65322) GATTS_DEMO: 2d 32 30 30 40 36 30 30 40 31 30 30 40 00 [0m
+[0;32mI (65332) GATTS_DEMO: -200@600@100@, len: 13[0m
+[0;32mI (65332) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (65342) GATTS_DEMO: End voltage: 600.0[0m
+[0;32mI (65342) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (66472) UART: {"config_dev":1,"mode":"LSV","res":"μA","vol_start":-200.0,"vol_end":600.0,"scan_rate":100.0}[0m
+[0;32mI (66982) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (67642) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 76, handle 42[0m
+[0;32mI (67652) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (67652) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (67662) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (68002) UART: Data recv from BLE: Start_device[0m
+[0;32mI (68142) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 77, handle 42
+[0m
+[0;32mI (68142) GATTS_DEMO: 1[0m
+[0;32mI (68142) GATTS_DEMO: 38 ff 15 f8 00 00 [0m
+[0;32mI (68512) UART: Data from STM: {"start":1,"potential":-100,"current":-2039}, MSG_Size:44[0m
+[0;32mI (68512) UART: Hellooooooo[0m
+[0;32mI (68512) UART: start:1[0m
+[0;32mI (68512) UART: DATA WRITE TO APP: -100--2039[0m
+[0;32mI (68632) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 78, handle 42
+[0m
+[0;32mI (68642) GATTS_DEMO: 1[0m
+[0;32mI (68642) GATTS_DEMO: 9c ff 09 f8 00 00 [0m
+[0;32mI (69032) UART: Data from STM: {"start":1,"potential":-100,"current":-2018}, MSG_Size:44[0m
+[0;32mI (69032) UART: Hellooooooo[0m
+[0;32mI (69032) UART: start:1[0m
+[0;32mI (69032) UART: DATA WRITE TO APP: -100--2018[0m
+[0;32mI (69152) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 79, handle 42
+[0m
+[0;32mI (69152) GATTS_DEMO: 1[0m
+[0;32mI (69152) GATTS_DEMO: 9c ff 1e f8 00 00 [0m
+[0;32mI (69542) UART: Data from STM: {"start":1,"potential":-100,"current":-2015}, MSG_Size:44[0m
+[0;32mI (69542) UART: Hellooooooo[0m
+[0;32mI (69542) UART: start:1[0m
+[0;32mI (69542) UART: DATA WRITE TO APP: -100--2015[0m
+[0;32mI (69652) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 80, handle 42
+[0m
+[0;32mI (69652) GATTS_DEMO: 1[0m
+[0;32mI (69652) GATTS_DEMO: 9c ff 21 f8 00 00 [0m
+[0;32mI (70052) UART: Data from STM: {"start":1,"potential":-100,"current":-2058}, MSG_Size:44[0m
+[0;32mI (70052) UART: Hellooooooo[0m
+[0;32mI (70052) UART: start:1[0m
+[0;32mI (70052) UART: DATA WRITE TO APP: -100--2058[0m
+[0;32mI (70162) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 81, handle 42
+[0m
+[0;32mI (70172) GATTS_DEMO: 1[0m
+[0;32mI (70172) GATTS_DEMO: 9c ff f6 f7 00 00 [0m
+[0;32mI (70572) UART: Data from STM: {"start":1,"potential":0,"current":-1069}, MSG_Size:41[0m
+[0;32mI (70572) UART: Hellooooooo[0m
+[0;32mI (70572) UART: start:1[0m
+[0;32mI (70572) UART: DATA WRITE TO APP: 0--1069[0m
+[0;32mI (70662) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 82, handle 42
+[0m
+[0;32mI (70662) GATTS_DEMO: 1[0m
+[0;32mI (70662) GATTS_DEMO: 00 00 d3 fb 00 00 [0m
+[0;32mI (71082) UART: Data from STM: {"start":1,"potential":0,"current":-1073}, MSG_Size:41[0m
+[0;32mI (71082) UART: Hellooooooo[0m
+[0;32mI (71082) UART: start:1[0m
+[0;32mI (71082) UART: DATA WRITE TO APP: 0--1073[0m
+[0;32mI (71182) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 83, handle 42
+[0m
+[0;32mI (71182) GATTS_DEMO: 1[0m
+[0;32mI (71182) GATTS_DEMO: 00 00 cf fb 00 00 [0m
+[0;32mI (71592) UART: Data from STM: {"start":1,"potential":0,"current":-1056}, MSG_Size:41[0m
+[0;32mI (71592) UART: Hellooooooo[0m
+[0;32mI (71592) UART: start:1[0m
+[0;32mI (71592) UART: DATA WRITE TO APP: 0--1056[0m
+[0;32mI (71672) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 84, handle 42
+[0m
+[0;32mI (71672) GATTS_DEMO: 1[0m
+[0;32mI (71672) GATTS_DEMO: 00 00 e0 fb 00 00 [0m
+[0;32mI (72102) UART: Data from STM: {"start":1,"potential":0,"current":-1049}, MSG_Size:41[0m
+[0;32mI (72102) UART: Hellooooooo[0m
+[0;32mI (72102) UART: start:1[0m
+[0;32mI (72102) UART: DATA WRITE TO APP: 0--1049[0m
+[0;32mI (72172) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 85, handle 42
+[0m
+[0;32mI (72172) GATTS_DEMO: 1[0m
+[0;32mI (72172) GATTS_DEMO: 00 00 e7 fb 00 00 [0m
+[0;32mI (72612) UART: Data from STM: {"start":1,"potential":100,"current":-22}, MSG_Size:41[0m
+[0;32mI (72612) UART: Hellooooooo[0m
+[0;32mI (72612) UART: start:1[0m
+[0;32mI (72612) UART: DATA WRITE TO APP: 100--22[0m
+[0;32mI (72662) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 86, handle 42
+[0m
+[0;32mI (72662) GATTS_DEMO: 1[0m
+[0;32mI (72662) GATTS_DEMO: 64 00 ea ff 00 00 [0m
+[0;32mI (73122) UART: Data from STM: {"start":1,"potential":100,"current":-8}, MSG_Size:40[0m
+[0;32mI (73122) UART: Hellooooooo[0m
+[0;32mI (73122) UART: start:1[0m
+[0;32mI (73122) UART: DATA WRITE TO APP: 100--8[0m
+[0;32mI (73202) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 87, handle 42
+[0m
+[0;32mI (73202) GATTS_DEMO: 1[0m
+[0;32mI (73202) GATTS_DEMO: 64 00 f8 ff 00 00 [0m
+[0;32mI (73632) UART: Data from STM: {"start":1,"potential":100,"current":-2}, MSG_Size:40[0m
+[0;32mI (73632) UART: Hellooooooo[0m
+[0;32mI (73632) UART: start:1[0m
+[0;32mI (73632) UART: DATA WRITE TO APP: 100--2[0m
+[0;32mI (73672) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 88, handle 42
+[0m
+[0;32mI (73682) GATTS_DEMO: 1[0m
+[0;32mI (73682) GATTS_DEMO: 64 00 fe ff 00 00 [0m
+[0;32mI (74142) UART: Data from STM: {"start":1,"potential":100,"current":15}, MSG_Size:40[0m
+[0;32mI (74142) UART: Hellooooooo[0m
+[0;32mI (74142) UART: start:1[0m
+[0;32mI (74142) UART: DATA WRITE TO APP: 100-15[0m
+[0;32mI (74192) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 89, handle 42
+[0m
+[0;32mI (74192) GATTS_DEMO: 1[0m
+[0;32mI (74192) GATTS_DEMO: 64 00 0f 00 00 00 [0m
+[0;32mI (74652) UART: Data from STM: {"start":1,"potential":200,"current":1041}, MSG_Size:42[0m
+[0;32mI (74652) UART: Hellooooooo[0m
+[0;32mI (74652) UART: start:1[0m
+[0;32mI (74652) UART: DATA WRITE TO APP: 200-1041[0m
+[0;32mI (74692) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 90, handle 42
+[0m
+[0;32mI (74692) GATTS_DEMO: 1[0m
+[0;32mI (74692) GATTS_DEMO: c8 00 11 04 00 00 [0m
+[0;32mI (75162) UART: Data from STM: {"start":1,"potential":200,"current":1019}, MSG_Size:42[0m
+[0;32mI (75162) UART: Hellooooooo[0m
+[0;32mI (75162) UART: start:1[0m
+[0;32mI (75162) UART: DATA WRITE TO APP: 200-1019[0m
+[0;32mI (75202) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 91, handle 42
+[0m
+[0;32mI (75212) GATTS_DEMO: 1[0m
+[0;32mI (75212) GATTS_DEMO: c8 00 fb 03 00 00 [0m
+[0;32mI (75672) UART: Data from STM: {"start":1,"potential":200,"current":990}, MSG_Size:41[0m
+[0;32mI (75672) UART: Hellooooooo[0m
+[0;32mI (75672) UART: start:1[0m
+[0;32mI (75672) UART: DATA WRITE TO APP: 200-990[0m
+[0;32mI (75702) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 92, handle 42
+[0m
+[0;32mI (75702) GATTS_DEMO: 1[0m
+[0;32mI (75702) GATTS_DEMO: c8 00 de 03 00 00 [0m
+[0;32mI (76182) UART: Data from STM: {"start":1,"potential":200,"current":970}, MSG_Size:41[0m
+[0;32mI (76182) UART: Hellooooooo[0m
+[0;32mI (76182) UART: start:1[0m
+[0;32mI (76182) UART: DATA WRITE TO APP: 200-970[0m
+[0;32mI (76192) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 93, handle 42
+[0m
+[0;32mI (76202) GATTS_DEMO: 1[0m
+[0;32mI (76202) GATTS_DEMO: c8 00 ca 03 00 00 [0m
+[0;32mI (76692) UART: Data from STM: {"start":1,"potential":300,"current":1971}, MSG_Size:42[0m
+[0;32mI (76692) UART: Hellooooooo[0m
+[0;32mI (76692) UART: start:1[0m
+[0;32mI (76692) UART: DATA WRITE TO APP: 300-1971[0m
+[0;32mI (76712) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 94, handle 42
+[0m
+[0;32mI (76712) GATTS_DEMO: 1[0m
+[0;32mI (76712) GATTS_DEMO: 2c 01 b3 07 00 00 [0m
+[0;32mI (77202) UART: Data from STM: {"start":1,"potential":300,"current":1985}, MSG_Size:42[0m
+[0;32mI (77202) UART: Hellooooooo[0m
+[0;32mI (77202) UART: start:1[0m
+[0;32mI (77202) UART: DATA WRITE TO APP: 300-1985[0m
+[0;32mI (77212) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 95, handle 42
+[0m
+[0;32mI (77212) GATTS_DEMO: 1[0m
+[0;32mI (77222) GATTS_DEMO: 2c 01 c1 07 00 00 [0m
+[0;32mI (77722) UART: Data from STM: {"start":1,"potential":300,"current":2003}, MSG_Size:42[0m
+[0;32mI (77722) UART: Hellooooooo[0m
+[0;32mI (77722) UART: start:1[0m
+[0;32mI (77722) UART: DATA WRITE TO APP: 300-2003[0m
+[0;32mI (77722) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 96, handle 42
+[0m
+[0;32mI (77732) GATTS_DEMO: 1[0m
+[0;32mI (77742) GATTS_DEMO: 2c 01 d3 07 00 00 [0m
+[0;32mI (78222) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 97, handle 42
+[0m
+[0;32mI (78222) GATTS_DEMO: 1[0m
+[0;32mI (78222) GATTS_DEMO: 2c 01 d3 07 00 00 [0m
+[0;32mI (78242) UART: Data from STM: {"start":1,"potential":300,"current":2012}, MSG_Size:42[0m
+[0;32mI (78242) UART: Hellooooooo[0m
+[0;32mI (78242) UART: start:1[0m
+[0;32mI (78242) UART: DATA WRITE TO APP: 300-2012[0m
+[0;32mI (78742) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 98, handle 42
+[0m
+[0;32mI (78742) GATTS_DEMO: 1[0m
+[0;32mI (78742) GATTS_DEMO: 2c 01 dc 07 00 00 [0m
+[0;32mI (78762) UART: Data from STM: {"start":1,"potential":400,"current":3034}, MSG_Size:42[0m
+[0;32mI (78762) UART: Hellooooooo[0m
+[0;32mI (78762) UART: start:1[0m
+[0;32mI (78762) UART: DATA WRITE TO APP: 400-3034[0m
+[0;32mI (79252) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 99, handle 42
+[0m
+[0;32mI (79262) GATTS_DEMO: 1[0m
+[0;32mI (79262) GATTS_DEMO: 90 01 da 0b 00 00 [0m
+[0;32mI (79272) UART: Data from STM: {"start":1,"potential":400,"current":3051}, MSG_Size:42[0m
+[0;32mI (79272) UART: Hellooooooo[0m
+[0;32mI (79272) UART: start:1[0m
+[0;32mI (79282) UART: DATA WRITE TO APP: 400-3051[0m
+[0;32mI (79732) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 100, handle 42
+[0m
+[0;32mI (79732) GATTS_DEMO: 1[0m
+[0;32mI (79732) GATTS_DEMO: 90 01 eb 0b 00 00 [0m
+[0;32mI (79792) UART: Data from STM: {"start":1,"potential":400,"current":3065}, MSG_Size:42[0m
+[0;32mI (79792) UART: Hellooooooo[0m
+[0;32mI (79792) UART: start:1[0m
+[0;32mI (79792) UART: DATA WRITE TO APP: 400-3065[0m
+[0;32mI (80272) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 101, handle 42
+[0m
+[0;32mI (80272) GATTS_DEMO: 1[0m
+[0;32mI (80272) GATTS_DEMO: 90 01 f9 0b 00 00 [0m
+[0;32mI (80302) UART: Data from STM: {"start":1,"potential":400,"current":3074}, MSG_Size:42[0m
+[0;32mI (80302) UART: Hellooooooo[0m
+[0;32mI (80302) UART: start:1[0m
+[0;32mI (80302) UART: DATA WRITE TO APP: 400-3074[0m
+[0;32mI (80742) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 102, handle 42
+[0m
+[0;32mI (80742) GATTS_DEMO: 1[0m
+[0;32mI (80742) GATTS_DEMO: 90 01 02 0c 00 00 [0m
+[0;32mI (80812) UART: Data from STM: {"start":1,"potential":500,"current":4075}, MSG_Size:42[0m
+[0;32mI (80812) UART: Hellooooooo[0m
+[0;32mI (80812) UART: start:1[0m
+[0;32mI (80812) UART: DATA WRITE TO APP: 500-4075[0m
+[0;32mI (81232) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 103, handle 42
+[0m
+[0;32mI (81242) GATTS_DEMO: 1[0m
+[0;32mI (81242) GATTS_DEMO: f4 01 eb 0f 00 00 [0m
+[0;32mI (81322) UART: Data from STM: {"start":1,"potential":500,"current":4041}, MSG_Size:42[0m
+[0;32mI (81322) UART: Hellooooooo[0m
+[0;32mI (81322) UART: start:1[0m
+[0;32mI (81322) UART: DATA WRITE TO APP: 500-4041[0m
+[0;32mI (81752) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 104, handle 42
+[0m
+[0;32mI (81752) GATTS_DEMO: 1[0m
+[0;32mI (81752) GATTS_DEMO: f4 01 c9 0f 00 00 [0m
+[0;32mI (81832) UART: Data from STM: {"start":1,"potential":500,"current":4009}, MSG_Size:42[0m
+[0;32mI (81832) UART: Hellooooooo[0m
+[0;32mI (81832) UART: start:1[0m
+[0;32mI (81832) UART: DATA WRITE TO APP: 500-4009[0m
+[0;32mI (82272) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 105, handle 42
+[0m
+[0;32mI (82272) GATTS_DEMO: 1[0m
+[0;32mI (82272) GATTS_DEMO: f4 01 a9 0f 00 00 [0m
+[0;32mI (82342) UART: Data from STM: {"start":1,"potential":600,"current":5031}, MSG_Size:42[0m
+[0;32mI (82342) UART: Hellooooooo[0m
+[0;32mI (82342) UART: start:1[0m
+[0;32mI (82342) UART: DATA WRITE TO APP: 600-5031[0m
+[0;32mI (82762) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 106, handle 42
+[0m
+[0;32mI (82772) GATTS_DEMO: 1[0m
+[0;32mI (82772) GATTS_DEMO: 58 02 a7 13 00 00 [0m
+[0;32mI (82852) UART: Data from STM: {"start":1,"potential":600,"current":5038}, MSG_Size:42[0m
+[0;32mI (82852) UART: Hellooooooo[0m
+[0;32mI (82852) UART: start:1[0m
+[0;32mI (82852) UART: DATA WRITE TO APP: 600-5038[0m
+[0;32mI (83282) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 107, handle 42
+[0m
+[0;32mI (83282) GATTS_DEMO: 1[0m
+[0;32mI (83282) GATTS_DEMO: 58 02 ae 13 00 00 [0m
+[0;32mI (83362) UART: Data from STM: {"start":1,"potential":600,"current":5047}, MSG_Size:42[0m
+[0;32mI (83362) UART: Hellooooooo[0m
+[0;32mI (83362) UART: start:1[0m
+[0;32mI (83362) UART: DATA WRITE TO APP: 600-5047[0m
+[0;32mI (83782) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 108, handle 42
+[0m
+[0;32mI (83782) GATTS_DEMO: 1[0m
+[0;32mI (83782) GATTS_DEMO: 58 02 b7 13 00 00 [0m
+[0;32mI (83872) UART: Data from STM: {"start":1,"potential":600,"current":5059}, MSG_Size:42[0m
+[0;32mI (83872) UART: Hellooooooo[0m
+[0;32mI (83872) UART: start:1[0m
+[0;32mI (83872) UART: DATA WRITE TO APP: 600-5059[0m
+[0;32mI (84272) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 109, handle 42
+[0m
+[0;32mI (84272) GATTS_DEMO: 1[0m
+[0;32mI (84272) GATTS_DEMO: 58 02 c3 13 00 00 [0m
+[0;32mI (84382) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (84382) UART: start: 0[0m
+[0;32mI (84772) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 110, handle 42
+[0m
+[0;32mI (84772) GATTS_DEMO: 0[0m
+[0;32mI (84772) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (87042) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 111, handle 42[0m
+[0;32mI (87042) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (87042) GATTS_DEMO: 53 61 76 65 5f 64 61 74 61 00 [0m
+[0;32mI (87052) GATTS_DEMO: Save_data, len: 9[0m
+[0;32mI (87442) UART: Data recv from BLE: Save_data[0m
+[0;32mI (123422) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 112, handle 42[0m
+[0;32mI (123422) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (123432) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (123432) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (123442) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (123442) GATTS_DEMO: Res: μA[0m
+[0;32mI (123442) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (123452) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 113, handle 46[0m
+[0;32mI (123462) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (123462) GATTS_DEMO: 2d 32 30 30 40 36 30 30 40 31 30 30 40 00 [0m
+[0;32mI (123472) GATTS_DEMO: -200@600@100@, len: 13[0m
+[0;32mI (123472) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (123482) GATTS_DEMO: End voltage: 600.0[0m
+[0;32mI (123482) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (124652) UART: {"config_dev":1,"mode":"LSV","res":"μA","vol_start":-200.0,"vol_end":600.0,"scan_rate":100.0}[0m
+[0;32mI (125162) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (127132) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 114, handle 42[0m
+[0;32mI (127142) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (127142) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (127152) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (127202) UART: Data recv from BLE: Start_device[0m
+[0;32mI (127632) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 115, handle 42
+[0m
+[0;32mI (127632) GATTS_DEMO: 1[0m
+[0;32mI (127632) GATTS_DEMO: 58 02 c3 13 00 00 [0m
+[0;32mI (127712) UART: Data from STM: {"start":1,"potential":-200,"current":6055}, MSG_Size:43[0m
+[0;32mI (127712) UART: Hellooooooo[0m
+[0;32mI (127712) UART: start:1[0m
+[0;32mI (127712) UART: DATA WRITE TO APP: -200-6055[0m
+[0;32mI (128152) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 116, handle 42
+[0m
+[0;32mI (128152) GATTS_DEMO: 1[0m
+[0;32mI (128152) GATTS_DEMO: 38 ff a7 17 00 00 [0m
+[0;32mI (128232) UART: Data from STM: {"start":1,"potential":-200,"current":6043}, MSG_Size:43[0m
+[0;32mI (128232) UART: Hellooooooo[0m
+[0;32mI (128232) UART: start:1[0m
+[0;32mI (128232) UART: DATA WRITE TO APP: -200-6043[0m
+[0;32mI (128642) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 117, handle 42
+[0m
+[0;32mI (128642) GATTS_DEMO: 1[0m
+[0;32mI (128642) GATTS_DEMO: 38 ff 9b 17 00 00 [0m
+[0;32mI (128752) UART: Data from STM: {"start":1,"potential":-200,"current":6063}, MSG_Size:43[0m
+[0;32mI (128752) UART: Hellooooooo[0m
+[0;32mI (128752) UART: start:1[0m
+[0;32mI (128752) UART: DATA WRITE TO APP: -200-6063[0m
+[0;32mI (129162) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 118, handle 42
+[0m
+[0;32mI (129162) GATTS_DEMO: 1[0m
+[0;32mI (129162) GATTS_DEMO: 38 ff af 17 00 00 [0m
+[0;32mI (129272) UART: Data from STM: {"start":1,"potential":-200,"current":6072}, MSG_Size:43[0m
+[0;32mI (129272) UART: Hellooooooo[0m
+[0;32mI (129272) UART: start:1[0m
+[0;32mI (129272) UART: DATA WRITE TO APP: -200-6072[0m
+[0;32mI (129652) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 119, handle 42
+[0m
+[0;32mI (129662) GATTS_DEMO: 1[0m
+[0;32mI (129662) GATTS_DEMO: 38 ff b8 17 00 00 [0m
+[0;32mI (129792) UART: Data from STM: {"start":1,"potential":-100,"current":-2037}, MSG_Size:44[0m
+[0;32mI (129792) UART: Hellooooooo[0m
+[0;32mI (129792) UART: start:1[0m
+[0;32mI (129792) UART: DATA WRITE TO APP: -100--2037[0m
+[0;32mI (130152) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 120, handle 42
+[0m
+[0;32mI (130152) GATTS_DEMO: 1[0m
+[0;32mI (130152) GATTS_DEMO: 9c ff 0b f8 00 00 [0m
+[0;32mI (130312) UART: Data from STM: {"start":1,"potential":-100,"current":-2025}, MSG_Size:44[0m
+[0;32mI (130312) UART: Hellooooooo[0m
+[0;32mI (130312) UART: start:1[0m
+[0;32mI (130312) UART: DATA WRITE TO APP: -100--2025[0m
+[0;32mI (130672) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 121, handle 42
+[0m
+[0;32mI (130672) GATTS_DEMO: 1[0m
+[0;32mI (130672) GATTS_DEMO: 9c ff 17 f8 00 00 [0m
+[0;32mI (130832) UART: Data from STM: {"start":1,"potential":-100,"current":-2021}, MSG_Size:44[0m
+[0;32mI (130832) UART: Hellooooooo[0m
+[0;32mI (130832) UART: start:1[0m
+[0;32mI (130832) UART: DATA WRITE TO APP: -100--2021[0m
+[0;32mI (131162) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 122, handle 42
+[0m
+[0;32mI (131162) GATTS_DEMO: 1[0m
+[0;32mI (131162) GATTS_DEMO: 9c ff 1b f8 00 00 [0m
+[0;32mI (131352) UART: Data from STM: {"start":1,"potential":-100,"current":-2064}, MSG_Size:44[0m
+[0;32mI (131352) UART: Hellooooooo[0m
+[0;32mI (131352) UART: start:1[0m
+[0;32mI (131352) UART: DATA WRITE TO APP: -100--2064[0m
+[0;32mI (131682) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 123, handle 42
+[0m
+[0;32mI (131682) GATTS_DEMO: 1[0m
+[0;32mI (131682) GATTS_DEMO: 9c ff f0 f7 00 00 [0m
+[0;32mI (131872) UART: Data from STM: {"start":1,"potential":0,"current":-1076}, MSG_Size:41[0m
+[0;32mI (131872) UART: Hellooooooo[0m
+[0;32mI (131872) UART: start:1[0m
+[0;32mI (131872) UART: DATA WRITE TO APP: 0--1076[0m
+[0;32mI (132172) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 124, handle 42
+[0m
+[0;32mI (132182) GATTS_DEMO: 1[0m
+[0;32mI (132182) GATTS_DEMO: 00 00 cc fb 00 00 [0m
+[0;32mI (132392) UART: Data from STM: {"start":1,"potential":0,"current":-1070}, MSG_Size:41[0m
+[0;32mI (132392) UART: Hellooooooo[0m
+[0;32mI (132392) UART: start:1[0m
+[0;32mI (132392) UART: DATA WRITE TO APP: 0--1070[0m
+[0;32mI (132692) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 125, handle 42
+[0m
+[0;32mI (132692) GATTS_DEMO: 1[0m
+[0;32mI (132692) GATTS_DEMO: 00 00 d2 fb 00 00 [0m
+[0;32mI (132902) UART: Data from STM: {"start":1,"potential":0,"current":-1052}, MSG_Size:41[0m
+[0;32mI (132902) UART: Hellooooooo[0m
+[0;32mI (132902) UART: start:1[0m
+[0;32mI (132902) UART: DATA WRITE TO APP: 0--1052[0m
+[0;32mI (133192) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 126, handle 42
+[0m
+[0;32mI (133192) GATTS_DEMO: 1[0m
+[0;32mI (133192) GATTS_DEMO: 00 00 e4 fb 00 00 [0m
+[0;32mI (133412) UART: Data from STM: {"start":1,"potential":0,"current":-1047}, MSG_Size:41[0m
+[0;32mI (133412) UART: Hellooooooo[0m
+[0;32mI (133412) UART: start:1[0m
+[0;32mI (133412) UART: DATA WRITE TO APP: 0--1047[0m
+[0;32mI (133702) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 127, handle 42
+[0m
+[0;32mI (133712) GATTS_DEMO: 1[0m
+[0;32mI (133712) GATTS_DEMO: 00 00 e9 fb 00 00 [0m
+[0;32mI (133922) UART: Data from STM: {"start":1,"potential":100,"current":-14}, MSG_Size:41[0m
+[0;32mI (133922) UART: Hellooooooo[0m
+[0;32mI (133922) UART: start:1[0m
+[0;32mI (133922) UART: DATA WRITE TO APP: 100--14[0m
+[0;32mI (134272) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 128, handle 42
+[0m
+[0;32mI (134272) GATTS_DEMO: 1[0m
+[0;32mI (134272) GATTS_DEMO: 64 00 f2 ff 00 00 [0m
+[0;32mI (134432) UART: Data from STM: {"start":1,"potential":100,"current":-4}, MSG_Size:40[0m
+[0;32mI (134432) UART: Hellooooooo[0m
+[0;32mI (134432) UART: start:1[0m
+[0;32mI (134432) UART: DATA WRITE TO APP: 100--4[0m
+[0;32mI (134722) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 129, handle 42
+[0m
+[0;32mI (134722) GATTS_DEMO: 1[0m
+[0;32mI (134722) GATTS_DEMO: 64 00 fc ff 00 00 [0m
+[0;32mI (134942) UART: Data from STM: {"start":1,"potential":100,"current":0}, MSG_Size:39[0m
+[0;32mI (134942) UART: Hellooooooo[0m
+[0;32mI (134942) UART: start:1[0m
+[0;32mI (134942) UART: DATA WRITE TO APP: 100-0[0m
+[0;32mI (135232) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 130, handle 42
+[0m
+[0;32mI (135242) GATTS_DEMO: 1[0m
+[0;32mI (135242) GATTS_DEMO: 64 00 00 00 00 00 [0m
+[0;32mI (135452) UART: Data from STM: {"start":1,"potential":100,"current":25}, MSG_Size:40[0m
+[0;32mI (135452) UART: Hellooooooo[0m
+[0;32mI (135452) UART: start:1[0m
+[0;32mI (135452) UART: DATA WRITE TO APP: 100-25[0m
+[0;32mI (135712) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 131, handle 42
+[0m
+[0;32mI (135712) GATTS_DEMO: 1[0m
+[0;32mI (135712) GATTS_DEMO: 64 00 19 00 00 00 [0m
+[0;32mI (135962) UART: Data from STM: {"start":1,"potential":200,"current":1022}, MSG_Size:42[0m
+[0;32mI (135962) UART: Hellooooooo[0m
+[0;32mI (135962) UART: start:1[0m
+[0;32mI (135962) UART: DATA WRITE TO APP: 200-1022[0m
+[0;32mI (136222) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 132, handle 42
+[0m
+[0;32mI (136232) GATTS_DEMO: 1[0m
+[0;32mI (136232) GATTS_DEMO: c8 00 fe 03 00 00 [0m
+[0;32mI (136472) UART: Data from STM: {"start":1,"potential":200,"current":997}, MSG_Size:41[0m
+[0;32mI (136472) UART: Hellooooooo[0m
+[0;32mI (136472) UART: start:1[0m
+[0;32mI (136472) UART: DATA WRITE TO APP: 200-997[0m
+[0;32mI (136722) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 133, handle 42
+[0m
+[0;32mI (136722) GATTS_DEMO: 1[0m
+[0;32mI (136722) GATTS_DEMO: c8 00 e5 03 00 00 [0m
+[0;32mI (136982) UART: Data from STM: {"start":1,"potential":200,"current":967}, MSG_Size:41[0m
+[0;32mI (136982) UART: Hellooooooo[0m
+[0;32mI (136982) UART: start:1[0m
+[0;32mI (136982) UART: DATA WRITE TO APP: 200-967[0m
+[0;32mI (137242) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 134, handle 42
+[0m
+[0;32mI (137242) GATTS_DEMO: 1[0m
+[0;32mI (137242) GATTS_DEMO: c8 00 c7 03 00 00 [0m
+[0;32mI (137492) UART: Data from STM: {"start":1,"potential":200,"current":962}, MSG_Size:41[0m
+[0;32mI (137492) UART: Hellooooooo[0m
+[0;32mI (137492) UART: start:1[0m
+[0;32mI (137492) UART: DATA WRITE TO APP: 200-962[0m
+[0;32mI (137732) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 135, handle 42
+[0m
+[0;32mI (137732) GATTS_DEMO: 1[0m
+[0;32mI (137732) GATTS_DEMO: c8 00 c2 03 00 00 [0m
+[0;32mI (138002) UART: Data from STM: {"start":1,"potential":300,"current":1989}, MSG_Size:42[0m
+[0;32mI (138002) UART: Hellooooooo[0m
+[0;32mI (138002) UART: start:1[0m
+[0;32mI (138002) UART: DATA WRITE TO APP: 300-1989[0m
+[0;32mI (138232) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 136, handle 42
+[0m
+[0;32mI (138232) GATTS_DEMO: 1[0m
+[0;32mI (138232) GATTS_DEMO: 2c 01 c5 07 00 00 [0m
+[0;32mI (138512) UART: Data from STM: {"start":1,"potential":300,"current":2007}, MSG_Size:42[0m
+[0;32mI (138512) UART: Hellooooooo[0m
+[0;32mI (138512) UART: start:1[0m
+[0;32mI (138512) UART: DATA WRITE TO APP: 300-2007[0m
+[0;32mI (138742) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 137, handle 42
+[0m
+[0;32mI (138752) GATTS_DEMO: 1[0m
+[0;32mI (138752) GATTS_DEMO: 2c 01 d7 07 00 00 [0m
+[0;32mI (139022) UART: Data from STM: {"start":1,"potential":300,"current":2011}, MSG_Size:42[0m
+[0;32mI (139022) UART: Hellooooooo[0m
+[0;32mI (139022) UART: start:1[0m
+[0;32mI (139022) UART: DATA WRITE TO APP: 300-2011[0m
+[0;32mI (139242) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 138, handle 42
+[0m
+[0;32mI (139242) GATTS_DEMO: 1[0m
+[0;32mI (139242) GATTS_DEMO: 2c 01 db 07 00 00 [0m
+[0;32mI (139532) UART: Data from STM: {"start":1,"potential":300,"current":2031}, MSG_Size:42[0m
+[0;32mI (139532) UART: Hellooooooo[0m
+[0;32mI (139532) UART: start:1[0m
+[0;32mI (139532) UART: DATA WRITE TO APP: 300-2031[0m
+[0;32mI (139762) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 139, handle 42
+[0m
+[0;32mI (139762) GATTS_DEMO: 1[0m
+[0;32mI (139762) GATTS_DEMO: 2c 01 ef 07 00 00 [0m
+[0;32mI (140042) UART: Data from STM: {"start":1,"potential":400,"current":3056}, MSG_Size:42[0m
+[0;32mI (140042) UART: Hellooooooo[0m
+[0;32mI (140042) UART: start:1[0m
+[0;32mI (140042) UART: DATA WRITE TO APP: 400-3056[0m
+[0;32mI (140252) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 140, handle 42
+[0m
+[0;32mI (140252) GATTS_DEMO: 1[0m
+[0;32mI (140252) GATTS_DEMO: 90 01 f0 0b 00 00 [0m
+[0;32mI (140552) UART: Data from STM: {"start":1,"potential":400,"current":3078}, MSG_Size:42[0m
+[0;32mI (140552) UART: Hellooooooo[0m
+[0;32mI (140552) UART: start:1[0m
+[0;32mI (140552) UART: DATA WRITE TO APP: 400-3078[0m
+[0;32mI (140792) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 141, handle 42
+[0m
+[0;32mI (140792) GATTS_DEMO: 1[0m
+[0;32mI (140792) GATTS_DEMO: 90 01 06 0c 00 00 [0m
+[0;32mI (141062) UART: Data from STM: {"start":1,"potential":400,"current":3047}, MSG_Size:42[0m
+[0;32mI (141062) UART: Hellooooooo[0m
+[0;32mI (141062) UART: start:1[0m
+[0;32mI (141062) UART: DATA WRITE TO APP: 400-3047[0m
+[0;32mI (141262) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 142, handle 42
+[0m
+[0;32mI (141272) GATTS_DEMO: 1[0m
+[0;32mI (141272) GATTS_DEMO: 90 01 e7 0b 00 00 [0m
+[0;32mI (141572) UART: Data from STM: {"start":1,"potential":500,"current":4028}, MSG_Size:42[0m
+[0;32mI (141572) UART: Hellooooooo[0m
+[0;32mI (141572) UART: start:1[0m
+[0;32mI (141572) UART: DATA WRITE TO APP: 500-4028[0m
+[0;32mI (141852) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 143, handle 42
+[0m
+[0;32mI (141852) GATTS_DEMO: 1[0m
+[0;32mI (141852) GATTS_DEMO: f4 01 bc 0f 00 00 [0m
+[0;32mI (142082) UART: Data from STM: {"start":1,"potential":500,"current":4008}, MSG_Size:42[0m
+[0;32mI (142082) UART: Hellooooooo[0m
+[0;32mI (142082) UART: start:1[0m
+[0;32mI (142082) UART: DATA WRITE TO APP: 500-4008[0m
+[0;32mI (142282) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 144, handle 42
+[0m
+[0;32mI (142282) GATTS_DEMO: 1[0m
+[0;32mI (142282) GATTS_DEMO: f4 01 a8 0f 00 00 [0m
+[0;32mI (142592) UART: Data from STM: {"start":1,"potential":500,"current":4007}, MSG_Size:42[0m
+[0;32mI (142592) UART: Hellooooooo[0m
+[0;32mI (142592) UART: start:1[0m
+[0;32mI (142592) UART: DATA WRITE TO APP: 500-4007[0m
+[0;32mI (142792) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 145, handle 42
+[0m
+[0;32mI (142802) GATTS_DEMO: 1[0m
+[0;32mI (142802) GATTS_DEMO: f4 01 a7 0f 00 00 [0m
+[0;32mI (143102) UART: Data from STM: {"start":1,"potential":500,"current":4028}, MSG_Size:42[0m
+[0;32mI (143102) UART: Hellooooooo[0m
+[0;32mI (143102) UART: start:1[0m
+[0;32mI (143102) UART: DATA WRITE TO APP: 500-4028[0m
+[0;32mI (143292) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 146, handle 42
+[0m
+[0;32mI (143292) GATTS_DEMO: 1[0m
+[0;32mI (143292) GATTS_DEMO: f4 01 bc 0f 00 00 [0m
+[0;32mI (143612) UART: Data from STM: {"start":1,"potential":600,"current":5055}, MSG_Size:42[0m
+[0;32mI (143612) UART: Hellooooooo[0m
+[0;32mI (143612) UART: start:1[0m
+[0;32mI (143612) UART: DATA WRITE TO APP: 600-5055[0m
+[0;32mI (143832) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 147, handle 42
+[0m
+[0;32mI (143832) GATTS_DEMO: 1[0m
+[0;32mI (143832) GATTS_DEMO: 58 02 bf 13 00 00 [0m
+[0;32mI (144122) UART: Data from STM: {"start":1,"potential":600,"current":5076}, MSG_Size:42[0m
+[0;32mI (144122) UART: Hellooooooo[0m
+[0;32mI (144122) UART: start:1[0m
+[0;32mI (144122) UART: DATA WRITE TO APP: 600-5076[0m
+[0;32mI (144302) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 148, handle 42
+[0m
+[0;32mI (144302) GATTS_DEMO: 1[0m
+[0;32mI (144302) GATTS_DEMO: 58 02 d4 13 00 00 [0m
+[0;32mI (144632) UART: Data from STM: {"start":1,"potential":600,"current":5079}, MSG_Size:42[0m
+[0;32mI (144632) UART: Hellooooooo[0m
+[0;32mI (144632) UART: start:1[0m
+[0;32mI (144632) UART: DATA WRITE TO APP: 600-5079[0m
+[0;32mI (144822) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 149, handle 42
+[0m
+[0;32mI (144822) GATTS_DEMO: 1[0m
+[0;32mI (144822) GATTS_DEMO: 58 02 d7 13 00 00 [0m
+[0;32mI (145142) UART: Data from STM: {"start":1,"potential":600,"current":5109}, MSG_Size:42[0m
+[0;32mI (145142) UART: Hellooooooo[0m
+[0;32mI (145142) UART: start:1[0m
+[0;32mI (145142) UART: DATA WRITE TO APP: 600-5109[0m
+[0;32mI (145312) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 150, handle 42
+[0m
+[0;32mI (145322) GATTS_DEMO: 1[0m
+[0;32mI (145322) GATTS_DEMO: 58 02 f5 13 00 00 [0m
+[0;32mI (145652) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (145652) UART: start: 0[0m
+[0;32mI (145832) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 151, handle 42
+[0m
+[0;32mI (145832) GATTS_DEMO: 0[0m
+[0;32mI (145832) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (273152) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (273152) UART: start: 0[0m
+[0;32mI (276722) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (276722) UART: start: 0[0m
+[0;32mI (280202) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 152, handle 42[0m
+[0;32mI (280202) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (280202) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (280212) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (280212) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (280222) GATTS_DEMO: Res: μA[0m
+[0;32mI (280222) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (280232) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 153, handle 46[0m
+[0;32mI (280232) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (280242) GATTS_DEMO: 2d 32 30 30 40 36 30 30 40 31 30 30 40 00 [0m
+[0;32mI (280252) GATTS_DEMO: -200@600@100@, len: 13[0m
+[0;32mI (280252) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (280262) GATTS_DEMO: End voltage: 600.0[0m
+[0;32mI (280262) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (281292) UART: {"config_dev":1,"mode":"LSV","res":"μA","vol_start":-200.0,"vol_end":600.0,"scan_rate":100.0}[0m
+[0;32mI (281802) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (282762) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 154, handle 42[0m
+[0;32mI (282772) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (282772) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (282782) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (282822) UART: Data recv from BLE: Start_device[0m
+[0;32mI (283282) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 155, handle 42
+[0m
+[0;32mI (283282) GATTS_DEMO: 1[0m
+[0;32mI (283282) GATTS_DEMO: 58 02 f5 13 00 00 [0m
+[0;32mI (283332) UART: Data from STM: {"start":1,"potential":-100,"current":-7418}, MSG_Size:44[0m
+[0;32mI (283332) UART: Hellooooooo[0m
+[0;32mI (283332) UART: start:1[0m
+[0;32mI (283332) UART: DATA WRITE TO APP: -100--7418[0m
+[0;32mI (283752) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 156, handle 42
+[0m
+[0;32mI (283762) GATTS_DEMO: 1[0m
+[0;32mI (283762) GATTS_DEMO: 9c ff 06 e3 00 00 [0m
+[0;32mI (284252) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 157, handle 42
+[0m
+[0;32mI (284252) GATTS_DEMO: 1[0m
+[0;32mI (284252) GATTS_DEMO: 9c ff 06 e3 00 00 [0m
+[0;32mI (284362) UART: Data from STM: {"start":1,"potential":0,"current":-1047}, MSG_Size:41[0m
+[0;32mI (284362) UART: Hellooooooo[0m
+[0;32mI (284362) UART: start:1[0m
+[0;32mI (284362) UART: DATA WRITE TO APP: 0--1047[0m
+[0;32mI (284772) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 158, handle 42
+[0m
+[0;32mI (284772) GATTS_DEMO: 1[0m
+[0;32mI (284772) GATTS_DEMO: 00 00 e9 fb 00 00 [0m
+[0;32mI (285262) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 159, handle 42
+[0m
+[0;32mI (285262) GATTS_DEMO: 1[0m
+[0;32mI (285262) GATTS_DEMO: 00 00 e9 fb 00 00 [0m
+[0;32mI (285392) UART: Data from STM: {"start":1,"potential":100,"current":-25}, MSG_Size:41[0m
+[0;32mI (285392) UART: Hellooooooo[0m
+[0;32mI (285392) UART: start:1[0m
+[0;32mI (285392) UART: DATA WRITE TO APP: 100--25[0m
+[0;32mI (285782) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 160, handle 42
+[0m
+[0;32mI (285782) GATTS_DEMO: 1[0m
+[0;32mI (285782) GATTS_DEMO: 64 00 e7 ff 00 00 [0m
+[0;32mI (286272) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 161, handle 42
+[0m
+[0;32mI (286282) GATTS_DEMO: 1[0m
+[0;32mI (286282) GATTS_DEMO: 64 00 e7 ff 00 00 [0m
+[0;32mI (286412) UART: Data from STM: {"start":1,"potential":200,"current":997}, MSG_Size:41[0m
+[0;32mI (286412) UART: Hellooooooo[0m
+[0;32mI (286412) UART: start:1[0m
+[0;32mI (286412) UART: DATA WRITE TO APP: 200-997[0m
+[0;32mI (286792) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 162, handle 42
+[0m
+[0;32mI (286792) GATTS_DEMO: 1[0m
+[0;32mI (286792) GATTS_DEMO: c8 00 e5 03 00 00 [0m
+[0;32mI (287312) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 163, handle 42
+[0m
+[0;32mI (287312) GATTS_DEMO: 1[0m
+[0;32mI (287312) GATTS_DEMO: c8 00 e5 03 00 00 [0m
+[0;32mI (287432) UART: Data from STM: {"start":1,"potential":300,"current":2033}, MSG_Size:42[0m
+[0;32mI (287432) UART: Hellooooooo[0m
+[0;32mI (287432) UART: start:1[0m
+[0;32mI (287432) UART: DATA WRITE TO APP: 300-2033[0m
+[0;32mI (287802) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 164, handle 42
+[0m
+[0;32mI (287812) GATTS_DEMO: 1[0m
+[0;32mI (287812) GATTS_DEMO: 2c 01 f1 07 00 00 [0m
+[0;32mI (288302) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 165, handle 42
+[0m
+[0;32mI (288302) GATTS_DEMO: 1[0m
+[0;32mI (288302) GATTS_DEMO: 2c 01 f1 07 00 00 [0m
+[0;32mI (288452) UART: Data from STM: {"start":1,"potential":400,"current":3049}, MSG_Size:42[0m
+[0;32mI (288452) UART: Hellooooooo[0m
+[0;32mI (288452) UART: start:1[0m
+[0;32mI (288452) UART: DATA WRITE TO APP: 400-3049[0m
+[0;32mI (288792) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 166, handle 42
+[0m
+[0;32mI (288802) GATTS_DEMO: 1[0m
+[0;32mI (288802) GATTS_DEMO: 90 01 e9 0b 00 00 [0m
+[0;32mI (289312) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 167, handle 42
+[0m
+[0;32mI (289312) GATTS_DEMO: 1[0m
+[0;32mI (289312) GATTS_DEMO: 90 01 e9 0b 00 00 [0m
+[0;32mI (289472) UART: Data from STM: {"start":1,"potential":500,"current":4095}, MSG_Size:42[0m
+[0;32mI (289472) UART: Hellooooooo[0m
+[0;32mI (289472) UART: start:1[0m
+[0;32mI (289472) UART: DATA WRITE TO APP: 500-4095[0m
+[0;32mI (289812) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 168, handle 42
+[0m
+[0;32mI (289812) GATTS_DEMO: 1[0m
+[0;32mI (289812) GATTS_DEMO: f4 01 ff 0f 00 00 [0m
+[0;32mI (290322) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 169, handle 42
+[0m
+[0;32mI (290332) GATTS_DEMO: 1[0m
+[0;32mI (290332) GATTS_DEMO: f4 01 ff 0f 00 00 [0m
+[0;32mI (290492) UART: Data from STM: {"start":1,"potential":600,"current":5092}, MSG_Size:42[0m
+[0;32mI (290492) UART: Hellooooooo[0m
+[0;32mI (290492) UART: start:1[0m
+[0;32mI (290492) UART: DATA WRITE TO APP: 600-5092[0m
+[0;32mI (290822) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 170, handle 42
+[0m
+[0;32mI (290822) GATTS_DEMO: 1[0m
+[0;32mI (290822) GATTS_DEMO: 58 02 e4 13 00 00 [0m
+[0;32mI (291342) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 171, handle 42
+[0m
+[0;32mI (291342) GATTS_DEMO: 1[0m
+[0;32mI (291342) GATTS_DEMO: 58 02 e4 13 00 00 [0m
+[0;32mI (291512) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (291512) UART: start: 0[0m
+[0;32mI (291832) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 172, handle 42
+[0m
+[0;32mI (291832) GATTS_DEMO: 0[0m
+[0;32mI (291832) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (292782) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 173, handle 42[0m
+[0;32mI (292782) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (292782) GATTS_DEMO: 53 61 76 65 5f 64 61 74 61 00 [0m
+[0;32mI (292792) GATTS_DEMO: Save_data, len: 9[0m
+[0;32mI (293042) UART: Data recv from BLE: Save_data[0m
+[0;32mI (358632) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 174, handle 42[0m
+[0;32mI (358642) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (358642) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (358642) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (358652) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (358652) GATTS_DEMO: Res: μA[0m
+[0;32mI (358662) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (358702) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 175, handle 46[0m
+[0;32mI (358702) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (358712) GATTS_DEMO: 2d 32 30 30 40 36 30 30 40 31 30 30 40 00 [0m
+[0;32mI (358712) GATTS_DEMO: -200@600@100@, len: 13[0m
+[0;32mI (358722) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (358722) GATTS_DEMO: End voltage: 600.0[0m
+[0;32mI (358732) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (359832) UART: {"config_dev":1,"mode":"LSV","res":"μA","vol_start":-200.0,"vol_end":600.0,"scan_rate":100.0}[0m
+[0;32mI (360342) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (361362) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 176, handle 42[0m
+[0;32mI (361362) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (361362) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (361372) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (361852) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 177, handle 42
+[0m
+[0;32mI (361852) GATTS_DEMO: 0[0m
+[0;32mI (361852) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (361872) UART: Data recv from BLE: Start_device[0m
+[0;32mI (362382) UART: Data from STM: {"start":1,"potential":-200,"current":6081}, MSG_Size:43[0m
+[0;32mI (362382) UART: Hellooooooo[0m
+[0;32mI (362382) UART: start:1[0m
+[0;32mI (362382) UART: DATA WRITE TO APP: -200-6081[0m
+[0;32mI (363412) UART: Data from STM: {"start":1,"potential":-100,"current":-2023}, MSG_Size:44[0m
+[0;32mI (363412) UART: Hellooooooo[0m
+[0;32mI (363412) UART: start:1[0m
+[0;32mI (363412) UART: DATA WRITE TO APP: -100--2023[0m
+[0;32mI (364432) UART: Data from STM: {"start":1,"potential":0,"current":-993}, MSG_Size:40[0m
+[0;32mI (364432) UART: Hellooooooo[0m
+[0;32mI (364432) UART: start:1[0m
+[0;32mI (364432) UART: DATA WRITE TO APP: 0--993[0m
+[0;32mI (365452) UART: Data from STM: {"start":1,"potential":100,"current":25}, MSG_Size:40[0m
+[0;32mI (365452) UART: Hellooooooo[0m
+[0;32mI (365452) UART: start:1[0m
+[0;32mI (365452) UART: DATA WRITE TO APP: 100-25[0m
+[0;32mI (366472) UART: Data from STM: {"start":1,"potential":200,"current":1021}, MSG_Size:42[0m
+[0;32mI (366472) UART: Hellooooooo[0m
+[0;32mI (366472) UART: start:1[0m
+[0;32mI (366472) UART: DATA WRITE TO APP: 200-1021[0m
+[0;32mI (367492) UART: Data from STM: {"start":1,"potential":300,"current":2024}, MSG_Size:42[0m
+[0;32mI (367492) UART: Hellooooooo[0m
+[0;32mI (367492) UART: start:1[0m
+[0;32mI (367492) UART: DATA WRITE TO APP: 300-2024[0m
+[0;32mI (368512) UART: Data from STM: {"start":1,"potential":400,"current":3010}, MSG_Size:42[0m
+[0;32mI (368512) UART: Hellooooooo[0m
+[0;32mI (368512) UART: start:1[0m
+[0;32mI (368512) UART: DATA WRITE TO APP: 400-3010[0m
+[0;32mI (369532) UART: Data from STM: {"start":1,"potential":500,"current":4005}, MSG_Size:42[0m
+[0;32mI (369532) UART: Hellooooooo[0m
+[0;32mI (369532) UART: start:1[0m
+[0;32mI (369532) UART: DATA WRITE TO APP: 500-4005[0m
+[0;32mI (370552) UART: Data from STM: {"start":1,"potential":600,"current":5024}, MSG_Size:42[0m
+[0;32mI (370552) UART: Hellooooooo[0m
+[0;32mI (370552) UART: start:1[0m
+[0;32mI (370552) UART: DATA WRITE TO APP: 600-5024[0m
+[0;32mI (371572) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (371572) UART: start: 0[0m
+[0;32mI (371982) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 178, handle 42[0m
+[0;32mI (371982) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (371982) GATTS_DEMO: 53 61 76 65 5f 64 61 74 61 00 [0m
+[0;32mI (371992) GATTS_DEMO: Save_data, len: 9[0m
+[0;32mI (372082) UART: Data recv from BLE: Save_data[0m
+[0;32mI (373752) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 179, handle 42[0m
+[0;32mI (373762) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (373762) GATTS_DEMO: 53 61 76 65 5f 64 61 74 61 00 [0m
+[0;32mI (373762) GATTS_DEMO: Save_data, len: 9[0m
+[0;32mI (374122) UART: Data recv from BLE: Save_data[0m
+[0;32mI (379042) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 180, handle 42[0m
+[0;32mI (379042) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (379052) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (379052) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (379062) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (379062) GATTS_DEMO: Res: μA[0m
+[0;32mI (379062) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (379072) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 181, handle 46[0m
+[0;32mI (379082) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (379082) GATTS_DEMO: 2d 32 30 30 40 36 30 30 40 31 30 30 40 00 [0m
+[0;32mI (379092) GATTS_DEMO: -200@600@100@, len: 13[0m
+[0;32mI (379092) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (379102) GATTS_DEMO: End voltage: 600.0[0m
+[0;32mI (379102) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (380222) UART: {"config_dev":1,"mode":"LSV","res":"μA","vol_start":-200.0,"vol_end":600.0,"scan_rate":100.0}[0m
+[0;32mI (380732) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (382532) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 182, handle 42[0m
+[0;32mI (382532) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (382532) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (382542) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (382772) UART: Data recv from BLE: Start_device[0m
+[0;32mI (383022) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 183, handle 42
+[0m
+[0;32mI (383032) GATTS_DEMO: 1[0m
+[0;32mI (383032) GATTS_DEMO: 58 02 a0 13 00 00 [0m
+[0;32mI (383282) UART: Data from STM: {"start":1,"potential":-200,"current":6088}, MSG_Size:43[0m
+[0;32mI (383282) UART: Hellooooooo[0m
+[0;32mI (383282) UART: start:1[0m
+[0;32mI (383282) UART: DATA WRITE TO APP: -200-6088[0m
+[0;32mI (383542) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 184, handle 42
+[0m
+[0;32mI (383542) GATTS_DEMO: 1[0m
+[0;32mI (383542) GATTS_DEMO: 38 ff c8 17 00 00 [0m
+[0;32mI (384062) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 185, handle 42
+[0m
+[0;32mI (384062) GATTS_DEMO: 1[0m
+[0;32mI (384062) GATTS_DEMO: 38 ff c8 17 00 00 [0m
+[0;32mI (384312) UART: Data from STM: {"start":1,"potential":-100,"current":-2063}, MSG_Size:44[0m
+[0;32mI (384312) UART: Hellooooooo[0m
+[0;32mI (384312) UART: start:1[0m
+[0;32mI (384312) UART: DATA WRITE TO APP: -100--2063[0m
+[0;32mI (384552) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 186, handle 42
+[0m
+[0;32mI (384562) GATTS_DEMO: 1[0m
+[0;32mI (384562) GATTS_DEMO: 9c ff f1 f7 00 00 [0m
+[0;32mI (385072) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 187, handle 42
+[0m
+[0;32mI (385072) GATTS_DEMO: 1[0m
+[0;32mI (385072) GATTS_DEMO: 9c ff f1 f7 00 00 [0m
+[0;32mI (385342) UART: Data from STM: {"start":1,"potential":0,"current":-1069}, MSG_Size:41[0m
+[0;32mI (385342) UART: Hellooooooo[0m
+[0;32mI (385342) UART: start:1[0m
+[0;32mI (385342) UART: DATA WRITE TO APP: 0--1069[0m
+[0;32mI (385572) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 188, handle 42
+[0m
+[0;32mI (385572) GATTS_DEMO: 1[0m
+[0;32mI (385572) GATTS_DEMO: 00 00 d3 fb 00 00 [0m
+[0;32mI (386062) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 189, handle 42
+[0m
+[0;32mI (386062) GATTS_DEMO: 1[0m
+[0;32mI (386062) GATTS_DEMO: 00 00 d3 fb 00 00 [0m
+[0;32mI (386362) UART: Data from STM: {"start":1,"potential":100,"current":-60}, MSG_Size:41[0m
+[0;32mI (386362) UART: Hellooooooo[0m
+[0;32mI (386362) UART: start:1[0m
+[0;32mI (386362) UART: DATA WRITE TO APP: 100--60[0m
+[0;32mI (386582) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 190, handle 42
+[0m
+[0;32mI (386582) GATTS_DEMO: 1[0m
+[0;32mI (386582) GATTS_DEMO: 64 00 c4 ff 00 00 [0m
+[0;32mI (387072) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 191, handle 42
+[0m
+[0;32mI (387082) GATTS_DEMO: 1[0m
+[0;32mI (387082) GATTS_DEMO: 64 00 c4 ff 00 00 [0m
+[0;32mI (387382) UART: Data from STM: {"start":1,"potential":200,"current":964}, MSG_Size:41[0m
+[0;32mI (387382) UART: Hellooooooo[0m
+[0;32mI (387382) UART: start:1[0m
+[0;32mI (387382) UART: DATA WRITE TO APP: 200-964[0m
+[0;32mI (387572) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 192, handle 42
+[0m
+[0;32mI (387572) GATTS_DEMO: 1[0m
+[0;32mI (387572) GATTS_DEMO: c8 00 c4 03 00 00 [0m
+[0;32mI (388092) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 193, handle 42
+[0m
+[0;32mI (388092) GATTS_DEMO: 1[0m
+[0;32mI (388092) GATTS_DEMO: c8 00 c4 03 00 00 [0m
+[0;32mI (388402) UART: Data from STM: {"start":1,"potential":300,"current":1986}, MSG_Size:42[0m
+[0;32mI (388402) UART: Hellooooooo[0m
+[0;32mI (388402) UART: start:1[0m
+[0;32mI (388402) UART: DATA WRITE TO APP: 300-1986[0m
+[0;32mI (388602) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 194, handle 42
+[0m
+[0;32mI (388612) GATTS_DEMO: 1[0m
+[0;32mI (388612) GATTS_DEMO: 2c 01 c2 07 00 00 [0m
+[0;32mI (389102) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 195, handle 42
+[0m
+[0;32mI (389102) GATTS_DEMO: 1[0m
+[0;32mI (389102) GATTS_DEMO: 2c 01 c2 07 00 00 [0m
+[0;32mI (389432) UART: Data from STM: {"start":1,"potential":400,"current":3008}, MSG_Size:42[0m
+[0;32mI (389432) UART: Hellooooooo[0m
+[0;32mI (389432) UART: start:1[0m
+[0;32mI (389432) UART: DATA WRITE TO APP: 400-3008[0m
+[0;32mI (389592) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 196, handle 42
+[0m
+[0;32mI (389602) GATTS_DEMO: 1[0m
+[0;32mI (389602) GATTS_DEMO: 90 01 c0 0b 00 00 [0m
+[0;32mI (390112) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 197, handle 42
+[0m
+[0;32mI (390112) GATTS_DEMO: 1[0m
+[0;32mI (390112) GATTS_DEMO: 90 01 c0 0b 00 00 [0m
+[0;32mI (390452) UART: Data from STM: {"start":1,"potential":500,"current":4037}, MSG_Size:42[0m
+[0;32mI (390452) UART: Hellooooooo[0m
+[0;32mI (390452) UART: start:1[0m
+[0;32mI (390452) UART: DATA WRITE TO APP: 500-4037[0m
+[0;32mI (390612) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 198, handle 42
+[0m
+[0;32mI (390612) GATTS_DEMO: 1[0m
+[0;32mI (390612) GATTS_DEMO: f4 01 c5 0f 00 00 [0m
+[0;32mI (391122) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 199, handle 42
+[0m
+[0;32mI (391132) GATTS_DEMO: 1[0m
+[0;32mI (391132) GATTS_DEMO: f4 01 c5 0f 00 00 [0m
+[0;32mI (391472) UART: Data from STM: {"start":1,"potential":600,"current":5056}, MSG_Size:42[0m
+[0;32mI (391472) UART: Hellooooooo[0m
+[0;32mI (391472) UART: start:1[0m
+[0;32mI (391472) UART: DATA WRITE TO APP: 600-5056[0m
+[0;32mI (391622) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 200, handle 42
+[0m
+[0;32mI (391622) GATTS_DEMO: 1[0m
+[0;32mI (391622) GATTS_DEMO: 58 02 c0 13 00 00 [0m
+[0;32mI (391982) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (391982) UART: start: 0[0m
+[0;32mI (392142) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 201, handle 42
+[0m
+[0;32mI (392142) GATTS_DEMO: 0[0m
+[0;32mI (392142) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (393942) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 202, handle 42[0m
+[0;32mI (393942) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (393942) GATTS_DEMO: 53 61 76 65 5f 64 61 74 61 00 [0m
+[0;32mI (393952) GATTS_DEMO: Save_data, len: 9[0m
+[0;32mI (394022) UART: Data recv from BLE: Save_data[0m
+[0;32mI (935132) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (935132) UART: start: 0[0m
+[0;32mI (938702) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (938702) UART: start: 0[0m
+[0;32mI (943002) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 203, handle 42[0m
+[0;32mI (943002) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (943002) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (943012) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (943012) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (943022) GATTS_DEMO: Res: μA[0m
+[0;32mI (943022) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (943022) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 204, handle 46[0m
+[0;32mI (943032) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (943042) GATTS_DEMO: 2d 32 30 30 40 35 30 30 40 31 30 30 40 00 [0m
+[0;32mI (943052) GATTS_DEMO: -200@500@100@, len: 13[0m
+[0;32mI (943052) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (943062) GATTS_DEMO: End voltage: 500.0[0m
+[0;32mI (943062) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (944292) UART: {"config_dev":1,"mode":"LSV","res":"μA","vol_start":-200.0,"vol_end":500.0,"scan_rate":100.0}[0m
+[0;32mI (944802) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (950292) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 205, handle 42[0m
+[0;32mI (950292) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (950292) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (950302) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (950412) UART: Data recv from BLE: Start_device[0m
+[0;32mI (950782) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 206, handle 42
+[0m
+[0;32mI (950792) GATTS_DEMO: 1[0m
+[0;32mI (950792) GATTS_DEMO: 58 02 c0 13 00 00 [0m
+[0;32mI (950922) UART: Data from STM: {"start":1,"potential":-100,"current":16666}, MSG_Size:44[0m
+[0;32mI (950922) UART: Hellooooooo[0m
+[0;32mI (950922) UART: start:1[0m
+[0;32mI (950922) UART: DATA WRITE TO APP: -100-16666[0m
+[0;32mI (951302) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 207, handle 42
+[0m
+[0;32mI (951302) GATTS_DEMO: 1[0m
+[0;32mI (951302) GATTS_DEMO: 9c ff 1a 41 00 00 [0m
+[0;32mI (951802) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 208, handle 42
+[0m
+[0;32mI (951802) GATTS_DEMO: 1[0m
+[0;32mI (951802) GATTS_DEMO: 9c ff 1a 41 00 00 [0m
+[0;32mI (951952) UART: Data from STM: {"start":1,"potential":0,"current":-1010}, MSG_Size:41[0m
+[0;32mI (951952) UART: Hellooooooo[0m
+[0;32mI (951952) UART: start:1[0m
+[0;32mI (951952) UART: DATA WRITE TO APP: 0--1010[0m
+[0;32mI (952292) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 209, handle 42
+[0m
+[0;32mI (952292) GATTS_DEMO: 1[0m
+[0;32mI (952292) GATTS_DEMO: 00 00 0e fc 00 00 [0m
+[0;32mI (952812) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 210, handle 42
+[0m
+[0;32mI (952812) GATTS_DEMO: 1[0m
+[0;32mI (952812) GATTS_DEMO: 00 00 0e fc 00 00 [0m
+[0;32mI (952972) UART: Data from STM: {"start":1,"potential":100,"current":7}, MSG_Size:39[0m
+[0;32mI (952972) UART: Hellooooooo[0m
+[0;32mI (952972) UART: start:1[0m
+[0;32mI (952972) UART: DATA WRITE TO APP: 100-7[0m
+[0;32mI (953302) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 211, handle 42
+[0m
+[0;32mI (953312) GATTS_DEMO: 1[0m
+[0;32mI (953312) GATTS_DEMO: 64 00 07 00 00 00 [0m
+[0;32mI (953822) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 212, handle 42
+[0m
+[0;32mI (953822) GATTS_DEMO: 1[0m
+[0;32mI (953822) GATTS_DEMO: 64 00 07 00 00 00 [0m
+[0;32mI (953992) UART: Data from STM: {"start":1,"potential":200,"current":1023}, MSG_Size:42[0m
+[0;32mI (953992) UART: Hellooooooo[0m
+[0;32mI (953992) UART: start:1[0m
+[0;32mI (953992) UART: DATA WRITE TO APP: 200-1023[0m
+[0;32mI (954322) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 213, handle 42
+[0m
+[0;32mI (954322) GATTS_DEMO: 1[0m
+[0;32mI (954322) GATTS_DEMO: c8 00 ff 03 00 00 [0m
+[0;32mI (954812) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 214, handle 42
+[0m
+[0;32mI (954812) GATTS_DEMO: 1[0m
+[0;32mI (954812) GATTS_DEMO: c8 00 ff 03 00 00 [0m
+[0;32mI (955012) UART: Data from STM: {"start":1,"potential":300,"current":2035}, MSG_Size:42[0m
+[0;32mI (955012) UART: Hellooooooo[0m
+[0;32mI (955012) UART: start:1[0m
+[0;32mI (955012) UART: DATA WRITE TO APP: 300-2035[0m
+[0;32mI (955332) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 215, handle 42
+[0m
+[0;32mI (955332) GATTS_DEMO: 1[0m
+[0;32mI (955332) GATTS_DEMO: 2c 01 f3 07 00 00 [0m
+[0;32mI (955822) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 216, handle 42
+[0m
+[0;32mI (955832) GATTS_DEMO: 1[0m
+[0;32mI (955832) GATTS_DEMO: 2c 01 f3 07 00 00 [0m
+[0;32mI (956032) UART: Data from STM: {"start":1,"potential":400,"current":3052}, MSG_Size:42[0m
+[0;32mI (956032) UART: Hellooooooo[0m
+[0;32mI (956032) UART: start:1[0m
+[0;32mI (956032) UART: DATA WRITE TO APP: 400-3052[0m
+[0;32mI (956342) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 217, handle 42
+[0m
+[0;32mI (956342) GATTS_DEMO: 1[0m
+[0;32mI (956342) GATTS_DEMO: 90 01 ec 0b 00 00 [0m
+[0;32mI (956842) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 218, handle 42
+[0m
+[0;32mI (956842) GATTS_DEMO: 1[0m
+[0;32mI (956842) GATTS_DEMO: 90 01 ec 0b 00 00 [0m
+[0;32mI (957052) UART: Data from STM: {"start":1,"potential":500,"current":4062}, MSG_Size:42[0m
+[0;32mI (957052) UART: Hellooooooo[0m
+[0;32mI (957052) UART: start:1[0m
+[0;32mI (957052) UART: DATA WRITE TO APP: 500-4062[0m
+[0;32mI (957352) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 219, handle 42
+[0m
+[0;32mI (957362) GATTS_DEMO: 1[0m
+[0;32mI (957362) GATTS_DEMO: f4 01 de 0f 00 00 [0m
+[0;32mI (957852) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 220, handle 42
+[0m
+[0;32mI (957852) GATTS_DEMO: 1[0m
+[0;32mI (957852) GATTS_DEMO: f4 01 de 0f 00 00 [0m
+[0;32mI (958072) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (958072) UART: start: 0[0m
+[0;32mI (958372) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 221, handle 42
+[0m
+[0;32mI (958372) GATTS_DEMO: 0[0m
+[0;32mI (958372) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (960482) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 222, handle 42[0m
+[0;32mI (960482) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (960492) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (960492) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (960502) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (960502) GATTS_DEMO: Res: μA[0m
+[0;32mI (960502) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (960512) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 223, handle 46[0m
+[0;32mI (960522) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (960522) GATTS_DEMO: 2d 32 30 30 40 35 30 30 40 31 30 30 40 00 [0m
+[0;32mI (960532) GATTS_DEMO: -200@500@100@, len: 13[0m
+[0;32mI (960532) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (960542) GATTS_DEMO: End voltage: 500.0[0m
+[0;32mI (960542) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (961622) UART: {"config_dev":1,"mode":"LSV","res":"μA","vol_start":-200.0,"vol_end":500.0,"scan_rate":100.0}[0m
+[0;32mI (962132) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (966112) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 224, handle 42[0m
+[0;32mI (966112) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (966112) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (966122) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (966202) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 225, handle 42[0m
+[0;32mI (966202) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (966202) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (966212) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (966212) UART: Data recv from BLE: Start_device[0m
+[0;32mI (966712) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 226, handle 42
+[0m
+[0;32mI (966722) GATTS_DEMO: 1[0m
+[0;32mI (966722) GATTS_DEMO: f4 01 de 0f 00 00 [0m
+[0;32mI (966732) UART: Data from STM: {"start":1,"potential":-200,"current":5072}, MSG_Size:43[0m
+[0;32mI (966732) UART: Hellooooooo[0m
+[0;32mI (966732) UART: start:1[0m
+[0;32mI (966732) UART: DATA WRITE TO APP: -200-5072[0m
+[0;32mI (967212) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 227, handle 42
+[0m
+[0;32mI (967212) GATTS_DEMO: 1[0m
+[0;32mI (967212) GATTS_DEMO: 38 ff d0 13 00 00 [0m
+[0;32mI (967752) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 228, handle 42
+[0m
+[0;32mI (967752) GATTS_DEMO: 1[0m
+[0;32mI (967752) GATTS_DEMO: 38 ff d0 13 00 00 [0m
+[0;32mI (967762) UART: Data from STM: {"start":1,"potential":-100,"current":-2041}, MSG_Size:44[0m
+[0;32mI (967762) UART: Hellooooooo[0m
+[0;32mI (967772) UART: start:1[0m
+[0;32mI (967772) UART: DATA WRITE TO APP: -100--2041[0m
+[0;32mI (968222) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 229, handle 42
+[0m
+[0;32mI (968222) GATTS_DEMO: 1[0m
+[0;32mI (968222) GATTS_DEMO: 9c ff 07 f8 00 00 [0m
+[0;32mI (968722) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 230, handle 42
+[0m
+[0;32mI (968722) GATTS_DEMO: 1[0m
+[0;32mI (968722) GATTS_DEMO: 9c ff 07 f8 00 00 [0m
+[0;32mI (968802) UART: Data from STM: {"start":1,"potential":0,"current":-1014}, MSG_Size:41[0m
+[0;32mI (968802) UART: Hellooooooo[0m
+[0;32mI (968802) UART: start:1[0m
+[0;32mI (968802) UART: DATA WRITE TO APP: 0--1014[0m
+[0;32mI (969232) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 231, handle 42
+[0m
+[0;32mI (969242) GATTS_DEMO: 1[0m
+[0;32mI (969242) GATTS_DEMO: 00 00 0a fc 00 00 [0m
+[0;32mI (969732) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 232, handle 42
+[0m
+[0;32mI (969732) GATTS_DEMO: 1[0m
+[0;32mI (969732) GATTS_DEMO: 00 00 0a fc 00 00 [0m
+[0;32mI (969822) UART: Data from STM: {"start":1,"potential":100,"current":10}, MSG_Size:40[0m
+[0;32mI (969822) UART: Hellooooooo[0m
+[0;32mI (969822) UART: start:1[0m
+[0;32mI (969822) UART: DATA WRITE TO APP: 100-10[0m
+[0;32mI (970252) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 233, handle 42
+[0m
+[0;32mI (970252) GATTS_DEMO: 1[0m
+[0;32mI (970252) GATTS_DEMO: 64 00 0a 00 00 00 [0m
+[0;32mI (970742) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 234, handle 42
+[0m
+[0;32mI (970742) GATTS_DEMO: 1[0m
+[0;32mI (970742) GATTS_DEMO: 64 00 0a 00 00 00 [0m
+[0;32mI (970842) UART: Data from STM: {"start":1,"potential":200,"current":1035}, MSG_Size:42[0m
+[0;32mI (970842) UART: Hellooooooo[0m
+[0;32mI (970842) UART: start:1[0m
+[0;32mI (970842) UART: DATA WRITE TO APP: 200-1035[0m
+[0;32mI (971282) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 235, handle 42
+[0m
+[0;32mI (971282) GATTS_DEMO: 1[0m
+[0;32mI (971282) GATTS_DEMO: c8 00 0b 04 00 00 [0m
+[0;32mI (971752) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 236, handle 42
+[0m
+[0;32mI (971762) GATTS_DEMO: 1[0m
+[0;32mI (971762) GATTS_DEMO: c8 00 0b 04 00 00 [0m
+[0;32mI (971862) UART: Data from STM: {"start":1,"potential":300,"current":2056}, MSG_Size:42[0m
+[0;32mI (971862) UART: Hellooooooo[0m
+[0;32mI (971862) UART: start:1[0m
+[0;32mI (971862) UART: DATA WRITE TO APP: 300-2056[0m
+[0;32mI (972272) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 237, handle 42
+[0m
+[0;32mI (972272) GATTS_DEMO: 1[0m
+[0;32mI (972272) GATTS_DEMO: 2c 01 08 08 00 00 [0m
+[0;32mI (972772) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 238, handle 42
+[0m
+[0;32mI (972772) GATTS_DEMO: 1[0m
+[0;32mI (972772) GATTS_DEMO: 2c 01 08 08 00 00 [0m
+[0;32mI (972882) UART: Data from STM: {"start":1,"potential":400,"current":3073}, MSG_Size:42[0m
+[0;32mI (972882) UART: Hellooooooo[0m
+[0;32mI (972882) UART: start:1[0m
+[0;32mI (972882) UART: DATA WRITE TO APP: 400-3073[0m
+[0;32mI (973282) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 239, handle 42
+[0m
+[0;32mI (973292) GATTS_DEMO: 1[0m
+[0;32mI (973292) GATTS_DEMO: 90 01 01 0c 00 00 [0m
+[0;32mI (973402) UART: Data from STM: {"start":1,"potential":500,"current":4090}, MSG_Size:42[0m
+[0;32mI (973402) UART: Hellooooooo[0m
+[0;32mI (973402) UART: start:1[0m
+[0;32mI (973402) UART: DATA WRITE TO APP: 500-4090[0m
+[0;32mI (973802) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 240, handle 42
+[0m
+[0;32mI (973802) GATTS_DEMO: 1[0m
+[0;32mI (973802) GATTS_DEMO: f4 01 fa 0f 00 00 [0m
+[0;32mI (974272) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 241, handle 42
+[0m
+[0;32mI (974282) GATTS_DEMO: 1[0m
+[0;32mI (974282) GATTS_DEMO: f4 01 fa 0f 00 00 [0m
+[0;32mI (974422) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (974422) UART: start: 0[0m
+[0;32mI (974792) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 242, handle 42
+[0m
+[0;32mI (974792) GATTS_DEMO: 0[0m
+[0;32mI (974792) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (2539792) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 243, handle 42[0m
+[0;32mI (2539792) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (2539792) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (2539802) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (2539802) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (2539802) GATTS_DEMO: Res: μA[0m
+[0;32mI (2539812) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (2539812) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 244, handle 46[0m
+[0;32mI (2539822) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (2539832) GATTS_DEMO: 2d 32 30 30 40 35 30 30 40 31 30 30 40 00 [0m
+[0;32mI (2539832) GATTS_DEMO: -200@500@100@, len: 13[0m
+[0;32mI (2539842) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (2539842) GATTS_DEMO: End voltage: 500.0[0m
+[0;32mI (2539852) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (2541122) UART: {"config_dev":1,"mode":"LSV","res":"μA","vol_start":-200.0,"vol_end":500.0,"scan_rate":100.0}[0m
+[0;32mI (2541632) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (2542802) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 245, handle 42[0m
+[0;32mI (2542802) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (2542812) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (2542812) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (2543162) UART: Data recv from BLE: Start_device[0m
+[0;32mI (2543302) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 246, handle 42
+[0m
+[0;32mI (2543302) GATTS_DEMO: 1[0m
+[0;32mI (2543302) GATTS_DEMO: f4 01 fa 0f 00 00 [0m
+[0;32mI (2543672) UART: Data from STM: {"start":1,"potential":-200,"current":5070}, MSG_Size:43[0m
+[0;32mI (2543672) UART: Hellooooooo[0m
+[0;32mI (2543672) UART: start:1[0m
+[0;32mI (2543672) UART: DATA WRITE TO APP: -200-5070[0m
+[0;32mI (2543792) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 247, handle 42
+[0m
+[0;32mI (2543792) GATTS_DEMO: 1[0m
+[0;32mI (2543792) GATTS_DEMO: 38 ff ce 13 00 00 [0m
+[0;32mI (2544312) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 248, handle 42
+[0m
+[0;32mI (2544312) GATTS_DEMO: 1[0m
+[0;32mI (2544312) GATTS_DEMO: 38 ff ce 13 00 00 [0m
+[0;32mI (2544702) UART: Data from STM: {"start":1,"potential":-100,"current":-2032}, MSG_Size:44[0m
+[0;32mI (2544702) UART: Hellooooooo[0m
+[0;32mI (2544702) UART: start:1[0m
+[0;32mI (2544702) UART: DATA WRITE TO APP: -100--2032[0m
+[0;32mI (2544802) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 249, handle 42
+[0m
+[0;32mI (2544812) GATTS_DEMO: 1[0m
+[0;32mI (2544812) GATTS_DEMO: 9c ff 10 f8 00 00 [0m
+[0;32mI (2545322) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 250, handle 42
+[0m
+[0;32mI (2545322) GATTS_DEMO: 1[0m
+[0;32mI (2545322) GATTS_DEMO: 9c ff 10 f8 00 00 [0m
+[0;32mI (2545732) UART: Data from STM: {"start":1,"potential":0,"current":-1014}, MSG_Size:41[0m
+[0;32mI (2545732) UART: Hellooooooo[0m
+[0;32mI (2545732) UART: start:1[0m
+[0;32mI (2545732) UART: DATA WRITE TO APP: 0--1014[0m
+[0;32mI (2545822) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 251, handle 42
+[0m
+[0;32mI (2545822) GATTS_DEMO: 1[0m
+[0;32mI (2545822) GATTS_DEMO: 00 00 0a fc 00 00 [0m
+[0;32mI (2546332) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 252, handle 42
+[0m
+[0;32mI (2546342) GATTS_DEMO: 1[0m
+[0;32mI (2546342) GATTS_DEMO: 00 00 0a fc 00 00 [0m
+[0;32mI (2546762) UART: Data from STM: {"start":1,"potential":100,"current":-48}, MSG_Size:41[0m
+[0;32mI (2546762) UART: Hellooooooo[0m
+[0;32mI (2546762) UART: start:1[0m
+[0;32mI (2546762) UART: DATA WRITE TO APP: 100--48[0m
+[0;32mI (2546832) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 253, handle 42
+[0m
+[0;32mI (2546832) GATTS_DEMO: 1[0m
+[0;32mI (2546832) GATTS_DEMO: 64 00 d0 ff 00 00 [0m
+[0;32mI (2547282) UART: Data from STM: {"start":1,"potential":200,"current":956}, MSG_Size:41[0m
+[0;32mI (2547282) UART: Hellooooooo[0m
+[0;32mI (2547282) UART: start:1[0m
+[0;32mI (2547282) UART: DATA WRITE TO APP: 200-956[0m
+[0;32mI (2547372) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 254, handle 42
+[0m
+[0;32mI (2547372) GATTS_DEMO: 1[0m
+[0;32mI (2547372) GATTS_DEMO: c8 00 bc 03 00 00 [0m
+[0;32mI (2547842) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 255, handle 42
+[0m
+[0;32mI (2547842) GATTS_DEMO: 1[0m
+[0;32mI (2547842) GATTS_DEMO: c8 00 bc 03 00 00 [0m
+[0;32mI (2548312) UART: Data from STM: {"start":1,"potential":300,"current":2003}, MSG_Size:42[0m
+[0;32mI (2548312) UART: Hellooooooo[0m
+[0;32mI (2548312) UART: start:1[0m
+[0;32mI (2548312) UART: DATA WRITE TO APP: 300-2003[0m
+[0;32mI (2548362) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 256, handle 42
+[0m
+[0;32mI (2548362) GATTS_DEMO: 1[0m
+[0;32mI (2548362) GATTS_DEMO: 2c 01 d3 07 00 00 [0m
+[0;32mI (2548852) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 257, handle 42
+[0m
+[0;32mI (2548852) GATTS_DEMO: 1[0m
+[0;32mI (2548862) GATTS_DEMO: 2c 01 d3 07 00 00 [0m
+[0;32mI (2549342) UART: Data from STM: {"start":1,"potential":400,"current":3040}, MSG_Size:42[0m
+[0;32mI (2549342) UART: Hellooooooo[0m
+[0;32mI (2549342) UART: start:1[0m
+[0;32mI (2549342) UART: DATA WRITE TO APP: 400-3040[0m
+[0;32mI (2549372) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 258, handle 42
+[0m
+[0;32mI (2549372) GATTS_DEMO: 1[0m
+[0;32mI (2549372) GATTS_DEMO: 90 01 e0 0b 00 00 [0m
+[0;32mI (2549862) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 259, handle 42
+[0m
+[0;32mI (2549872) GATTS_DEMO: 1[0m
+[0;32mI (2549872) GATTS_DEMO: 90 01 e0 0b 00 00 [0m
+[0;32mI (2550362) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 260, handle 42
+[0m
+[0;32mI (2550362) GATTS_DEMO: 1[0m
+[0;32mI (2550362) GATTS_DEMO: 90 01 e0 0b 00 00 [0m
+[0;32mI (2550372) UART: Data from STM: {"start":1,"potential":500,"current":4089}, MSG_Size:42[0m
+[0;32mI (2550382) UART: Hellooooooo[0m
+[0;32mI (2550382) UART: start:1[0m
+[0;32mI (2550382) UART: DATA WRITE TO APP: 500-4089[0m
+[0;32mI (2550972) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 261, handle 42
+[0m
+[0;32mI (2550972) GATTS_DEMO: 1[0m
+[0;32mI (2550972) GATTS_DEMO: f4 01 f9 0f 00 00 [0m
+[0;32mI (2551412) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (2551412) UART: start: 0[0m
+[0;32mI (2551462) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 262, handle 42
+[0m
+[0;32mI (2551462) GATTS_DEMO: 0[0m
+[0;32mI (2551472) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (2643672) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 263, handle 42[0m
+[0;32mI (2643672) GATTS_DEMO: GATT_WRITE_EVT, value len 10, value :[0m
+[0;32mI (2643672) GATTS_DEMO: 53 61 76 65 5f 64 61 74 61 00 [0m
+[0;32mI (2643682) GATTS_DEMO: Save_data, len: 9[0m
+[0;32mI (2643722) UART: Data recv from BLE: Save_data[0m
+[0;32mI (2647292) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (2647292) UART: start: 0[0m
+[0;32mI (2651372) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (2651372) UART: start: 0[0m
+[0;32mI (2668712) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 264, handle 42[0m
+[0;32mI (2668712) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (2668722) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (2668722) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (2668722) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (2668732) GATTS_DEMO: Res: μA[0m
+[0;32mI (2668732) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (2668742) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 265, handle 46[0m
+[0;32mI (2668742) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (2668752) GATTS_DEMO: 2d 32 30 30 40 35 30 30 40 31 30 30 40 00 [0m
+[0;32mI (2668762) GATTS_DEMO: -200@500@100@, len: 13[0m
+[0;32mI (2668762) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (2668772) GATTS_DEMO: End voltage: 500.0[0m
+[0;32mI (2668772) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (2670222) UART: {"config_dev":1,"mode":"LSV","res":"μA","vol_start":-200.0,"vol_end":500.0,"scan_rate":100.0}[0m
+[0;32mI (2670732) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (2672692) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 266, handle 42[0m
+[0;32mI (2672692) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (2672702) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (2672702) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (2672772) UART: Data recv from BLE: Start_device[0m
+[0;32mI (2673192) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 267, handle 42
+[0m
+[0;32mI (2673192) GATTS_DEMO: 1[0m
+[0;32mI (2673192) GATTS_DEMO: f4 01 f9 0f 00 00 [0m
+[0;32mI (2673282) UART: Data from STM: {"start":1,"potential":-100,"current":16666}, MSG_Size:44[0m
+[0;32mI (2673282) UART: Hellooooooo[0m
+[0;32mI (2673282) UART: start:1[0m
+[0;32mI (2673282) UART: DATA WRITE TO APP: -100-16666[0m
+[0;32mI (2673682) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 268, handle 42
+[0m
+[0;32mI (2673682) GATTS_DEMO: 1[0m
+[0;32mI (2673682) GATTS_DEMO: 9c ff 1a 41 00 00 [0m
+[0;32mI (2674202) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 269, handle 42
+[0m
+[0;32mI (2674202) GATTS_DEMO: 1[0m
+[0;32mI (2674202) GATTS_DEMO: 9c ff 1a 41 00 00 [0m
+[0;32mI (2674312) UART: Data from STM: {"start":1,"potential":0,"current":-1025}, MSG_Size:41[0m
+[0;32mI (2674312) UART: Hellooooooo[0m
+[0;32mI (2674312) UART: start:1[0m
+[0;32mI (2674312) UART: DATA WRITE TO APP: 0--1025[0m
+[0;32mI (2674702) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 270, handle 42
+[0m
+[0;32mI (2674702) GATTS_DEMO: 1[0m
+[0;32mI (2674702) GATTS_DEMO: 00 00 ff fb 00 00 [0m
+[0;32mI (2675232) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 271, handle 42
+[0m
+[0;32mI (2675242) GATTS_DEMO: 1[0m
+[0;32mI (2675242) GATTS_DEMO: 00 00 ff fb 00 00 [0m
+[0;32mI (2675342) UART: Data from STM: {"start":1,"potential":100,"current":-8}, MSG_Size:40[0m
+[0;32mI (2675342) UART: Hellooooooo[0m
+[0;32mI (2675342) UART: start:1[0m
+[0;32mI (2675342) UART: DATA WRITE TO APP: 100--8[0m
+[0;32mI (2675712) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 272, handle 42
+[0m
+[0;32mI (2675712) GATTS_DEMO: 1[0m
+[0;32mI (2675712) GATTS_DEMO: 64 00 f8 ff 00 00 [0m
+[0;32mI (2676202) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 273, handle 42
+[0m
+[0;32mI (2676202) GATTS_DEMO: 1[0m
+[0;32mI (2676202) GATTS_DEMO: 64 00 f8 ff 00 00 [0m
+[0;32mI (2676362) UART: Data from STM: {"start":1,"potential":200,"current":1017}, MSG_Size:42[0m
+[0;32mI (2676362) UART: Hellooooooo[0m
+[0;32mI (2676362) UART: start:1[0m
+[0;32mI (2676362) UART: DATA WRITE TO APP: 200-1017[0m
+[0;32mI (2676722) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 274, handle 42
+[0m
+[0;32mI (2676722) GATTS_DEMO: 1[0m
+[0;32mI (2676722) GATTS_DEMO: c8 00 f9 03 00 00 [0m
+[0;32mI (2677242) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 275, handle 42
+[0m
+[0;32mI (2677242) GATTS_DEMO: 1[0m
+[0;32mI (2677242) GATTS_DEMO: c8 00 f9 03 00 00 [0m
+[0;32mI (2677392) UART: Data from STM: {"start":1,"potential":300,"current":2036}, MSG_Size:42[0m
+[0;32mI (2677392) UART: Hellooooooo[0m
+[0;32mI (2677392) UART: start:1[0m
+[0;32mI (2677392) UART: DATA WRITE TO APP: 300-2036[0m
+[0;32mI (2677732) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 276, handle 42
+[0m
+[0;32mI (2677732) GATTS_DEMO: 1[0m
+[0;32mI (2677732) GATTS_DEMO: 2c 01 f4 07 00 00 [0m
+[0;32mI (2677912) UART: Data from STM: {"start":1,"potential":400,"current":3046}, MSG_Size:42[0m
+[0;32mI (2677912) UART: Hellooooooo[0m
+[0;32mI (2677912) UART: start:1[0m
+[0;32mI (2677912) UART: DATA WRITE TO APP: 400-3046[0m
+[0;32mI (2678232) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 277, handle 42
+[0m
+[0;32mI (2678232) GATTS_DEMO: 1[0m
+[0;32mI (2678232) GATTS_DEMO: 90 01 e6 0b 00 00 [0m
+[0;32mI (2678722) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 278, handle 42
+[0m
+[0;32mI (2678722) GATTS_DEMO: 1[0m
+[0;32mI (2678722) GATTS_DEMO: 90 01 e6 0b 00 00 [0m
+[0;32mI (2678942) UART: Data from STM: {"start":1,"potential":500,"current":4074}, MSG_Size:42[0m
+[0;32mI (2678942) UART: Hellooooooo[0m
+[0;32mI (2678942) UART: start:1[0m
+[0;32mI (2678942) UART: DATA WRITE TO APP: 500-4074[0m
+[0;32mI (2679242) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 279, handle 42
+[0m
+[0;32mI (2679242) GATTS_DEMO: 1[0m
+[0;32mI (2679242) GATTS_DEMO: f4 01 ea 0f 00 00 [0m
+[0;32mI (2679732) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 280, handle 42
+[0m
+[0;32mI (2679742) GATTS_DEMO: 1[0m
+[0;32mI (2679742) GATTS_DEMO: f4 01 ea 0f 00 00 [0m
+[0;32mI (2679972) UART: Data from STM: $, MSG_Size:1[0m
+[0;32mI (2679972) UART: start: 0[0m
+[0;32mI (2680252) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 281, handle 42
+[0m
+[0;32mI (2680252) GATTS_DEMO: 0[0m
+[0;32mI (2680252) GATTS_DEMO: 00 00 00 00 01 00 [0m
+[0;32mI (2684572) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 282, handle 42[0m
+[0;32mI (2684572) GATTS_DEMO: GATT_WRITE_EVT, value len 7, value :[0m
+[0;32mI (2684582) GATTS_DEMO: 31 40 31 40 32 40 00 [0m
+[0;32mI (2684582) GATTS_DEMO: Accept config: 1[0m
+[0;32mI (2684592) GATTS_DEMO: Mode: LSV[0m
+[0;32mI (2684592) GATTS_DEMO: Res: μA[0m
+[0;32mI (2684602) GATTS_DEMO: 1@1@2@, len: 6[0m
+[0;32mI (2684602) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 283, handle 46[0m
+[0;32mI (2684612) GATTS_DEMO: GATT_WRITE_EVT, value len 14, value :[0m
+[0;32mI (2684612) GATTS_DEMO: 2d 32 30 30 40 35 30 30 40 31 30 30 40 00 [0m
+[0;32mI (2684622) GATTS_DEMO: -200@500@100@, len: 13[0m
+[0;32mI (2684632) GATTS_DEMO: Start voltage: -200.0[0m
+[0;32mI (2684632) GATTS_DEMO: End voltage: 500.0[0m
+[0;32mI (2684642) GATTS_DEMO: Scan rate: 100.0[0m
+[0;32mI (2686072) UART: {"config_dev":1,"mode":"LSV","res":"μA","vol_start":-200.0,"vol_end":500.0,"scan_rate":100.0}[0m
+[0;32mI (2686582) UART: Data from STM: Config_done, MSG_Size:11[0m
+[0;32mI (2687952) GATTS_DEMO: GATT_WRITE_EVT, conn_id 0, trans_id 284, handle 42[0m
+[0;32mI (2687952) GATTS_DEMO: GATT_WRITE_EVT, value len 13, value :[0m
+[0;32mI (2687952) GATTS_DEMO: 53 74 61 72 74 5f 64 65 76 69 63 65 00 [0m
+[0;32mI (2687962) GATTS_DEMO: Start_device, len: 12[0m
+[0;32mI (2688112) UART: Data recv from BLE: Start_device[0m
+[0;32mI (2688442) GATTS_DEMO: GATT_READ_EVT_A, conn_id 0, trans_id 285, handle 42
+[0m
+[0;32mI (2688442) GATTS_DEMO: 1[0m
+[0;32mI (2688442) GATTS_DEMO: f4 01 ea 0f 00 00 [0m
+[0;32mI (2688622) UART: Data from STM: {"start":1,"potential":-200,"current":5091}, MSG_Size:43[0m
+[0;32mI (2688622) UART: Hellooooooo[0m
+[0;32mI (2688622) UART: start:1[0m
+[0;32mI (2688622) UART: DATA WRITE TO APP: -200-5091[0m
+[0;32mI (2688942) GATTS_DEMO: GATT_READ_EV

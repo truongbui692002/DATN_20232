@@ -1,0 +1,526 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time May 21 2024 12:53:41[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=213e4h (136164) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=0003140c vaddr=3ffbdb60 size=0453ch ( 17724) load[0m
+[0;32mI (163) esp_image: segment 2: paddr=00035950 vaddr=40080000 size=0a6c8h ( 42696) load[0m
+[0;32mI (181) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=81ae4h (531172) map[0m
+[0;32mI (373) esp_image: segment 4: paddr=000c1b0c vaddr=4008a6c8 size=0e650h ( 58960) load[0m
+[0;32mI (410) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (410) boot: Disabling RNG early entropy source...[0m
+[0;32mI (422) cpu_start: Multicore app[0m
+[0;32mI (422) cpu_start: Pro cpu up.[0m
+[0;32mI (422) cpu_start: Starting app cpu, entry point is 0x40081430[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (440) cpu_start: Pro cpu start user code[0m
+[0;32mI (440) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (440) cpu_start: Application information:[0m
+[0;32mI (445) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (450) cpu_start: App version:      8e1a9d13-dirty[0m
+[0;32mI (456) cpu_start: Compile time:     May 21 2024 12:53:31[0m
+[0;32mI (462) cpu_start: ELF file SHA256:  f0fa5b5b9fecdd3c...[0m
+[0;32mI (468) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (473) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (478) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (483) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (487) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (495) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (501) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (507) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (513) heap_init: At 3FFC75B0 len 00018A50 (98 KiB): DRAM[0m
+[0;32mI (519) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (525) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (532) heap_init: At 40098D18 len 000072E8 (28 KiB): IRAM[0m
+[0;32mI (539) spi_flash: detected chip: generic[0m
+[0;32mI (543) spi_flash: flash io: dio[0m
+[0;33mW (546) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (561) coexist: coex firmware version: ebddf30[0m
+[0;32mI (566) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (570) app_start: Starting scheduler on CPU1[0m
+I (570) main_task: Started on CPU0[0m
+[0;32mI (580) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (670) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (680) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1110) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1120) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1120) main_task: Returned from app_main()[0m
+[0;32mI (1140) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1140) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1140) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1150) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1150) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1150) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1160) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (2010) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (3000) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (3080) GATTS_DEMO: ESP_GATTS_CONNECT_EVT, conn_id 0, remote 6a:fd:18:e4:c8:bb:[0m
+[0;32mI (3700) GATTS_DEMO: update connection params status = 0, min_int = 16, max_int = 32,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (4020) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 6,latency = 0, timeout = 500[0m
+[0;32mI (4100) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (4170) GATTS_DEMO: update connection params status = 0, min_int = 0, max_int = 0,conn_int = 18,latency = 0, timeout = 400[0m
+[0;32mI (5090) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (5830) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 1, handle 42
+[0m
+[0;32mI (5830) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (6080) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (7080) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (8180) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (9170) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (10160) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (10870) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 2, handle 42
+[0m
+[0;32mI (10870) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (11150) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (11750) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 3, handle 42
+[0m
+[0;32mI (11750) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (12250) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (13030) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 4, handle 42
+[0m
+[0;32mI (13030) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (13240) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (14230) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Current":1.666895,"Scan Rate":100.000000}[0m
+[0;32mI (15330) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500343,"Curr[0m
+[0;32mI (15440) UART: Data from STM: {"Potential"100.000000,"Collect_volt":2.500499,"Current":1.667000,"Scan Rate":100.000000}[0m
+[0;32mI (16540) UART: Data from STM: {"Potential"200.000000,"Collect_volt":2.500421,"Current":1.666947,"Scan Rate":100.000000}[0m
+[0;32mI (16920) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 5, handle 42
+[0m
+[0;32mI (16930) GATTS_DEMO: RxBuffer:{"Potential"200.000000,"Collect_volt":2.500421,"Current":1.666947,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (17530) UART: Data from STM: {"Potential"300.000000,"Collect_volt":2.500421,"Current":1.666947,"Scan Rate":100.000000}[0m
+[0;32mI (18520) UART: Data from STM: {"Potential"400.000000,"Collect_volt":2.500499,"Current":1.667000,"Scan Rate":100.000000}[0m
+[0;32mI (18570) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 6, handle 42
+[0m
+[0;32mI (18570) GATTS_DEMO: RxBuffer:{"Potential"400.000000,"Collect_volt":2.500499,"Current":1.667000,"Scan Rate":100.000000}, len:89[0m
+[0;32mI (18580) GATTS_DEMO: 7b 22 50 6f 74 65 6e 74 69 61 6c 22 34 30 30 2e [0m
+[0;32mI (18580) GATTS_DEMO: 30 30 30 30 30 30 2c 22 43 6f 6c 6c 65 63 74 5f [0m
+[0;32mI (18590) GATTS_DEMO: 76 6f 6c 74 22 3a 32 2e 35 30 30 34 39 39 2c 22 [0m
+[0;32mI (18600) GATTS_DEMO: 43 75 72 72 65 6e 74 22 3a 31 2e 36 36 37 30 30 [0m
+[0;32mI (18610) GATTS_DEMO: 30 2c 22 53 63 61 6e 20 52 61 74 65 22 3a 31 30 [0m
+[0;32mI (18610) GATTS_DEMO: 30 2e 30 30 30 30 30 30 7d [0m
+[0;33mW (18620) BT_GATT: attribute value too long, to be truncated to 22[0m
+[0;32mI (18660) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 7, handle 42
+[0m
+[0;32mI (18660) GATTS_DEMO: RxBuffer:{"Potential"400.000000,"Collect_volt":2.500499,"Current":1.667000,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (19510) UART: Data from STM: {"Potential"500.000000,"Collect_volt":2.501360,"Current":1.667574,"Scan Rate":100.000000}[0m
+[0;32mI (20610) UART: Data from STM: {"Potential"600.000000,"Collect_volt":2.501282,"Current":1.667521,"Scan Rate":100.000000}[0m
+[0;32mI (21600) UART: Data from STM: {"Potential"700.000000,"Collect_volt":2.501047,"Current":1.667365,"Scan Rate":100.000000}[0m
+[0;32mI (22590) UART: Data from STM: {"Potential"800.000000,"Collect_volt":2.501125,"Current":1.667417,"Scan Rate":100.000000}[0m
+[0;32mI (23580) UART: Data from STM: {"Potential"700.000000,"Collect_volt":2.500578,"Current":1.667052,"Scan Rate":100.000000}[0m
+[0;32mI (24680) UART: Data from STM: {"Potential"600.000000,"Collect_volt":2.500969,"Current":1.667313,"Scan Rate":100.000000}[0m
+[0;32mI (25500) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 8, handle 42
+[0m
+[0;32mI (25500) GATTS_DEMO: RxBuffer:{"Potential"600.000000,"Collect_volt":2.500969,"Current":1.667313,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (25670) UART: Data from STM: {"Potential"500.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}[0m
+[0;32mI (26660) UART: Data from STM: {"Potential"400.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}[0m
+[0;32mI (26800) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 9, handle 42
+[0m
+[0;32mI (26800) GATTS_DEMO: RxBuffer:{"Potential"400.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (27480) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 10, handle 42
+[0m
+[0;32mI (27480) GATTS_DEMO: RxBuffer:{"Potential"400.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (27650) UART: Data from STM: {"Potential"300.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}[0m
+[0;32mI (28020) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 11, handle 42
+[0m
+[0;32mI (28020) GATTS_DEMO: RxBuffer:{"Potential"300.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (28460) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 12, handle 42
+[0m
+[0;32mI (28470) GATTS_DEMO: RxBuffer:{"Potential"300.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (28750) UART: Data from STM: {"Potential"200.000000,"Collect_volt":2.500891,"Current":1.667260,"Scan Rate":100.000000}[0m
+[0;32mI (28800) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 13, handle 42
+[0m
+[0;32mI (28810) GATTS_DEMO: RxBuffer:{"Potential"200.000000,"Collect_volt":2.500891,"Current":1.667260,"Scan Rate":100.000000}, len:89[0m
+[0;32mI (28810) GATTS_DEMO: 7b 22 50 6f 74 65 6e 74 69 61 6c 22 32 30 30 2e [0m
+[0;32mI (28820) GATTS_DEMO: 30 30 30 30 30 30 2c 22 43 6f 6c 6c 65 63 74 5f [0m
+[0;32mI (28830) GATTS_DEMO: 76 6f 6c 74 22 3a 32 2e 35 30 30 38 39 31 2c 22 [0m
+[0;32mI (28840) GATTS_DEMO: 43 75 72 72 65 6e 74 22 3a 31 2e 36 36 37 32 36 [0m
+[0;32mI (28840) GATTS_DEMO: 30 2c 22 53 63 61 6e 20 52 61 74 65 22 3a 31 30 [0m
+[0;32mI (28850) GATTS_DEMO: 30 2e 30 30 30 30 30 30 7d [0m
+[0;33mW (28860) BT_GATT: attribute value too long, to be truncated to 22[0m
+[0;32mI (28890) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 14, handle 42
+[0m
+[0;32mI (28900) GATTS_DEMO: RxBuffer:{"Potential"200.000000,"Collect_volt":2.500891,"Current":1.667260,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (29140) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 15, handle 42
+[0m
+[0;32mI (29140) GATTS_DEMO: RxBuffer:{"Potential"200.000000,"Collect_volt":2.500891,"Current":1.667260,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (29740) UART: Data from STM: {"Potential"100.000000,"Collect_volt":2.500812,"Current":1.667208,"Scan Rate":100.000000}[0m
+[0;32mI (29820) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 16, handle 42
+[0m
+[0;32mI (29820) GATTS_DEMO: RxBuffer:{"Potential"100.000000,"Collect_volt":2.500812,"Current":1.667208,"Scan Rate":100.000000}, len:89[0m
+[0;32mI (29830) GATTS_DEMO: 7b 22 50 6f 74 65 6e 74 69 61 6c 22 31 30 30 2e [0m
+[0;32mI (29830) GATTS_DEMO: 30 30 30 30 30 30 2c 22 43 6f 6c 6c 65 63 74 5f [0m
+[0;32mI (29840) GATTS_DEMO: 76 6f 6c 74 22 3a 32 2e 35 30 30 38 31 32 2c 22 [0m
+[0;32mI (29850) GATTS_DEMO: 43 75 72 72 65 6e 74 22 3a 31 2e 36 36 37 32 30 [0m
+[0;32mI (29850) GATTS_DEMO: 38 2c 22 53 63 61 6e 20 52 61 74 65 22 3a 31 30 [0m
+[0;32mI (29860) GATTS_DEMO: 30 2e 30 30 30 30 30 30 7d [0m
+[0;33mW (29870) BT_GATT: attribute value too long, to be truncated to 22[0m
+[0;32mI (29910) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 17, handle 42
+[0m
+[0;32mI (29910) GATTS_DEMO: RxBuffer:{"Potential"100.000000,"Collect_volt":2.500812,"Current":1.667208,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (30220) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 18, handle 42
+[0m
+[0;32mI (30220) GATTS_DEMO: RxBuffer:{"Potential"100.000000,"Collect_volt":2.500812,"Current":1.667208,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (30730) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500578,"Current":1.667052,"Scan Rate":100.000000}[0m
+[0;32mI (30760) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 19, handle 42
+[0m
+[0;32mI (30760) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500578,"Current":1.667052,"Scan Rate":100.000000}, len:87[0m
+[0;32mI (30770) GATTS_DEMO: 7b 22 50 6f 74 65 6e 74 69 61 6c 22 30 2e 30 30 [0m
+[0;32mI (30780) GATTS_DEMO: 30 30 30 30 2c 22 43 6f 6c 6c 65 63 74 5f 76 6f [0m
+[0;32mI (30790) GATTS_DEMO: 6c 74 22 3a 32 2e 35 30 30 35 37 38 2c 22 43 75 [0m
+[0;32mI (30790) GATTS_DEMO: 72 72 65 6e 74 22 3a 31 2e 36 36 37 30 35 32 2c [0m
+[0;32mI (30800) GATTS_DEMO: 22 53 63 61 6e 20 52 61 74 65 22 3a 31 30 30 2e [0m
+[0;32mI (30810) GATTS_DEMO: 30 30 30 30 30 30 7d [0m
+[0;33mW (30810) BT_GATT: attribute value too long, to be truncated to 22[0m
+[0;32mI (30850) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 20, handle 42
+[0m
+[0;32mI (30850) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500578,"Current":1.667052,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (31830) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500499,"Current":1.667000,"Scan Rate":100.000000}[0m
+[0;32mI (32820) UART: Data from STM: {"Potential"100.000000,"Collect_volt":2.500421,"Current":1.666947,"Scan Rate":100.000000}[0m
+[0;32mI (33810) UART: Data from STM: {"Potential"200.000000,"Collect_volt":2.500421,"Current":1.666947,"Scan Rate":100.000000}[0m
+[0;32mI (34630) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 21, handle 42
+[0m
+[0;32mI (34630) GATTS_DEMO: RxBuffer:{"Potential"200.000000,"Collect_volt":2.500421,"Current":1.666947,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (34800) UART: Data from STM: {"Potential"300.000000,"Collect_volt":2.499951,"Current":1.666634,"Scan Rate":100.000000}[0m
+[0;32mI (35440) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 22, handle 42
+[0m
+[0;32mI (35440) GATTS_DEMO: RxBuffer:{"Potential"300.000000,"Collect_volt":2.499951,"Current":1.666634,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (35900) UART: Data from STM: {"Potential"400.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}[0m
+[0;32mI (36180) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 23, handle 42
+[0m
+[0;32mI (36180) GATTS_DEMO: RxBuffer:{"Potential"400.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (36790) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 24, handle 42
+[0m
+[0;32mI (36790) GATTS_DEMO: RxBuffer:{"Potential"400.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (36890) UART: Data from STM: {"Potential"500.000000,"Collect_volt":2.500499,"Current":1.667000,"Scan Rate":100.000000}[0m
+[0;32mI (37290) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 25, handle 42
+[0m
+[0;32mI (37290) GATTS_DEMO: RxBuffer:{"Potential"500.000000,"Collect_volt":2.500499,"Current":1.667000,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (37510) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 26, handle 42
+[0m
+[0;32mI (37510) GATTS_DEMO: RxBuffer:{"Potential"500.000000,"Collect_volt":2.500499,"Current":1.667000,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (37880) UART: Data from STM: {"Potential"600.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}[0m
+[0;32mI (38870) UART: Data from STM: {"Potential"700.000000,"Collect_volt":2.500499,"Current":1.667000,"Scan Rate":100.000000}[0m
+[0;32mI (39970) UART: Data from STM: {"Potential"800.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}[0m
+[0;32mI (40460) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 27, handle 42
+[0m
+[0;32mI (40460) GATTS_DEMO: RxBuffer:{"Potential"800.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (40910) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 28, handle 42
+[0m
+[0;32mI (40910) GATTS_DEMO: RxBuffer:{"Potential"800.000000,"Collect_volt":2.500264,"Current":1.666843,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (40960) UART: Data from STM: {"Potential"700.000000,"Collect_volt":2.500656,"Current":1.667104,"Scan Rate":100.000000}[0m
+[0;32mI (41360) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 29, handle 42
+[0m
+[0;32mI (41360) GATTS_DEMO: RxBuffer:{"Potential"700.000000,"Collect_volt":2.500656,"Current":1.667104,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (41760) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 30, handle 42
+[0m
+[0;32mI (41760) GATTS_DEMO: RxBuffer:{"Potential"700.000000,"Collect_volt":2.500656,"Current":1.667104,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (41950) UART: Data from STM: {"Potential"600.000000,"Collect_volt":2.500969,"Current":1.667313,"Scan Rate":100.000000}[0m
+[0;32mI (42100) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 31, handle 42
+[0m
+[0;32mI (42100) GATTS_DEMO: RxBuffer:{"Potential"600.000000,"Collect_volt":2.500969,"Current":1.667313,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (42440) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 32, handle 42
+[0m
+[0;32mI (42440) GATTS_DEMO: RxBuffer:{"Potential"600.000000,"Collect_volt":2.500969,"Current":1.667313,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (42640) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 33, handle 42
+[0m
+[0;32mI (42640) GATTS_DEMO: RxBuffer:{"Potential"600.000000,"Collect_volt":2.500969,"Current":1.667313,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (42800) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 34, handle 42
+[0m
+[0;32mI (42800) GATTS_DEMO: RxBuffer:{"Potential"600.000000,"Collect_volt":2.500969,"Current":1.667313,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (43020) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 35, handle 42
+[0m
+[0;32mI (43020) GATTS_DEMO: RxBuffer:{"Potential"600.000000,"Collect_volt":2.500969,"Current":1.667313,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (43050) UART: Data from STM: {"Potential"500.000000,"Collect_volt":2.500578,"Current":1.667052,"Scan Rate":100.000000}[0m
+[0;32mI (43900) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 36, handle 42
+[0m
+[0;32mI (43900) GATTS_DEMO: RxBuffer:{"Potential"500.000000,"Collect_volt":2.500578,"Current":1.667052,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (44040) UART: Data from STM: {"Potential"400.000000,"Collect_volt":2.500578,"Current":1.667052,"Scan Rate":100.000000}[0m
+[0;32mI (44150) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 37, handle 42
+[0m
+[0;32mI (44150) GATTS_DEMO: RxBuffer:{"Potential"400.000000,"Collect_volt":2.500578,"Current":1.667052,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (44820) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 38, handle 42
+[0m
+[0;32mI (44820) GATTS_DEMO: RxBuffer:{"Potential"400.000000,"Collect_volt":2.500578,"Current":1.667052,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (45030) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 39, handle 42
+[0m
+[0;32mI (45030) GATTS_DEMO: RxBuffer:{"Potential"300.000000,"Collect_volt":2.500812,"Current":1.667208,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (45030) UART: Data from STM: {"Potential"300.000000,"Collect_volt":2.500812,"Current":1.667208,"Scan Rate":100.000000}[0m
+[0;32mI (45040) GATTS_DEMO: 7b 22 50 6f 74 65 6e 74 69 61 6c 22 33 30 30 2e [0m
+[0;32mI (45050) GATTS_DEMO: 30 30 30 30 30 30 2c 22 43 6f 6c 6c 65 63 74 5f [0m
+[0;32mI (45060) GATTS_DEMO: 76 6f 6c 74 22 3a 32 2e 35 30 30 38 31 32 2c 22 [0m
+[0;32mI (45070) GATTS_DEMO: 43 75 72 72 65 6e 74 22 3a 31 2e 36 36 37 32 30 [0m
+[0;32mI (45080) GATTS_DEMO: 38 2c 22 53 63 61 6e 20 52 61 74 65 22 3a 31 30 [0m
+[0;32mI (45080) GATTS_DEMO: 30 2e 30 30 30 30 30 30 7d [0m
+[0;33mW (45090) BT_GATT: attribute value too long, to be truncated to 22[0m
+[0;32mI (45140) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 40, handle 42
+[0m
+[0;32mI (45140) GATTS_DEMO: RxBuffer:{"Potential"300.000000,"Collect_volt":2.500812,"Current":1.667208,"Scan Rate":100.000000}, len:89[0m
+[0;32mI (45150) GATTS_DEMO: 7b 22 50 6f 74 65 6e 74 69 61 6c 22 33 30 30 2e [0m
+[0;32mI (45160) GATTS_DEMO: 30 30 30 30 30 30 2c 22 43 6f 6c 6c 65 63 74 5f [0m
+[0;32mI (45160) GATTS_DEMO: 76 6f 6c 74 22 3a 32 2e 35 30 30 38 31 32 2c 22 [0m
+[0;32mI (45170) GATTS_DEMO: 43 75 72 72 65 6e 74 22 3a 31 2e 36 36 37 32 30 [0m
+[0;32mI (45180) GATTS_DEMO: 38 2c 22 53 63 61 6e 20 52 61 74 65 22 3a 31 30 [0m
+[0;32mI (45180) GATTS_DEMO: 30 2e 30 30 30 30 30 30 7d [0m
+[0;33mW (45190) BT_GATT: attribute value too long, to be truncated to 22[0m
+[0;32mI (45230) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 41, handle 42
+[0m
+[0;32mI (45230) GATTS_DEMO: RxBuffer:{"Potential"300.000000,"Collect_volt":2.500812,"Current":1.667208,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (45360) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 42, handle 42
+[0m
+[0;32mI (45360) GATTS_DEMO: RxBuffer:{"Potential"300.000000,"Collect_volt":2.500812,"Current":1.667208,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (46040) UART: Data from STM: {"Potential"200.000000,"Collect_volt":2.500656,"Current":1.667104,"Scan Rate":100.000000}[0m
+[0;32mI (46040) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 43, handle 42
+[0m
+[0;32mI (46050) GATTS_DEMO: RxBuffer:{"Potential"200.000000,"Collect_volt":2.500656,"Current":1.667104,"Scan Rate":100.000000}, len:89[0m
+[0;32mI (46060) GATTS_DEMO: 7b 22 50 6f 74 65 6e 74 69 61 6c 22 32 30 30 2e [0m
+[0;32mI (46070) GATTS_DEMO: 30 30 30 30 30 30 2c 22 43 6f 6c 6c 65 63 74 5f [0m
+[0;32mI (46070) GATTS_DEMO: 76 6f 6c 74 22 3a 32 2e 35 30 30 36 35 36 2c 22 [0m
+[0;32mI (46080) GATTS_DEMO: 43 75 72 72 65 6e 74 22 3a 31 2e 36 36 37 31 30 [0m
+[0;32mI (46090) GATTS_DEMO: 34 2c 22 53 63 61 6e 20 52 61 74 65 22 3a 31 30 [0m
+[0;32mI (46100) GATTS_DEMO: 30 2e 30 30 30 30 30 30 7d [0m
+[0;33mW (46100) BT_GATT: attribute value too long, to be truncated to 22[0m
+[0;32mI (46150) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 44, handle 42
+[0m
+[0;32mI (46150) GATTS_DEMO: RxBuffer:{"Potential"200.000000,"Collect_volt":2.500656,"Current":1.667104,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (47030) UART: Data from STM: {"Potential"100.000000,"Collect_volt":2.500969,"Current":1.667313,"Scan Rate":100.000000}[0m
+[0;32mI (48130) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (49120) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (50110) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (51030) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 45, handle 42
+[0m
+[0;32mI (51030) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (51210) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (51210) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 46, handle 42
+[0m
+[0;32mI (51210) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:87[0m
+[0;32mI (51230) GATTS_DEMO: 7b 22 50 6f 74 65 6e 74 69 61 6c 22 30 2e 30 30 [0m
+[0;32mI (51230) GATTS_DEMO: 30 30 30 30 2c 22 43 6f 6c 6c 65 63 74 5f 76 6f [0m
+[0;32mI (51240) GATTS_DEMO: 6c 74 22 3a 32 2e 35 30 30 37 33 34 2c 22 43 75 [0m
+[0;32mI (51250) GATTS_DEMO: 72 72 65 6e 74 22 3a 31 2e 36 36 37 31 35 36 2c [0m
+[0;32mI (51250) GATTS_DEMO: 22 53 63 61 6e 20 52 61 74 65 22 3a 31 30 30 2e [0m
+[0;32mI (51260) GATTS_DEMO: 30 30 30 30 30 30 7d [0m
+[0;33mW (51270) BT_GATT: attribute value too long, to be truncated to 22[0m
+[0;32mI (51300) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 47, handle 42
+[0m
+[0;32mI (51310) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:87[0m
+[0;32mI (51310) GATTS_DEMO: 7b 22 50 6f 74 65 6e 74 69 61 6c 22 30 2e 30 30 [0m
+[0;32mI (51320) GATTS_DEMO: 30 30 30 30 2c 22 43 6f 6c 6c 65 63 74 5f 76 6f [0m
+[0;32mI (51330) GATTS_DEMO: 6c 74 22 3a 32 2e 35 30 30 37 33 34 2c 22 43 75 [0m
+[0;32mI (51340) GATTS_DEMO: 72 72 65 6e 74 22 3a 31 2e 36 36 37 31 35 36 2c [0m
+[0;32mI (51340) GATTS_DEMO: 22 53 63 61 6e 20 52 61 74 65 22 3a 31 30 30 2e [0m
+[0;32mI (51350) GATTS_DEMO: 30 30 30 30 30 30 7d [0m
+[0;33mW (51350) BT_GATT: attribute value too long, to be truncated to 22[0m
+[0;32mI (51390) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 48, handle 42
+[0m
+[0;32mI (51400) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (51550) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 49, handle 42
+[0m
+[0;32mI (51550) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (51770) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 50, handle 42
+[0m
+[0;32mI (51780) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (52070) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 51, handle 42
+[0m
+[0;32mI (52070) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (52200) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (52700) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 52, handle 42
+[0m
+[0;32mI (52700) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (53190) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (53190) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 53, handle 42
+[0m
+[0;32mI (53190) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:87[0m
+[0;32mI (53210) GATTS_DEMO: 7b 22 50 6f 74 65 6e 74 69 61 6c 22 30 2e 30 30 [0m
+[0;32mI (53210) GATTS_DEMO: 30 30 30 30 2c 22 43 6f 6c 6c 65 63 74 5f 76 6f [0m
+[0;32mI (53220) GATTS_DEMO: 6c 74 22 3a 32 2e 35 30 30 37 33 34 2c 22 43 75 [0m
+[0;32mI (53230) GATTS_DEMO: 72 72 65 6e 74 22 3a 31 2e 36 36 37 31 35 36 2c [0m
+[0;32mI (53230) GATTS_DEMO: 22 53 63 61 6e 20 52 61 74 65 22 3a 31 30 30 2e [0m
+[0;32mI (53240) GATTS_DEMO: 30 30 30 30 30 30 7d [0m
+[0;33mW (53250) BT_GATT: attribute value too long, to be truncated to 22[0m
+[0;32mI (53310) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 54, handle 42
+[0m
+[0;32mI (53310) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (53640) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 55, handle 42
+[0m
+[0;32mI (53640) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (54000) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 56, handle 42
+[0m
+[0;32mI (54000) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (54180) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (54230) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 57, handle 42
+[0m
+[0;32mI (54230) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:87[0m
+[0;32mI (54240) GATTS_DEMO: 7b 22 50 6f 74 65 6e 74 69 61 6c 22 30 2e 30 30 [0m
+[0;32mI (54250) GATTS_DEMO: 30 30 30 30 2c 22 43 6f 6c 6c 65 63 74 5f 76 6f [0m
+[0;32mI (54250) GATTS_DEMO: 6c 74 22 3a 32 2e 35 30 30 37 33 34 2c 22 43 75 [0m
+[0;32mI (54260) GATTS_DEMO: 72 72 65 6e 74 22 3a 31 2e 36 36 37 31 35 36 2c [0m
+[0;32mI (54270) GATTS_DEMO: 22 53 63 61 6e 20 52 61 74 65 22 3a 31 30 30 2e [0m
+[0;32mI (54270) GATTS_DEMO: 30 30 30 30 30 30 7d [0m
+[0;33mW (54280) BT_GATT: attribute value too long, to be truncated to 22[0m
+[0;32mI (54360) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 58, handle 42
+[0m
+[0;32mI (54370) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (54540) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 59, handle 42
+[0m
+[0;32mI (54540) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (54990) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 60, handle 42
+[0m
+[0;32mI (54990) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (55280) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (55620) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 61, handle 42
+[0m
+[0;32mI (55620) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (56210) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 62, handle 42
+[0m
+[0;32mI (56210) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (56270) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (56930) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 63, handle 42
+[0m
+[0;32mI (56930) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (57130) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 64, handle 42
+[0m
+[0;32mI (57130) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (57260) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (57510) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 65, handle 42
+[0m
+[0;32mI (57510) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (57670) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 66, handle 42
+[0m
+[0;32mI (57670) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (58030) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 67, handle 42
+[0m
+[0;32mI (58030) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (58250) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (58710) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 68, handle 42
+[0m
+[0;32mI (58710) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (59350) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (59830) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 69, handle 42
+[0m
+[0;32mI (59830) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (60340) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (60690) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 70, handle 42
+[0m
+[0;32mI (60690) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (61330) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (61580) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 71, handle 42
+[0m
+[0;32mI (61590) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (62320) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (63000) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 72, handle 42
+[0m
+[0;32mI (63000) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (63420) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (63790) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 73, handle 42
+[0m
+[0;32mI (63790) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (64410) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (65320) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 74, handle 42
+[0m
+[0;32mI (65320) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (65400) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (65990) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 75, handle 42
+[0m
+[0;32mI (66000) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (66390) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (67210) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 76, handle 42
+[0m
+[0;32mI (67210) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (67490) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (68180) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 77, handle 42
+[0m
+[0;32mI (68180) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (68480) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (68970) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 78, handle 42
+[0m
+[0;32mI (68970) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (69470) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (69600) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 79, handle 42
+[0m
+[0;32mI (69600) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (70570) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (71560) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (72450) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 80, handle 42
+[0m
+[0;32mI (72450) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (72550) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (72680) GATTS_DEMO: GATT_READ_EVT, conn_id 0, trans_id 81, handle 42
+[0m
+[0;32mI (72680) GATTS_DEMO: RxBuffer:{"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}, len:0[0m
+[0;32mI (73540) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (74640) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (75630) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (76620) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (77610) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (78710) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (79700) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (80690) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (81680) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (82780) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (83770) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (84760) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (85750) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (86850) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (87840) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (88830) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (89930) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (90920) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (91910) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (92900) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (94000) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (94990) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (95980) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (96970) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (98070) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (99060) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (100050) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (101040) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (102140) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (103130) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (104120) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (105110) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (106210) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (107200) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (108190) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (109290) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m
+[0;32mI (110280) UART: Data from STM: {"Potential"0.000000,"Collect_volt":2.500734,"Current":1.667156,"Scan Rate":100.000000}[0m

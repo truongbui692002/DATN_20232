@@ -1,0 +1,167 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time Jun 21 2024 16:36:30[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=261bch (156092) map[0m
+[0;32mI (163) esp_image: segment 1: paddr=000361e4 vaddr=3ffbdb60 size=0476ch ( 18284) load[0m
+[0;32mI (170) esp_image: segment 2: paddr=0003a958 vaddr=40080000 size=056c0h ( 22208) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=90e54h (593492) map[0m
+[0;32mI (394) esp_image: segment 4: paddr=000d0e7c vaddr=400856c0 size=151d4h ( 86484) load[0m
+[0;32mI (444) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (444) boot: Disabling RNG early entropy source...[0m
+[0;32mI (455) cpu_start: Multicore app[0m
+[0;32mI (456) cpu_start: Pro cpu up.[0m
+[0;32mI (456) cpu_start: Starting app cpu, entry point is 0x40081544[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (474) cpu_start: Pro cpu start user code[0m
+[0;32mI (474) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (474) cpu_start: Application information:[0m
+[0;32mI (478) cpu_start: Project name:     Potentio_ESP[0m
+[0;32mI (484) cpu_start: App version:      b1d72289b-dirty[0m
+[0;32mI (489) cpu_start: Compile time:     Jun 21 2024 16:36:18[0m
+[0;32mI (496) cpu_start: ELF file SHA256:  e2cf74786b776bbf...[0m
+[0;32mI (502) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (507) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (511) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (516) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (521) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (528) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (534) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (540) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (547) heap_init: At 3FFC7D20 len 000182E0 (96 KiB): DRAM[0m
+[0;32mI (553) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (559) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (565) heap_init: At 4009A894 len 0000576C (21 KiB): IRAM[0m
+[0;32mI (573) spi_flash: detected chip: generic[0m
+[0;32mI (576) spi_flash: flash io: dio[0m
+[0;33mW (580) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.[0m
+[0;32mI (594) coexist: coex firmware version: ebddf30[0m
+[0;32mI (599) app_start: Starting scheduler on CPU0[0m
+[0;32m[0;32mI (604) app_start: Starting scheduler on CPU1[0m
+I (604) main_task: Started on CPU0[0m
+[0;32mI (614) main_task: Calling app_main()[0m
+========================================================= 
+.______     ______   .___________. _______ .__   __. .___________. __    ______        _______.___________.    ___   .___________.     
+|   _  \  /  __   \ |            ||   ____||  \ |  | |           ||  |  /  __  \      /       |           |   /   \  |           |     
+|  |_)  | |  |  |  | `---|  |----`|  |__   |   \|  | `---|  |----`|  | |  |  |  |    |   (----`---|  |----`  /  ^  \ `---|  |----`     
+|   ___/  |  |  |  |     |  |     |   __|  |  . `  |     |  |     |  | |  |  |  |     \   \       |  |      /  /_\  \    |  |          
+|  |      |  `--'  |     |  |     |  |____ |  |\   |     |  |     |  | |  `--'  | .----)   |      |  |     /  _____  \   |  |          
+| _|       \______/      |__|     |_______||__| \__|     |__|     |__|  \______/  |_______/       |__|    /__/     \__\  |__|          
+========================================================= 
+[0;32mI (704) BTDM_INIT: BT controller compile version [ad2b7cd][0m
+[0;32mI (714) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1134) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 0
+[0m
+[0;32mI (1154) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 40
+[0m
+[0;32mI (1154) GATTS_DEMO: REGISTER_APP_EVT, status 0, app_id 1
+[0m
+[0;32mI (1154) SDCARD: Initializing SD card[0m
+[0;32mI (1154) SDCARD: Using SPI peripheral[0m
+[0;32mI (1164) SDCARD: Mounting filesystem[0m
+[0;32mI (1174) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 40
+[0m
+[0;32mI (1174) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 42, service_handle 40
+[0m
+[0;32mI (1174) gpio: GPIO[13]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (1184) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1194) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1204) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1204) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1214) GATTS_DEMO: CREATE_SERVICE_EVT, status 0,  service_handle 44
+[0m
+[0;32mI (1214) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 43, service_handle 40
+[0m
+[0;32mI (1224) GATTS_DEMO: SERVICE_START_EVT, status 0, service_handle 44
+[0m
+[0;32mI (1234) sdspi_transaction: cmd=52, R1 response: command not supported[0m
+[0;32mI (1234) GATTS_DEMO: ADD_CHAR_EVT, status 0,  attr_handle 46, service_handle 44
+[0m
+[0;32mI (1184) ADC: calibration scheme version is Line Fitting[0m
+[0;32mI (1244) GATTS_DEMO: the gatts demo char length = 3
+[0m
+[0;32mI (1254) ADC: Calibration Success[0m
+[0;32mI (1254) GATTS_DEMO: prf_char[0] =11
+[0m
+[0;32mI (1264) GATTS_DEMO: prf_char[1] =22
+[0m
+[0;32mI (1274) GATTS_DEMO: prf_char[2] =33
+[0m
+[0;32mI (1274) GATTS_DEMO: ADD_DESCR_EVT, status 0, attr_handle 47, service_handle 44
+[0m
+[0;32mI (1264) ADC: ADC2 Channel[3] Raw Data: 3695[0m
+[0;32mI (1284) ADC: ADC2 Channel[3] Cali Voltage: 2948 mV[0m
+[0;32mI (1184) main_task: Returned from app_main()[0m
+[0;32mI (1364) sdspi_transaction: cmd=5, R1 response: command not supported[0m
+[0;32mI (1394) SDCARD: Filesystem mounted[0m
+Name: CBADS
+Type: SDHC/SDXC
+Speed: 20.00 MHz (limit: 20.00 MHz)
+Size: 30728MB
+CSD: ver=2, sector_size=512, capacity=62930944 read_bl_len=9
+SSR: bus_width=1
+[0;32mI (2294) ADC: ADC2 Channel[3] Raw Data: 3883[0m
+[0;32mI (2294) ADC: ADC2 Channel[3] Cali Voltage: 3033 mV[0m
+[0;32mI (3294) ADC: ADC2 Channel[3] Raw Data: 3906[0m
+[0;32mI (3294) ADC: ADC2 Channel[3] Cali Voltage: 3043 mV[0m
+[0;32mI (4294) ADC: ADC2 Channel[3] Raw Data: 3759[0m
+[0;32mI (4294) ADC: ADC2 Channel[3] Cali Voltage: 2978 mV[0m
+[0;32mI (5294) ADC: ADC2 Channel[3] Raw Data: 3906[0m
+[0;32mI (5294) ADC: ADC2 Channel[3] Cali Voltage: 3043 mV[0m
+[0;32mI (6294) ADC: ADC2 Channel[3] Raw Data: 3791[0m
+[0;32mI (6294) ADC: ADC2 Channel[3] Cali Voltage: 2992 mV[0m
+[0;32mI (7294) ADC: ADC2 Channel[3] Raw Data: 3406[0m
+[0;32mI (7294) ADC: ADC2 Channel[3] Cali Voltage: 2799 mV[0m
+[0;32mI (8294) ADC: ADC2 Channel[3] Raw Data: 3494[0m
+[0;32mI (8294) ADC: ADC2 Channel[3] Cali Voltage: 2848 mV[0m
+[0;32mI (9294) ADC: ADC2 Channel[3] Raw Data: 3415[0m
+[0;32mI (9294) ADC: ADC2 Channel[3] Cali Voltage: 2805 mV[0m
+[0;32mI (10294) ADC: ADC2 Channel[3] Raw Data: 3355[0m
+[0;32mI (10294) ADC: ADC2 Channel[3] Cali Voltage: 2770 mV[0m
+[0;32mI (11294) ADC: ADC2 Channel[3] Raw Data: 3359[0m
+[0;32mI (11294) ADC: ADC2 Channel[3] Cali Voltage: 2772 mV[0m
+[0;32mI (12294) ADC: ADC2 Channel[3] Raw Data: 3561[0m
+[0;32mI (12294) ADC: ADC2 Channel[3] Cali Voltage: 2883 mV[0m
+[0;32mI (13294) ADC: ADC2 Channel[3] Raw Data: 3710[0m
+[0;32mI (13294) ADC: ADC2 Channel[3] Cali Voltage: 2955 mV[0m
+[0;32mI (14294) ADC: ADC2 Channel[3] Raw Data: 3893[0m
+[0;32mI (14294) ADC: ADC2 Channel[3] Cali Voltage: 3037 mV[0m
+[0;32mI (15294) ADC: ADC2 Channel[3] Raw Data: 3255[0m
+[0;32mI (15294) ADC: ADC2 Channel[3] Cali Voltage: 2708 mV[0m
+[0;32mI (16294) ADC: ADC2 Channel[3] Raw Data: 3667[0m
+[0;32mI (16294) ADC: ADC2 Channel[3] Cali Voltage: 2935 mV[0m
+[0;32mI (17294) ADC: ADC2 Channel[3] Raw Data: 3568[0m
+[0;32mI (17294) ADC: ADC2 Channel[3] Cali Voltage: 2886 mV[0m
+[0;32mI (18294) ADC: ADC2 Channel[3] Raw Data: 3241[0m
+[0;32mI (18294) ADC: ADC2 Channel[3] Cali Voltage: 2699 mV[0m
+[0;32mI (19294) ADC: ADC2 Channel[3] Raw Data: 3322[0m
+[0;32mI (19294) ADC: ADC2 Channel[3] Cali Voltage: 2750 mV[0m
+[0;32mI (20294) ADC: ADC2 Channel[3] Raw Data: 3195[0m
+[0;32mI (20294) ADC: ADC2 Channel[3] Cali Voltage: 2669 mV[0m
